@@ -1,0 +1,4 @@
+%p.date= l(@item.date.to_date, :human).sub /^(\d{1,2})(st|nd|th) /, '\1<sup>\2</sup> '
+%h1
+  %a{href: @item.path}= @item.title
+~@item.body
