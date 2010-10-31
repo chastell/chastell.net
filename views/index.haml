@@ -1,2 +1,7 @@
 %h1
   %a.chastell-net{href: '/'}= settings.sitename
+%p recently around these parts:
+%ul
+  - @stream.recent(7).each do |item|
+    %li
+      %a{href: escape(item.path)}= item.title
