@@ -9,8 +9,10 @@
     %meta{charset: 'UTF-8'}
     %title= @item.title or settings.sitename
   %body
+    = haml :nav, layout: false
     .article
       = yield
+    = haml :nav, layout: false
     .footer
       %p
         - if @item.path

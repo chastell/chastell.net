@@ -1,0 +1,8 @@
+.nav
+  %ul
+    %li.subsequent
+      - if subsequent = @stream.subsequent(@item)
+        %a{href: escape(subsequent.path)} ← #{subsequent.title}
+    %li.previous
+      - if previous = @stream.previous(@item)
+        %a{href: escape(previous.path)} #{previous.title} →
