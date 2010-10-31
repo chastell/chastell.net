@@ -13,4 +13,8 @@
       = yield
     .footer
       %p
-        designed by chastell in Mazovia
+        - if @item.path
+          this is a part of
+          %a.chastell-net{href: '/'}= settings.sitename
+          |
+        %a{href: 'about'} designed by chastell in Mazovia
