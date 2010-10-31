@@ -1,6 +1,6 @@
 title: about chastell.net
 
-this is <span class='chastell-net'>chastell.net</span>, a web home of one Piotr Szotkowski (a.k.a. – perhaps somewhat unsurprisingly – chastell), who can be reached at <chastell@chastell.net> and followed on either [identi.ca](http://identi.ca/chastell) or [Twitter](http://twitter.com/chastell)
+this is <span class='chastell-net'>chastell.net</span>, a web home of one Piotr Szotkowski (a.k.a. – perhaps somewhat unsurprisingly – [chastell](chastell)), who can be reached at <chastell@chastell.net> and followed on either [identi.ca](http://identi.ca/chastell) or [Twitter](http://twitter.com/chastell)
 
 <span class='chastell-net'>chastell.net</span> is powered by [tributary](http://github.com/chastell/tributary), an open source, tiny blogging engine written – as it happens – for the sole purpose of powering <span class='chastell-net'>chastell.net</span>
 
