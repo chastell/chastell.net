@@ -1,7 +1,26 @@
-%h1
-  %a.chastell-net{href: '/'}= settings.sitename
-%p recently around these parts:
-%ul
-  - @stream.recent(7).each do |item|
-    %li
-      %a{href: escape(item.path)}= item.title
+- descs = {'hovercraft' => 'texts, such as these:', 'wycinki' => 'the original series'}
+- links = {'hovercraft' => 'hovercraft',            'wycinki' => 'wycinki'}
+- names = {'hovercraft' => 'the eelful hovercraft', 'wycinki' => 'wycinki rzeczywistości'}
+- if @item.path
+  %h1
+    %a.chastell-net{href: '/'}= settings.sitename
+    |
+    %a{href: escape(@item.path)}= names[@item.path]
+  %p= descs[@item.path]
+  %ul
+    - stream = @stream.recent nil, type: @item.path.to_sym
+    - stream.reverse! if @item.path == 'l k'
+    - stream.each do |item|
+      %li
+        %a{href: escape(item.path)}= item.title
+  %p also consider perusing:
+- else
+  %h1
+    %a.chastell-net{href: '/'}= settings.sitename
+  %p recently around these parts:
+  %ul
+    - @stream.recent(21).each do |item|
+      %li
+        %a{href: escape(item.path)}= item.title
+  %p previously — a special selection for your tastes:
+%p= links.reject { |path, _| path == @item.path }.map { |path, name| "<a href='#{escape path}'>#{name}</a>" }.join ' | '
