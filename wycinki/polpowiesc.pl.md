@@ -7,6 +7,6 @@ title: Półpowieść
 >
 > Jan Sobczak, <cite>Dryf</cite>
 
-Do wczoraj myślałem, że w kategorii „najlepiej wydane pieniądze” w tym roku nic nie ma szans nawet zbliżyć się do [Zembatego](1020712372 'wycinek „Alleluja!”'), a tu taka miła niespodzianka.
+Do wczoraj myślałem, że w kategorii „najlepiej wydane pieniądze” w tym roku nic nie ma szans nawet zbliżyć się do [Zembatego](alleluja 'wycinek „Alleluja!”'), a tu taka miła niespodzianka.
 
 Bardzo dziękując Klusowi za rekomendację – [polecam gorąco](http://www.merlin.com.pl/sklep/sklep/strona.towar?oferta=115866 '„Dryf” w Merlinie').

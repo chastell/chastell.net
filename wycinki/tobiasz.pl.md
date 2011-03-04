@@ -1,7 +1,7 @@
 date: 2003-05-16 20:51:25 +0200
 title: Komedia romantyczna, musical akcji i horror w jednym
 
-<cite>[Tobiasza](http://teatr-a.art.pl/spektakl.php?id=tobiasz 'strona spektaklu')</cite> przedwczoraj widzieliśmy. Bardzo fajna sztuka, nieźli aktorzy (rewelacyjny Marcin Wąsowski – [poprzednio](1048792712 'wycinek o „Pasji”') podejrzewałem, że trafił na dobrą rolę, teraz już wiem, że to _on_ jest świetny), zabawne skecze, Chlip[^1] wreszcie w roli głównej… Teatr A znów pokazał, że sztuki o tematyce religijnej mogą być lekkie, wesołe i bardzo podobać się nawet takim ludziom jak ja.
+<cite>[Tobiasza](http://teatr-a.art.pl/spektakl.php?id=tobiasz 'strona spektaklu')</cite> przedwczoraj widzieliśmy. Bardzo fajna sztuka, nieźli aktorzy (rewelacyjny Marcin Wąsowski – [poprzednio](pasjonujaca-sprawa 'wycinek o „Pasji”') podejrzewałem, że trafił na dobrą rolę, teraz już wiem, że to _on_ jest świetny), zabawne skecze, Chlip[^1] wreszcie w roli głównej… Teatr A znów pokazał, że sztuki o tematyce religijnej mogą być lekkie, wesołe i bardzo podobać się nawet takim ludziom jak ja.
 
 I tylko to skrzętne ukrywanie wersji drukowanej mnie irytuje. Jak to było z tą [piękną ideą](http://chlip.pl/felietony/?id=33 'Chlip o OpenSource'), hmmm?
 

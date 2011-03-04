@@ -14,4 +14,4 @@ title: Ania robi przy ankietach
 >
 > Ania
 
-The more things change, the more they [stay](1042060977 'Lodusia') [the same](1039048304 'Performance'). Miło.
+The more things change, the more they [stay](lodusia 'Lodusia') [the same](performance 'Performance'). Miło.

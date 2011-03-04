@@ -6,7 +6,7 @@ title: Kakapo di tutti capi
 > Douglas Adams, Mark Carwardine, <cite>Last Chance to See</cite>
 {:lang='en'}
 
-Czytam [dalej](1040731316 'poprzedni wycinek o „Last Chance to See”') Adamsa – jak widać powyżej, jestem na etapie gdy bohaterowie dotarli do Nowej Zelandii (w poszukiwaniu ostatnich żyjących papug kakapo).
+Czytam [dalej](hannibal-leicecter 'poprzedni wycinek o „Last Chance to See”') Adamsa – jak widać powyżej, jestem na etapie gdy bohaterowie dotarli do Nowej Zelandii (w poszukiwaniu ostatnich żyjących papug kakapo).
 
 > The kakapo is a bird out of time. If you look one in its large, round, greeny-brown face, it has a look of serenely innocent incomprehension that makes you want to hug it and tell it that everything will be all right, though you know that it probably will not be.
 >

@@ -1,7 +1,7 @@
 date: 2004-05-24 07:20:10 +0200
 title: Alboż to się opłaci marnować czas na zastanawianiu się, czem jest kurz i na co się przyda?
 
-[Znów](1062461338 'Piszący wykonywa ruchy, odstępy uskutecznia motor') „Świat Nauki”, tym razem przedrukowujący <cite>Pogadankę naukową. O kurzu.</cite> z „Tygodnika Ilustrowanego” (poświęconego, jak czytamy w podtytule, nauce, literaturze, polityce i życiu bieżącemu):
+[Znów](piszacy-wykonywa-ruchy 'Piszący wykonywa ruchy, odstępy uskutecznia motor') „Świat Nauki”, tym razem przedrukowujący <cite>Pogadankę naukową. O kurzu.</cite> z „Tygodnika Ilustrowanego” (poświęconego, jak czytamy w podtytule, nauce, literaturze, polityce i życiu bieżącemu):
 
 > **Co to jest kurz?** Alboż to się opłaci marnować czas na zastanawianiu się, czem jest kurz i na co się przyda? zapytasz może czytelniku.
 >

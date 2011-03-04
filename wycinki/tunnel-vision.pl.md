@@ -60,7 +60,7 @@ chastell
 Ania
 : o nic nie pytam
 
-(We czwartki chadzałem do promotora, we czwartki chadzałem na wykłady z [ISI](1169762430 'inteligentne systemy informacyjne z czwóreczką w tle').)
+(We czwartki chadzałem do promotora, we czwartki chadzałem na wykłady z [ISI](i-saw-the-best-minds-of-my-generation 'inteligentne systemy informacyjne z czwóreczką w tle').)
 
 ---
 

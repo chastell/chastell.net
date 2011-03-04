@@ -1,7 +1,7 @@
 date: 2009-04-12 17:33:29 +0200
 title: Dear, I fear we’re facing a problem
 
-No dobrze, [żarty](1238613648 'prima aprilis') żartami, ale pora najlepsza by <cite>wycinki</cite> wstały z grobu. Zawalenie obowiązków tradycyjnie tłumaczymy Rozwojem Sytuacji, czyli [jakże skutecznymi](o-o 'gdzieś w słonecznej Kalifornii') zaręczynami (pozostaje jedynie [uważać przy finale](http://www.youtube.com/watch?v=mqKWay-_3bk 'simply the best (man)')). W dobie powszechnego kryzysu treści redakcja [dorabia też dorywczo](http://shot.blip.pl/ 'gościnne występy w butiku 2.0') gdzie się da – poza tym jednak cukier w normie, praca w pozarządówce, a studia <del>w lesie</del> na przedłużeniu.
+No dobrze, [żarty](aaargh 'prima aprilis') żartami, ale pora najlepsza by <cite>wycinki</cite> wstały z grobu. Zawalenie obowiązków tradycyjnie tłumaczymy Rozwojem Sytuacji, czyli [jakże skutecznymi](o-o 'gdzieś w słonecznej Kalifornii') zaręczynami (pozostaje jedynie [uważać przy finale](http://www.youtube.com/watch?v=mqKWay-_3bk 'simply the best (man)')). W dobie powszechnego kryzysu treści redakcja [dorabia też dorywczo](http://shot.blip.pl/ 'gościnne występy w butiku 2.0') gdzie się da – poza tym jednak cukier w normie, praca w pozarządówce, a studia <del>w lesie</del> na przedłużeniu.
 
 ---
 

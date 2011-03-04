@@ -1,7 +1,7 @@
 date: 2003-02-08 11:10:36 +0100
 title: Do stu tysięcy wielorybów…
 
-…coś mi [ten pseudokonkurs](1044581269 'wycinek „Bom-bram-fok!”') chyba nie wyszedł. Nic to, spróbuję jeszcze raz, może jakiś bardziej pikantny fragment:
+…coś mi [ten pseudokonkurs](bom-bram-fok 'wycinek „Bom-bram-fok!”') chyba nie wyszedł. Nic to, spróbuję jeszcze raz, może jakiś bardziej pikantny fragment:
 
 > Jak wam się podoba taka nazwa – Przylądek Stosunków? Tak, tak, właśnie tak się nazywa brzeg, wzdłuż którego płynie nasza Fregata, a my z kukiem o mało nie pękliśmy ze śmiechu, gdy usłyszeliśmy tę nazwę.
 >

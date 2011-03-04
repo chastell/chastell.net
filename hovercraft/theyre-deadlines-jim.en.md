@@ -1,7 +1,7 @@
 date: 2003-10-29 01:14:06 +0100
 title: They’re deadlines, Jim
 
-> That <cite>They say we’re young and we don’t know, we won’t find out until we grow</cite> [entry](1066780690 'the previous eel') is about our MCS thesis, ain’t it?
+> That <cite>They say we’re young and we don’t know, we won’t find out until we grow</cite> [entry](they-say-were-young 'the previous eel') is about our MCS thesis, ain’t it?
 >
 > Coen
 

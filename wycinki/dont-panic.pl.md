@@ -6,4 +6,4 @@ title: Don’t Panic!
 > Douglas Adams, <cite>Life, the Universe and Everything</cite>
 {:lang='en'}
 
-Skończyłem właśnie czytać [kolejną](1021727241 'wycinek o „The Restaurant at the End of the Universe”') część przygód Arthura Denta… Jeszcze tylko czwarty tom [trylogii](http://www.amazon.co.uk/o/ASIN/0330316117 '„The Hitchhiker Trilogy” na amazon.co.uk') (<cite>So Long, and Thanks for All the Fish</cite>) i będę musiał rozejrzeć się za jakąś księgarnią z dalszymi książkami Adamsa.
+Skończyłem właśnie czytać [kolejną](wild-eyed 'wycinek o „The Restaurant at the End of the Universe”') część przygód Arthura Denta… Jeszcze tylko czwarty tom [trylogii](http://www.amazon.co.uk/o/ASIN/0330316117 '„The Hitchhiker Trilogy” na amazon.co.uk') (<cite>So Long, and Thanks for All the Fish</cite>) i będę musiał rozejrzeć się za jakąś księgarnią z dalszymi książkami Adamsa.

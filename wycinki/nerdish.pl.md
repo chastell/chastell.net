@@ -12,7 +12,7 @@ chastell
 
 &lt;ona&gt;
 : a co oznacza?
-: [ech… nie dość, że [Blake](1064583669 '(troglodytą być)'), to jeszcze Shakespeare… jeju]
+: [ech… nie dość, że [Blake](troglodyta-byc '(troglodytą być)'), to jeszcze Shakespeare… jeju]
 
 chastell
 : [jejujeju](http://www.phrases.org.uk/bulletin_board/7/messages/121.html 'The Phrase Finder')

@@ -1,7 +1,7 @@
 date: 2004-03-10 20:38:20 +0100
 title: Perhaps I shall try one more time
 
-> you’re a bit [late](http://mimas.ceti.pl/blog/wpis/1068151454 'MiMaS/blog sprzed czterech miesięcy') with [this one](1078865262 'wczorajszy hovercraft')… ;-)
+> you’re a bit [late](http://mimas.ceti.pl/blog/wpis/1068151454 'MiMaS/blog sprzed czterech miesięcy') with [this one](these-dragons-of-his 'wczorajszy hovercraft')… ;-)
 >
 > MiMaS
 {:lang='en'}

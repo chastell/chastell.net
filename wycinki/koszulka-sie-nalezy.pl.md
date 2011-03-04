@@ -1,7 +1,7 @@
 date: 2007-06-16 23:12:36 +0200
 title: …²
 
-Dawno nie było czegoś, co mi się nie mieściło w głowie. Sobota, dziewiąta wieczorem, dostaję [kolejnego](1182001498 '[…]') maila:
+Dawno nie było czegoś, co mi się nie mieściło w głowie. Sobota, dziewiąta wieczorem, dostaję [kolejnego](promocja-startupa '[…]') maila:
 
 > Witamy!
 >

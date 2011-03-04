@@ -11,7 +11,7 @@ chastell
 Chlip
 : manuale do Vima
 
-Jako że [przedostatni wycinek](1074104312 'The right magic') spotkał się z niespotykaną dotychczas, a co więcej – pozytywną reakcją czytelników, Wasza ukochana redakcja postanowiła pójść po najmniejszej linii oporu i zacytować kilka kolejnych znalezisk (część znana już wcześniej, ale warto przypomnieć, bo ładne):
+Jako że [przedostatni wycinek](the-right-magic 'The right magic') spotkał się z niespotykaną dotychczas, a co więcej – pozytywną reakcją czytelników, Wasza ukochana redakcja postanowiła pójść po najmniejszej linii oporu i zacytować kilka kolejnych znalezisk (część znana już wcześniej, ale warto przypomnieć, bo ładne):
 
 > Mutt recognises all of [the major MIME types] if the appropriate entry is found in the `mime.types` file. It also recognises other major MIME types, such as the chemical type that is widely used in the molecular modelling community to pass molecular data in various forms to various molecular viewers.
 >

@@ -1,7 +1,7 @@
 date: 2002-08-04 19:30:13 +0200
 title: Make ’em dry
 
-Dawno (no… nie licząc [Pratchetta](1026079677 'wycinek o „Zbrojnych”'), oczywiście) nie przeczytałem książki w takim tempie – [6 dni](1027937156 'wycinek o „Life, the Universe and Everything”')! Wiem, wiem, kiedyś książka dziennie to był dopiero punkt wyjścia, ale… cóż, ostatnio jakoś mi to nie wychodzi. Niemniej – czwarty tom przygód Arthura Denta bardzo mi się podobał, IMHO lepszy od trzeciego. Podobnie jak u Pratchetta, urzekł mnie opis dań barowych:
+Dawno (no… nie licząc [Pratchetta](the-maze-was-so-small 'wycinek o „Zbrojnych”'), oczywiście) nie przeczytałem książki w takim tempie – [6 dni](dont-panic 'wycinek o „Life, the Universe and Everything”')! Wiem, wiem, kiedyś książka dziennie to był dopiero punkt wyjścia, ale… cóż, ostatnio jakoś mi to nie wychodzi. Niemniej – czwarty tom przygód Arthura Denta bardzo mi się podobał, IMHO lepszy od trzeciego. Podobnie jak u Pratchetta, urzekł mnie opis dań barowych:
 
 > There is, for some reason, something especially grim about pubs near stations, a very particular kind of grubbiness, a special kind of pallor to the pork pies.
 >

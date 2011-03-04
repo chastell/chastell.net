@@ -36,7 +36,7 @@ Ania
 
 ---
 
-Ach, i jeszcze z zawsze-pięknych, z [przypomnieniem](wycinki/imigranci.ogg '(a to był Park Kaskada)') [klasyki](1080223839 'Społeczeństwo zrobiło się czujne'):
+Ach, i jeszcze z zawsze-pięknych, z [przypomnieniem](wycinki/imigranci.ogg '(a to był Park Kaskada)') [klasyki](spoleczenstwo-zrobilo-sie-czujne 'Społeczeństwo zrobiło się czujne'):
 
 > Wyjątkowego pecha miało dwóch obywateli Egiptu, którzy próbowali nielegalnie dostać się do Niemiec. Egipcjanie, którzy przekopali się łyżką do butów pod drutami kolczastymi na białorusko-polskiej granicy, wrócili z powrotem na Białoruś, myśląc, że idą do Niemiec.
 >

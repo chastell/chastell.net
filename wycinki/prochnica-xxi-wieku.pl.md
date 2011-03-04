@@ -1,7 +1,7 @@
 date: 2002-06-21 01:47:37 +0200
 title: Próchnica XXI wieku
 
-Dwa tygodnie temu [pisałem](1023657791 'wycinek o niebie w gębie') o radiu w zębie, a dziś okazuje się, że już niedługo będzie można umieścić tam komórkę. Dzisiejszy [PAP](http://dziennik.pap.pl/ 'Dziennik Polskiej Agencji Prasowej'):
+Dwa tygodnie temu [pisałem](plomba-bomba 'wycinek o niebie w gębie') o radiu w zębie, a dziś okazuje się, że już niedługo będzie można umieścić tam komórkę. Dzisiejszy [PAP](http://dziennik.pap.pl/ 'Dziennik Polskiej Agencji Prasowej'):
 
 > Brytyjski „telefon-ząb” może „wygryźć” z rynku normalne telefony komórkowe. O wynalezieniu implantu do zęba, będącego zarazem telefonem komórkowym, informują brytyjscy inżynierowie.
 >
