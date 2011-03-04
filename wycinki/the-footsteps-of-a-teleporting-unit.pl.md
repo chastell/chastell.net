@@ -34,7 +34,7 @@ opi
 opi
 : and now for something completely different
 : Evo się zepsuło[^1]
-: (Ten klient pocztowy jest martwy! Nie, on tylko śpi! Dlaczego jest przybity do taskbara? Żeby nie spadł! Halllllo! Halllllo! Evo! Wstawaj, ptaszku. *jeb* *jeb* This, my good lad, is what I call a dead MUA.)
+: (Ten klient pocztowy jest martwy! Nie, on tylko śpi! Dlaczego jest przybity do taskbara? Żeby nie spadł! Halllllo! Halllllo! Evo! Wstawaj, ptaszku. \*jeb\* \*jeb\* This, my good lad, is what I call a dead MUA.)
 : 
     ~~~
     emil@heroina:~$ killall evolution

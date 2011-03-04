@@ -14,7 +14,7 @@ dmr
 chastell
 : wczoraj było [DSA](http://www.debian.org/security/2004/dsa-424 'Debian Security Advisory DSA-424-1')
 : o dziurze w mc
-: (czaisz jazdę? Security Advisory o dziurze w *mc*…)
+: (czaisz jazdę? Security Advisory o dziurze w \*mc\*…)
 
 dmr
 : ooo
