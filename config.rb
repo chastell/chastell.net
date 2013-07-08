@@ -1,1 +1,3 @@
 require 'slim'
+
+activate :livereload
