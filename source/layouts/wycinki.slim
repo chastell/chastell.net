@@ -4,3 +4,13 @@
     h1
       a href='' = current_page.title
     = current_page.body
+
+javascript:
+  window.navigator.language == 'pl' ? moment.lang('pl') : moment.lang('en-gb');
+  Array.prototype.forEach.call(
+    document.getElementsByClassName('date'),
+    function(element) {
+      element.setAttribute('title', element.innerHTML);
+      element.innerHTML = moment(element.innerHTML).fromNow();
+    }
+  );
