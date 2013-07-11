@@ -1,0 +1,17 @@
+- wrap_layout :layout do
+  .content
+    article lang=current_page.data.lang
+      p.date = current_page.date
+      h1
+        a href='' = current_page.title
+      = current_page.body
+
+javascript:
+  moment.lang('#{current_page.data.lang}');
+  Array.prototype.forEach.call(
+    document.getElementsByClassName('date'),
+    function(element) {
+      element.setAttribute('title', element.innerHTML);
+      element.innerHTML = moment(element.innerHTML).fromNow();
+    }
+  );
