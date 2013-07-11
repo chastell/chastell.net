@@ -8,6 +8,8 @@
         a href='' = current_page.title
       = current_page.body
 
+  = partial :prev_next_article
+
 javascript:
   moment.lang('#{current_page.data.lang}');
   Array.prototype.forEach.call(
