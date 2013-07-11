@@ -1,7 +1,7 @@
 ---
 date: 2003-11-04 19:38:06 +0100
 layout: hovercraft
-tags: [en, hovercraft]
+lang: en
 title: The Jason Kottke issue
 ---
 

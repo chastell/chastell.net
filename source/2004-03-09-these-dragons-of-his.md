@@ -1,7 +1,7 @@
 ---
 date: 2004-03-09 21:47:42 +0100
 layout: hovercraft
-tags: [en, hovercraft]
+lang: en
 title: These dragons of his, they explode when nervous
 ---
 

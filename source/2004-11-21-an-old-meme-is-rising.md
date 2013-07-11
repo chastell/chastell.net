@@ -1,7 +1,7 @@
 ---
 date: 2004-11-21 11:23:01 +0100
 layout: hovercraft
-tags: [en, hovercraft]
+lang: en
 title: An old meme is rising
 ---
 

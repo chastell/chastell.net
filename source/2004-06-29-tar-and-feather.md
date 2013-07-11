@@ -1,7 +1,7 @@
 ---
 date: 2004-06-29 12:57:31 +0200
 layout: hovercraft
-tags: [en, hovercraft]
+lang: en
 title: tar and feather
 ---
 

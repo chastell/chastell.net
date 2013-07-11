@@ -1,7 +1,7 @@
 ---
 date: 2004-07-09 00:55:38 +0200
 layout: hovercraft
-tags: [en, hovercraft]
+lang: en
 title: I wonder whether Catholics are fragmented this much as well
 ---
 
