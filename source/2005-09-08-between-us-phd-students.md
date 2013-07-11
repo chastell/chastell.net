@@ -5,7 +5,7 @@ lang: en
 title: between us, PhD students
 ---
 
-<pre class='l-k'>
+<pre class='ascii-art'>
      \/      ,--------.                   . ##. 
      ("-. __/  ladies  )                o   " $ 
      /,   `-----------'  ,-------------.   <(( >

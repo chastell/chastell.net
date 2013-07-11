@@ -5,7 +5,7 @@ lang: en
 title: a certain love story
 ---
 
-<pre class='l-k'>
+<pre class='ascii-art'>
      \/      ,--------.                   . ##. 
      ("-. __/  ladies  )                o   " $ 
      /,   `-----------'  ,-------------.   <(( >

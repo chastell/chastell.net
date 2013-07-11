@@ -5,7 +5,7 @@ lang: en
 title: play with it again, Sam
 ---
 
-<pre class='l-k'>
+<pre class='ascii-art'>
      \/      ,--------.                   . ##. 
      ("-. __/  ladies  )                o   " $ 
      /,   `-----------'  ,-------------.   <(( >

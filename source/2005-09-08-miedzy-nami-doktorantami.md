@@ -5,7 +5,7 @@ lang: pl
 title: między nami doktorantami
 ---
 
-<pre class='l-k'>
+<pre class='ascii-art'>
      \/      ,--------.                 . ##. 
      ("-. __/  ludzie  )              o   " $ 
      /,   `-----------'  ,-----------.   <(( >

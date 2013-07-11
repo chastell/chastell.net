@@ -5,7 +5,7 @@ lang: pl
 title: mów do mnie ładnie
 ---
 
-<pre class='l-k'>
+<pre class='ascii-art'>
      \/      ,--------.                 . ##. 
      ("-. __/  ludzie  )              o   " $ 
      /,   `-----------'  ,-----------.   <(( >

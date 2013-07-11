@@ -5,7 +5,7 @@ lang: pl
 title: nowy porządek
 ---
 
-<pre class='l-k'>
+<pre class='ascii-art'>
      \/      ,--------.                 . ##. 
      ("-. __/  ludzie  )              o   " $ 
      /,   `-----------'  ,-----------.   <(( >

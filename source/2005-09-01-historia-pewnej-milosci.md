@@ -5,7 +5,7 @@ lang: pl
 title: historia pewnej miłości
 ---
 
-<pre class='l-k'>
+<pre class='ascii-art'>
      \/      ,--------.                 . ##. 
      ("-. __/  ludzie  )              o   " $ 
      /,   `-----------'  ,-----------.   <(( >

@@ -5,7 +5,7 @@ lang: en
 title: talk to me nicely
 ---
 
-<pre class='l-k'>
+<pre class='ascii-art'>
      \/      ,--------.                   . ##. 
      ("-. __/  ladies  )                o   " $ 
      /,   `-----------'  ,-------------.   <(( >
