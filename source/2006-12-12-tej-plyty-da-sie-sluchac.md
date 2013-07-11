@@ -1,7 +1,7 @@
 ---
 date: 2006-12-12 13:08:59 +0100
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Tej płyty da się słuchać
 ---
 

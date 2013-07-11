@@ -1,7 +1,7 @@
 ---
 date: 2003-03-14 18:16:42 +0100
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Miało tu nie być autocytatów, ale…
 ---
 

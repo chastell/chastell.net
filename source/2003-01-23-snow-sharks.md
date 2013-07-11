@@ -1,7 +1,7 @@
 ---
 date: 2003-01-23 02:12:57 +0100
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Snow sharks?
 ---
 

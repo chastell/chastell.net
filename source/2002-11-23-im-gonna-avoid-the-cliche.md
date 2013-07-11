@@ -1,7 +1,7 @@
 ---
 date: 2002-11-23 02:30:00 +0100
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: I’m gonna avoid the cliché
 ---
 

@@ -1,7 +1,7 @@
 ---
 date: 2003-03-27 20:18:32 +0100
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Pasjonująca sprawa
 ---
 

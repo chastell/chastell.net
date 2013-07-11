@@ -1,7 +1,7 @@
 ---
 date: 2003-02-15 00:18:31 +0100
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Źle się dzieje w państwie zduńskim
 ---
 

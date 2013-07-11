@@ -1,7 +1,7 @@
 ---
 date: 2004-03-25 15:10:39 +0100
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Społeczeństwo zrobiło się czujne
 ---
 

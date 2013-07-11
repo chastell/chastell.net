@@ -1,7 +1,7 @@
 ---
 date: 2006-05-18 23:10:03 +0200
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Said the Duck to the Kangaroo, ‘Good gracious! How you hop!’
 ---
 

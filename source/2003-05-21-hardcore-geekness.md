@@ -1,7 +1,7 @@
 ---
 date: 2003-05-21 02:34:54 +0200
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Hardcore geekness
 ---
 

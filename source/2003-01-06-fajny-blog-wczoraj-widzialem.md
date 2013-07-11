@@ -1,7 +1,7 @@
 ---
 date: 2003-01-06 22:34:59 +0100
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Fajny blog wczoraj widziałem
 ---
 

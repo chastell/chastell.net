@@ -1,7 +1,7 @@
 ---
 date: 2003-02-24 03:28:15 +0100
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: A to polska rzeczywistość właśnie
 ---
 

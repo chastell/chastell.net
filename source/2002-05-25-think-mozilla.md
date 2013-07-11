@@ -1,7 +1,7 @@
 ---
 date: 2002-05-25 21:09:53 +0200
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Think Mozilla
 ---
 

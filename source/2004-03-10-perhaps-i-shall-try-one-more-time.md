@@ -1,8 +1,7 @@
 ---
 date: 2004-03-10 20:38:20 +0100
 layout: wycinki
-tags: [pl, wycinki]
-tags: [en, hovercraft]
+lang: pl
 title: Perhaps I shall try one more time
 ---
 

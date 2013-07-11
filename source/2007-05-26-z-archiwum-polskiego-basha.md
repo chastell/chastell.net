@@ -1,7 +1,7 @@
 ---
 date: 2007-05-26 14:19:59 +0200
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Z archiwum polskiego Basha
 ---
 

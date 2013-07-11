@@ -1,7 +1,7 @@
 ---
 date: 2002-06-21 01:47:37 +0200
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Próchnica XXI wieku
 ---
 

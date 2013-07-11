@@ -1,7 +1,7 @@
 ---
 date: 2002-06-07 17:05:39 +0200
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Narzecze kawowe
 ---
 

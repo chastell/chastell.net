@@ -1,7 +1,7 @@
 ---
 date: 2007-06-09 13:48:35 +0200
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Kocham RSpeca i będę o tym pisał
 ---
 

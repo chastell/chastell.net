@@ -1,7 +1,7 @@
 ---
 date: 2003-08-12 22:49:43 +0200
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Opisy niedobre… bardzo niedobre opisy są
 ---
 

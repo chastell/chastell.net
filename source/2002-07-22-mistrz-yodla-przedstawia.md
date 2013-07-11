@@ -1,7 +1,7 @@
 ---
 date: 2002-07-22 12:42:57 +0200
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Mistrz Yodła przedstawia
 ---
 

@@ -1,7 +1,7 @@
 ---
 date: 2004-07-09 01:10:24 +0200
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: No to mnie załatwiła
 ---
 

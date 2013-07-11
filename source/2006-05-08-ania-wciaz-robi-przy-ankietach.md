@@ -1,7 +1,7 @@
 ---
 date: 2006-05-08 22:02:10 +0200
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Ania (wciąż) robi przy ankietach
 ---
 

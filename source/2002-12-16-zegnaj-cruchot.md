@@ -1,7 +1,7 @@
 ---
 date: 2002-12-16 11:39:35 +0100
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Żegnaj, Cruchot
 ---
 

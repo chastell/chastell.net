@@ -1,7 +1,7 @@
 ---
 date: 2003-02-26 03:38:52 +0100
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Kochana Mamo!
 ---
 

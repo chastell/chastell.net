@@ -1,7 +1,7 @@
 ---
 date: 2006-08-14 13:50:30 +0200
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: (Nie mówię szeptem gdy mówię o Selenium)
 ---
 

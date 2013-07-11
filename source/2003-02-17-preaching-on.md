@@ -1,7 +1,7 @@
 ---
 date: 2003-02-17 02:54:26 +0100
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Preaching on
 ---
 

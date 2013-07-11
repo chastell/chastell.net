@@ -1,7 +1,7 @@
 ---
 date: 2003-02-11 00:06:50 +0100
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Reminiscencje okołonaukowe
 ---
 

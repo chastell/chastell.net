@@ -1,7 +1,7 @@
 ---
 date: 2003-01-19 01:24:03 +0100
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Drugi koniec semestru prędkości nabiera (niejeden się pogubi bez pomocy przyjaciela)
 ---
 

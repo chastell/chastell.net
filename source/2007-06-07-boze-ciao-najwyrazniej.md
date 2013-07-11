@@ -1,7 +1,7 @@
 ---
 date: 2007-06-07 22:25:51 +0200
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Boże ciao, najwyraźniej
 ---
 

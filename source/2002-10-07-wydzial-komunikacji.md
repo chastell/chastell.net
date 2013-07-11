@@ -1,7 +1,7 @@
 ---
 date: 2002-10-07 16:03:09 +0200
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: 'A to Polska właśnie, odcinek kolejny: „Wydział Komunikacji”'
 ---
 

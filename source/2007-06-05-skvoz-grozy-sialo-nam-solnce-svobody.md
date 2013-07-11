@@ -1,7 +1,7 @@
 ---
 date: 2007-06-05 14:43:15 +0200
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Сквозь грозы сияло нам солнце свободы
 ---
 

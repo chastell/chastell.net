@@ -1,7 +1,7 @@
 ---
 date: 2002-05-27 22:53:44 +0200
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Małe jest piękne
 ---
 

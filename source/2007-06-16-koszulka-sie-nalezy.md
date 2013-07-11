@@ -1,7 +1,7 @@
 ---
 date: 2007-06-16 23:12:36 +0200
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: …²
 ---
 

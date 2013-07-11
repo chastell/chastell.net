@@ -1,7 +1,7 @@
 ---
 date: 2003-04-29 19:27:37 +0200
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Rowerzysta gadżetoman
 ---
 

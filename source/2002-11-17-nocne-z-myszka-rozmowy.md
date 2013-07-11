@@ -1,7 +1,7 @@
 ---
 date: 2002-11-17 23:20:55 +0100
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Nocne z Myszką rozmowy
 ---
 

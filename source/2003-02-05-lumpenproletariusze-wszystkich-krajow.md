@@ -1,7 +1,7 @@
 ---
 date: 2003-02-05 23:52:30 +0100
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Lumpenproletariusze wszystkich krajów
 ---
 

@@ -1,7 +1,7 @@
 ---
 date: 2003-09-03 01:38:28 +0200
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Pernter, Pfaundler, Schreiber, Süring i Trabert (przeważnie Austriacy)
 ---
 

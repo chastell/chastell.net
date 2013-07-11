@@ -1,7 +1,7 @@
 ---
 date: 2005-06-11 00:10:58 +0200
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Polakom gratulujemy stolicy
 ---
 

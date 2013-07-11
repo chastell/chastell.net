@@ -1,7 +1,7 @@
 ---
 date: 2003-12-23 18:23:17 +0100
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: I nawet zwroty akcji były
 ---
 

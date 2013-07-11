@@ -1,7 +1,7 @@
 ---
 date: 2007-11-30 00:49:27 +0100
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: The footsteps of a teleporting unit show haloes on teleport points
 ---
 

@@ -1,7 +1,7 @@
 ---
 date: 2004-02-18 18:45:31 +0100
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: I have seen the future, it is tranquil
 ---
 

@@ -1,7 +1,7 @@
 ---
 date: 2003-02-07 02:27:49 +0100
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Bom-bram-fok!
 ---
 

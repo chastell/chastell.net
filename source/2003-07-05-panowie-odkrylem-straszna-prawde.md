@@ -1,7 +1,7 @@
 ---
 date: 2003-07-05 19:24:53 +0200
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Panowie, odkryłem straszną prawdę – jesteśmy w środku węża
 ---
 

@@ -1,7 +1,7 @@
 ---
 date: 2007-04-12 11:20:12 +0200
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: This just in
 ---
 

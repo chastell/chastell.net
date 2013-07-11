@@ -1,7 +1,7 @@
 ---
 date: 2005-06-05 12:52:55 +0200
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: To mój scroll, to moja rzeczywistość
 ---
 

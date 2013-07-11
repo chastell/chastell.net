@@ -1,7 +1,7 @@
 ---
 date: 2003-11-17 08:42:41 +0100
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Muszę się do Malko po tę książkę zgłosić
 ---
 

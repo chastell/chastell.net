@@ -1,7 +1,7 @@
 ---
 date: 2002-06-02 18:36:32 +0200
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: The memory remains
 ---
 

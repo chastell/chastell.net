@@ -1,7 +1,7 @@
 ---
 date: 2003-01-01 00:00:00 +0100
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Geekwester
 ---
 

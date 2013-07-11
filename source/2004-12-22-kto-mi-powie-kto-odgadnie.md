@@ -1,7 +1,7 @@
 ---
 date: 2004-12-23 00:31:05 +0100
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Kto mi powie, kto odgadnie w głębi ocznych zwierciadełek, co u dziewcząt siedzi na dnie…
 ---
 

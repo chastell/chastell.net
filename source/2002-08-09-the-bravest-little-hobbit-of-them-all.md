@@ -1,7 +1,7 @@
 ---
 date: 2002-08-09 22:36:09 +0200
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: The bravest little hobbit of them all
 ---
 

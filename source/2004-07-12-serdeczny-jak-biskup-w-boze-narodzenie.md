@@ -1,7 +1,7 @@
 ---
 date: 2004-07-12 22:38:27 +0200
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Serdeczny jak biskup w Boże Narodzenie
 ---
 

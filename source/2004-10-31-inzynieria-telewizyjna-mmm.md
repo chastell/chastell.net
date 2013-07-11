@@ -1,7 +1,7 @@
 ---
 date: 2004-10-31 23:17:31 +0100
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Inżynieria telewizyjna, mmm…
 ---
 

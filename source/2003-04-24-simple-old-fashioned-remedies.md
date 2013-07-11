@@ -1,7 +1,7 @@
 ---
 date: 2003-04-25 01:21:50 +0200
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Simple, old-fashioned remedies
 ---
 

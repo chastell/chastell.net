@@ -1,7 +1,7 @@
 ---
 date: 2003-04-20 23:46:03 +0200
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Ja tolko tak, dla paddierżki razgawora
 ---
 

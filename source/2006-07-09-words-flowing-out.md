@@ -1,7 +1,7 @@
 ---
 date: 2006-07-09 09:37:42 +0200
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Words flowing out just like the Grand Canyon (and I’m always out looking for a female companion)
 ---
 

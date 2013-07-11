@@ -1,7 +1,7 @@
 ---
 date: 2003-07-25 16:42:51 +0200
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Z dmr-em należy się liczyć
 ---
 

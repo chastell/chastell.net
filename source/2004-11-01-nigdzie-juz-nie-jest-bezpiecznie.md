@@ -1,7 +1,7 @@
 ---
 date: 2004-11-01 09:41:06 +0100
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Nigdzie już nie jest bezpiecznie
 ---
 

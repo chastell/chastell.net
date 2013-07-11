@@ -1,7 +1,7 @@
 ---
 date: 2002-05-04 01:41:00 +0200
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Porażka kojota
 ---
 

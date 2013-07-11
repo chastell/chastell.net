@@ -1,7 +1,7 @@
 ---
 date: 2005-10-16 22:53:18 +0200
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Geek w szpitalu
 ---
 

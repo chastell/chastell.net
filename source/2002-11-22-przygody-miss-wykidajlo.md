@@ -1,7 +1,7 @@
 ---
 date: 2002-11-22 18:23:15 +0100
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Przygody Miss Wykidajło
 ---
 

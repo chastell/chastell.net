@@ -1,7 +1,7 @@
 ---
 date: 2005-10-24 00:12:09 +0200
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: This is my rifle, this is my GNU. This is for killing, this is for $foo.
 ---
 

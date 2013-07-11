@@ -1,7 +1,7 @@
 ---
 date: 2003-09-08 11:49:23 +0200
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: A mówią, że to ja jestem zbyt zorganizowany
 ---
 

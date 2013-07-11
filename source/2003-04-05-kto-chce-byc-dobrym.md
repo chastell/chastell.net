@@ -1,7 +1,7 @@
 ---
 date: 2003-04-05 21:00:15 +0200
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Kto chce być dobrym inżynierem informatyki?
 ---
 

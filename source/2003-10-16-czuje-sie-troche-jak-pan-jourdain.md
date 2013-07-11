@@ -1,7 +1,7 @@
 ---
 date: 2003-10-16 02:31:59 +0200
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Czuję się trochę jak pan Jourdain
 ---
 

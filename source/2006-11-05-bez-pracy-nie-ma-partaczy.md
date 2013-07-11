@@ -1,7 +1,7 @@
 ---
 date: 2006-11-05 11:52:23 +0100
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Bez pracy nie ma partaczy
 ---
 

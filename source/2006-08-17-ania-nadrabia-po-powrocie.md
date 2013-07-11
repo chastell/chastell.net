@@ -1,7 +1,7 @@
 ---
 date: 2006-08-17 22:58:54 +0200
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Ania nadrabia po powrocie
 ---
 

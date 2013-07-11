@@ -1,7 +1,7 @@
 ---
 date: 2004-06-23 22:06:12 +0200
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Divadélko „Zelená husa“ má tu čest předvést…
 ---
 

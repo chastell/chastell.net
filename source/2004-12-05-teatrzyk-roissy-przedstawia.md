@@ -1,7 +1,7 @@
 ---
 date: 2004-12-05 20:33:34 +0100
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Teatrzyk Roissy przedstawia
 ---
 

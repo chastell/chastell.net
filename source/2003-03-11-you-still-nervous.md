@@ -1,7 +1,7 @@
 ---
 date: 2003-03-11 17:39:28 +0100
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: You! Still nervous?
 ---
 

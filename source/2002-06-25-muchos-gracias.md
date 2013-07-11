@@ -1,7 +1,7 @@
 ---
 date: 2002-06-25 21:54:22 +0200
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Muchos gracias
 ---
 

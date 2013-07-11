@@ -1,7 +1,7 @@
 ---
 date: 2003-02-03 22:59:38 +0100
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: A to polska służba zdrowia właśnie
 ---
 

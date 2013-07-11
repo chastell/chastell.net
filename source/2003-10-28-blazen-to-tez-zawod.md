@@ -1,7 +1,7 @@
 ---
 date: 2003-10-28 16:08:31 +0100
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Błazen to też zawód
 ---
 

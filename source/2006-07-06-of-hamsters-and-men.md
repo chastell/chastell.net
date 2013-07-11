@@ -1,7 +1,7 @@
 ---
 date: 2006-07-06 20:14:18 +0200
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Of hamsters and men
 ---
 

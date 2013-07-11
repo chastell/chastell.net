@@ -1,7 +1,7 @@
 ---
 date: 2002-05-25 20:48:10 +0200
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Wielka warzywna ściema
 ---
 

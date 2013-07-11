@@ -1,7 +1,7 @@
 ---
 date: 2003-07-22 09:51:26 +0200
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Idiot-proofing the world
 ---
 

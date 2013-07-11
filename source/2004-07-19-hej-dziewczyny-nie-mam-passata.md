@@ -1,7 +1,7 @@
 ---
 date: 2004-07-19 02:20:53 +0200
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Hej, dziewczyny, (nie) mam passata
 ---
 

@@ -1,7 +1,7 @@
 ---
 date: 2005-02-26 01:24:21 +0100
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: I want to be a tłumacz too
 ---
 

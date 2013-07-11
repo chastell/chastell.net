@@ -1,7 +1,7 @@
 ---
 date: 2003-11-22 15:15:48 +0100
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Wreszcie pożyczy mi coś Stasiuka
 ---
 

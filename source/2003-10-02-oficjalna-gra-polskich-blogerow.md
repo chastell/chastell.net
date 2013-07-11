@@ -1,7 +1,7 @@
 ---
 date: 2003-10-02 03:10:10 +0200
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Oficjalna gra polskich blogerów
 ---
 

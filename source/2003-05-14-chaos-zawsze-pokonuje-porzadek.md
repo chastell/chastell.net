@@ -1,7 +1,7 @@
 ---
 date: 2003-05-14 14:33:31 +0200
 layout: wycinki
-tags: [pl, wycinki]
+lang: pl
 title: Chaos zawsze pokonuje porządek, gdyż jest lepiej zorganizowany
 ---
 
