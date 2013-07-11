@@ -9,6 +9,5 @@ home of one [Piotr Szotkowski](mailto:chastell@chastell.net).
 powered by [Middleman](http://middlemanapp.com).
 
 All original content at <span class='chastell-net'>chastell.net</span>
-is licensed under the [Creative Commons attribution – non-commercial
-– share alike](http://creativecommons.org/licenses/by-nc-sa/3.0/)
-licence.
+is licensed under the<br />[Creative Commons attribution – share
+alike](http://creativecommons.org/licenses/by-sa/3.0/) licence.
