@@ -43,14 +43,29 @@ header
     ul
       float: left
       left: 50%
-      list-style: none
-      padding: 1em 0
       position: relative
       li
         float: left
         padding: 0 0.5em
         position: relative
         right: 50%
+
+nav
+  clear: both
+  margin: auto
+  width: 42em
+  ul
+    list-style: none
+    padding: 1em 0
+    li
+      padding-bottom: 0.5em
+      a
+        font-weight: inherit
+      &.next
+        float: left
+      &.prev
+        float: right
+        text-align: right
 
 p
   margin-bottom: 1em
