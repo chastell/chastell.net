@@ -1,0 +1,30 @@
+- wrap_layout :layout do
+  nav
+    ul
+      - if current_page.next_article
+        li.next
+          | ← 
+          a href=current_page.next_article.url.chomp('/')
+            = current_page.next_article.title
+      - if current_page.previous_article
+        li.prev
+          a href=current_page.previous_article.url.chomp('/')
+            = current_page.previous_article.title
+          |  →
+
+  .content
+    article lang=current_page.data.lang
+      p.date = current_page.date
+      h1
+        a href='' = current_page.title
+      = current_page.body
+
+javascript:
+  moment.lang('#{current_page.data.lang}');
+  Array.prototype.forEach.call(
+    document.getElementsByClassName('date'),
+    function(element) {
+      element.setAttribute('title', element.innerHTML);
+      element.innerHTML = moment(element.innerHTML).fromNow();
+    }
+  );
