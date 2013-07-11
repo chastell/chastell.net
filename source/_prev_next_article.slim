@@ -1,0 +1,12 @@
+nav
+  ul
+    - if current_page.next_article
+      li.next
+        | ← 
+        a href=current_page.next_article.url.chomp('/')
+          = current_page.next_article.title
+    - if current_page.previous_article
+      li.prev
+        a href=current_page.previous_article.url.chomp('/')
+          = current_page.previous_article.title
+        |  →
