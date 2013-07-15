@@ -1,0 +1,17 @@
+- width = FastImage.size("#{current_page.source_file[0..-4]}/photo.jpg").first
+- wrap_layout :layout do
+  = partial :prev_next_article, locals: { width: width + 35 }
+
+  .content.shoot style="width: #{width}px"
+    article lang='en'
+      p.photo
+        img src = "/#{current_page.slug}/photo.jpg"
+      p.date
+        - parts = [current_page.data.taken, current_page.data.place]
+        - parts << "by #{current_page.data.photographer}" if current_page.data.photographer
+        = parts.join ", "
+      h1
+        a href='' = current_page.title
+      = current_page.body
+
+  = partial :prev_next_article, locals: { width: width + 35 }
