@@ -17,7 +17,7 @@ M.
 : załóżmy
 
 chastell
-: na Allegro można było za złotówkę kupić „[idealnie spalony czajnik](http://www.allegrofun.pl/item-3i141796342.html 'niezupełnie odjechane')”
+: na Allegro można było za złotówkę kupić „[idealnie spalony czajnik](http://archiwumallegro.pl/idealnie_spalony_czajnik-141796342.html)”
 : (szybko góglam, co nie)
 : masz podobny?
 : wróć
