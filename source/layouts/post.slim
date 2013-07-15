@@ -1,14 +1,15 @@
 - wrap_layout :layout do
-  = partial :prev_next_article
+  .main
+    = partial :prev_next_article
 
-  .content
-    article lang=current_page.data.lang
-      p.date = current_page.date
-      h1
-        a href='' = current_page.title
-      = current_page.body
+    .content
+      article lang=current_page.data.lang
+        p.date = current_page.date
+        h1
+          a href='' = current_page.title
+        = current_page.body
 
-  = partial :prev_next_article
+    = partial :prev_next_article
 
 javascript:
   moment.lang('#{current_page.data.lang}');

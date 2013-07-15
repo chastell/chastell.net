@@ -1,4 +1,9 @@
 - wrap_layout :layout do
-  .content
-    article lang=current_page.data.lang
-      = current_page.body
+  .main
+    = partial :prev_next_article
+
+    .content
+      article lang=current_page.data.lang
+        = current_page.body
+
+    = partial :prev_next_article
