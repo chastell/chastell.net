@@ -2,13 +2,20 @@
 - section_prev = firehose_prev = current_page.previous_article
 - section_next = section_next.next_article     until section_next.nil? or section_next.data.layout == current_page.data.layout
 - section_prev = section_prev.previous_article until section_prev.nil? or section_prev.data.layout == current_page.data.layout
+- show_section = section_next != firehose_next or section_prev != firehose_prev
+
 - sections = { '1/125' => '1 / 125' }
 - sections.default_proc = -> _, key { key }
 
+- section_nav = partial :prev_next_line,
+    locals: { label: sections[current_page.data.layout],
+    next_entry: section_next, next_symbol: '↞',
+    prev_entry: section_prev, prev_symbol: '↠' }
+- firehose_nav = partial :prev_next_line,
+    locals: { label: show_section ? '⚙' : ' ',
+    next_entry: firehose_next, next_symbol: '↢',
+    prev_entry: firehose_prev, prev_symbol: '↣' }
+
 nav
-  - unless section_next == firehose_next and section_prev == firehose_prev
-    - label = sections[current_page.data.layout]
-    = partial :prev_next_line, locals: { label: label, next_entry: section_next,
-        next_symbol: '↞', prev_entry: section_prev, prev_symbol: '↠' }
-  = partial :prev_next_line, locals: { label: '⚙', next_entry: firehose_next,
-      next_symbol: '↢', prev_entry: firehose_prev, prev_symbol: '↣' }
+  = section_nav if show_section
+  = firehose_nav
