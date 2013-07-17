@@ -15,4 +15,4 @@
           a href='' = current_page.title
         = current_page.body
 
-    = partial :prev_next_article
+    = partial :prev_next_article, locals: { reverse: true }

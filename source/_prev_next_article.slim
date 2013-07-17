@@ -17,5 +17,9 @@
     prev_entry: firehose_prev, prev_symbol: '↣' }
 
 nav
-  = section_nav if show_section
-  = firehose_nav
+  - if defined? reverse and reverse
+    = firehose_nav
+    = section_nav if show_section
+  - else
+    = section_nav if show_section
+    = firehose_nav

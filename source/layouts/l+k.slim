@@ -6,4 +6,4 @@
       article lang=current_page.data.lang
         = current_page.body
 
-    = partial :prev_next_article
+    = partial :prev_next_article, locals: { reverse: true }
