@@ -1,16 +1,32 @@
-- nxt = current_page.next_article
-- prv = current_page.previous_article
-- nxt = nxt.next_article     until nxt.nil? or nxt.data.layout == current_page.data.layout
-- prv = prv.previous_article until prv.nil? or prv.data.layout == current_page.data.layout
-nav style="#{"width: #{width}px" if defined? width}"
-  ul
-    - if nxt
+- section_next = firehose_next = current_page.next_article
+- section_prev = firehose_prev = current_page.previous_article
+- section_next = section_next.next_article     until section_next.nil? or section_next.data.layout == current_page.data.layout
+- section_prev = section_prev.previous_article until section_prev.nil? or section_prev.data.layout == current_page.data.layout
+nav
+  - unless section_next == firehose_next and section_prev == firehose_prev
+    ul
       li.next
-        | ← 
-        a href=nxt.url.chomp('/')
-          = nxt.title
-    - if prv
+        - if section_next
+          | ↞ 
+          a href=section_next.url.chomp('/')
+            = truncate_words section_next.title, length: 5
+        |  
       li.prev
-        a href=prv.url.chomp('/')
-          = prv.title
-        |  →
+        |  
+        - if section_prev
+          a href=section_prev.url.chomp('/')
+            = truncate_words section_prev.title, length: 5
+          |  ↠
+  ul
+    li.next
+      - if firehose_next
+        | ↢ 
+        a href=firehose_next.url.chomp('/')
+          = truncate_words firehose_next.title, length: 5
+      |  
+    li.prev
+
+      - if firehose_prev
+        a href=firehose_prev.url.chomp('/')
+          = truncate_words firehose_prev.title, length: 5
+        |  ↣
