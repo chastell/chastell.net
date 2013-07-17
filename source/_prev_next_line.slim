@@ -3,13 +3,13 @@ ul
     - if next_entry
       = "#{next_symbol} "
       a href=next_entry.url.chomp('/')
-        = truncate_words next_entry.title, length: 5
+        = truncate_words next_entry.title, length: 4
     |  
   li.prev
     |  
     - if prev_entry
       a href=prev_entry.url.chomp('/')
-        = truncate_words prev_entry.title, length: 5
+        = truncate_words prev_entry.title, length: 4
       = " #{prev_symbol}"
 
 p = label
