@@ -17,9 +17,9 @@
     prev_entry: firehose_prev, prev_symbol: '↣' }
 
 nav
-  - if defined? reverse and reverse
-    = firehose_nav
-    = section_nav if show_section
-  - else
-    = section_nav if show_section
-    = firehose_nav
+  - order.each do |type|
+    - case type
+    - when :firehose
+      = firehose_nav
+    - when :section
+      = section_nav if show_section

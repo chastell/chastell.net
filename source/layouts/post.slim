@@ -1,6 +1,6 @@
 - wrap_layout :layout do
   .main
-    = partial :prev_next_article
+    = partial :prev_next_article, locals: { order: [:section, :firehose] }
 
     .content
       article lang=current_page.data.lang
@@ -9,7 +9,7 @@
           a href='' = current_page.title
         = current_page.body
 
-    = partial :prev_next_article, locals: { reverse: true }
+    = partial :prev_next_article, locals: { order: [:firehose, :section] }
 
 javascript:
   moment.lang('#{current_page.data.lang}');
