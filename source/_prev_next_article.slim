@@ -4,33 +4,11 @@
 - section_prev = section_prev.previous_article until section_prev.nil? or section_prev.data.layout == current_page.data.layout
 - sections = { '1/125' => '1 / 125' }
 - sections.default_proc = -> _, key { key }
+
 nav
   - unless section_next == firehose_next and section_prev == firehose_prev
-    ul
-      li.next
-        - if section_next
-          | ↞ 
-          a href=section_next.url.chomp('/')
-            = truncate_words section_next.title, length: 5
-        |  
-      li.prev
-        |  
-        - if section_prev
-          a href=section_prev.url.chomp('/')
-            = truncate_words section_prev.title, length: 5
-          |  ↠
-    p = sections[current_page.data.layout]
-  ul
-    li.next
-      - if firehose_next
-        | ↢ 
-        a href=firehose_next.url.chomp('/')
-          = truncate_words firehose_next.title, length: 5
-      |  
-    li.prev
-
-      - if firehose_prev
-        a href=firehose_prev.url.chomp('/')
-          = truncate_words firehose_prev.title, length: 5
-        |  ↣
-  p ⚙
+    - label = sections[current_page.data.layout]
+    = partial :prev_next_line, locals: { label: label, next_entry: section_next,
+        next_symbol: '↞', prev_entry: section_prev, prev_symbol: '↠' }
+  = partial :prev_next_line, locals: { label: '⚙', next_entry: firehose_next,
+      next_symbol: '↢', prev_entry: firehose_prev, prev_symbol: '↣' }
