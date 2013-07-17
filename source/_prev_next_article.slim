@@ -7,7 +7,7 @@
 - show_english = current_page.data.lang == 'en' && (english_next != section_next || english_prev != section_prev)
 - show_section = section_next != firehose_next || section_prev != firehose_prev
 
-- sections = { '1/125' => '1 / 125' }
+- sections = { '1/125' => '1 / 125', 'l+k' => 'l + k' }
 - sections.default_proc = -> _, key { key }
 
 - english_nav = partial :prev_next_line,
