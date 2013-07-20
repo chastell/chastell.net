@@ -30,7 +30,7 @@
     next_entry: next_section, next_symbol: '↞',
     prev_entry: prev_section, prev_symbol: '↠' }
 
-nav
+nav.next_prev_en
   - order.each do |type|
     - case type
     - when :firehose
@@ -38,7 +38,7 @@ nav
     - when :section
       = nav_section if show_section_en
 
-nav
+nav.next_prev_xx
   - order.each do |type|
     - case type
     - when :firehose
