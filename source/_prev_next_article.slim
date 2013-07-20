@@ -1,34 +1,47 @@
-- english_next = firehose_next = section_next = current_page.next_article
-- english_prev = firehose_prev = section_prev = current_page.previous_article
-- english_next = english_next.next_article     until english_next.nil? or english_next.data.lang == 'en'
-- english_prev = english_prev.previous_article until english_prev.nil? or english_prev.data.lang == 'en'
-- section_next = section_next.next_article     until section_next.nil? or section_next.data.layout == current_page.data.layout
-- section_prev = section_prev.previous_article until section_prev.nil? or section_prev.data.layout == current_page.data.layout
-- show_english = current_page.data.lang == 'en' && (english_next != section_next || english_prev != section_prev)
-- show_section = section_next != firehose_next || section_prev != firehose_prev
+- next_firehose_xx = current_page.next_article
+- prev_firehose_xx = current_page.previous_article
+
+- next_firehose_en = next_firehose_xx
+- prev_firehose_en = prev_firehose_xx
+- next_firehose_en = next_firehose_en.next_article     until next_firehose_en.nil? or next_firehose_en.data.lang == 'en'
+- prev_firehose_en = prev_firehose_en.previous_article until prev_firehose_en.nil? or prev_firehose_en.data.lang == 'en'
+
+- next_section = next_firehose_xx
+- prev_section = prev_firehose_xx
+- next_section = next_section.next_article     until next_section.nil? or next_section.data.layout == current_page.data.layout
+- prev_section = prev_section.previous_article until prev_section.nil? or prev_section.data.layout == current_page.data.layout
+
+- show_section_xx = next_firehose_xx != next_section || prev_firehose_xx != prev_section
+- show_section_en = show_section_xx && current_page.data.lang == 'en'
 
 - sections = { '1/125' => '1 / 125', 'l+k' => 'l + k' }
 - sections.default_proc = -> _, key { key }
 
-- english_nav = partial :prev_next_line,
-    locals: { label: 'in English',
-    next_entry: english_next, next_symbol: '↞',
-    prev_entry: english_prev, prev_symbol: '↠' }
-- firehose_nav = partial :prev_next_line,
-    locals: { label: show_english || show_section ? '⚙' : ' ',
-    next_entry: firehose_next, next_symbol: '↢',
-    prev_entry: firehose_prev, prev_symbol: '↣' }
-- section_nav = partial :prev_next_line,
+- nav_firehose_en = partial :prev_next_line,
+    locals: { label: '⚙ en',
+    next_entry: next_firehose_en, next_symbol: '↢',
+    prev_entry: prev_firehose_en, prev_symbol: '↣' }
+- nav_firehose_xx = partial :prev_next_line,
+    locals: { label: '⚙ xx',
+    next_entry: next_firehose_xx, next_symbol: '↢',
+    prev_entry: prev_firehose_xx, prev_symbol: '↣' }
+- nav_section = partial :prev_next_line,
     locals: { label: sections[current_page.data.layout],
-    next_entry: section_next, next_symbol: '↞',
-    prev_entry: section_prev, prev_symbol: '↠' }
+    next_entry: next_section, next_symbol: '↞',
+    prev_entry: prev_section, prev_symbol: '↠' }
 
 nav
   - order.each do |type|
     - case type
-    - when :english
-      = english_nav if show_english
     - when :firehose
-      = firehose_nav
+      = nav_firehose_en
     - when :section
-      = section_nav if show_section
+      = nav_section if show_section_en
+
+nav
+  - order.each do |type|
+    - case type
+    - when :firehose
+      = nav_firehose_xx
+    - when :section
+      = nav_section if show_section_xx

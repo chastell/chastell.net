@@ -1,9 +1,9 @@
 - wrap_layout :layout do
   .main
-    = partial :prev_next_article, locals: { order: [:section, :english, :firehose] }
+    = partial :prev_next_article, locals: { order: [:section, :firehose] }
 
     .content
       article lang=current_page.data.lang
         = current_page.body
 
-    = partial :prev_next_article, locals: { order: [:firehose, :english, :section] }
+    = partial :prev_next_article, locals: { order: [:firehose, :section] }
