@@ -16,9 +16,10 @@ html
         a href='/' chastell.net
       nav#main_nav
         ul
-          li = link_to '1 / 125', '/1/125', title: '½ million pixels'
-          li = link_to 'talks', '//talks.chastell.net',
-                       title: 'look at all the talks I give'
+          li
+            a href='/1/125' title='½ million pixels' 1 / 125
+          li
+            a href='//talks.chastell.net' title='look at all the talks I give' talks
 
     = yield
 
