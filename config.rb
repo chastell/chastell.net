@@ -2,8 +2,9 @@ require 'slim'
 Slim::Engine.disable_option_validator!
 
 activate :blog do |blog|
-  blog.permalink = '{layout}/{title}.html'
-  blog.sources   = '{layout}/{year}-{month}-{day}-{title}.html'
+  blog.name      = '1/125'
+  blog.permalink = '{title}.html'
+  blog.prefix    = '1/125'
 end
 
 activate :directory_indexes
