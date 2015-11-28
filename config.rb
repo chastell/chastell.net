@@ -8,4 +8,7 @@ activate :blog do |blog|
 end
 
 activate :directory_indexes
-activate :livereload
+
+configure :development do
+  activate :livereload
+end
