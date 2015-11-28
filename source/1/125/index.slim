@@ -1,0 +1,10 @@
+---
+layout: false
+---
+
+- url = blog('1/125').articles.first.url.chomp('/')
+doctype html
+html
+  head
+    meta http-equiv='refresh' content="0; url=#{url}"
+  body
