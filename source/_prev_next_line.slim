@@ -1,8 +1,8 @@
 ul
   li.next
     - if next_entry
-      = "#{next_symbol} "
       a href=next_entry.url.chomp('/')
+        = "#{next_symbol} "
         = truncate_words next_entry.title, length: 4
     |  
   li.prev
@@ -10,6 +10,6 @@ ul
     - if prev_entry
       a href=prev_entry.url.chomp('/')
         = truncate_words prev_entry.title, length: 4
-      = " #{prev_symbol}"
+        = " #{prev_symbol}"
 
 p = label
