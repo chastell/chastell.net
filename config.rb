@@ -5,4 +5,3 @@ activate :blog do |blog|
 end
 
 activate :directory_indexes
-activate :livereload
