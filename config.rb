@@ -1,7 +1,8 @@
 require 'slim'
 
 activate :blog do |blog|
-  blog.permalink = ':title.html'
+  blog.permalink = '{layout}/{title}.html'
+  blog.sources   = '{layout}/{year}-{month}-{day}-{title}.html'
 end
 
 activate :directory_indexes

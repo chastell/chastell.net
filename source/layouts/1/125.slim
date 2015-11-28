@@ -6,7 +6,7 @@
     .content.shoot
       article lang='en'
         p.photo
-          img src = "/#{current_page.slug}/photo.jpg"
+          img src = "#{current_page.url}photo.jpg"
         p.date
           - parts = [current_page.data.taken, current_page.data.place]
           - parts << "by #{current_page.data.photographer}" if current_page.data.photographer
