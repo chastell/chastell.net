@@ -10,4 +10,4 @@ powered by [Middleman](http://middlemanapp.com).
 
 All original content at <span class='chastell-net'>chastell.net</span>
 is licensed under the<br />[Creative Commons attribution – share
-alike](http://creativecommons.org/licenses/by-sa/3.0/) licence.
+alike](http://creativecommons.org/licenses/by-sa/4.0/) licence.
