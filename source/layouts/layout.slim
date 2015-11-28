@@ -1,3 +1,4 @@
+- logo = '⚛ + ⌨ = ⚙'
 doctype html
 html
   head
@@ -7,12 +8,12 @@ html
     script src='/js/moment.js'
     script src='/js/moment.en.js'
     script src='/js/moment.pl.js'
-    title = [current_page.data.title, 'chastell.net', '⚛ + ⌨ = ⚙'].compact.join ' | '
+    title = [current_page.data.title, 'chastell.net', logo].compact.join(' | ')
   body
     header
       h1
         a href='/' chastell.net
-      p ⚛ + ⌨ = ⚙
+      p = logo
       nav#main_nav
         ul
           li = link_to '⚙',          '/o',          title: 'drink from the firehose'
