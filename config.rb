@@ -1,4 +1,5 @@
 require 'slim'
+Slim::Engine.disable_option_validator!
 
 activate :blog do |blog|
   blog.permalink = '{layout}/{title}.html'
