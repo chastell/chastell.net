@@ -1,7 +1,7 @@
 - width = FastImage.size("#{current_page.source_file[0..-4]}/photo.jpg").first
 = wrap_layout :layout do
   .main style="width: #{width + 30}px"
-    = partial :prev_next_article, locals: { order: [:section, :firehose] }
+    = partial :prev_next_post
 
     .content.shoot
       article lang='en'
@@ -15,4 +15,4 @@
           a href='' = current_page.title
         = current_page.body
 
-    = partial :prev_next_article, locals: { order: [:firehose, :section] }
+    = partial :prev_next_post
