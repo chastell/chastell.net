@@ -1,0 +1,12 @@
+---
+date: 2015-04-29
+photographer: <a href='https://kofeina.wordpress.com/'>Kala</a>
+place: Warsaw
+shot: 2015-04-29 14:31:35+02
+taken: April 2015
+title: The World Will Be Better
+---
+
+Heeey, how about helping [Rails Girls Summer of Code](http://railsgirlssummerofcode.org/campaign/) fund one more team before the May Day?
+
+We donated because…
