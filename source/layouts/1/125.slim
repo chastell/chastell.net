@@ -8,10 +8,10 @@
         map name='photo'
           - if succ
             area(alt=succ.title coords='0,0,#{width / 3},#{height}'
-                 href=succ.url.chomp('/') shape='rect' title="↢ #{succ.title}")
+                 href=succ.url shape='rect' title="↢ #{succ.title}")
           - if prev
             area(alt=prev.title coords='#{2 * width / 3},0,#{width},#{height}'
-                 href=prev.url.chomp('/') shape='rect' title="#{prev.title} ↣")
+                 href=prev.url shape='rect' title="#{prev.title} ↣")
         p.photo
           img(height=height src="#{current_page.url}photo.jpg" usemap='#photo'
               width=width)

@@ -23,8 +23,8 @@ sass:
     - slice.each do |article|
       .content
         p
-          a href=article.url.chomp('/')
+          a href=article.url
             img src="#{article.url}sample.png"
         p
-          a href=article.url.chomp('/') = article.title
+          a href=article.url = article.title
     div.clear
