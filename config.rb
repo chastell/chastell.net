@@ -17,3 +17,7 @@ activate :directory_indexes
 configure :development do
   activate :livereload
 end
+
+ignore 'hovercraft/*'
+ignore 'l+k/*'
+ignore 'wycinki/*'
