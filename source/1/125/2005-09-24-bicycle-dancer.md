@@ -1,0 +1,11 @@
+---
+lang: en
+layout: 1/125
+date: 2005-09-24
+place: Dueodde-Nexø cycling track
+shot: 2005-08-12 14:50:37+02
+taken: August 2005
+title: Bicycle Dancer
+---
+
+Miss Thoughtscriber in her daily act of dancing for our bicycles.
