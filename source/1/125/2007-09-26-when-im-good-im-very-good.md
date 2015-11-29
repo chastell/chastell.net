@@ -9,4 +9,4 @@ title: When I’m Good, I’m Very Good…
 
 …but when I’m back, I’m bitter.
 
-Apologies for the hiatus, apologies to [Mae West](http://en.wikiquote.org/wiki/Mae_West) and [Chumbawamba](1-125/when-im-bad.ogg).
+Apologies for the hiatus, apologies to [Mae West](http://en.wikiquote.org/wiki/Mae_West) and [Chumbawamba](https://youtube.com/watch?v=4jAvt0gIWrc).
