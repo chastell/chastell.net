@@ -1,6 +1,4 @@
 ---
-lang: en
-layout: 1/125
 date: 2006-08-02
 place: San Francisco
 shot: 2006-06-04 23:55:25+02

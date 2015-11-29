@@ -1,6 +1,4 @@
 ---
-lang: en
-layout: 1/125
 date: 2007-10-02
 place: Warsaw
 shot: 2007-03-15 19:11:43+01

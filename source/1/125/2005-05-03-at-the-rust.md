@@ -1,6 +1,4 @@
 ---
-lang: en
-layout: 1/125
 date: 2005-05-03
 place: Cracow
 shot: 2005-04-23 21:20:34+02

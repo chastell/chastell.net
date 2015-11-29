@@ -1,6 +1,4 @@
 ---
-lang: en
-layout: 1/125
 date: 2005-09-19
 place: Dueodde
 shot: 2005-08-07 17:43:56+02

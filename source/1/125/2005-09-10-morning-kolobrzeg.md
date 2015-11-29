@@ -1,6 +1,4 @@
 ---
-lang: en
-layout: 1/125
 date: 2005-09-10
 place: Baltic Sea
 shot: 2005-08-07 07:12:48+02

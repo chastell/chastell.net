@@ -1,6 +1,4 @@
 ---
-lang: en
-layout: 1/125
 photographer: Miss Thoughtscriber
 date: 2005-04-29 02:00:00 UTC
 place: Cracow

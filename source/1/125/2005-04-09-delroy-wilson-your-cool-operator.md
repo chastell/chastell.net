@@ -1,6 +1,4 @@
 ---
-lang: en
-layout: 1/125
 date: 2005-04-09
 place: Warsaw
 shot: 2005-04-02 16:14:01+02

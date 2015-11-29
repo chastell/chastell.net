@@ -1,6 +1,4 @@
 ---
-lang: en
-layout: 1/125
 date: 2006-06-05
 place: Calaveras County
 shot: 2006-05-28 05:18:50+02

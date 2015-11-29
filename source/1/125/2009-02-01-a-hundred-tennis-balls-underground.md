@@ -1,6 +1,4 @@
 ---
-lang: en
-layout: 1/125
 date: 2009-02-01
 place: New York City
 shot: 2008-07-30 18:35:48+02

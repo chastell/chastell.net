@@ -1,6 +1,4 @@
 ---
-lang: en
-layout: 1/125
 photographer: Kurund
 date: 2006-08-07
 place: Arizona

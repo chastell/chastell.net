@@ -1,6 +1,4 @@
 ---
-lang: en
-layout: 1/125
 photographer: <a href='http://flickr.com/photos/dzejdi/'>Julia</a>
 date: 2007-09-26
 place: Warsaw
