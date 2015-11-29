@@ -1,11 +1,26 @@
-.main style='width: 60em'
-  p style='clear: both'
+sass:
+  .clear
+    clear: both
+  .content
+    clear:      none
+    float:      left
+    margin:     1em
+    text-align: center
+    width:      25%
+    img
+      max-height: 12em
+      max-width:  100%
+  .main
+    width: 60em
+
+.main
+  div.clear
   - blog('1/125').articles.each_slice(3) do |slice|
     - slice.each do |article|
-      .content style='clear: none; float: left; margin: 10px; text-align: center; width: 27%;'
+      .content
         p
           a href=article.url.chomp('/')
-            img src="#{article.url}sample.png" style='max-width: 100%'
-            br
-            = article.title
-    p style='clear: both'
+            img src="#{article.url}sample.png"
+        p
+          a href=article.url.chomp('/') = article.title
+    div.clear
