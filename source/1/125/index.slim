@@ -1,10 +1,11 @@
----
-layout: false
----
-
-- url = blog('1/125').articles.first.url.chomp('/')
-doctype html
-html
-  head
-    meta http-equiv='refresh' content="0; url=#{url}"
-  body
+.main style='width: 60em'
+  p style='clear: both'
+  - blog('1/125').articles.each_slice(3) do |slice|
+    - slice.each do |article|
+      .content style='clear: none; float: left; margin: 10px; text-align: center; width: 27%;'
+        p
+          a href=article.url.chomp('/')
+            img src="#{article.url}sample.png" style='max-width: 100%'
+            br
+            = article.title
+    p style='clear: both'
