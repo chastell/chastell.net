@@ -1,8 +1,6 @@
-- nav = partial :prev_next_post, locals: { label: '1 / 125' }
 - width, height = FastImage.size("#{current_page.source_file[0..-4]}/photo.jpg")
 = wrap_layout :layout do
   .main style="width: #{width + 30}px"
-    = nav
     .content.shoot
       article lang='en'
         p.photo
@@ -14,4 +12,4 @@
         h1
           a href='' = current_page.title
         = current_page.body
-    = nav
+    = partial :prev_next_post, locals: { label: '1 / 125' }
