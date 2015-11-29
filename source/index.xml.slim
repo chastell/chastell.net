@@ -1,0 +1,24 @@
+---
+layout: false
+---
+
+- root = 'http://chastell.net/'
+doctype xml
+feed xmlns='http://www.w3.org/2005/Atom'
+  author
+    email chastell@chastell.net
+    name Piotr Szotkowski
+  id = root
+  link href=root
+  link href=root+current_page.url rel='self'
+  title chastell.net
+  updated = Time.now.iso8601
+  - blog('1/125').articles.each do |article|
+    entry
+      - url = root + article.url.chomp('/')
+      content type='html'
+        = escape_html("<p><img src='#{url}/sample.png' /></p>" + article.body)
+      id = url
+      link href=url rel='alternate'
+      title = article.title
+      updated = article.date.to_time.iso8601
