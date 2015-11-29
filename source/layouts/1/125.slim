@@ -1,10 +1,20 @@
+- succ = current_page.next_article
+- prev = current_page.previous_article
 - width, height = FastImage.size("#{current_page.source_file[0..-4]}/photo.jpg")
 = wrap_layout :layout do
   .main style="width: #{width + 30}px"
     .content.shoot
       article lang='en'
+        map name='photo'
+          - if succ
+            area(alt=succ.title coords='0,0,#{width / 3},#{height}'
+                 href=succ.url.chomp('/') shape='rect' title="↢ #{succ.title}")
+          - if prev
+            area(alt=prev.title coords='#{2 * width / 3},0,#{width},#{height}'
+                 href=prev.url.chomp('/') shape='rect' title="#{prev.title} ↣")
         p.photo
-          img height=height src="#{current_page.url}photo.jpg" width=width
+          img(height=height src="#{current_page.url}photo.jpg" usemap='#photo'
+              width=width)
         p.date
           - parts = [current_page.data.taken, current_page.data.place]
           - parts << "by #{current_page.data.photographer}" if current_page.data.photographer
