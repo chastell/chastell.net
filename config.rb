@@ -22,3 +22,5 @@ end
 ignore 'hovercraft/*'
 ignore 'l+k/*'
 ignore 'wycinki/*'
+
+page '/1/125/*', layout: '1/125'
