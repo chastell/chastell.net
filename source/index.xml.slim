@@ -12,7 +12,7 @@ feed xmlns='http://www.w3.org/2005/Atom'
   link href=root
   link href=root+current_page.url rel='self'
   title chastell.net
-  updated = Time.now.iso8601
+  updated = blog.articles.first.date.to_time.iso8601
   - recent = blog.articles.take_while { |art| art.date > Date.today.prev_year }
   - recent.each do |article|
     entry
