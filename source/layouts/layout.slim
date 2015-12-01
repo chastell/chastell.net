@@ -3,9 +3,8 @@ doctype html
 html
   head
     = favicon_tag 'favicon.png'
+    = feed_tag :atom, '/index.xml', title: 'chastell.net'
     = stylesheet_link_tag 'chastell.net'
-    link(href='/index.xml' rel='alternate' title='chastell.net'
-         type='application/atom+xml')
     meta charset='UTF-8'
     meta content='width=1440' name='viewport'
     title = [current_page.data.title, 'chastell.net', logo].compact.join(' | ')
