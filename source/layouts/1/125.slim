@@ -1,6 +1,11 @@
+- parts = [current_page.data.taken, current_page.data.place]
+- parts << "by #{current_page.data.photographer}" if current_page.data.photographer
+- desc = parts.join(', ')
 - succ = current_page.next_article
 - prev = current_page.previous_article
 - width, height = FastImage.size("#{current_page.source_file[0..-4]}/photo.jpg")
+- content_for(:og_description) { desc }
+- content_for(:og_image) { current_page.url + 'sample.png' }
 - content_for(:viewport) { width + 100 }
 = wrap_layout :layout do
   .main style="width: #{width + 30}px"
@@ -14,12 +19,9 @@
             area(alt=prev.title coords='#{2 * width / 3},0,#{width},#{height}'
                  href=prev.url shape='rect' title="#{prev.title} ↣")
         p.photo
-          img(height=height src="#{current_page.url}photo.jpg" usemap='#photo'
+          img(height=height src=current_page.url+'photo.jpg' usemap='#photo'
               width=width)
-        p.date
-          - parts = [current_page.data.taken, current_page.data.place]
-          - parts << "by #{current_page.data.photographer}" if current_page.data.photographer
-          = parts.join ", "
+        p.date = desc
         h1
           a href='' = current_page.title
         = current_page.body
