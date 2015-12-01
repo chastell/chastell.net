@@ -1,4 +1,3 @@
-- logo = '⚛ + ⌨ = ⚙'
 doctype html
 html
   head
@@ -7,10 +6,10 @@ html
     = stylesheet_link_tag 'chastell.net'
     meta charset='UTF-8'
     meta name='viewport' content='width=#{[yield_content(:viewport).to_i, 1024].max}'
-    title = [current_page.data.title, 'chastell.net', logo].compact.join(' | ')
+    title = [current_page.data.title, 'chastell.net'].compact.join(' | ')
   body
     header
-      p = logo
+      p ⚛ + ⌨ = ⚙
       h1
         a href='/' chastell.net
       nav#main_nav
