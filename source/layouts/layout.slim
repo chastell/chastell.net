@@ -1,3 +1,5 @@
+- title = [current_page.data.title, 'chastell.net'].compact.join(' | ')
+- width = [yield_content(:viewport).to_i, 1024].max
 doctype html
 html
   head
@@ -5,8 +7,8 @@ html
     = feed_tag :atom, '/index.xml', title: 'chastell.net'
     = stylesheet_link_tag 'chastell.net'
     meta charset='UTF-8'
-    meta name='viewport' content='width=#{[yield_content(:viewport).to_i, 1024].max}'
-    title = [current_page.data.title, 'chastell.net'].compact.join(' | ')
+    meta name='viewport' content='width=#{width}'
+    title = title
   body
     header
       p ⚛ + ⌨ = ⚙
