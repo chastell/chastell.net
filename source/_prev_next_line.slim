@@ -1,15 +1,15 @@
 ul
   li.next
     - if next_entry
-      a href=next_entry.url
+      a href=next_entry.url title=next_entry.title
         = "#{next_symbol} "
-        = truncate_words next_entry.title, length: 4
+        = truncate_words next_entry.title, length: 5
     |  
   li.prev
     |  
     - if prev_entry
-      a href=prev_entry.url
-        = truncate_words prev_entry.title, length: 4
+      a href=prev_entry.url title=prev_entry.title
+        = truncate_words prev_entry.title, length: 5
         = " #{prev_symbol}"
 
 p = label
