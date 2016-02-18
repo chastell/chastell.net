@@ -1,5 +1,4 @@
 ---
-date: 2015-04-06
 photographer: M.
 place: Warsaw
 shot: 2015-04-05 10:28:23+02

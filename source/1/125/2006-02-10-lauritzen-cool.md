@@ -1,5 +1,4 @@
 ---
-date: 2006-02-10
 place: Gdańsk
 shot: 2004-09-01 12:36:00+02
 taken: September 2004

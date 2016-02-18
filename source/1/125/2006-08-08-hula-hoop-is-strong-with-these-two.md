@@ -1,5 +1,4 @@
 ---
-date: 2006-08-08
 place: San Francisco
 shot: 2006-06-25 05:00:14+02
 taken: Pink Saturday 2006

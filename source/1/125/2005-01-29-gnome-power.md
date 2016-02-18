@@ -1,5 +1,4 @@
 ---
-date: 2005-01-29
 place: Łódź
 shot: 2004-10-02 12:17:00+02
 taken: October 2004

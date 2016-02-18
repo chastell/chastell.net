@@ -1,5 +1,4 @@
 ---
-date: 2009-02-02
 place: New York City
 shot: 2008-07-25 23:13:24+02
 taken: July 2008

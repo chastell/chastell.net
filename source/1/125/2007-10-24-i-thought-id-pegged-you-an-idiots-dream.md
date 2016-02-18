@@ -1,5 +1,4 @@
 ---
-date: 2007-10-24
 place: Warsaw
 shot: 2007-10-21 19:00:39+02
 taken: October 2007

@@ -1,5 +1,4 @@
 ---
-date: 2006-06-28
 place: San Francisco
 shot: 2006-06-25 19:49:13+02
 taken: San Francisco Pride 2006

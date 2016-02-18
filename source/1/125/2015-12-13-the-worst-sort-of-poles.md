@@ -1,5 +1,4 @@
 ---
-date:  2015-12-13
 place: Warsaw
 shot:  2015-12-12 14:44:36+01
 taken: December 2015

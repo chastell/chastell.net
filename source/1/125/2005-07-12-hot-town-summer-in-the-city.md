@@ -1,5 +1,4 @@
 ---
-date: 2005-07-12
 place: Warsaw
 shot: 2005-07-02 15:55:47+02
 taken: July 2005

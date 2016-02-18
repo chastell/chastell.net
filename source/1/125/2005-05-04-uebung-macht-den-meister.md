@@ -1,5 +1,4 @@
 ---
-date: 2005-05-04
 place: Cracow
 shot: 2005-04-25 09:53:56+02
 taken: April 2005

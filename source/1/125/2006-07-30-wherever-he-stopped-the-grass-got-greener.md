@@ -1,5 +1,4 @@
 ---
-date: 2006-07-30
 place: Mount Tamalpais State Park
 shot: 2006-06-04 21:07:52+02
 taken: June 2006

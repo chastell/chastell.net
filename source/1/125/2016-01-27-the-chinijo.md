@@ -1,5 +1,4 @@
 ---
-date:  2016-01-27
 place: Mirador del Río, Lanzarote
 shot:  2015-11-05 19:42:29
 taken: November 2015

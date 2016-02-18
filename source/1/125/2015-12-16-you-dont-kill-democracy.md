@@ -1,5 +1,4 @@
 ---
-date:  2015-12-16
 place: Zachęta
 shot:  2015-12-16 18:25:36+01
 taken: December 2015

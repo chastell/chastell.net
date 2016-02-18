@@ -1,5 +1,4 @@
 ---
-date:  2016-01-04
 place: Dârjiu
 shot:  2010-09-04 10:11:32+01
 taken: September 2010

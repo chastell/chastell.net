@@ -1,5 +1,4 @@
 ---
-date: 2015-11-30
 place: Lanzarote
 shot: 2015-11-06 17:22:02
 taken: November 2015

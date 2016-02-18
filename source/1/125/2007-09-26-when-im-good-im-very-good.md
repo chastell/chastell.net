@@ -1,6 +1,5 @@
 ---
 photographer: <a href='http://flickr.com/photos/dzejdi/'>Julia</a>
-date: 2007-09-26
 place: Warsaw
 shot: 2007-09-22 17:57:59+02
 taken: September 2007

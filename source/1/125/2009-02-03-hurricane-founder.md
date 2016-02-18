@@ -1,5 +1,4 @@
 ---
-date: 2009-02-03
 place: San Francisco
 shot: 2008-07-12 07:43:48+02
 taken: 2008 Fire Arts Festival

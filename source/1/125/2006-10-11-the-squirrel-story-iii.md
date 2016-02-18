@@ -1,5 +1,4 @@
 ---
-date: 2006-10-11
 place: Warsaw
 shot: 2006-10-08 13:31:47+02
 taken: October 2006

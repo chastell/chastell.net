@@ -1,5 +1,4 @@
 ---
-date: 2006-07-06
 place: San Francisco
 shot: 2006-07-04 20:44:08+02
 taken: July 2006

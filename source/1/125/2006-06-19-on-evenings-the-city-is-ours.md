@@ -1,5 +1,4 @@
 ---
-date: 2006-06-19
 place: Calaveras County
 shot: 2006-05-27 22:17:02+02
 taken: WineCamp 2006

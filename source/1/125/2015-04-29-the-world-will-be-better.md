@@ -1,5 +1,4 @@
 ---
-date: 2015-04-29
 photographer: <a href='https://kofeina.wordpress.com/'>Kala</a>
 place: Warsaw
 shot: 2015-04-29 14:31:35+02

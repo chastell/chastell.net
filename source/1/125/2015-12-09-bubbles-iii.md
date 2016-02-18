@@ -1,5 +1,4 @@
 ---
-date:  2015-12-09
 place: Łochów Palace
 shot:  2010-06-27 10:25:01+02
 taken: June 2010

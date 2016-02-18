@@ -1,6 +1,5 @@
 ---
 photographer: Miss Thoughtscriber
-date: 2005-01-18
 place: Warsaw
 shot: 2004-12-14 20:06:16+01
 taken: December 2004
