@@ -10,11 +10,6 @@ activate :blog do |blog|
   blog.prefix    = '1/125'
 end
 
-activate :deploy do |deploy|
-  deploy.build_before = true
-  deploy.method       = :git
-end
-
 activate :directory_indexes
 
 configure :development do
