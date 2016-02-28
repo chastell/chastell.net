@@ -1,6 +1,7 @@
 - parts = [current_page.data.taken, current_page.data.place]
 - parts << "by #{current_page.data.photographer}" if current_page.data.photographer
 - desc = parts.join(', ')
+- full = Pathname.new("#{current_page.source_file[0..-4]}/full.jpg")
 - succ = current_page.next_article
 - prev = current_page.previous_article
 - width, height = FastImage.size("#{current_page.source_file[0..-4]}/photo.jpg")
@@ -13,11 +14,18 @@
       article lang='en'
         map name='photo'
           - if succ
-            area(alt=succ.title coords='0,0,#{width / 3},#{height}'
-                 href=succ.url shape='rect' title="↢ #{succ.title}")
+            area(alt=succ.title coords='0,0,#{width / 4},#{height}'
+                 href=succ.url shape='rect' style='cursor: w-resize'
+                 title="↢ #{succ.title}")
+          - if full.exist?
+            area(alt='full size' coords='#{width / 4},0,#{3 * width / 4},#{height}'
+                 data-lightbox='full' data-title=current_page.title
+                 href="#{current_page.url}full.jpg" style='cursor: zoom-in'
+                 shape='rect' title='full size')
           - if prev
-            area(alt=prev.title coords='#{2 * width / 3},0,#{width},#{height}'
-                 href=prev.url shape='rect' title="#{prev.title} ↣")
+            area(alt=prev.title coords='#{3 * width / 4},0,#{width},#{height}'
+                 href=prev.url shape='rect' style='cursor: e-resize'
+                 title="#{prev.title} ↣")
         p.photo
           img(height=height src=current_page.url+'photo.jpg' usemap='#photo'
               width=width)

@@ -7,6 +7,7 @@ html
     = favicon_tag 'favicon.png'
     = feed_tag :atom, '/index.xml', title: 'chastell.net'
     = stylesheet_link_tag 'chastell.net'
+    = stylesheet_link_tag 'lightbox'
     meta charset='UTF-8'
     meta name='viewport'           content='width=#{width}'
     meta property='og:description' content=yield_content(:og_description)
@@ -31,3 +32,7 @@ html
 
     footer
       a href='/about' designed by chastell in Mazovia
+
+    = javascript_include_tag '/js/lightbox-plus-jquery'
+    javascript:
+      lightbox.option({ resizeDuration: 500 });
