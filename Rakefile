@@ -15,7 +15,11 @@ task '1/125' do
   slug = slug_default if slug.empty?
   print 'place? '
   place = $stdin.gets.chomp
-  md = Pathname.new("source/1/125/#{Date.today}-#{slug}.md")
+  date_default = Date.today
+  print "date (#{date_default})? "
+  date = $stdin.gets.chomp
+  date = date_default if date.empty?
+  md = Pathname.new("source/1/125/#{date}-#{slug}.md")
   dir = md.sub_ext('')
   dir.mkdir
   full   = dir / 'full.jpg'
