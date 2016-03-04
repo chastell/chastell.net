@@ -7,6 +7,7 @@ require 'middleman-gh-pages'
 
 desc 'Create a new 1/125 post'
 task '1/125' do
+  source = ARGV.fetch(1) { raise 'please call with a filename' }
   title  = ask('title')
   slug   = ask('slug', default: title.downcase.delete('’').tr(' ', '-'))
   place  = ask('place')
@@ -17,11 +18,10 @@ task '1/125' do
   view   = dir / 'photo.jpg'
   sample = dir / 'sample.png'
   dir.mkdir
-  photo = ARGV.fetch(1) { raise 'please call with a filename' }
-  FileUtils.cp photo, full
+  FileUtils.cp source, full
   system(*%W(convert #{full} -resize 500000@ #{view}))
   system(*%W(convert #{view} -resize 50% -dither none -colors 6 #{sample}))
-  shot = EXIFR::JPEG.new(full.to_s).date_time_original
+  shot = EXIFR::JPEG.new(source).date_time_original
   md.write <<~end
     ---
     place: #{place}
