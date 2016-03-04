@@ -1,5 +1,7 @@
 require 'fileutils'
 require 'pathname'
+
+require 'exifr'
 require 'middleman-gh-pages'
 
 desc 'Create a new 1/125 post'
@@ -22,11 +24,12 @@ task '1/125' do
   FileUtils.cp photo, full
   system(*%W(convert #{full} -resize 500000@ #{view}))
   system(*%W(convert #{view} -resize 50% -dither none -colors 6 #{sample}))
+  shot = EXIFR::JPEG.new(full.to_s).date_time_original
   md.write <<~end
     ---
     place: #{place}
-    shot:  …
-    taken: …
+    shot:  #{shot}
+    taken: #{shot.strftime('%B %Y')}
     title: #{title}
     ---
 
