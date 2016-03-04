@@ -7,18 +7,10 @@ require 'middleman-gh-pages'
 desc 'Create a new 1/125 post'
 task '1/125' do
   photo = ARGV.fetch(1) { raise 'please call with a filename' }
-  print 'title? '
-  title = $stdin.gets.chomp
-  slug_default = title.downcase.delete('’').tr(' ', '-')
-  print "slug (#{slug_default})? "
-  slug = $stdin.gets.chomp
-  slug = slug_default if slug.empty?
-  print 'place? '
-  place = $stdin.gets.chomp
-  date_default = Date.today
-  print "date (#{date_default})? "
-  date = $stdin.gets.chomp
-  date = date_default if date.empty?
+  title = ask('title')
+  slug  = ask('slug', default: title.downcase.delete('’').tr(' ', '-'))
+  place = ask('place')
+  date  = ask('date', default: Date.today)
   md = Pathname.new("source/1/125/#{date}-#{slug}.md")
   dir = md.sub_ext('')
   dir.mkdir
@@ -40,4 +32,12 @@ task '1/125' do
     …
   end
   system(*%W(gvim #{md}))
+end
+
+def ask(variable, default: nil)
+  question = variable
+  question += " (#{default})" if default
+  print "#{question}? "
+  response = $stdin.gets.chomp
+  response.empty? ? default : response
 end
