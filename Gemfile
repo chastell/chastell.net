@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'exifr',                '~> 1.2'
 gem 'fastimage',            '~> 1.5'
 gem 'middleman',            '~> 3.4'
 gem 'middleman-blog',       '~> 3.5'

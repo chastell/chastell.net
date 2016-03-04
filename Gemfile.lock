@@ -38,6 +38,7 @@ GEM
     erubis (2.7.0)
     eventmachine (1.0.9.1)
     execjs (2.6.0)
+    exifr (1.2.4)
     fastimage (1.9.0)
       addressable (~> 2.3.5)
     ffi (1.9.10)
@@ -151,6 +152,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  exifr (~> 1.2)
   fastimage (~> 1.5)
   middleman (~> 3.4)
   middleman-blog (~> 3.5)
