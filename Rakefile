@@ -1,3 +1,4 @@
+require 'date'
 require 'fileutils'
 require 'pathname'
 
@@ -6,17 +7,17 @@ require 'middleman-gh-pages'
 
 desc 'Create a new 1/125 post'
 task '1/125' do
-  photo = ARGV.fetch(1) { raise 'please call with a filename' }
-  title = ask('title')
-  slug  = ask('slug', default: title.downcase.delete('’').tr(' ', '-'))
-  place = ask('place')
-  date  = ask('date', default: Date.today)
-  md = Pathname.new("source/1/125/#{date}-#{slug}.md")
-  dir = md.sub_ext('')
-  dir.mkdir
+  title  = ask('title')
+  slug   = ask('slug', default: title.downcase.delete('’').tr(' ', '-'))
+  place  = ask('place')
+  date   = ask('date', default: Date.today)
+  dir    = Pathname.new("source/1/125/#{date}-#{slug}")
+  md     = dir.sub_ext('.md')
   full   = dir / 'full.jpg'
   view   = dir / 'photo.jpg'
   sample = dir / 'sample.png'
+  dir.mkdir
+  photo = ARGV.fetch(1) { raise 'please call with a filename' }
   FileUtils.cp photo, full
   system(*%W(convert #{full} -resize 500000@ #{view}))
   system(*%W(convert #{view} -resize 50% -dither none -colors 6 #{sample}))
