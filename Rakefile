@@ -9,7 +9,6 @@ desc 'Create a new 1/125 post'
 task '1/125' do
   abort 'usage: rake 1/125 path/to/photo.jpg' unless ARGV[1]
   abort "error: #{source} does not exist" unless source.exist?
-  dir.mkdir
   FileUtils.cp source, full
   system(*%W(convert #{full} -resize 500000@ #{view}))
   system(*%W(convert #{view} -resize 50% -dither none -colors 6 #{sample}))
@@ -41,7 +40,7 @@ def date
 end
 
 def dir
-  @dir ||= Pathname.new("source/1/125/#{date}-#{slug}")
+  @dir ||= Pathname.new("source/1/125/#{date}-#{slug}").tap(&:mkdir)
 end
 
 def full
