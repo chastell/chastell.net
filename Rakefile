@@ -7,6 +7,8 @@ require 'middleman-gh-pages'
 
 desc 'Create a new 1/125 post'
 task '1/125' do
+  abort 'usage: rake 1/125 path/to/photo.jpg' unless ARGV[1]
+  abort "error: #{source} does not exist" unless source.exist?
   dir.mkdir
   FileUtils.cp source, full
   system(*%W(convert #{full} -resize 500000@ #{view}))
@@ -59,7 +61,7 @@ def sample
 end
 
 def shot
-  @shot ||= EXIFR::JPEG.new(source).date_time_original
+  @shot ||= EXIFR::JPEG.new(source.to_s).date_time_original
 end
 
 def slug
@@ -67,7 +69,7 @@ def slug
 end
 
 def source
-  @source ||= ARGV.fetch(1) { abort 'please call with a filename' }
+  @source ||= Pathname.new(ARGV.fetch(1))
 end
 
 def title
