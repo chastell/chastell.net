@@ -10,8 +10,8 @@ task '1/125' do
   abort 'usage: rake 1/125 path/to/photo.jpg' unless ARGV[1]
   abort "error: #{source} does not exist" unless source.exist?
   FileUtils.cp source, full
-  system(*%W(convert #{full} -resize 500000@ #{view}))
-  system(*%W(convert #{view} -resize 50% -dither none -colors 6 #{sample}))
+  system(*%W(convert #{full} -resize 500000@ #{photo}))
+  system(*%W(convert #{photo} -resize 50% -dither none -colors 6 #{sample}))
   md.write <<~end
     ---
     place: #{place}
@@ -51,6 +51,10 @@ def md
   @md ||= dir.sub_ext('.md')
 end
 
+def photo
+  @photo ||= dir / 'photo.jpg'
+end
+
 def place
   @place ||= ask('place')
 end
@@ -73,8 +77,4 @@ end
 
 def title
   @title ||= ask('title')
-end
-
-def view
-  @view ||= dir / 'photo.jpg'
 end
