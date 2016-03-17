@@ -1,3 +1,5 @@
+ENV['TZ'] = 'UTC'
+
 require 'date'
 require 'fileutils'
 require 'pathname'
