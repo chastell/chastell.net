@@ -70,7 +70,7 @@ def shot
 end
 
 def slug
-  @slug ||= ask('slug', default: title.downcase.delete('’').tr(' ', '-'))
+  @slug ||= ask('slug', default: title.downcase.delete('?’').tr(' ', '-'))
 end
 
 def source
