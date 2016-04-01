@@ -19,6 +19,7 @@ task '1/125' do
   dir   = Pathname.new("source/1/125/#{date}-#{slug}").tap(&:mkpath)
   Photo.new(dir: dir, source: source).create
   Post.new(dir: dir, place: place, source: source, title: title).create
+  system(*%W(gvim #{dir}.md))
 end
 
 private
@@ -79,7 +80,6 @@ class Post
 
       …
     end
-    system(*%W(gvim #{md}))
   end
 
   private
