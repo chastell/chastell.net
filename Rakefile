@@ -18,10 +18,9 @@ task '1/125' do
   place = ask('place')
   dir   = Pathname.new("source/1/125/#{date}-#{slug}").tap(&:mkpath)
   path  = dir.sub_ext('.md')
-  photo = Photo.new(dir: dir, source: source)
-  post  = Post.new(path: path, place: place, shot: photo.shot, title: title)
-  photo.create
-  post.create
+  shot  = EXIFR::JPEG.new(source.to_s).date_time_original
+  Rake::Task['1/125:photo'].invoke(slug)
+  Post.new(path: path, place: place, shot: shot, title: title).create
   system(*%W(gvim #{path}))
 end
 
@@ -58,10 +57,6 @@ class Photo
     FileUtils.cp source, full
     system(*%W(convert #{full} -resize 500000@ #{photo}))
     system(*%W(convert #{photo} -resize 50% -dither none -colors 6 #{sample}))
-  end
-
-  def shot
-    @shot ||= EXIFR::JPEG.new(source.to_s).date_time_original
   end
 
   private
