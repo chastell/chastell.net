@@ -16,6 +16,7 @@ task '1/125' do
   title = ask('title')
   slug  = ask('slug', default: title.downcase.delete('.?’').tr(' ', '-'))
   place = ask('place')
+  Photo.new(date: date, slug: slug, source: source).create
   Post.new(date: date, place: place, slug: slug,
            source: source, title: title).create
 end
@@ -30,6 +31,39 @@ def ask(variable, default: nil)
   response.empty? ? default : response
 end
 
+class Photo
+  def initialize(date:, slug:, source:)
+    @date   = date
+    @slug   = slug
+    @source = source
+  end
+
+  def create
+    FileUtils.cp source, full
+    system(*%W(convert #{full} -resize 500000@ #{photo}))
+    system(*%W(convert #{photo} -resize 50% -dither none -colors 6 #{sample}))
+  end
+
+  private
+
+  attr_reader :date, :slug, :source
+
+  def dir
+    @dir ||= Pathname.new("source/1/125/#{date}-#{slug}").tap(&:mkpath)
+  end
+
+  def full
+    @full ||= dir / 'full.jpg'
+  end
+
+  def photo
+    @photo ||= dir / 'photo.jpg'
+  end
+
+  def sample
+    @sample ||= dir / 'sample.png'
+  end
+end
 
 class Post
   def initialize(date:, place:, slug:, source:, title:)
@@ -41,9 +75,6 @@ class Post
   end
 
   def create
-    FileUtils.cp source, full
-    system(*%W(convert #{full} -resize 500000@ #{photo}))
-    system(*%W(convert #{photo} -resize 50% -dither none -colors 6 #{sample}))
     md.write <<~end
       ---
       place: #{place}
@@ -62,23 +93,11 @@ class Post
   attr_reader :date, :place, :slug, :source, :title
 
   def dir
-    @dir ||= Pathname.new("source/1/125/#{date}-#{slug}").tap(&:mkdir)
-  end
-
-  def full
-    @full ||= dir / 'full.jpg'
+    @dir ||= Pathname.new("source/1/125/#{date}-#{slug}").tap(&:mkpath)
   end
 
   def md
     @md ||= dir.sub_ext('.md')
-  end
-
-  def photo
-    @photo ||= dir / 'photo.jpg'
-  end
-
-  def sample
-    @sample ||= dir / 'sample.png'
   end
 
   def shot
