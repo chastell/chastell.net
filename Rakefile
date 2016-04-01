@@ -12,12 +12,32 @@ task '1/125' do
   abort 'usage: rake 1/125 path/to/photo.jpg' unless ARGV[1]
   source = Pathname.new(ARGV.fetch(1))
   abort "error: #{source} does not exist" unless source.exist?
-  Post.new(source: source).create
+  date  = ask('date', default: Date.today)
+  title = ask('title')
+  slug  = ask('slug', default: title.downcase.delete('.?’').tr(' ', '-'))
+  place = ask('place')
+  Post.new(date: date, place: place, slug: slug,
+           source: source, title: title).create
 end
 
+private
+
+def ask(variable, default: nil)
+  question = variable
+  question += " (#{default})" if default
+  print "#{question}? "
+  response = $stdin.gets.chomp
+  response.empty? ? default : response
+end
+
+
 class Post
-  def initialize(source:)
+  def initialize(date:, place:, slug:, source:, title:)
+    @date   = date
+    @place  = place
+    @slug   = slug
     @source = source
+    @title  = title
   end
 
   def create
@@ -39,19 +59,7 @@ class Post
 
   private
 
-  attr_reader :source
-
-  def ask(variable, default: nil)
-    question = variable
-    question += " (#{default})" if default
-    print "#{question}? "
-    response = $stdin.gets.chomp
-    response.empty? ? default : response
-  end
-
-  def date
-    @date ||= ask('date', default: Date.today)
-  end
+  attr_reader :date, :place, :slug, :source, :title
 
   def dir
     @dir ||= Pathname.new("source/1/125/#{date}-#{slug}").tap(&:mkdir)
@@ -69,23 +77,11 @@ class Post
     @photo ||= dir / 'photo.jpg'
   end
 
-  def place
-    @place ||= ask('place')
-  end
-
   def sample
     @sample ||= dir / 'sample.png'
   end
 
   def shot
     @shot ||= EXIFR::JPEG.new(source.to_s).date_time_original
-  end
-
-  def slug
-    @slug ||= ask('slug', default: title.downcase.delete('.?’').tr(' ', '-'))
-  end
-
-  def title
-    @title ||= ask('title')
   end
 end
