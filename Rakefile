@@ -31,7 +31,7 @@ namespace '1/125' do
     source = Pathname.new(ARGV.fetch(1))
     abort "error: #{source} does not exist" unless source.exist?
     dir = Pathname.glob("source/1/125/*-#{args.fetch(:slug)}").first
-    Photo.new(dir: dir, source: source).create
+    create_photo dir: dir, source: source
   end
 end
 
@@ -45,23 +45,12 @@ def ask(variable, default: nil)
   response.empty? ? default : response
 end
 
-class Photo
-  def initialize(dir:, source:)
-    @dir    = dir
-    @source = source
+def create_photo(dir:, source:)
+  Dir.chdir(dir) do
+    FileUtils.cp source, 'full.jpg'
+    system 'convert full.jpg -resize 500000@ photo.jpg'
+    system 'convert photo.jpg -resize 50% -dither none -colors 6 sample.png'
   end
-
-  def create
-    Dir.chdir(dir) do
-      FileUtils.cp source, 'full.jpg'
-      system 'convert full.jpg -resize 500000@ photo.jpg'
-      system 'convert photo.jpg -resize 50% -dither none -colors 6 sample.png'
-    end
-  end
-
-  private
-
-  attr_reader :dir, :source
 end
 
 class Post
