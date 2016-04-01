@@ -47,21 +47,21 @@ end
 
 class Photo
   def initialize(dir:, source:)
-    @full   = dir / 'full.jpg'
-    @photo  = dir / 'photo.jpg'
-    @sample = dir / 'sample.png'
+    @dir    = dir
     @source = source
   end
 
   def create
-    FileUtils.cp source, full
-    system(*%W(convert #{full} -resize 500000@ #{photo}))
-    system(*%W(convert #{photo} -resize 50% -dither none -colors 6 #{sample}))
+    Dir.chdir(dir) do
+      FileUtils.cp source, 'full.jpg'
+      system 'convert full.jpg -resize 500000@ photo.jpg'
+      system 'convert photo.jpg -resize 50% -dither none -colors 6 sample.png'
+    end
   end
 
   private
 
-  attr_reader :full, :photo, :sample, :source
+  attr_reader :dir, :source
 end
 
 class Post
