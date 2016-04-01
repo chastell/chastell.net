@@ -9,13 +9,18 @@ require 'middleman-gh-pages'
 
 desc 'Create a new 1/125 post'
 task '1/125' do
-  Post.new.create
+  abort 'usage: rake 1/125 path/to/photo.jpg' unless ARGV[1]
+  source = Pathname.new(ARGV.fetch(1))
+  abort "error: #{source} does not exist" unless source.exist?
+  Post.new(source: source).create
 end
 
 class Post
+  def initialize(source:)
+    @source = source
+  end
+
   def create
-    abort 'usage: rake 1/125 path/to/photo.jpg' unless ARGV[1]
-    abort "error: #{source} does not exist" unless source.exist?
     FileUtils.cp source, full
     system(*%W(convert #{full} -resize 500000@ #{photo}))
     system(*%W(convert #{photo} -resize 50% -dither none -colors 6 #{sample}))
@@ -33,6 +38,8 @@ class Post
   end
 
   private
+
+  attr_reader :source
 
   def ask(variable, default: nil)
     question = variable
@@ -76,10 +83,6 @@ class Post
 
   def slug
     @slug ||= ask('slug', default: title.downcase.delete('.?’').tr(' ', '-'))
-  end
-
-  def source
-    @source ||= Pathname.new(ARGV.fetch(1))
   end
 
   def title
