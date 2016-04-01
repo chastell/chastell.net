@@ -20,7 +20,7 @@ task '1/125' do
   path  = dir.sub_ext('.md')
   shot  = EXIFR::JPEG.new(source.to_s).date_time_original
   Rake::Task['1/125:photo'].invoke(slug)
-  Post.new(path: path, place: place, shot: shot, title: title).create
+  create_post path: path, place: place, shot: shot, title: title
   system(*%W(gvim #{path}))
 end
 
@@ -53,28 +53,15 @@ def create_photo(dir:, source:)
   end
 end
 
-class Post
-  def initialize(path:, place:, shot:, title:)
-    @path  = path
-    @place = place
-    @shot  = shot
-    @title = title
+def create_post(path:, place:, shot:, title:)
+  path.write <<~end
+    ---
+    place: #{place}
+    shot:  #{shot}
+    taken: #{shot.strftime('%B %Y')}
+    title: #{title}
+    ---
+
+    …
   end
-
-  def create
-    path.write <<~end
-      ---
-      place: #{place}
-      shot:  #{shot}
-      taken: #{shot.strftime('%B %Y')}
-      title: #{title}
-      ---
-
-      …
-    end
-  end
-
-  private
-
-  attr_reader :path, :place, :shot, :title
 end
