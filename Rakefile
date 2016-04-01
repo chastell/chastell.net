@@ -25,6 +25,17 @@ task '1/125' do
   system(*%W(gvim #{path}))
 end
 
+namespace '1/125' do
+  desc 'Recreate a 1/125 photo'
+  task :photo, [:slug] do |_, args|
+    abort 'usage: rake 1/125:photo[slug] path/to/photo.jpg' unless ARGV[1]
+    source = Pathname.new(ARGV.fetch(1))
+    abort "error: #{source} does not exist" unless source.exist?
+    dir = Pathname.glob("source/1/125/*-#{args.fetch(:slug)}").first
+    Photo.new(dir: dir, source: source).create
+  end
+end
+
 private
 
 def ask(variable, default: nil)
