@@ -17,11 +17,12 @@ task '1/125' do
   slug  = ask('slug', default: title.downcase.delete('.?’').tr(' ', '-'))
   place = ask('place')
   dir   = Pathname.new("source/1/125/#{date}-#{slug}").tap(&:mkpath)
+  path  = dir.sub_ext('.md')
   photo = Photo.new(dir: dir, source: source)
-  post  = Post.new(dir: dir, place: place, shot: photo.shot, title: title)
+  post  = Post.new(path: path, place: place, shot: photo.shot, title: title)
   photo.create
   post.create
-  system(*%W(gvim #{dir}.md))
+  system(*%W(gvim #{path}))
 end
 
 private
@@ -58,15 +59,15 @@ class Photo
 end
 
 class Post
-  def initialize(dir:, place:, shot:, title:)
-    @dir   = dir
+  def initialize(path:, place:, shot:, title:)
+    @path  = path
     @place = place
     @shot  = shot
     @title = title
   end
 
   def create
-    dir.sub_ext('.md').write <<~end
+    path.write <<~end
       ---
       place: #{place}
       shot:  #{shot}
@@ -80,5 +81,5 @@ class Post
 
   private
 
-  attr_reader :dir, :place, :shot, :title
+  attr_reader :path, :place, :shot, :title
 end
