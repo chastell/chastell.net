@@ -36,7 +36,9 @@ end
 
 class Photo
   def initialize(dir:, source:)
-    @dir    = dir
+    @full   = dir / 'full.jpg'
+    @photo  = dir / 'photo.jpg'
+    @sample = dir / 'sample.png'
     @source = source
   end
 
@@ -52,19 +54,7 @@ class Photo
 
   private
 
-  attr_reader :dir, :source
-
-  def full
-    @full ||= dir / 'full.jpg'
-  end
-
-  def photo
-    @photo ||= dir / 'photo.jpg'
-  end
-
-  def sample
-    @sample ||= dir / 'sample.png'
-  end
+  attr_reader :full, :photo, :sample, :source
 end
 
 class Post
