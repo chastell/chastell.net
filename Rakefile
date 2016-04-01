@@ -16,9 +16,9 @@ task '1/125' do
   title = ask('title')
   slug  = ask('slug', default: title.downcase.delete('.?’').tr(' ', '-'))
   place = ask('place')
-  Photo.new(date: date, slug: slug, source: source).create
-  Post.new(date: date, place: place, slug: slug,
-           source: source, title: title).create
+  dir   = Pathname.new("source/1/125/#{date}-#{slug}").tap(&:mkpath)
+  Photo.new(dir: dir, source: source).create
+  Post.new(dir: dir, place: place, source: source, title: title).create
 end
 
 private
@@ -32,9 +32,8 @@ def ask(variable, default: nil)
 end
 
 class Photo
-  def initialize(date:, slug:, source:)
-    @date   = date
-    @slug   = slug
+  def initialize(dir:, source:)
+    @dir    = dir
     @source = source
   end
 
@@ -46,11 +45,7 @@ class Photo
 
   private
 
-  attr_reader :date, :slug, :source
-
-  def dir
-    @dir ||= Pathname.new("source/1/125/#{date}-#{slug}").tap(&:mkpath)
-  end
+  attr_reader :dir, :source
 
   def full
     @full ||= dir / 'full.jpg'
@@ -66,10 +61,9 @@ class Photo
 end
 
 class Post
-  def initialize(date:, place:, slug:, source:, title:)
-    @date   = date
+  def initialize(dir:, place:, source:, title:)
+    @dir    = dir
     @place  = place
-    @slug   = slug
     @source = source
     @title  = title
   end
@@ -90,11 +84,7 @@ class Post
 
   private
 
-  attr_reader :date, :place, :slug, :source, :title
-
-  def dir
-    @dir ||= Pathname.new("source/1/125/#{date}-#{slug}").tap(&:mkpath)
-  end
+  attr_reader :dir, :place, :source, :title
 
   def md
     @md ||= dir.sub_ext('.md')
