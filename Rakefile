@@ -17,8 +17,10 @@ task '1/125' do
   slug  = ask('slug', default: title.downcase.delete('.?’').tr(' ', '-'))
   place = ask('place')
   dir   = Pathname.new("source/1/125/#{date}-#{slug}").tap(&:mkpath)
-  Photo.new(dir: dir, source: source).create
-  Post.new(dir: dir, place: place, source: source, title: title).create
+  photo = Photo.new(dir: dir, source: source)
+  post  = Post.new(dir: dir, place: place, shot: photo.shot, title: title)
+  photo.create
+  post.create
   system(*%W(gvim #{dir}.md))
 end
 
@@ -44,6 +46,10 @@ class Photo
     system(*%W(convert #{photo} -resize 50% -dither none -colors 6 #{sample}))
   end
 
+  def shot
+    @shot ||= EXIFR::JPEG.new(source.to_s).date_time_original
+  end
+
   private
 
   attr_reader :dir, :source
@@ -62,11 +68,11 @@ class Photo
 end
 
 class Post
-  def initialize(dir:, place:, source:, title:)
-    @dir    = dir
-    @place  = place
-    @source = source
-    @title  = title
+  def initialize(dir:, place:, shot:, title:)
+    @dir   = dir
+    @place = place
+    @shot  = shot
+    @title = title
   end
 
   def create
@@ -84,9 +90,5 @@ class Post
 
   private
 
-  attr_reader :dir, :place, :source, :title
-
-  def shot
-    @shot ||= EXIFR::JPEG.new(source.to_s).date_time_original
-  end
+  attr_reader :dir, :place, :shot, :title
 end
