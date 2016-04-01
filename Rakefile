@@ -9,9 +9,7 @@ require 'middleman-gh-pages'
 
 desc 'Create a new 1/125 post'
 task '1/125' do
-  abort 'usage: rake 1/125 path/to/photo.jpg' unless ARGV[1]
-  source = Pathname.new(ARGV.fetch(1))
-  abort "error: #{source} does not exist" unless source.exist?
+  abort 'usage: rake 1/125 path/to/source.jpg' unless ARGV[1]
   date  = ask('date', default: Date.today)
   title = ask('title')
   slug  = ask('slug', default: title.downcase.delete('.?’').tr(' ', '-'))
@@ -19,17 +17,15 @@ task '1/125' do
   dir   = Pathname.new("source/1/125/#{date}-#{slug}").tap(&:mkpath)
   path  = dir.sub_ext('.md')
   shot  = EXIFR::JPEG.new(source.to_s).date_time_original
-  Rake::Task['1/125:photo'].invoke(slug)
+  create_photo dir: dir, source: source
   create_post path: path, place: place, shot: shot, title: title
   system(*%W(gvim #{path}))
 end
 
 namespace '1/125' do
   desc 'Recreate a 1/125 photo'
-  task :photo, [:slug] do |_, args|
-    abort 'usage: rake 1/125:photo[slug] path/to/photo.jpg' unless ARGV[1]
-    source = Pathname.new(ARGV.fetch(1))
-    abort "error: #{source} does not exist" unless source.exist?
+  task :recreate, [:slug] do |_, args|
+    abort 'usage: rake 1/125:photo[slug] path/to/source.jpg' unless ARGV[1]
     dir = Pathname.glob("source/1/125/*-#{args.fetch(:slug)}").first
     create_photo dir: dir, source: source
   end
@@ -63,5 +59,11 @@ def create_post(path:, place:, shot:, title:)
     ---
 
     …
+  end
+end
+
+def source
+  Pathname.new(ARGV.fetch(1)).tap do |source|
+    abort "error: #{source} does not exist" unless source.exist?
   end
 end
