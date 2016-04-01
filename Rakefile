@@ -70,7 +70,7 @@ class Post
   end
 
   def create
-    md.write <<~end
+    dir.sub_ext('.md').write <<~end
       ---
       place: #{place}
       shot:  #{shot}
@@ -85,10 +85,6 @@ class Post
   private
 
   attr_reader :dir, :place, :source, :title
-
-  def md
-    @md ||= dir.sub_ext('.md')
-  end
 
   def shot
     @shot ||= EXIFR::JPEG.new(source.to_s).date_time_original
