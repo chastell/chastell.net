@@ -5,4 +5,4 @@ taken: March 2016
 title: Cyan Magenta Yellow Backpack
 ---
 
-I KNOW IT’S NOT MAGENTA
+Raising my glass to the ‘IT’S NOT MAGENTA!’ crowd. You’re the best!
