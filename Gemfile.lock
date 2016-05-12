@@ -39,8 +39,8 @@ GEM
     eventmachine (1.2.0.1)
     execjs (2.6.0)
     exifr (1.2.4)
-    fastimage (1.9.0)
-      addressable (~> 2.3.5)
+    fastimage (2.0.0)
+      addressable (~> 2)
     ffi (1.9.10)
     haml (4.0.7)
       tilt
@@ -153,7 +153,7 @@ PLATFORMS
 
 DEPENDENCIES
   exifr (~> 1.2)
-  fastimage (~> 1.5)
+  fastimage (~> 2.0)
   middleman (~> 3.4)
   middleman-blog (~> 3.5)
   middleman-gh-pages (~> 0.3.0)
