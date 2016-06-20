@@ -11,7 +11,7 @@ task '1/125' do
   abort 'usage: rake 1/125 path/to/source.jpg' unless ARGV[1]
   date  = ask('date', default: Date.today)
   title = ask('title')
-  slug  = ask('slug', default: title.downcase.delete('!,.:?’…').tr(' ', '-'))
+  slug  = ask('slug', default: slugify(title))
   place = ask('place')
   dir   = Pathname.new("source/1/125/#{date}-#{slug}").tap(&:mkpath)
   path  = dir.sub_ext('.md')
@@ -59,6 +59,10 @@ def create_post(path:, place:, shot:, title:)
 
     …
   end
+end
+
+def slugify(title)
+  title.downcase.delete('!,.:?’…').gsub('&', 'and').tr(' ', '-')
 end
 
 def source
