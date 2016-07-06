@@ -7,8 +7,8 @@ require 'middleman-gh-pages'
 require 'pathname'
 
 desc 'Create a new 1/125 post'
-task '1/125' do
-  abort 'usage: rake 1/125 path/to/source.jpg' unless ARGV[1]
+task '1/125' do |task|
+  abort "usage: rake #{task.name} path/to/source.jpg" unless ARGV[1]
   date  = ask('date', default: Date.today)
   title = ask('title')
   slug  = ask('slug', default: slugify(title))
@@ -23,8 +23,9 @@ end
 
 namespace '1/125' do
   desc 'Recreate a 1/125 photo'
-  task :recreate, [:slug] do |_, args|
-    abort 'usage: rake 1/125:recreate[slug] path/to/source.jpg' unless ARGV[1]
+  task :recreate, [:slug] do |task, args|
+    usage = "usage: rake #{task.name}[slug] path/to/source.jpg"
+    abort usage unless args[:slug] and ARGV[1]
     dir = Pathname.glob("source/1/125/*-#{args.fetch(:slug)}").first
     create_photo dir: dir
   end
