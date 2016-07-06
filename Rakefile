@@ -67,7 +67,5 @@ def slugify(title)
 end
 
 def source
-  Pathname.new(ARGV.fetch(1)).tap do |source|
-    abort "error: #{source} does not exist" unless source.exist?
-  end
+  Pathname.new(URI.parse(ARGV.fetch(1)).path)
 end
