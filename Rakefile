@@ -16,7 +16,7 @@ task '1/125' do
   dir   = Pathname.new("source/1/125/#{date}-#{slug}").tap(&:mkpath)
   path  = dir.sub_ext('.md')
   shot  = EXIFR::JPEG.new(source.to_s).date_time_original
-  create_photo dir: dir, source: source
+  create_photo dir: dir
   create_post path: path, place: place, shot: shot, title: title
   system(*%W(gvim #{path}))
 end
@@ -26,7 +26,7 @@ namespace '1/125' do
   task :recreate, [:slug] do |_, args|
     abort 'usage: rake 1/125:recreate[slug] path/to/source.jpg' unless ARGV[1]
     dir = Pathname.glob("source/1/125/*-#{args.fetch(:slug)}").first
-    create_photo dir: dir, source: source
+    create_photo dir: dir
   end
 end
 
@@ -40,7 +40,7 @@ def ask(variable, default: nil)
   response.empty? ? default : response
 end
 
-def create_photo(dir:, source:)
+def create_photo(dir:)
   Dir.chdir(dir) do
     FileUtils.cp source, 'full.jpg'
     system 'convert full.jpg -resize 500000@ photo.jpg'
