@@ -20,5 +20,5 @@ feed xmlns='http://www.w3.org/2005/Atom'
       content type='html' = escape_html(pic + article.body)
       id = url
       link href=url rel='alternate'
-      title = article.title
+      title = escape_html(article.title)
       updated = article.date.to_time.iso8601
