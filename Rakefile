@@ -62,5 +62,5 @@ def create_post(path:, place:, shot:, title:)
 end
 
 def slugify(title)
-  title.downcase.delete('!,.:?’…').gsub('&', 'and').tr(' ', '-')
+  title.downcase.delete('!(),.:?’…').gsub('&', 'and').tr(' ', '-')
 end
