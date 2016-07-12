@@ -41,7 +41,7 @@ GEM
     exifr (1.2.4)
     fastimage (2.0.0)
       addressable (~> 2)
-    ffi (1.9.10)
+    ffi (1.9.14)
     haml (4.0.7)
       tilt
     hike (1.2.3)
@@ -109,7 +109,7 @@ GEM
     padrino-support (0.12.8)
       activesupport (>= 3.1)
     pkg-config (1.1.7)
-    pry (0.10.3)
+    pry (0.10.4)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
