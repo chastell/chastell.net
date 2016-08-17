@@ -14,13 +14,7 @@
     .content.shoot
       article lang='en'
         p.photo
-          - if full.exist?
-            a(alt='full size' data-lightbox='full' data-title=current.title
-              href="#{current.url}full.jpg" style='cursor: zoom-in'
-              title='full size')
-              img height=height src=current.url+'photo.jpg' width=width
-          - else
-            img height=height src=current.url+'photo.jpg' width=width
+          img height=height src=current.url+'photo.jpg' width=width
         p.date = desc
         h1
           a href='' = current.title
