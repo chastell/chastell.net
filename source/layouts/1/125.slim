@@ -1,12 +1,13 @@
-- parts = [current_page.data.taken, current_page.data.place]
-- parts << "by #{current_page.data.photographer}" if current_page.data.photographer
+- current = current_page
+- prev = current.previous_article
+- succ = current.next_article
+- parts = [current.data.taken, current.data.place]
+- parts << "by #{current.data.photographer}" if current.data.photographer
 - desc = parts.join(', ')
-- full = Pathname.new("#{current_page.source_file[0..-4]}/full.jpg")
-- succ = current_page.next_article
-- prev = current_page.previous_article
-- width, height = FastImage.size("#{current_page.source_file[0..-4]}/photo.jpg")
+- full = Pathname.new("#{current.source_file[0..-4]}/full.jpg")
+- width, height = FastImage.size("#{current.source_file[0..-4]}/photo.jpg")
 - content_for(:og_description) { desc }
-- content_for(:og_image) { current_page.url + 'sample.png' }
+- content_for(:og_image) { current.url + 'sample.png' }
 - content_for(:viewport) { width + 100 }
 = wrap_layout :layout do
   .main style="width: #{width + 30}px"
@@ -19,20 +20,20 @@
                  title="↢ #{succ.title}")
           - if full.exist?
             area(alt='full size' coords='#{width / 4},0,#{3 * width / 4},#{height}'
-                 data-lightbox='full' data-title=current_page.title
-                 href="#{current_page.url}full.jpg" style='cursor: zoom-in'
+                 data-lightbox='full' data-title=current.title
+                 href="#{current.url}full.jpg" style='cursor: zoom-in'
                  shape='rect' title='full size')
           - if prev
             area(alt=prev.title coords='#{3 * width / 4},0,#{width},#{height}'
                  href=prev.url shape='rect' style='cursor: e-resize'
                  title="#{prev.title} ↣")
         p.photo
-          img(height=height src=current_page.url+'photo.jpg' usemap='#photo'
+          img(height=height src=current.url+'photo.jpg' usemap='#photo'
               width=width)
         p.date = desc
         h1
-          a href='' = current_page.title
-        = current_page.body
+          a href='' = current.title
+        = current.body
     nav
       ul
         - if succ
