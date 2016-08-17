@@ -18,11 +18,11 @@ html
     title = title
   body
     header
-      p ⚛ + ⌨ = ⚙
-      h1
-        a href='/' chastell.net
       nav#main_nav
         ul
+          li
+            a href='/' title='root' chastell.net
+          li ⚛ + ⌨ = ⚙
           li
             a href='/1/125/' title='½ million pixels' 1 / 125
           li
@@ -31,7 +31,8 @@ html
     = yield
 
     footer
-      a href='/about' designed by chastell in Mazovia
+      p
+        a href='/about' designed by chastell in Mazovia
 
     = javascript_include_tag '/js/lightbox-plus-jquery'
     = javascript_include_tag '/js/turbolinks'
