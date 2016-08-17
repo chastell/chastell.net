@@ -1,0 +1,15 @@
+- next_entry = current_page.next_article
+- prev_entry = current_page.previous_article
+nav
+  ul
+    li.next
+      - if next_entry
+        a#next href=next_entry.url title=next_entry.title
+          = "↢ #{next_entry.title}"
+      |  
+    li.prev
+      |  
+      - if prev_entry
+        a#prev href=prev_entry.url title=prev_entry.title
+          = "#{prev_entry.title} ↣"
+  p  
