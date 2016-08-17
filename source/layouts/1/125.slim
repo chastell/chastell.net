@@ -33,4 +33,12 @@
         h1
           a href='' = current_page.title
         = current_page.body
-    = partial :prev_next
+    nav
+      ul
+        - if succ
+          li.next
+            a#next href=succ.url title=succ.title = "↢ #{succ.title}"
+        - if prev
+          li.prev
+            a#prev href=prev.url title=prev.title = "#{prev.title} ↣"
+      p  
