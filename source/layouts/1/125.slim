@@ -13,23 +13,14 @@
   .main style="width: #{width + 30}px"
     .content.shoot
       article lang='en'
-        map name='photo'
-          - if succ
-            area(alt=succ.title coords='0,0,#{width / 4},#{height}'
-                 href=succ.url shape='rect' style='cursor: w-resize'
-                 title="↢ #{succ.title}")
-          - if full.exist?
-            area(alt='full size' coords='#{width / 4},0,#{3 * width / 4},#{height}'
-                 data-lightbox='full' data-title=current.title
-                 href="#{current.url}full.jpg" style='cursor: zoom-in'
-                 shape='rect' title='full size')
-          - if prev
-            area(alt=prev.title coords='#{3 * width / 4},0,#{width},#{height}'
-                 href=prev.url shape='rect' style='cursor: e-resize'
-                 title="#{prev.title} ↣")
         p.photo
-          img(height=height src=current.url+'photo.jpg' usemap='#photo'
-              width=width)
+          - if full.exist?
+            a(alt='full size' data-lightbox='full' data-title=current.title
+              href="#{current.url}full.jpg" style='cursor: zoom-in'
+              title='full size')
+              img height=height src=current.url+'photo.jpg' width=width
+          - else
+            img height=height src=current.url+'photo.jpg' width=width
         p.date = desc
         h1
           a href='' = current.title
