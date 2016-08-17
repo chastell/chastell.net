@@ -19,6 +19,9 @@ html
     header
       nav
         ul
+          - if page = current_page.try(:next_article)
+            li.next
+              a#next href=page.url title=page.title ↢
           li
             a href='/' title='root' chastell.net
           li ⚛ + ⌨ = ⚙
@@ -26,6 +29,9 @@ html
             a href='/1/125/' title='½ million pixels' 1 / 125
           li
             a href='//talks.chastell.net' title='look at all the talks I give' talks
+          - if page = current_page.try(:previous_article)
+            li.prev
+              a#prev href=page.url title=page.title ↣
 
     = yield
 

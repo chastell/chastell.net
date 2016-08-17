@@ -43,6 +43,7 @@ blockquote
 body
   background-color: #eee
   font-family: Ubuntu, sans-serif
+  overflow-y: scroll
 
 cite
   em
@@ -58,45 +59,28 @@ dt
   font-weight: bold
 
 footer, header
-  clear: both
   font-family: 'IM Fell English SC', serif
   text-align: center
   a
     font-weight: inherit
-  nav
-    ul
-      float: left
-      left: 50%
-      margin: 1em 0
-      position: relative
-      li
-        float: left
-        padding: 0 0.5em
-        position: relative
-        right: 50%
-        width: auto
-  p
-    margin: 0
 
 nav
-  clear: both
-  margin: 0 auto
-  p
-    font-family: 'IM Fell English SC', serif
-    margin: 0.5em 0
-    text-align: center
   ul
-    clear: both
     list-style: none
+    float: left
+    left: 50%
+    margin: 0.5em
+    position: relative
     li
-      width: 50%
-      a
-        font-weight: inherit
-      &.next
-        float: left
-      &.prev
-        float: right
-        text-align: right
+      float: left
+      padding: 0 1em
+      position: relative
+      right: 50%
+      width: auto
+      &.next, &.prev
+        font-family: Ubuntu, sans-serif
+        font-size: 1.5em
+        line-height: 0.75
 
 p
   margin: 1em 0

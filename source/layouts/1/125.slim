@@ -1,6 +1,4 @@
 - current = current_page
-- prev = current.previous_article
-- succ = current.next_article
 - parts = [current.data.taken, current.data.place]
 - parts << "by #{current.data.photographer}" if current.data.photographer
 - desc = parts.join(', ')
@@ -19,12 +17,3 @@
         h1
           a href='' = current.title
         = current.body
-    nav
-      ul
-        - if succ
-          li.next
-            a#next href=succ.url title=succ.title = "↢ #{succ.title}"
-        - if prev
-          li.prev
-            a#prev href=prev.url title=prev.title = "#{prev.title} ↣"
-      p  
