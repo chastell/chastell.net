@@ -35,5 +35,17 @@ html
 
     = javascript_include_tag '/js/lightbox-plus-jquery'
     = javascript_include_tag '/js/turbolinks'
+
     javascript:
       lightbox.option({ resizeDuration: 500 });
+
+      document.addEventListener('keydown', function(key) {
+        switch (key.which) {
+          case 37:
+            document.getElementById('next').click();
+            break;
+          case 39:
+            document.getElementById('prev').click();
+            break;
+        }
+      });
