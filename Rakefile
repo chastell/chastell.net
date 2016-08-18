@@ -44,7 +44,9 @@ def create_photo(dir:, source:)
   Dir.chdir(dir) do
     FileUtils.cp source, 'full.jpg'
     system 'convert full.jpg -resize 500000@ photo.jpg'
-    system 'convert photo.jpg -resize 50% -dither none -colors 6 sample.png'
+    system 'convert full.jpg -resize 125000@ -dither none -colors 6 sample.full.png'
+    system 'pngcrush sample.full.png sample.png'
+    FileUtils.rm 'sample.full.png'
   end
 end
 
