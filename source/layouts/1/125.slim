@@ -8,12 +8,10 @@
 - content_for(:og_image) { current.url + 'sample.png' }
 - content_for(:viewport) { width + 100 }
 = wrap_layout :layout do
-  .main style="width: #{width + 30}px"
-    .content.shoot
-      article lang='en'
-        p.photo
-          img height=height src=current.url+'photo.jpg' width=width
-        p.date = desc
-        h1
-          a href='' = current.title
-        = current.body
+  img.content.photo height=height src="#{current.url}photo.jpg" width=width
+  .main.shoot
+    article lang='en'
+      p.date = desc
+      h1
+        a href='' = current.title
+      = current.body

@@ -43,7 +43,11 @@ blockquote
 body
   background-color: #eee
   font-family: Ubuntu, sans-serif
+  height: 100%
   overflow-y: scroll
+
+html
+  height: 100%
 
 cite
   em
@@ -59,6 +63,7 @@ dt
   font-weight: bold
 
 footer, header
+  clear: both
   font-family: 'IM Fell English SC', serif
   text-align: center
   a
@@ -110,7 +115,11 @@ sup
   border: 1px solid #999
   box-shadow: #999 0 0 30px
   clear: both
-  padding: 0 1em
+  padding: 1em
+  p:first-child
+    margin-top: 0
+  p:last-child
+    margin-bottom: 0
 
 .cursor
   text-decoration: blink
@@ -127,21 +136,26 @@ sup
     margin: 0
 
 .main
-  margin: 0 auto
-  width: 32em
+  clear: both
+  margin: 1em auto
+  width: 36em
+
+.photo
+  clear: both
+  display: block
+  height: auto
+  margin: auto
+  max-height: 90%
+  max-width: 90%
+  width: auto
 
 .shoot
-  padding: 0 15px
   h1
     font-family: 'Ubuntu', sans-serif
     font-size: 1em
     margin: 0
   .date
     line-height: 1
-  .photo
-    img
-      display: block
-    margin: 15px 0
 
 .terminal
   background-color: black
