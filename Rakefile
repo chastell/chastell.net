@@ -49,11 +49,12 @@ def create_photo(dir:, source:)
       -define png:compression-level=9 -define png:compression-strategy=1
       -define png:exclude-chunk=all -interlace none -colorspace sRGB -strip
       -thumbnail)
-    system *(convert + %w(125000@ -colors 6 sample.png))
-    system *(convert + %w(500000@ photo.jpg))
-    system *(convert + %w(500 500.jpg))
-    system *(convert + %w(1000 1000.jpg))
-    system *(convert + %w(2000 2000.jpg))
+    sizes = ['125000@ -colors 6 sample.png', '500000@ photo.jpg',
+             '500 500.jpg', '1000 1000.jpg', '2000 2000.jpg']
+    sizes.each do |size|
+      puts "generating #{size.split.last}"
+      system(*convert, size)
+    end
   end
 end
 
