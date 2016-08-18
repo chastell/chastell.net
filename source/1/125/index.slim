@@ -3,6 +3,15 @@ layout: layout
 title: 1/125
 ---
 
+.main
+  - blog('1/125').articles.each do |article|
+    .content
+      p
+        a href=article.url
+          img src="#{article.url}sample.png"
+      p
+        a href=article.url = article.title
+
 sass:
   .content
     margin:     1em
@@ -15,13 +24,3 @@ sass:
     flex-wrap:       wrap
     justify-content: center
     width:           100%
-
-.main
-  div.clear
-  - blog('1/125').articles.each do |article|
-    .content
-      p
-        a href=article.url
-          img src="#{article.url}sample.png"
-      p
-        a href=article.url = article.title
