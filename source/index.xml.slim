@@ -16,7 +16,7 @@ feed xmlns='http://www.w3.org/2005/Atom'
   - recent.each do |article|
     entry
       - url = root_uri + article.url
-      - pic = "<p><a href='#{url}'><img src='#{url + 'sample.png'}' /></a></p>"
+      - pic = "<p><a href='#{url}'><img src='#{url}photo.jpg' /></a></p>"
       content type='html' = escape_html(pic + article.body)
       id = url
       link href=url rel='alternate'
