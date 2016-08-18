@@ -1,6 +1,5 @@
 - image = yield_content(:og_image) || image_path('favicon.png')
 - title = [current_page.data.title, 'chastell.net'].compact.join(' | ')
-- width = [yield_content(:viewport).to_i, 1024].max
 doctype html
 html
   head
@@ -8,7 +7,6 @@ html
     = feed_tag :atom, '/index.xml', title: 'chastell.net'
     = stylesheet_link_tag 'chastell.net'
     meta charset='UTF-8'
-    meta name='viewport'           content='width=#{width}'
     meta property='og:description' content=yield_content(:og_description)
     meta property='og:image'       content=root_uri+image
     meta property='og:title'       content=title

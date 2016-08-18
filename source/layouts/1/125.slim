@@ -6,7 +6,6 @@
 - width, height = FastImage.size("#{current.source_file[0..-4]}/photo.jpg")
 - content_for(:og_description) { desc }
 - content_for(:og_image) { current.url + 'sample.png' }
-- content_for(:viewport) { width + 100 }
 = wrap_layout :layout do
   - if previous = current.previous_article
     a href=previous.url title=previous.title
