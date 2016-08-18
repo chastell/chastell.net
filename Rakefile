@@ -50,6 +50,9 @@ def create_photo(dir:, source:)
       -define png:exclude-chunk=all -interlace none -colorspace sRGB -strip
       -thumbnail).join(' ')
     system "convert full.jpg #{opts} 500000@ photo.jpg"
+    system "convert full.jpg #{opts} 500 500.jpg"
+    system "convert full.jpg #{opts} 1000 1000.jpg"
+    system "convert full.jpg #{opts} 2000 2000.jpg"
     system "convert full.jpg #{opts} 125000@ -colors 6 sample.png"
   end
 end
