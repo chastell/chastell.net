@@ -43,17 +43,17 @@ end
 def create_photo(dir:, source:)
   Dir.chdir(dir) do
     FileUtils.cp source, 'full.jpg'
-    opts = %w(-filter triangle -define filter:support=2
+    convert = %w(convert full.jpg -filter triangle -define filter:support=2
       -unsharp 0.25x0.25+8+0.065 -dither none -posterize 136 -quality 82
       -define jpeg:fancy-upsampling=off -define png:compression-filter=5
       -define png:compression-level=9 -define png:compression-strategy=1
       -define png:exclude-chunk=all -interlace none -colorspace sRGB -strip
-      -thumbnail).join(' ')
-    system "convert full.jpg #{opts} 500000@ photo.jpg"
-    system "convert full.jpg #{opts} 500 500.jpg"
-    system "convert full.jpg #{opts} 1000 1000.jpg"
-    system "convert full.jpg #{opts} 2000 2000.jpg"
-    system "convert full.jpg #{opts} 125000@ -colors 6 sample.png"
+      -thumbnail)
+    system *(convert + %w(125000@ -colors 6 sample.png))
+    system *(convert + %w(500000@ photo.jpg))
+    system *(convert + %w(500 500.jpg))
+    system *(convert + %w(1000 1000.jpg))
+    system *(convert + %w(2000 2000.jpg))
   end
 end
 
