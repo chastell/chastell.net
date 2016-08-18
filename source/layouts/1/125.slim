@@ -2,16 +2,14 @@
 - parts = [current.data.taken, current.data.place]
 - parts << "by #{current.data.photographer}" if current.data.photographer
 - desc = parts.join(', ')
-- full = Pathname.new("#{current.source_file[0..-4]}/full.jpg")
-- width, height = FastImage.size("#{current.source_file[0..-4]}/photo.jpg")
 - content_for(:og_description) { desc }
 - content_for(:og_image) { current.url + 'sample.png' }
 = wrap_layout :layout do
   - if previous = current.previous_article
     a href=previous.url title=previous.title
-      img.content.photo height=height src="#{current.url}photo.jpg" width=width
+      = partial :image
   - else
-    img.content.photo height=height src="#{current.url}photo.jpg" width=width
+    = partial :image
   .main.content.shoot
     article lang='en'
       p.date = desc
