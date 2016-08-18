@@ -1,5 +1,4 @@
-- dir = Pathname.new(current_page.source_file).sub_ext('')
-- width, height = FastImage.size(dir / 'photo.jpg')
-- full_width = FastImage.size(dir / 'full.jpg').first
-img.content.photo(height=height src="#{current_page.url}photo.jpg"
-  srcset="#{current_page.url}full.jpg #{full_width}w" width=width)
+- path  = Pathname.new(current_page.source_file).sub_ext('') / 'full.jpg'
+- width = FastImage.size(path).first
+- url   = current_page.url
+img.content.photo(src="#{url}photo.jpg" srcset="#{url}full.jpg #{width}w")
