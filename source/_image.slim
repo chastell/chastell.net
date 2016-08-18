@@ -1,3 +1,5 @@
 - current = current_page
 - width, height = FastImage.size("#{current.source_file[0..-4]}/photo.jpg")
-img.content.photo height=height src="#{current.url}photo.jpg" width=width
+- full_width = FastImage.size("#{current.source_file[0..-4]}/full.jpg").first
+img.content.photo(height=height src="#{current.url}photo.jpg"
+  srcset="#{current.url}full.jpg #{full_width}w" width=width)
