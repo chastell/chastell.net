@@ -37,16 +37,5 @@ html
       p
         a href='/about' designed by chastell in Mazovia
 
+    = javascript_include_tag 'chastell.net'
     = javascript_include_tag 'turbolinks'
-
-    javascript:
-      document.addEventListener('keydown', function(key) {
-        switch (key.which) {
-          case 75:
-            document.getElementById('next').click();
-            break;
-          case 74:
-            document.getElementById('prev').click();
-            break;
-        }
-      });
