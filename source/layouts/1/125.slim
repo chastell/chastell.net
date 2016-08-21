@@ -6,7 +6,7 @@
 - content_for(:og_image) { current.url + 'sample.png' }
 = wrap_layout :layout do
   - if previous = current.previous_article
-    a href=previous.url title=previous.title
+    a href=previous.url title="previously: #{previous.title} ↣"
       = partial :image
   - else
     = partial :image
