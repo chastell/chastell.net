@@ -51,9 +51,9 @@ def create_photo(dir:, source:)
       -thumbnail)
     sizes = ['125000@ -colors 6 sample.png', '500000@ photo.jpg',
              '500 500.jpg', '1000 1000.jpg', '2000 2000.jpg']
-    sizes.each do |size|
-      puts "generating #{size.split.last}"
-      system(*convert, size)
+    sizes.map(&:split).each do |params|
+      puts "generating #{params.last}"
+      system(*convert, *params)
     end
   end
 end
