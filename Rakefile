@@ -16,9 +16,9 @@ task '1/125', [:source] do |task, args|
   dir    = Pathname.new("source/1/125/#{date}-#{slug}").tap(&:mkpath)
   path   = dir.sub_ext('.md')
   shot   = EXIFR::JPEG.new(source.to_s).date_time_original
-  create_photo dir: dir, source: source
   create_post path: path, place: place, shot: shot, title: title
   system(*%W(gvim #{path}))
+  create_photo dir: dir, source: source
 end
 
 namespace '1/125' do
