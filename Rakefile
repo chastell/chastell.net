@@ -25,7 +25,7 @@ namespace '1/125' do
   desc 'Recreate a 1/125 photo'
   task :recreate, [:slug, :source] do |task, args|
     source = Pathname.new(URI.parse(args.fetch(:source)).path)
-    dir    = Pathname.glob("source/1/125/*-#{args.fetch(:slug)}*").first
+    dir    = Pathname.glob("source/1/125/*-#{args.fetch(:slug)}*/").first
     create_photo dir: dir, source: source
   end
 end
