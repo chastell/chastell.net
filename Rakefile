@@ -9,7 +9,8 @@ require 'pathname'
 desc 'Create a new 1/125 post'
 task '1/125', [:source] do |task, args|
   source = Pathname.new(URI.parse(args.fetch(:source)).path)
-  date   = ask('date', default: Date.today)
+  newest = Date.parse(Dir['source/1/125/*.md'].sort.last[/\d{4}-\d{2}-\d{2}/])
+  date   = ask('date', default: [Date.today, newest + 1].max)
   title  = ask('title')
   slug   = ask('slug', default: slugify(title))
   place  = ask('place')
