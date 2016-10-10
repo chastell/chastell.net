@@ -50,7 +50,7 @@ def create_photo(dir:, source:)
       -define png:compression-level=9 -define png:compression-strategy=1
       -define png:exclude-chunk=all -interlace none -colorspace sRGB -strip
       -thumbnail)
-    sizes = ['125000@ -colors 6 sample.png', '500000@ photo.jpg',
+    sizes = ['125000@ -colors 6 sample.png', '1000000@ photo.jpg',
              '500 500.jpg', '1000 1000.jpg', '2000 2000.jpg']
     sizes.map(&:split).each do |params|
       puts "generating #{params.last}"
