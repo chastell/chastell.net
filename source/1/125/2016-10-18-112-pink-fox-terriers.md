@@ -5,4 +5,4 @@ taken: September 2016
 title: 112 Pink Fox Terriers
 ---
 
-…on a splash of beiges and blues. Also 133 white ones.
+…on a splash of blues and beiges. Also 133 white ones.
