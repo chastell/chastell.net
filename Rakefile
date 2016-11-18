@@ -53,9 +53,12 @@ def create_photo(dir:, source:)
     sizes = ['125000@ -colors 6 sample.png', '1000000@ photo.jpg',
              '500 500.jpg', '1000 1000.jpg', '2000 2000.jpg']
     sizes.map(&:split).each do |params|
-      puts "generating #{params.last}"
-      system(*convert, *params)
+      fork do
+        puts "generating #{params.last}"
+        system(*convert, *params)
+      end
     end
+    Process.waitall
   end
 end
 
