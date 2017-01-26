@@ -21,4 +21,4 @@ feed xmlns='http://www.w3.org/2005/Atom'
       id = url
       link href=url rel='alternate'
       title = escape_html(article.title)
-      updated = article.date.to_time.iso8601
+      updated = article.date.to_time.utc.iso8601
