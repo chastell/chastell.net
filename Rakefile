@@ -3,7 +3,6 @@ ENV['TZ'] = 'UTC'
 require 'date'
 require 'exifr'
 require 'fileutils'
-require 'middleman-gh-pages'
 require 'pathname'
 
 desc 'Create a new 1/125 post'
@@ -28,6 +27,22 @@ namespace '1/125' do
     source = Pathname.new(URI.parse(args.fetch(:source)).path)
     dir    = Pathname.glob("source/1/125/*-#{args.fetch(:slug)}*/").first
     create_photo dir: dir, source: source
+  end
+end
+
+desc 'Build to the docs dir'
+task :build do
+  sh 'middleman build --build-dir=docs'
+end
+
+desc 'Publish to GitHub'
+task :publish => :build do
+  sh 'git add docs'
+  if `git status --porcelain docs`.chomp.empty?
+    puts 'nothing to commit'
+  else
+    sh 'git commit --message "rebuild"'
+    sh 'git push'
   end
 end
 
