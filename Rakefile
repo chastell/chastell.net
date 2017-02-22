@@ -6,7 +6,7 @@ require 'fileutils'
 require 'pathname'
 
 desc 'Create a new 1/125 post'
-task '1/125', [:source] do |task, args|
+task '1/125', [:source] do |_task, args|
   source = Pathname.new(URI.parse(args.fetch(:source)).path)
   newest = Date.parse(Dir['source/1/125/*.md'].sort.last[/\d{4}-\d{2}-\d{2}/])
   date   = ask('date', default: [Date.today, newest + 1].max)
@@ -17,13 +17,13 @@ task '1/125', [:source] do |task, args|
   path   = dir.sub_ext('.md')
   shot   = EXIFR::JPEG.new(source.to_s).date_time_original
   create_post path: path, place: place, shot: shot, title: title
-  system(*%W(gvim #{path}))
+  system('gvim', path)
   create_photo dir: dir, source: source
 end
 
 namespace '1/125' do
   desc 'Recreate a 1/125 photo'
-  task :recreate, [:slug, :source] do |task, args|
+  task :recreate, [:slug, :source] do |_task, args|
     source = Pathname.new(URI.parse(args.fetch(:source)).path)
     dir    = Pathname.glob("source/1/125/*-#{args.fetch(:slug)}*/").first
     create_photo dir: dir, source: source
@@ -36,7 +36,7 @@ task :build do
 end
 
 desc 'Publish to GitHub'
-task :publish => :build do
+task publish: :build do
   sh 'git add docs'
   if `git status --porcelain -- docs`.empty?
     puts 'nothing to publish'
