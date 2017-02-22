@@ -36,7 +36,7 @@ task :build do
 end
 
 desc 'Publish to GitHub'
-task publish: :build do
+task :publish do
   sh 'git add docs'
   if `git status --porcelain -- docs`.empty?
     puts 'nothing to publish'
