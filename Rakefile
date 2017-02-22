@@ -38,8 +38,8 @@ end
 desc 'Publish to GitHub'
 task :publish => :build do
   sh 'git add docs'
-  if `git status --porcelain docs`.chomp.empty?
-    puts 'nothing to commit'
+  if `git status --porcelain -- docs`.empty?
+    puts 'nothing to publish'
   else
     sh 'git commit --message "rebuild"'
     sh 'git push'
