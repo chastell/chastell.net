@@ -2,7 +2,6 @@ ENV['TZ'] = 'UTC'
 
 require 'date'
 require 'exifr'
-require 'fileutils'
 require 'pathname'
 
 desc 'Create a new 1/125 post'
@@ -13,36 +12,61 @@ task '1/125', [:source] do |_task, args|
   title  = ask('title')
   slug   = ask('slug', default: slugify(title))
   place  = ask('place')
-  dir    = Pathname.new("source/1/125/#{date}-#{slug}").tap(&:mkpath)
-  path   = dir.sub_ext('.md')
+  path   = Pathname.new("source/1/125/#{date}-#{slug}.html.md")
   shot   = EXIFR::JPEG.new(source.to_s).date_time_original
+  cp source, "source/1/125/#{slug}.jpg"
   create_post path: path, place: place, shot: shot, title: title
-  system('gvim', path)
-  create_photo dir: dir, source: source
+  system 'gvim', path.to_s
 end
 
-namespace '1/125' do
-  desc 'Recreate a 1/125 photo'
-  task :recreate, [:slug, :source] do |_task, args|
-    source = Pathname.new(URI.parse(args.fetch(:source)).path)
-    dir    = Pathname.glob("source/1/125/*-#{args.fetch(:slug)}*/").first
-    create_photo dir: dir, source: source
-  end
-end
-
-desc 'Build to the docs dir'
-task :build do
-  sh 'middleman build --build-dir=docs'
-end
-
-desc 'Publish to GitHub'
-task :publish do
-  sh 'git add docs'
+desc 'Build and publish to GitHub'
+task publish: :build do
+  sh 'git add -- docs'
   if `git status --porcelain -- docs`.empty?
     puts 'nothing to publish'
   else
     sh 'git commit --message "rebuild"'
     sh 'git push'
+  end
+end
+
+task build: %i(docs assets)
+
+file 'docs' => FileList['source/**/*'] do
+  sh 'middleman build --build-dir=docs --no-clean'
+  touch 'docs'
+end
+
+convert_opts = %w(
+  -colorspace sRGB
+  -define filter:support=2
+  -define jpeg:fancy-upsampling=off
+  -define png:compression-filter=5
+  -define png:compression-level=9
+  -define png:compression-strategy=1
+  -define png:exclude-chunk=all
+  -dither none
+  -filter triangle
+  -interlace none
+  -posterize 136
+  -quality 82
+  -strip
+  -unsharp 0.25x0.25+8+0.065
+)
+
+formats = {
+  '500.jpg'    => %w(-thumbnail 500),
+  '1000.jpg'   => %w(-thumbnail 1000),
+  '2000.jpg'   => %w(-thumbnail 2000),
+  'photo.jpg'  => %w(-thumbnail 1000000@),
+  'sample.png' => %w(-thumbnail 125000@ -colors 6),
+}
+
+multitask assets: FileList['docs/1/125/*/'].product(formats.keys).map(&:join)
+
+formats.each do |name, extra_opts|
+  rule name => '%{^docs,source}d.jpg' do |task|
+    sh 'convert', task.source, *convert_opts, *extra_opts, task.name
   end
 end
 
@@ -54,27 +78,6 @@ def ask(variable, default: nil)
   print "#{question}? "
   response = $stdin.gets.chomp
   response.empty? ? default : response
-end
-
-def create_photo(dir:, source:)
-  Dir.chdir(dir) do
-    FileUtils.cp source, 'full.jpg'
-    convert = %w(convert full.jpg -filter triangle -define filter:support=2
-      -unsharp 0.25x0.25+8+0.065 -dither none -posterize 136 -quality 82
-      -define jpeg:fancy-upsampling=off -define png:compression-filter=5
-      -define png:compression-level=9 -define png:compression-strategy=1
-      -define png:exclude-chunk=all -interlace none -colorspace sRGB -strip
-      -thumbnail)
-    sizes = ['125000@ -colors 6 sample.png', '1000000@ photo.jpg',
-             '500 500.jpg', '1000 1000.jpg', '2000 2000.jpg']
-    sizes.map(&:split).each do |params|
-      fork do
-        puts "generating #{params.last}"
-        system(*convert, *params)
-      end
-    end
-    Process.waitall
-  end
 end
 
 def create_post(path:, place:, shot:, title:)
