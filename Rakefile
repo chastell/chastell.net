@@ -4,6 +4,8 @@ require 'date'
 require 'exifr'
 require 'pathname'
 
+task default: :build
+
 desc 'Create a new 1/125 post'
 task '1/125', [:source] do |_task, args|
   source = Pathname.new(URI.parse(args.fetch(:source)).path)
