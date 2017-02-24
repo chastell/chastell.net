@@ -30,7 +30,10 @@ task publish: :build do
   end
 end
 
-task build: %i(docs assets)
+task :build do
+  sh 'rake docs'
+  sh 'rake assets'
+end
 
 file 'docs' => FileList['source/**/*'] do
   sh 'middleman build --build-dir=docs --no-clean'
