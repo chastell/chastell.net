@@ -1,7 +1,6 @@
 ---
 place: Warsaw
-shot: 2005-05-29 12:04:18+02
-taken: April 2005
+shot: 2005-04-29 12:04:18+02
 title: Per Felibus ad Astra
 ---
 
