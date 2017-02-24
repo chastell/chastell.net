@@ -1,5 +1,6 @@
 - current = current_page
-- parts = [current.data.taken, current.data.place]
+- taken = current.data.taken || current.data.shot.strftime('%B %Y')
+- parts = [taken, current.data.place]
 - parts << "by #{current.data.photographer}" if current.data.photographer
 - desc = parts.join(', ')
 - content_for(:og_description) { desc }
