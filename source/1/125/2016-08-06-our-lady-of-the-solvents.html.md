@@ -1,7 +1,6 @@
 ---
 place: Warsaw
 shot:  2016-07-17 17:02:30 +0000
-taken: July 2016
 title: Our Lady of the Solvents
 ---
 

@@ -1,7 +1,6 @@
 ---
 place: Łochów Palace
 shot:  2010-06-27 12:10:56+02
-taken: June 2010
 title: The Daughter of Man
 ---
 

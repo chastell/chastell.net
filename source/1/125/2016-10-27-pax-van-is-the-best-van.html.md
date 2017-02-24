@@ -1,7 +1,6 @@
 ---
 place: Zadar
 shot:  2016-09-10 09:18:03 +0000
-taken: September 2016
 title: PAX VAN IS THE BEST VAN
 ---
 

@@ -1,7 +1,6 @@
 ---
 place: Baltic Sea
 shot: 2005-08-07 07:12:48+02
-taken: August 2005
 title: Morning Kołobrzeg
 ---
 

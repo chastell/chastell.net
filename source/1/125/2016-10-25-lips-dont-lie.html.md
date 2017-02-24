@@ -1,7 +1,6 @@
 ---
 place: Zadar
 shot:  2016-09-11 18:35:45 +0000
-taken: September 2016
 title: Lips Don’t Lie
 ---
 

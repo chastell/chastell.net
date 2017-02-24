@@ -1,7 +1,6 @@
 ---
 place: Warsaw
 shot:  2016-05-27 08:58:45 +0000
-taken: May 2016
 title: Fair Warning
 ---
 

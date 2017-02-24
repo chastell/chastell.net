@@ -1,7 +1,6 @@
 ---
 place: Dueodde
 shot: 2005-08-07 17:43:56+02
-taken: August 2005
 title: Weather God
 ---
 

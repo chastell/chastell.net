@@ -1,7 +1,6 @@
 ---
 place: Mirador del Río, Lanzarote
 shot:  2015-11-05 19:42:29
-taken: November 2015
 title: The Chinijo
 ---
 

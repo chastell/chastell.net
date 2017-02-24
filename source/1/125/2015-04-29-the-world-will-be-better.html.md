@@ -2,7 +2,6 @@
 photographer: <a href='https://kofeina.wordpress.com/'>Kala</a>
 place: Warsaw
 shot: 2015-04-29 14:31:35+02
-taken: April 2015
 title: The World Will Be Better
 ---
 

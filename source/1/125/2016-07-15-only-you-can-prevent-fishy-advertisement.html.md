@@ -1,7 +1,6 @@
 ---
 place: Bath
 shot:  2016-03-12 13:05:37 +0000
-taken: March 2016
 title: Only You Can Prevent Fishy Advertisement
 ---
 

@@ -1,7 +1,6 @@
 ---
 place: Warsaw
 shot: 2004-05-06 16:44:25+02
-taken: May 2004
 title: Swingin’ with Diamond
 ---
 

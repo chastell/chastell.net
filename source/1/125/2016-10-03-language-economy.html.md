@@ -1,7 +1,6 @@
 ---
 place: Hum
 shot:  2016-09-08 14:40:10 +0000
-taken: September 2016
 title: Language Economy
 ---
 

@@ -1,7 +1,6 @@
 ---
 place: Brno
 shot:  2016-09-17 12:17:57 +0000
-taken: September 2016
 title: Frownsters Gonna Frown
 ---
 

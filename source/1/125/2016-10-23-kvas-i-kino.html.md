@@ -1,7 +1,6 @@
 ---
 place: Warsaw
 shot:  2016-10-07 15:25:15 +0000
-taken: October 2016
 title: Квас і кіно
 ---
 

@@ -1,7 +1,6 @@
 ---
 place: Ljubljana
 shot:  2016-09-06 09:41:10 +0000
-taken: September 2016
 title: Forty People Waiting
 ---
 

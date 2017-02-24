@@ -1,7 +1,6 @@
 ---
 place: Trafalgar Square, London
 shot:  2016-03-13 13:26:32
-taken: March 2016
 title: Hungry Grass on Tour
 ---
 

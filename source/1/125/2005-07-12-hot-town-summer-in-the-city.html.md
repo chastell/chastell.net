@@ -1,7 +1,6 @@
 ---
 place: Warsaw
 shot: 2005-07-02 15:55:47+02
-taken: July 2005
 title: Hot Town, Summer in the City
 ---
 

@@ -1,7 +1,6 @@
 ---
 place: Porto
 shot:  2016-10-29 15:15:25 +0000
-taken: October 2016
 title: Tenderlove’s Toughest Crowd
 ---
 

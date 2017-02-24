@@ -1,7 +1,6 @@
 ---
 place: Warsaw
 shot: 2005-04-02 16:14:01+02
-taken: April 2005
 title: Delroy Wilson, Your Cool Operator
 ---
 

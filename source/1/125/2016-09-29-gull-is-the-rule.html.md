@@ -1,7 +1,6 @@
 ---
 place: Opatija
 shot:  2016-09-06 15:30:11 +0000
-taken: September 2016
 title: Gull Is the Rule
 ---
 

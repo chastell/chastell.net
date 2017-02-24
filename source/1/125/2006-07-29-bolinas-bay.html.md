@@ -1,7 +1,6 @@
 ---
 place: Mount Tamalpais State Park
 shot: 2006-06-04 21:06:13+02
-taken: June 2006
 title: Bolinas Bay
 ---
 

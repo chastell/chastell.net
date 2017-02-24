@@ -1,7 +1,6 @@
 ---
 place: Soho, London
 shot:  2016-03-13 16:07:11 +0000
-taken: March 2016
 title: The Specials and the Bell
 ---
 

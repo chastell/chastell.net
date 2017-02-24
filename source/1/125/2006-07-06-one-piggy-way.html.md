@@ -1,7 +1,6 @@
 ---
 place: San Francisco
 shot: 2006-07-04 20:44:08+02
-taken: July 2006
 title: One Piggy Way
 ---
 

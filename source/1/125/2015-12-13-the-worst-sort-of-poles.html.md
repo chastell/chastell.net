@@ -1,7 +1,6 @@
 ---
 place: Warsaw
 shot:  2015-12-12 14:44:36+01
-taken: December 2015
 title: ‘The Worst Sort of Poles’
 ---
 

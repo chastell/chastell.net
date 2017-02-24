@@ -1,7 +1,6 @@
 ---
 place: Zadar
 shot:  2016-09-11 18:18:51 +0000
-taken: September 2016
 title: Monument to the Sun Dance
 ---
 

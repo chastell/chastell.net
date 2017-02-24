@@ -1,7 +1,6 @@
 ---
 place: Dueodde
 shot: 2005-08-07 18:07:27+02
-taken: August 2005
 title: Run or Pray
 ---
 

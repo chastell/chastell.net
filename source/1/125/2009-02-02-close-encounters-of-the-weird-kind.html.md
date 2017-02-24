@@ -1,7 +1,6 @@
 ---
 place: New York City
 shot: 2008-07-25 23:13:24+02
-taken: July 2008
 title: Close Encounters of the Weird Kind
 ---
 

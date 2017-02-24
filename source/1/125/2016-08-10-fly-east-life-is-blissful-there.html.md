@@ -1,7 +1,6 @@
 ---
 place: Warsaw
 shot:  2016-03-03 10:51:35 +0000
-taken: March 2016
 title: Fly East (Life is Blissful There)
 ---
 

@@ -1,7 +1,6 @@
 ---
 place: Paklenica National Park
 shot:  2016-09-11 11:57:15 +0000
-taken: September 2016
 title: Broz Tito’s Hideaway
 ---
 

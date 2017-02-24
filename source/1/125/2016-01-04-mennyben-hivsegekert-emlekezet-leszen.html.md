@@ -1,7 +1,6 @@
 ---
 place: Dârjiu
 shot:  2010-09-04 10:11:32+01
-taken: September 2010
 title: Mennyben hívségekért emlékezet lészen
 ---
 

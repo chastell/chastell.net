@@ -1,7 +1,6 @@
 ---
 place: Opatija
 shot:  2016-09-06 15:48:45 +0000
-taken: September 2016
 title: Closed Air Theatre
 ---
 

@@ -1,7 +1,6 @@
 ---
 place: Lanzarote
 shot: 2015-11-06 17:22:02
-taken: November 2015
 title: Down the Crater
 ---
 

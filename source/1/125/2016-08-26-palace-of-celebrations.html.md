@@ -1,7 +1,6 @@
 ---
 place: Minsk
 shot:  2016-04-25 07:58:31 +0000
-taken: April 2016
 title: Palace of Celebrations
 ---
 

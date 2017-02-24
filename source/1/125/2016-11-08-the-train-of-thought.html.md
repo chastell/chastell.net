@@ -1,7 +1,6 @@
 ---
 place: Porto
 shot:  2016-10-29 15:56:16 +0000
-taken: October 2016
 title: The Train of Thought
 ---
 

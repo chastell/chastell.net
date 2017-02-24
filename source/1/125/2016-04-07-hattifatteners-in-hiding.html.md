@@ -1,7 +1,6 @@
 ---
 place: London
 shot:  2016-03-13 17:26:07 +0000
-taken: March 2016
 title: Hattifatteners in Hiding
 ---
 

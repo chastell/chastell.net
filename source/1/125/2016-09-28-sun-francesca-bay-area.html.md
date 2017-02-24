@@ -1,7 +1,6 @@
 ---
 place: Rovinj
 shot:  2016-09-07 16:47:28 +0000
-taken: September 2016
 title: Sun, Francesca, Bay Area
 ---
 

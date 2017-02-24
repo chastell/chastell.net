@@ -1,7 +1,6 @@
 ---
 place: Trafalgar Square, London
 shot:  2016-03-13 13:25:31
-taken: March 2016
 title: Saint Patricia, Celebrating
 ---
 

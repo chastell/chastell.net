@@ -1,7 +1,6 @@
 ---
 place: San Francisco
 shot: 2006-07-04 21:20:53+02
-taken: July 2006
 title: …Only from Ritual Coffee Roasters
 ---
 

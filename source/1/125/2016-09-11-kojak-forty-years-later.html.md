@@ -1,7 +1,6 @@
 ---
 place: Maribor
 shot:  2016-09-05 12:49:01 +0000
-taken: September 2016
 title: Kojak Forty Years Later
 ---
 

@@ -1,7 +1,6 @@
 ---
 place: Maribor
 shot:  2016-09-05 14:35:53 +0000
-taken: September 2016
 title: Schrödinger’s Punk
 ---
 

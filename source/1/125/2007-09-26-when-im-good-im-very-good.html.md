@@ -2,7 +2,6 @@
 photographer: <a href='http://flickr.com/photos/dzejdi/'>Julia</a>
 place: Warsaw
 shot: 2007-09-22 17:57:59+02
-taken: September 2007
 title: When I’m Good, I’m Very Good…
 ---
 

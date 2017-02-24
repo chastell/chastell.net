@@ -1,7 +1,6 @@
 ---
 place: Warsaw
 shot:  2016-10-07 15:37:50 +0000
-taken: October 2016
 title: Paris, Showroom
 ---
 

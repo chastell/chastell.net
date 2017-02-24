@@ -1,7 +1,6 @@
 ---
 place: Warsaw
 shot: 2006-10-08 13:31:47+02
-taken: October 2006
 title: The Squirrel Story III
 ---
 

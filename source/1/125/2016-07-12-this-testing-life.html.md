@@ -1,7 +1,6 @@
 ---
 place: Bath
 shot:  2016-03-12 12:38:36 +0000
-taken: March 2016
 title: This Testing Life
 ---
 

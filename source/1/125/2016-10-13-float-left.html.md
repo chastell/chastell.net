@@ -1,7 +1,6 @@
 ---
 place: Zadar
 shot:  2016-09-11 17:15:19 +0000
-taken: September 2016
 title: 'Float: Left'
 ---
 

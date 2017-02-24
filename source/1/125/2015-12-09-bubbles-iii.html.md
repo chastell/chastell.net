@@ -1,7 +1,6 @@
 ---
 place: Łochów Palace
 shot:  2010-06-27 10:25:01+02
-taken: June 2010
 title: Bubbles!
 ---
 

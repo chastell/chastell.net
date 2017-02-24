@@ -1,7 +1,6 @@
 ---
 place: Warsaw
 shot:  2016-10-31 14:28:04 +0000
-taken: October 2016
 title: The Neighbourhood of Doom
 ---
 

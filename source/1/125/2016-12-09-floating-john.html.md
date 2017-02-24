@@ -1,7 +1,6 @@
 ---
 place: Minsk
 shot:  2016-04-25 08:11:14 +0000
-taken: April 2016
 title: Floating John
 ---
 

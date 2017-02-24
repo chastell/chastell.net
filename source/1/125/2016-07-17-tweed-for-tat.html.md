@@ -1,7 +1,6 @@
 ---
 place: Bath
 shot:  2016-03-12 14:15:14 +0000
-taken: March 2016
 title: Tweed for Tat
 ---
 
