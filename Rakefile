@@ -90,7 +90,6 @@ def create_post(path:, place:, shot:, title:)
     ---
     place: #{place}
     shot:  #{shot}
-    taken: #{shot.strftime('%B %Y')}
     title: #{title}
     ---
 
