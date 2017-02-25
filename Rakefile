@@ -16,7 +16,7 @@ task '1/125', [:source] do |_task, args|
   place  = ask('place')
   path   = Pathname.new("source/1/125/#{date}-#{slug}.html.md")
   shot   = EXIFR::JPEG.new(source.to_s).date_time_original
-  cp source, "source/1/125/#{slug}.jpg"
+  cp source, "photos/#{slug}.jpg"
   create_post path: path, place: place, shot: shot, title: title
   system 'gvim', path.to_s
 end
