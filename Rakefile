@@ -70,7 +70,7 @@ formats = {
 multitask assets: FileList['docs/1/125/*/'].product(formats.keys).map(&:join)
 
 formats.each do |name, extra_opts|
-  rule name => '%{^docs,source}d.jpg' do |task|
+  rule name => 'photos/%-1d.jpg' do |task|
     sh 'convert', task.source, *convert_opts, *extra_opts, task.name
   end
 end
