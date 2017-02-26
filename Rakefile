@@ -36,8 +36,16 @@ end
 
 desc 'Serve the site, rebuilding if necessary'
 task :serve do
-  Thread.new { sh 'rerun --background --dir source --exit -- rake build' }
-  WEBrick::HTTPServer.new(DocumentRoot: 'docs', Port: 8080).start
+  webrick = WEBrick::HTTPServer.new(DocumentRoot: 'docs', Port: 8080)
+  rerun = spawn('rerun --background --dir source --exit -- rake build')
+  %w(HUP INT QUIT TERM).each do |signal|
+    Signal.trap(signal) do
+      webrick.shutdown
+      Process.kill signal, rerun
+      Process.wait
+    end
+  end
+  webrick.start
 end
 
 task :build do
