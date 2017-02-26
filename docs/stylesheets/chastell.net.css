@@ -41,6 +41,7 @@ blockquote {
 
 body {
   background-color: #eee;
+  color: #000;
   font-family: Ubuntu, sans-serif;
   height: 100%;
   overflow-y: scroll; }
@@ -124,6 +125,17 @@ sup {
 .cursor {
   text-decoration: blink; }
 
+.darkbox {
+  background-color: #333;
+  color: #fff; }
+
+.darkbox nav ul {
+  margin: 1em; }
+
+.darkbox .content {
+  box-shadow: #000 0 0 3em;
+  color: #000; }
+
 .deathspeak {
   font-variant: small-caps; }
 
@@ -141,12 +153,15 @@ sup {
   width: 36em; }
 
 .photo {
+  background-color: inherit;
+  border: none;
   clear: both;
   display: block;
   height: auto;
-  margin: auto;
+  margin: 2em auto;
   max-height: calc(100% - 5em);
   max-width: calc(100% - 5em);
+  padding: 0;
   width: auto; }
 
 .shoot h1 {
