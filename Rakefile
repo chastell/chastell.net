@@ -3,6 +3,8 @@ ENV['TZ'] = 'UTC'
 require 'date'
 require 'exifr'
 require 'pathname'
+require 'thread'
+require 'webrick'
 
 task default: :build
 
@@ -32,6 +34,12 @@ task publish: :build do
     sh 'git commit --message "rebuild"'
     sh 'git push'
   end
+end
+
+desc 'Serve the site, rebuilding if necessary'
+task :serve do
+  Thread.new { sh 'rerun --background --dir source --exit -- rake build' }
+  WEBrick::HTTPServer.new(DocumentRoot: 'docs', Port: 8080).start
 end
 
 task :build do
