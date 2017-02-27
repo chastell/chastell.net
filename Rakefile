@@ -76,10 +76,7 @@ convert_opts = %w(
 )
 
 formats = {
-  '500.jpg'    => %w(-thumbnail 500),
-  '1000.jpg'   => %w(-thumbnail 1000),
-  '2000.jpg'   => %w(-thumbnail 2000),
-  'photo.jpg'  => %w(-thumbnail 1000000@),
+  'photo.jpg'  => %w(-thumbnail 2000000@),
   'sample.png' => %w(-thumbnail 125000@ -colors 6),
 }
 
