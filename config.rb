@@ -30,7 +30,6 @@ helpers do
   end
 end
 
-ignore '1/125/*.jpg'
 ignore 'hovercraft/*'
 ignore 'l+k/*'
 ignore 'wycinki/*'

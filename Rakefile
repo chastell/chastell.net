@@ -49,13 +49,8 @@ task :serve do
 end
 
 task :build do
-  sh 'rake docs'
   sh 'rake assets'
-end
-
-file 'docs' => FileList['source/**/*'] do
-  sh 'middleman build --build-dir=docs --no-clean'
-  touch 'docs'
+  sh 'middleman build --build-dir=docs'
 end
 
 convert_opts = %w(
@@ -80,7 +75,7 @@ formats = {
   'sample.png' => %w(-thumbnail 125000@ -colors 6),
 }
 
-multitask assets: FileList['docs/1/125/*/'].product(formats.keys).map(&:join)
+multitask assets: FileList['source/1/125/*/'].product(formats.keys).map(&:join)
 
 formats.each do |name, extra_opts|
   rule name => 'photos/%-1d.jpg' do |task|
