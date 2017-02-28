@@ -19,6 +19,7 @@ task '1/125', [:source] do |_task, args|
   cp source.sub_ext('.RAF.xmp'), "photos/#{slug}.raf.xmp"
   create_post path: path, place: place, shot: shot, title: title
   system 'gvim', path.to_s
+  sh 'rake assets'
 end
 
 desc 'Build and publish to GitHub'
