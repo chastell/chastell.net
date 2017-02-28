@@ -3,8 +3,6 @@ ENV['TZ'] = 'UTC'
 require 'date'
 require 'exifr'
 require 'pathname'
-require 'thread'
-require 'webrick'
 
 desc 'Create a new 1/125 post'
 task '1/125', [:source] do |_task, args|
@@ -24,7 +22,8 @@ task '1/125', [:source] do |_task, args|
 end
 
 desc 'Build and publish to GitHub'
-task publish: :build do
+task publish: :assets do
+  sh 'middleman build --build-dir=docs'
   sh 'git add -- docs'
   if `git status --porcelain -- docs`.empty?
     puts 'nothing to publish'
@@ -35,22 +34,8 @@ task publish: :build do
 end
 
 desc 'Serve the site, rebuilding if necessary'
-task :serve do
-  webrick = WEBrick::HTTPServer.new(DocumentRoot: 'docs', Port: 8080)
-  rerun = spawn('rerun --background --dir source --exit -- rake build')
-  %w(HUP INT QUIT TERM).each do |signal|
-    Signal.trap(signal) do
-      webrick.shutdown
-      Process.kill signal, rerun
-      Process.wait
-    end
-  end
-  webrick.start
-end
-
-task :build do
-  sh 'rake assets'
-  sh 'middleman build --build-dir=docs'
+task serve: :assets do
+  sh 'middleman'
 end
 
 convert_opts = %w(
