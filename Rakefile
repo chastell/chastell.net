@@ -49,7 +49,7 @@ convert_opts = %w(
   -define png:exclude-chunk=all
   -dither none
   -filter triangle
-  -interlace none
+  -interlace plane
   -posterize 136
   -quality 82
   -strip
