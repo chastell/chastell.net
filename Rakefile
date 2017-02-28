@@ -14,12 +14,13 @@ task '1/125', [:source] do |_task, args|
   place  = ask('place')
   path   = Pathname.new("source/1/125/#{date}-#{slug}.html.md")
   shot   = EXIFR::JPEG.new(source.to_s).date_time_original
-  cp source,                     "photos/#{slug}.jpg"
-  cp source.sub_ext('.RAF'),     "photos/#{slug}.raf"
-  cp source.sub_ext('.RAF.xmp'), "photos/#{slug}.raf.xmp"
+  %w(.jpg .RAF .RAF.xmp).each do |ext|
+    cp source.sub_ext(ext), "photos/#{slug}#{ext.downcase}"
+  end
   create_post path: path, place: place, shot: shot, title: title
   system 'gvim', path.to_s
-  sh 'rake assets'
+  mkdir_p "source/1/125/#{slug}"
+  sh 'rake serve'
 end
 
 desc 'Build and publish to GitHub'
