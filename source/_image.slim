@@ -1,2 +1,4 @@
 - url = current_page.url
-img.content.photo(src="#{url}photo.jpg")
+- path = Pathname.new("source#{url}photo.jpg")
+- width, height = FastImage.size(path)
+img.content.photo(height=height src="#{url}photo.jpg" width=width)
