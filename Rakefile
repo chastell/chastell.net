@@ -3,6 +3,8 @@ ENV['TZ'] = 'UTC'
 require 'date'
 require 'exifr'
 require 'pathname'
+require 'socket'
+require 'uri'
 
 desc 'Create a new 1/125 post'
 task '1/125', [:source] do |_task, args|
@@ -37,6 +39,11 @@ end
 
 desc 'Serve the site, rebuilding if necessary'
 task serve: :assets do
+  uri = URI.parse('http://localhost:4567/1/125/')
+  Thread.new do
+    sleep 0.1 until reachable?(uri)
+    sh "xdg-open #{uri}"
+  end
   sh 'middleman'
 end
 
@@ -90,6 +97,13 @@ def create_post(path:, place:, shot:, title:)
 
     …
   end
+end
+
+def reachable?(uri)
+  TCPSocket.open(uri.host, uri.port).close
+  true
+rescue Errno::ECONNREFUSED
+  false
 end
 
 def slugify(title)
