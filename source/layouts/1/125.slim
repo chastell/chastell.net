@@ -1,13 +1,12 @@
-- current = current_page
-- taken = current.data.taken || current.data.shot.strftime('%B %Y')
-- parts = [taken, current.data.place]
-- parts << "by #{current.data.photographer}" if current.data.photographer
+- data  = current_page.data
+- parts = [data.taken || data.shot.strftime('%B %Y'), data.place]
+- parts << "by #{data.photographer}" if data.photographer
 - desc = parts.join(', ')
-- content_for(:body_class) { 'darkbox' }
 - content_for(:og_description) { desc }
-- content_for(:og_image) { current.url + 'sample.png' }
+- content_for(:og_image) { current_page.url + 'sample.png' }
+- content_for(:body_class) { 'darkbox' }
 = wrap_layout :layout do
-  - if previous = current.previous_article
+  - if previous = current_page.previous_article
     a href=previous.url title="previously: #{previous.title} ↣"
       = partial :image
   - else
@@ -16,5 +15,5 @@
     article lang='en'
       p.date = desc
       h1
-        a href='' = current.title
-      = current.body
+        a href='' = current_page.title
+      = current_page.body
