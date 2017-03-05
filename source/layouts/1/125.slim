@@ -5,6 +5,11 @@
 - content_for(:og_description) { desc }
 - content_for(:og_image) { current_page.url + 'sample.png' }
 - content_for(:body_class) { 'darkbox' }
+- content_for(:head) do
+  - if current_page.previous_article
+    link href="#{current_page.previous_article.url}photo.jpg" rel='prefetch'
+  - if current_page.next_article
+    link href="#{current_page.next_article.url}photo.jpg" rel='prefetch'
 = wrap_layout :layout do
   - if previous = current_page.previous_article
     a href=previous.url title="previously: #{previous.title} ↣"
