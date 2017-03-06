@@ -40,7 +40,7 @@ end
 desc 'Serve the site, rebuilding if necessary'
 task serve: :assets do
   uri = URI.parse('http://localhost:4567/1/125/')
-  Thread.new do
+  fork do
     sleep 0.1 until reachable?(uri)
     sh "xdg-open #{uri}"
   end
