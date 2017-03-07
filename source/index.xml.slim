@@ -17,7 +17,11 @@ feed xmlns='http://www.w3.org/2005/Atom'
     entry
       - url = root_uri + article.url
       - pic = "<p><a href='#{url}'><img src='#{url}photo.jpg' /></a></p>"
-      content type='html' = escape_html(pic + article.body)
+      - data = article.data
+      - parts = [data.taken || data.shot.strftime('%B %Y'), data.place]
+      - parts << "by #{data.photographer}" if data.photographer
+      - meta = "<p>#{parts.join(', ')}</p>"
+      content type='html' = escape_html(pic + article.body + meta)
       id = url
       link href=url rel='alternate'
       title = escape_html(article.title)
