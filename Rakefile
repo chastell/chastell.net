@@ -107,6 +107,6 @@ rescue Errno::ECONNREFUSED
 end
 
 def slugify(title)
-  title.downcase.delete('!%(),.:?|’…').gsub('&', 'and').tr(' ', '-')
-    .squeeze('-')
+  title.unicode_normalize(:nfkd).downcase.tr('^a-z ', '').squeeze(' ').strip
+    .tr(' ', '-')
 end
