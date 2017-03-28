@@ -8,7 +8,7 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.5.0)
       public_suffix (~> 2.0, >= 2.0.2)
-    backports (3.6.8)
+    backports (3.7.0)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -105,9 +105,9 @@ GEM
     thor (0.19.4)
     thread_safe (0.3.6)
     tilt (2.0.7)
-    tzinfo (1.2.2)
+    tzinfo (1.2.3)
       thread_safe (~> 0.1)
-    uglifier (3.1.9)
+    uglifier (3.1.10)
       execjs (>= 0.3.0, < 3)
 
 PLATFORMS
@@ -122,4 +122,4 @@ DEPENDENCIES
   slim (~> 3.0)
 
 BUNDLED WITH
-   1.14.4
+   1.14.6
