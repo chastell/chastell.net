@@ -2,9 +2,11 @@ ENV['TZ'] = 'UTC'
 
 require 'date'
 require 'exifr'
+require 'net/http'
 require 'pathname'
 require 'socket'
 require 'uri'
+require 'yaml'
 
 desc 'Create a new 1/125 post'
 task '1/125', [:source] do |_task, args|
@@ -32,6 +34,7 @@ task publish: :assets do
   abort 'nothing to publish' if `git status --porcelain -- docs`.empty?
   sh 'git commit --message "rebuild"'
   sh 'git push'
+  Rake::Task['tweet_newest'].invoke
 end
 
 desc 'Serve the site, rebuilding if necessary'
@@ -42,6 +45,16 @@ task serve: :assets do
     sh "xdg-open #{uri}"
   end
   sh 'middleman'
+end
+
+task :tweet_newest do
+  path  = Pathname.glob("#{__dir__}/source/1/125/*.md").sort.last
+  slug  = path.basename.to_s.split('-', 4).last.split('.').first
+  photo = "#{__dir__}/source/1/125/#{slug}/photo.jpg"
+  title = YAML.load(path.read.split("---\n").reject(&:empty?).first)['title']
+  uri   = URI.parse("http://chastell.net/1/125/#{slug}/")
+  sleep 1 until Net::HTTP.get_response(uri).is_a?(Net::HTTPOK)
+  sh "t update -f #{photo} '1/125: #{title} #{uri} #chastellnet'"
 end
 
 convert_opts = %w(
