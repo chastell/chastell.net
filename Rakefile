@@ -29,12 +29,9 @@ desc 'Build and publish to GitHub'
 task publish: :assets do
   sh 'middleman build'
   sh 'git add -- docs'
-  if `git status --porcelain -- docs`.empty?
-    puts 'nothing to publish'
-  else
-    sh 'git commit --message "rebuild"'
-    sh 'git push'
-  end
+  abort 'nothing to publish' if `git status --porcelain -- docs`.empty?
+  sh 'git commit --message "rebuild"'
+  sh 'git push'
 end
 
 desc 'Serve the site, rebuilding if necessary'
