@@ -34,7 +34,7 @@ task publish: :assets do
   abort 'nothing to publish' if `git status --porcelain -- docs`.empty?
   sh 'git commit --message "rebuild"'
   sh 'git push'
-  Rake::Task['tweet_newest'].invoke
+  Rake::Task[:tweet_newest].invoke
 end
 
 desc 'Serve the site, rebuilding if necessary'
@@ -51,8 +51,10 @@ task :tweet_newest do
   path  = Pathname.glob("#{__dir__}/source/1/125/*.md").sort.last
   slug  = path.basename.to_s.split('-', 4).last.split('.').first
   photo = "#{__dir__}/source/1/125/#{slug}/photo.jpg"
-  title = YAML.load(path.read.split("---\n").reject(&:empty?).first)['title']
+  front = path.read.split("---\n").reject(&:empty?).first
+  title = YAML.load(front).fetch('title')
   uri   = URI.parse("http://chastell.net/1/125/#{slug}/")
+  puts "waiting for #{uri}…"
   sleep 1 until Net::HTTP.get_response(uri).is_a?(Net::HTTPOK)
   sh "t update -f #{photo} '1/125: #{title} #{uri} #chastellnet'"
 end
