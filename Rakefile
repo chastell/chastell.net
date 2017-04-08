@@ -57,6 +57,7 @@ task :tweet_newest do
   puts "waiting for #{uri}…"
   sleep 1 until Net::HTTP.get_response(uri).is_a?(Net::HTTPOK)
   sh "t update -f #{photo} '1/125: #{title} #{uri} #chastellnet'"
+  sh 'xdg-open https://twitter.com/chastell'
 end
 
 convert_opts = %w(
