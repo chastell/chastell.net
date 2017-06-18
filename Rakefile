@@ -52,7 +52,7 @@ task :tweet_newest do
   slug  = path.basename.to_s.split('-', 4).last.split('.').first
   photo = "#{__dir__}/source/1/125/#{slug}/photo.jpg"
   front = path.read.split("---\n").reject(&:empty?).first
-  title = YAML.load(front).fetch('title')
+  title = YAML.load(front).fetch('title').gsub(%r{</?[a-z]+>}i, '')
   uri   = URI.parse("http://chastell.net/1/125/#{slug}/")
   puts "waiting for #{uri}…"
   sleep 1 until Net::HTTP.get_response(uri).is_a?(Net::HTTPOK)
