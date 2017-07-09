@@ -1,7 +1,7 @@
 ENV['TZ'] = 'UTC'
 
 require 'date'
-require 'exifr'
+require 'exifr/jpeg'
 require 'net/http'
 require 'pathname'
 require 'socket'
