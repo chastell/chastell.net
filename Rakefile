@@ -10,7 +10,7 @@ require 'yaml'
 
 desc 'Create a new 1/125 post'
 task '1/125', [:source] do |_task, args|
-  source = Pathname.new(URI.parse(args.fetch(:source)).path)
+  source = source_from_uri(args.fetch(:source))
   newest = Date.parse(Dir['source/1/125/*.md'].sort.last[/\d{4}-\d{2}-\d{2}/])
   date   = ask('date', default: [Date.today, newest + 1].max.to_s)
   title  = ask('title')
@@ -18,9 +18,7 @@ task '1/125', [:source] do |_task, args|
   place  = ask('place')
   path   = Pathname.new("source/1/125/#{date}-#{slug}.html.md")
   shot   = EXIFR::JPEG.new(source.to_s).date_time_original
-  %w(.jpg .RAF .RAF.xmp).each do |ext|
-    cp source.sub_ext(ext), "photos/#{slug}#{ext.downcase}"
-  end
+  copy_assets slug: slug, source: source
   create_post path: path, place: place, shot: shot, title: title
   system 'gvim', path.to_s
   mkdir_p "source/1/125/#{slug}"
@@ -29,10 +27,8 @@ end
 
 desc 'Recreate a 1/125 photo'
 task '1/125:redo', [:source, :slug] do |_task, args|
-  source = Pathname.new(URI.parse(args.fetch(:source)).path)
-  %w(.jpg .RAF .RAF.xmp).each do |ext|
-    cp source.sub_ext(ext), "photos/#{args.fetch(:slug)}#{ext.downcase}"
-  end
+  source = source_from_uri(args.fetch(:source))
+  copy_assets slug: args.fetch(:slug), source: source
   Rake::Task[:assets].invoke
 end
 
@@ -109,6 +105,12 @@ def ask(variable, default: '')
   response.empty? ? default : response
 end
 
+def copy_assets(source:, slug:)
+  %w(.jpg .RAF .RAF.xmp).each do |ext|
+    cp source.sub_ext(ext), "photos/#{slug}#{ext.downcase}"
+  end
+end
+
 def create_post(path:, place:, shot:, title:)
   path.write <<~end
     ---
@@ -131,4 +133,8 @@ end
 def slugify(title)
   title.unicode_normalize(:nfkd).gsub('&', 'and').downcase.delete('^0-9a-z ')
     .squeeze(' ').strip.tr(' ', '-')
+end
+
+def source_from_uri(uri)
+  Pathname.new(URI.parse(uri).path)
 end
