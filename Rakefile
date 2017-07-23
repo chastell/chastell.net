@@ -27,6 +27,15 @@ task '1/125', [:source] do |_task, args|
   sh 'rake serve'
 end
 
+desc 'Recreate a 1/125 photo'
+task '1/125:redo', [:source, :slug] do |_task, args|
+  source = Pathname.new(URI.parse(args.fetch(:source)).path)
+  %w(.jpg .RAF .RAF.xmp).each do |ext|
+    cp source.sub_ext(ext), "photos/#{args.fetch(:slug)}#{ext.downcase}"
+  end
+  Rake::Task[:assets].invoke
+end
+
 desc 'Build and publish to GitHub'
 task publish: :assets do
   sh 'middleman build'
