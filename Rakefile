@@ -58,7 +58,7 @@ task :tweet_newest do
   photo = "#{__dir__}/source/1/125/#{slug}/photo.jpg"
   front = path.read.split("---\n").reject(&:empty?).first
   title = YAML.load(front).fetch('title').gsub(%r{</?[a-z]+>}i, '')
-  uri   = URI.parse("http://chastell.net/1/125/#{slug}/")
+  uri   = URI.parse("https://chastell.net/1/125/#{slug}/")
   puts "waiting for #{uri}…"
   sleep 1 until Net::HTTP.get_response(uri).is_a?(Net::HTTPOK)
   sh "t update -f #{photo} '1/125: #{title} #{uri} #chastellnet'"
