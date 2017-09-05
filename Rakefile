@@ -106,8 +106,10 @@ def ask(variable, default: '')
 end
 
 def copy_assets(source:, slug:)
-  %w(.jpg .RAF .RAF.xmp).each do |ext|
-    cp source.sub_ext(ext), "photos/#{slug}#{ext.downcase}"
+  %w(.jpg .orig.jpg .orig.jpg.xmp .RAF .RAF.xmp).each do |ext|
+    asset = source.sub_ext(ext)
+    next unless asset.exist?
+    cp asset, "photos/#{slug}#{ext.downcase}"
   end
 end
 
