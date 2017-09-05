@@ -11,7 +11,7 @@ require 'yaml'
 desc 'Create a new 1/125 post'
 task '1/125', [:source] do |_task, args|
   source = source_from_uri(args.fetch(:source))
-  newest = Date.parse(Dir['source/1/125/*.md'].sort.last[/\d{4}-\d{2}-\d{2}/])
+  newest = Date.parse(Dir['source/1/125/*.md'].max[/\d{4}-\d{2}-\d{2}/])
   date   = ask('date', default: [Date.today, newest + 1].max.to_s)
   title  = ask('title')
   slug   = ask('slug', default: slugify(title))
