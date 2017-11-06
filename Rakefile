@@ -8,7 +8,7 @@ require 'socket'
 require 'uri'
 require 'yaml'
 
-desc 'Create a new 1/125 post'
+desc 'Create a new ¹⁄₁₂₅ post'
 task '1/125', [:source] do |_task, args|
   source = source_from_uri(args.fetch(:source))
   newest = Date.parse(Dir['source/1/125/*.md'].max[/\d{4}-\d{2}-\d{2}/])
@@ -25,7 +25,7 @@ task '1/125', [:source] do |_task, args|
   sh 'rake serve'
 end
 
-desc 'Recreate a 1/125 photo'
+desc 'Recreate a ¹⁄₁₂₅ photo'
 task '1/125:redo', [:source, :slug] do |_task, args|
   source = source_from_uri(args.fetch(:source))
   copy_assets slug: args.fetch(:slug), source: source
@@ -61,7 +61,7 @@ task :tweet_newest do
   uri   = URI.parse("https://chastell.net/1/125/#{slug}/")
   puts "waiting for #{uri}…"
   sleep 1 until Net::HTTP.get_response(uri).is_a?(Net::HTTPOK)
-  sh "t update -f #{photo} '1/125: #{title} #{uri} #chastellnet'"
+  sh "t update -f #{photo} '¹⁄₁₂₅: #{title} #{uri} #chastellnet'"
   sh 'xdg-open https://twitter.com/chastell'
 end
 
