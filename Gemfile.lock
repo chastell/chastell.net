@@ -8,7 +8,7 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
-    backports (3.11.0)
+    backports (3.11.1)
     buftok (0.2.0)
     coffee-script (2.4.1)
       coffee-script-source
@@ -100,7 +100,7 @@ GEM
       em-websocket (~> 0.5.1)
       middleman-core (>= 3.3)
       rack-livereload (~> 0.3.15)
-    minitest (5.11.1)
+    minitest (5.11.3)
     multipart-post (2.0.0)
     naught (1.1.0)
     oauth (0.5.4)
@@ -112,7 +112,7 @@ GEM
       activesupport (>= 3.1)
     parallel (1.12.1)
     public_suffix (3.0.1)
-    rack (2.0.3)
+    rack (2.0.4)
     rack-livereload (0.3.16)
       rack
     rb-fsevent (0.10.2)
