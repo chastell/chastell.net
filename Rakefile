@@ -1,5 +1,6 @@
 ENV['TZ'] = 'UTC'
 
+require 'bundler/setup'
 require 'date'
 require 'exifr/jpeg'
 require 'net/http'
