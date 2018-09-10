@@ -30,7 +30,7 @@ GEM
     execjs (2.7.0)
     exifr (1.3.4)
     fast_blank (1.0.0)
-    fastimage (2.1.3)
+    fastimage (2.1.4)
     ffi (1.9.25)
     geokit (1.13.1)
     haml (5.0.4)
