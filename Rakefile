@@ -4,9 +4,11 @@ require 'yaml'
 
 desc 'Regenerate 1/125 dimension data'
 task :dimensions do
-  meta = Dir['1/125/photos/*.jpg'].sort.map(&Pathname.method(:new)).map do |path|
+  paths = Dir["#{__dir__}/1/125/photos/*.jpg"].sort.map(&Pathname.method(:new))
+  meta = paths.map do |path|
+    slug = path.basename.sub_ext('').to_s
     width, height = FastImage.size(path)
-    { path.basename.sub_ext('').to_s => { 'height' => height, 'width' => width } }
+    { slug => { 'height' => height, 'width' => width } }
   end.reduce({}, :merge)
-  File.write('_data/photos.yml', YAML.dump(meta))
+  File.write("#{__dir__}/_data/photos.yml", YAML.dump(meta))
 end
