@@ -1,0 +1,39 @@
+---
+layout:
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <author>
+    <email>chastell@chastell.net</email>
+    <name>Piotr Szotkowski</name>
+  </author>
+  <id>{{ site.url }}</id>
+  <link href="{{ site.url }}" />
+  <link href="{{ "/index.xml" | absolute_url }}" rel="self" />
+  <title>chastell.net</title>
+  <updated>{{ site.posts.first.date | date: '%FT%T%:z' }}</updated>
+  {% for post in site.posts %}
+    <entry>
+      <content type="html">
+        {% capture image_url %}/1/125/photos/{{ post.slug }}.jpg{% endcapture %}
+        {% capture image_html %}
+          <p>
+            <a href="{{ post.url | absolute_url }}">
+              <img src="{{ image_url | absolute_url }}" />
+            </a>
+          </p>
+        {% endcapture %}
+        {% capture meta_html %}
+          <p>{{ post.shot | date: '%B %Y' }}, {{ post.place }}</p>
+        {% endcapture %}
+        {{ image_html   | xml_escape }}
+        {{ post.content | xml_escape }}
+        {{ meta_html    | xml_escape }}
+      </content>
+      <id>{{ post.url | absolute_url }}</id>
+      <link href="{{ post.url | absolute_url }}" rel="alternate" />
+      <title>{{ post.title | xml_escape }}</title>
+      <updated>{{ post.date | date: '%FT%T%:z' }}</updated>
+    </entry>
+  {% endfor %}
+</feed>
