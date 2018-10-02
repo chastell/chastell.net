@@ -9,6 +9,7 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.7)
+    fastimage (2.1.4)
     ffi (1.9.25)
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
@@ -57,6 +58,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  fastimage (~> 2.1)
   jekyll (~> 3.8)
 
 BUNDLED WITH

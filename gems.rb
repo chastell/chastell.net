@@ -1,3 +1,4 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', '~> 3.8'
+gem 'fastimage', '~> 2.1'
+gem 'jekyll',    '~> 3.8'
