@@ -1,0 +1,21 @@
+---
+layout: main
+title: ¹⁄₁₂₅
+---
+<div class="photos">
+  {% for post in site.posts %}
+    {% assign height  = site.data.photos[post.slug].height    %}
+    {% assign width   = site.data.photos[post.slug].width     %}
+    {% assign colspan = width | times: 2 | divided_by: height %}
+    {% assign rowspan = height | times: 2 | divided_by: width %}
+    {% if colspan < 2 %}{% assign colspan = 2 %}{% endif %}
+    {% if rowspan < 2 %}{% assign rowspan = 2 %}{% endif %}
+    <div style="grid-area: span {{ rowspan }} / span {{ colspan }};">
+      <a href="{{ post.url }}">
+        <img src="/1/125/samples/{{ post.slug }}.png" />
+        <br />
+        {{ post.title }}
+      </a>
+    </div>
+  {% endfor %}
+</div>

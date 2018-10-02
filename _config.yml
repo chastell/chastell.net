@@ -1,0 +1,22 @@
+collections:
+  posts:
+    permalink: /1/125/:title/
+
+defaults:
+  - scope:
+      path: ''
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: ''
+    values:
+      layout: main
+
+exclude:
+  - gems.locked
+  - gems.rb
+
+timezone: UTC
+
+url: https://chastell.net

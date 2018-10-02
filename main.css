@@ -1,0 +1,128 @@
+@font-face {
+  font-family: 'IM FELL English SC';
+  src: local('IM FELL English SC'), url('/IM FELL English SC.woff') format('woff');
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: local(Ubuntu), url(/Ubuntu.woff) format('woff');
+}
+
+* {
+  margin: 0;
+  line-height: 1.5;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  font-weight: bold;
+  text-decoration: inherit;
+  text-shadow: #999 1px 1px 3px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a.next, a.previous {
+  font-weight: inherit;
+  text-decoration: inherit;
+}
+
+article {
+  background: white;
+  box-shadow: black 0 0 5vh;
+  color: black;
+  margin: 2vh auto;
+  max-width: 40rem;
+  padding: 1rem;
+}
+
+article h1 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+article h1 a {
+  font-weight: inherit;
+}
+
+article p {
+  margin-top: 1rem;
+}
+
+article .meta {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+article .meta .coords { justify-self: right; margin: 0;
+  text-align: right;
+}
+
+body {
+  background: #333;
+  color: white;
+  font-family: Ubuntu, sans-serif;
+}
+
+footer {
+  padding-bottom: 1.5vh;
+}
+
+footer, header {
+  font-family: 'IM FELL English SC', serif;
+  text-align: center;
+}
+
+footer a, header a {
+  font-weight: inherit;
+}
+
+header {
+  padding-top: 1.5vh;
+}
+
+.chastell-net {
+  font-family: 'IM FELL English SC', serif;
+  font-size: 1.2em;
+}
+
+.photo {
+  align-items: center;
+  display: grid;
+  font-size: 5vw;
+  grid-template-columns: 10vw auto 10vw;
+  height: 85vh;
+  justify-items: center;
+  padding-top: 2vh;
+}
+
+.photo img {
+  box-shadow: black 0 0 5vmin;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.photos {
+  align-items: center;
+  display: grid;
+  grid-auto-flow: dense;
+  grid-auto-rows: 10rem;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  justify-items: center;
+  padding: 1vh 3vh;
+}
+
+.photos a {
+  font-weight: inherit;
+}
+
+.photos img {
+  box-shadow: black 0 0 1vmin;
+  max-height: 80%;
+  max-width: 80%;
+  object-fit: contain;
+}

@@ -1,0 +1,23 @@
+---
+layout: main
+---
+<div class="photo" id="1">
+  {% if page.next %}
+    <a href="{{ page.next.url }}" class="next">🖘</a>
+  {% else %}
+    <span></span>
+  {% endif %}
+  <img src="/1/125/photos/{{ page.slug }}.jpg" />
+  {% if page.previous %}
+    <a href="{{ page.previous.url }}" class="previous">🖙</a>
+  {% else %}
+    <span></span>
+  {% endif %}
+</div>
+<article id="2">
+  <div class="meta">
+    <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+    <p class="coords">{{ page.shot | date: '%B %Y' }}, {{ page.place }}</p>
+  </div>
+  {{ content }}
+</article>
