@@ -24,7 +24,10 @@ layout:
           </p>
         {% endcapture %}
         {% capture meta_html %}
-          <p>{{ post.shot | date: '%B %Y' }}, {{ post.place }}</p>
+        <p>
+          {{ post.shot | date: '%B %Y' }}, {{ post.place }}
+          {%- if post.photographer -%}, by {{ post.photographer }}{%- endif -%}
+        </p>
         {% endcapture %}
         {{ image_html   | xml_escape }}
         {{ post.content | xml_escape }}

@@ -17,7 +17,10 @@ layout: main
 <article id="2">
   <div class="meta">
     <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
-    <p class="coords">{{ page.shot | date: '%B %Y' }}, {{ page.place }}</p>
+    <p class="coords">
+      {{ page.shot | date: '%B %Y' }}, {{ page.place }}
+      {%- if page.photographer -%}, by {{ page.photographer }}{%- endif -%}
+    </p>
   </div>
   {{ content }}
 </article>
