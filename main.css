@@ -107,13 +107,12 @@ header {
 }
 
 .photos {
-  align-items: center;
   display: grid;
   grid-auto-flow: dense;
   grid-auto-rows: 10rem;
   grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   justify-items: center;
-  padding: 1vh 3vh;
+  padding: 3vh;
 }
 
 .photos a {
