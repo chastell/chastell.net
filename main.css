@@ -84,9 +84,22 @@ header {
   padding-top: 1.5vh;
 }
 
+ol {
+  padding: 1rem 1rem 0;
+}
+
 .chastell-net {
   font-family: 'IM FELL English SC', serif;
   font-size: 1.2em;
+}
+
+.footnotes {
+  border-top: 1px dashed gray;
+  margin-top: 1rem;
+}
+
+.footnotes p {
+  margin: 0;
 }
 
 .photo {
