@@ -18,7 +18,7 @@ a {
   color: inherit;
   font-weight: bold;
   text-decoration: inherit;
-  text-shadow: #999 1px 1px 3px;
+  text-shadow: gray 1px 1px 3px;
 }
 
 a:hover {
