@@ -4,6 +4,15 @@ require 'fastimage'
 require 'pathname'
 require 'yaml'
 
+desc 'Build and publish to GitHub'
+task publish: :assets do
+  sh 'jekyll build --destination docs --strict_front_matter'
+  sh 'git add -- docs'
+  abort 'nothing to publish' if `git status --porcelain -- docs`.empty?
+  sh 'git commit --message "rebuild"'
+  sh 'git push'
+end
+
 desc 'Serve the site, rebuilding if necessary'
 task serve: :assets do
   sh 'jekyll serve --future --livereload --open-url --strict_front_matter'
