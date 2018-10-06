@@ -16,6 +16,8 @@ defaults:
 exclude:
   - gems.locked
   - gems.rb
+  - origs
+  - tmp
 
 timezone: UTC
 
