@@ -1,11 +1,30 @@
 ENV['TZ'] = 'UTC'
 
+require 'bundler/setup'
 require 'cgi'
+require 'date'
+require 'exifr/jpeg'
 require 'fastimage'
 require 'net/http'
 require 'pathname'
 require 'uri'
 require 'yaml'
+
+desc 'Create a new ¹⁄₁₂₅ post'
+task '1/125', [:source] do |_task, args|
+  source = source_from_uri(args.fetch(:source))
+  newest = Date.parse(Dir['_posts/*.md'].max[/\d{4}-\d{2}-\d{2}/])
+  date   = ask('date', default: [Date.today, newest + 1].max.to_s)
+  title  = ask('title')
+  slug   = ask('slug', default: slugify(title))
+  place  = ask('place')
+  path   = Pathname.new("_posts/#{date}-#{slug}.md")
+  shot   = EXIFR::JPEG.new(source.to_s).date_time_original
+  copy_assets slug: slug, source: source
+  path.write frontmatter(place: place, shot: shot, title: title)
+  sh 'gvim', path.to_s
+  sh 'rake serve'
+end
 
 desc 'Recreate a ¹⁄₁₂₅ photo'
 task '1/125:redo', [:source, :slug] do |_task, args|
@@ -63,6 +82,14 @@ end
 
 private
 
+def ask(variable, default: '')
+  question = variable
+  question += " (#{default})" unless default.empty?
+  print "#{question}? "
+  response = $stdin.gets.chomp
+  response.empty? ? default : response
+end
+
 def convert(from:, to:)
   opts = %w[-colorspace sRGB -define filter:support=2
             -define jpeg:fancy-upsampling=off -define png:compression-filter=5
@@ -83,6 +110,23 @@ def copy_assets(source:, slug:)
     next unless asset.exist?
     cp asset, "origs/#{slug}#{ext.downcase}"
   end
+end
+
+def frontmatter(place:, shot:, title:)
+  <<~end
+    ---
+    place: #{place}
+    shot:  #{shot}
+    title: #{title}
+    ---
+
+    …
+  end
+end
+
+def slugify(title)
+  title.unicode_normalize(:nfkd).gsub('&', 'and').downcase.delete('^0-9a-z -')
+       .squeeze(' ').strip.tr(' ', '-')
 end
 
 def source_from_uri(uri)
