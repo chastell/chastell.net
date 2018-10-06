@@ -4,6 +4,11 @@ require 'fastimage'
 require 'pathname'
 require 'yaml'
 
+desc 'Serve the site, rebuilding if necessary'
+task serve: :assets do
+  sh 'jekyll serve --future --livereload --open-url --strict_front_matter'
+end
+
 multitask assets: %i[dimensions photos samples]
 
 slugs = FileList['_posts/????-??-??-*.md'].map { |path| path[18..-4] }.sort
