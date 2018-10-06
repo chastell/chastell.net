@@ -3,13 +3,13 @@ layout: main
 ---
 <div class="photo" id="1">
   {% if page.next %}
-    <a href="{{ page.next.url }}" class="next">🖘</a>
+    <a href="{{ page.next.url }}" class="next">⤺</a>
   {% else %}
     <span></span>
   {% endif %}
   <img src="/1/125/photos/{{ page.slug }}.jpg" />
   {% if page.previous %}
-    <a href="{{ page.previous.url }}" class="previous">🖙</a>
+    <a href="{{ page.previous.url }}" class="previous">⤻</a>
   {% else %}
     <span></span>
   {% endif %}
