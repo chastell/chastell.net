@@ -10,7 +10,8 @@ title: ¹⁄₁₂₅
     {% assign rowspan = height | times: 2 | divided_by: width %}
     {% if colspan < 2 %}{% assign colspan = 2 %}{% endif %}
     {% if rowspan < 2 %}{% assign rowspan = 2 %}{% endif %}
-    <div style="grid-area: span {{ rowspan }} / span {{ colspan }};">
+    <div style="grid-column-start: span {{ colspan }};
+                grid-row-start:    span {{ rowspan }};">
       <a href="{{ post.url }}">
         <img src="/1/125/samples/{{ post.slug }}.png" />
         <br />
