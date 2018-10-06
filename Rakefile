@@ -1,10 +1,18 @@
 ENV['TZ'] = 'UTC'
 
+require 'cgi'
 require 'fastimage'
 require 'net/http'
 require 'pathname'
 require 'uri'
 require 'yaml'
+
+desc 'Recreate a ¹⁄₁₂₅ photo'
+task '1/125:redo', [:source, :slug] do |_task, args|
+  source = source_from_uri(args.fetch(:source))
+  copy_assets slug: args.fetch(:slug), source: source
+  Rake::Task[:assets].invoke
+end
 
 desc 'Build and publish to GitHub'
 task publish: :assets do
@@ -67,4 +75,16 @@ def convert(from:, to:)
            when /\.png$/ then %w[-thumbnail 125000@ -colors 6]
            end
   sh 'convert', from, *opts, *format, to
+end
+
+def copy_assets(source:, slug:)
+  %w[.NEF .RAF .jpg .orig.jpg].product(['', '.xmp']).map(&:join).each do |ext|
+    asset = source.sub_ext(ext)
+    next unless asset.exist?
+    cp asset, "origs/#{slug}#{ext.downcase}"
+  end
+end
+
+def source_from_uri(uri)
+  Pathname.new(CGI.unescape(URI.parse(uri).path))
 end
