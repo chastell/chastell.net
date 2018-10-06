@@ -1,7 +1,9 @@
 ENV['TZ'] = 'UTC'
 
 require 'fastimage'
+require 'net/http'
 require 'pathname'
+require 'uri'
 require 'yaml'
 
 desc 'Build and publish to GitHub'
@@ -11,6 +13,7 @@ task publish: :assets do
   abort 'nothing to publish' if `git status --porcelain -- docs`.empty?
   sh 'git commit --message "rebuild"'
   sh 'git push'
+  Rake::Task[:tweet_newest].invoke
 end
 
 desc 'Serve the site, rebuilding if necessary'
@@ -35,6 +38,19 @@ multitask samples: slugs.map { |slug| "1/125/samples/#{slug}.png" }
 
 rule %r{^1/125/(photos|samples)/} => 'origs/%n.jpg' do |task|
   convert from: task.source, to: task.name
+end
+
+task :tweet_newest do
+  path  = Pathname.glob('_posts/*.md').max
+  front = path.read.split("---\n").reject(&:empty?).first
+  title = YAML.safe_load(front).fetch('title').gsub(%r{</?[a-z]+>}i, '')
+  slug  = path.to_s[18..-4]
+  uri   = URI.parse("https://chastell.net/1/125/#{slug}/")
+  puts "waiting for #{uri}…"
+  sleep 1 until Net::HTTP.get_response(uri).is_a?(Net::HTTPOK)
+  photo = "1/125/photos/#{slug}.jpg"
+  sh "t update -f #{photo} '¹⁄₁₂₅: #{title} #{uri} #chastellnet'"
+  sh 'xdg-open https://twitter.com/chastell'
 end
 
 private
