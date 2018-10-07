@@ -6,7 +6,7 @@
   height: 1154
   width: 1732
 2-2-2:
-  height: 1000
+  height: 999
   width: 2000
 '226':
   height: 1000
@@ -54,7 +54,7 @@ adverse-conditions:
   height: 1732
   width: 1154
 all-the-things-in-spain:
-  height: 1000
+  height: 999
   width: 2000
 an-original-dutoit:
   height: 1154
@@ -192,10 +192,10 @@ bubbles-i:
   height: 1000
   width: 2000
 bubbles-ii:
-  height: 1000
+  height: 999
   width: 2000
 bubbles-iii:
-  height: 1414
+  height: 1413
   width: 1414
 bulls-eye:
   height: 1154
@@ -430,7 +430,7 @@ good-night-macho-pride:
   width: 1414
 got-sand:
   height: 1060
-  width: 1886
+  width: 1885
 grad-as-in-gradient:
   height: 1731
   width: 1154
@@ -483,8 +483,8 @@ higher-education:
   height: 1154
   width: 1732
 hijos-de-puta:
-  height: 1000
-  width: 2000
+  height: 999
+  width: 1999
 his-masters-visages:
   height: 1000
   width: 2000
@@ -594,7 +594,7 @@ left-down-right-up:
   height: 1732
   width: 1154
 lefts:
-  height: 1414
+  height: 1413
   width: 1414
 les-deux-parapluies:
   height: 1154
@@ -984,7 +984,7 @@ the-city-of-chocolate:
   height: 1154
   width: 1732
 the-daughter-of-man:
-  height: 1732
+  height: 1731
   width: 1154
 the-end-is-near:
   height: 1731
@@ -1143,7 +1143,7 @@ travelers-to-the-distant-lands:
   height: 894
   width: 2236
 tthbrsh:
-  height: 1414
+  height: 1413
   width: 1414
 tut-zhyve-kit:
   height: 1414
