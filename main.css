@@ -123,7 +123,7 @@ ol {
   display: grid;
   grid-auto-flow: dense;
   grid-auto-rows: 7vmax;
-  grid-gap: 1rem;
+  grid-gap: 2rem;
   grid-template-columns: repeat(auto-fit, 7vmax);
   padding: 3vh;
 }
