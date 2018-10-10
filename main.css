@@ -58,7 +58,9 @@ article .meta {
   grid-template-columns: auto auto;
 }
 
-article .meta .coords { justify-self: right; margin: 0;
+article .meta .coords {
+  justify-self: right;
+  margin: 0;
   text-align: right;
 }
 
