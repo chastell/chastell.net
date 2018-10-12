@@ -40,7 +40,7 @@ task publish: :assets do
   abort 'nothing to publish' if `git status --porcelain -- docs`.empty?
   sh 'git commit --message "rebuild"'
   sh 'git push'
-  # Rake::Task[:tweet_newest].invoke
+  Rake::Task[:tweet_newest].invoke
 end
 
 desc 'Serve the site, rebuilding if necessary'
