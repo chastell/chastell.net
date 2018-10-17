@@ -40,8 +40,6 @@ task publish: :assets do
   abort 'nothing to publish' if `git status --porcelain -- docs`.empty?
   sh 'git commit --message "rebuild"'
   sh 'git push'
-  puts 'sleeping for a bit to let GitHub Pages rebuild their cache'
-  sleep 10
   sh 'git commit --allow-empty --message "refresh"'
   sh 'git push'
   Rake::Task[:tweet_newest].invoke
