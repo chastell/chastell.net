@@ -17,6 +17,7 @@ task '1/125', [:source] do |_task, args|
   date   = ask('date', default: [Date.today, newest + 1].max.to_s)
   title  = ask('title')
   slug   = ask('slug', default: slugify(title))
+  abort "#{slug} already exists" if slugs.include?(slug)
   place  = ask('place')
   path   = Pathname.new("_posts/#{date}-#{slug}.md")
   shot   = EXIFR::JPEG.new(source.to_s).date_time_original
@@ -29,7 +30,9 @@ end
 desc 'Recreate a ¹⁄₁₂₅ photo'
 task '1/125:redo', [:source, :slug] do |_task, args|
   source = source_from_uri(args.fetch(:source))
-  copy_assets slug: args.fetch(:slug), source: source
+  slug   = args.fetch(:slug)
+  abort "#{slug} does not exist" unless slugs.include?(slug)
+  copy_assets slug: slug, source: source
   Rake::Task[:assets].invoke
 end
 
@@ -55,14 +58,16 @@ end
 
 multitask assets: %i[dimensions photos samples]
 
-slugs = FileList['_posts/????-??-??-*.md'].map { |path| path[18..-4] }.sort
-
 task dimensions: :photos do
   dimensions = slugs.map do |slug|
     width, height = FastImage.size("1/125/photos/#{slug}.jpg")
     { slug => { 'height' => height, 'width' => width } }
   end.reduce({}, :merge)
   File.write('_data/photos.yml', YAML.dump(dimensions))
+end
+
+def slugs
+  @slugs ||= FileList['_posts/????-??-??-*.md'].map { |path| path[18..-4] }.sort
 end
 
 multitask photos:  slugs.map { |slug| "1/125/photos/#{slug}.jpg"  }
