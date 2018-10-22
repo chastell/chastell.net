@@ -27,6 +27,18 @@ task '1/125', [:source] do |_task, args|
   sh 'rake serve'
 end
 
+desc 'Add a photo to an existing ¹⁄₁₂₅ entry'
+task '1/125:add', [:source, :slug] do |_task, args|
+  source = source_from_uri(args.fetch(:source))
+  slug   = args.fetch(:slug)
+  abort "#{slug} does not exist" unless slugs.include?(slug)
+  indexed_slug = "#{slug}.#{slug_index(slug) + 1}"
+  copy_assets slug: indexed_slug, source: source
+  multitask photos:  "1/125/photos/#{indexed_slug}.jpg"
+  multitask samples: "1/125/samples/#{indexed_slug}.png"
+  Rake::Task[:assets].invoke
+end
+
 desc 'Recreate a ¹⁄₁₂₅ photo'
 task '1/125:redo', [:source, :slug] do |_task, args|
   source = source_from_uri(args.fetch(:source))
@@ -60,18 +72,16 @@ multitask assets: %i[dimensions photos samples]
 
 task dimensions: :photos do
   dimensions = slugs.map do |slug|
+    extra = slug_index(slug)
     width, height = FastImage.size("1/125/photos/#{slug}.jpg")
-    { slug => { 'height' => height, 'width' => width } }
+    { slug => { 'extra' => extra, 'height' => height, 'width' => width } }
   end.reduce({}, :merge)
   File.write('_data/photos.yml', YAML.dump(dimensions))
 end
 
-def slugs
-  @slugs ||= FileList['_posts/????-??-??-*.md'].map { |path| path[18..-4] }.sort
-end
-
-multitask photos:  slugs.map { |slug| "1/125/photos/#{slug}.jpg"  }
-multitask samples: slugs.map { |slug| "1/125/samples/#{slug}.png" }
+origs = Pathname.glob('origs/*.jpg').map(&:basename)
+multitask photos:  origs.map { |orig| "1/125/photos/#{orig}"  }
+multitask samples: origs.map { |orig| "1/125/samples/#{orig.sub_ext('.png')}" }
 
 rule %r{^1/125/(photos|samples)/} => 'origs/%n.jpg' do |task|
   convert from: task.source, to: task.name
@@ -132,6 +142,14 @@ def frontmatter(place:, shot:, title:)
 
     …
   end
+end
+
+def slug_index(slug)
+  Dir["origs/#{slug}.*.jpg"].map { |pt| pt.split('.').fetch(-2).to_i }.max || 0
+end
+
+def slugs
+  @slugs ||= Dir['_posts/????-??-??-*.md'].map { |path| path[18..-4] }.sort
 end
 
 def slugify(title)
