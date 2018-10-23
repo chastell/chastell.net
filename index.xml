@@ -2,26 +2,24 @@
 layout:
 ---
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xml:base="{{ site.url }}" xmlns="http://www.w3.org/2005/Atom">
   <author>
     <email>chastell@chastell.net</email>
     <name>Piotr Szotkowski</name>
   </author>
   <id>{{ site.url }}</id>
   <link href="{{ site.url }}" />
-  <link href="{{ "/index.xml" | absolute_url }}" rel="self" />
+  <link href="/index.xml" rel="self" />
   <title>chastell.net</title>
   <updated>{{ site.posts.first.date | date: '%FT%T%:z' }}</updated>
   {% for post in site.posts %}
     <entry>
       <content type="html">
-        {% capture image_url %}/1/125/photos/{{ post.slug }}.jpg{% endcapture %}
         {% capture image_html %}
-          <p>
-            <a href="{{ post.url | absolute_url }}">
-              <img src="{{ image_url | absolute_url }}" />
-            </a>
-          </p>
+          <p><img src="/1/125/photos/{{ post.slug }}.jpg" /></p>
+          {% for index in (1..site.data.photos[post.slug].extra) %}
+            <p><img src="/1/125/photos/{{ post.slug }}.{{ index }}.jpg" /></p>
+          {% endfor %}
         {% endcapture %}
         {% capture meta_html %}
         <p>
@@ -34,8 +32,8 @@ layout:
         {{ meta_html    | xml_escape }}
       </content>
       <id>{{ post.url | absolute_url }}</id>
-      <link href="{{ post.url | absolute_url }}" rel="alternate" />
-      <title>{{ post.title | xml_escape }}</title>
+      <link href="{{ post.url }}" rel="alternate" />
+      <title>{{ post.title | strip_html }}</title>
       <updated>{{ post.date | date: '%FT%T%:z' }}</updated>
     </entry>
   {% endfor %}
