@@ -1,20 +1,28 @@
 ---
 layout: main
 ---
-<div class="photo" id="1">
-  {% if page.next %}
-    <a href="{{ page.next.url }}" class="next">⤺</a>
-  {% else %}
-    <span></span>
-  {% endif %}
-  <img src="/1/125/photos/{{ page.slug }}.jpg" />
-  {% if page.previous %}
-    <a href="{{ page.previous.url }}" class="previous">⤻</a>
-  {% else %}
-    <span></span>
-  {% endif %}
-</div>
-<article id="2">
+{% for index in (0..site.data.photos[page.slug].extra) %}
+  <div class="photo" id="{{ index | plus: 1 }}">
+    {% if page.next %}
+      <a href="{{ page.next.url }}" class="next">⤺</a>
+    {% else %}
+      <span></span>
+    {% endif %}
+
+    {% if index == 0 %}
+      <img src="/1/125/photos/{{ page.slug }}.jpg" />
+    {% else %}
+      <img src="/1/125/photos/{{ page.slug }}.{{ index }}.jpg" />
+    {% endif %}
+
+    {% if page.previous %}
+      <a href="{{ page.previous.url }}" class="previous">⤻</a>
+    {% else %}
+      <span></span>
+    {% endif %}
+  </div>
+{% endfor %}
+<article id="{{ site.data.photos[page.slug].extra | plus: 2 }}">
   <div class="meta">
     <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
     <p class="coords">
