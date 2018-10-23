@@ -59,7 +59,7 @@ task publish: :assets do
   sleep 10
   sh 'git commit --allow-empty --message "refresh"'
   sh 'git push'
-  Rake::Task[:tweet_newest].invoke
+  Rake::Task[:tweet_newest].invoke unless ENV['DONT_TWEET']
 end
 
 desc 'Serve the site, rebuilding if necessary'
