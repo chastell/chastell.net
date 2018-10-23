@@ -8,7 +8,7 @@ layout:
     <name>Piotr Szotkowski</name>
   </author>
   <id>{{ site.url }}</id>
-  <link href="{{ site.url }}" />
+  <link href="/" />
   <link href="/index.xml" rel="self" />
   <title>chastell.net</title>
   <updated>{{ site.posts.first.date | date: '%FT%T%:z' }}</updated>
@@ -33,7 +33,7 @@ layout:
       </content>
       <id>{{ post.url | absolute_url }}</id>
       <link href="{{ post.url }}" rel="alternate" />
-      <title>{{ post.title | strip_html }}</title>
+      <title>{{ post.title | strip_html | xml_escape }}</title>
       <updated>{{ post.date | date: '%FT%T%:z' }}</updated>
     </entry>
   {% endfor %}
