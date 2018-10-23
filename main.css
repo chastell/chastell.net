@@ -113,6 +113,7 @@ ol {
   height: 85vh;
   justify-items: center;
   padding-top: 2vh;
+  padding-bottom: 1vh;
 }
 
 .photo img {
