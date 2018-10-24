@@ -7,8 +7,8 @@ layout:
     <email>chastell@chastell.net</email>
     <name>Piotr Szotkowski</name>
   </author>
-  <id>{{ site.url }}</id>
-  <link href="/" />
+  <id>{{ site.url }}/</id>
+  <link href="/" rel="alternate" />
   <link href="/index.xml" rel="self" />
   <title>chastell.net</title>
   <updated>{{ site.posts.first.date | date: '%FT%T%:z' }}</updated>
