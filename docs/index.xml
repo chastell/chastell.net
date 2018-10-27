@@ -1,14 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xml:base="https://chastell.net/" xmlns="http://www.w3.org/2005/Atom">
+<feed xml:base="https://chastell.net" xmlns="http://www.w3.org/2005/Atom">
   <author>
     <email>chastell@chastell.net</email>
     <name>Piotr Szotkowski</name>
   </author>
   <id>https://chastell.net/</id>
-  <link href="/" />
+  <link href="/" rel="alternate" />
   <link href="/index.xml" rel="self" />
   <title>chastell.net</title>
-  <updated>2018-10-17T00:00:00+00:00</updated>
+  <updated>2018-10-27T00:00:00+00:00</updated>
+  
+    <entry>
+      <content type="html">
+        
+        
+        
+          &lt;p&gt;&lt;img src=&quot;/1/125/photos/private-eye-in-training.jpg&quot; /&gt;&lt;/p&gt;
+          
+            &lt;p&gt;&lt;img src=&quot;/1/125/photos/private-eye-in-training.1.jpg&quot; /&gt;&lt;/p&gt;
+          
+        
+        &lt;p&gt;Who investigates the investigators?&lt;/p&gt;
+
+        
+        &lt;p&gt;
+          March 2018, Warsaw&lt;/p&gt;
+        
+      </content>
+      <id>https://chastell.net/1/125/private-eye-in-training/</id>
+      <link href="/1/125/private-eye-in-training/" rel="alternate" />
+      <title>Private Eye in Training</title>
+      <updated>2018-10-27T00:00:00+00:00</updated>
+    </entry>
   
     <entry>
       <content type="html">
@@ -25,7 +48,7 @@
           May 2018, Amsterdam&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/chemping-the-queue/</id>
+      <id>https://chastell.net/1/125/chemping-the-queue/</id>
       <link href="/1/125/chemping-the-queue/" rel="alternate" />
       <title>Chemping the Queue</title>
       <updated>2018-10-17T00:00:00+00:00</updated>
@@ -46,7 +69,7 @@
           May 2018, Amsterdam&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/an-unlikely-mirror/</id>
+      <id>https://chastell.net/1/125/an-unlikely-mirror/</id>
       <link href="/1/125/an-unlikely-mirror/" rel="alternate" />
       <title>An Unlikely Mirror</title>
       <updated>2018-10-15T00:00:00+00:00</updated>
@@ -67,7 +90,7 @@
           May 2018, Amsterdam&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/target-practice/</id>
+      <id>https://chastell.net/1/125/target-practice/</id>
       <link href="/1/125/target-practice/" rel="alternate" />
       <title>Target Practice</title>
       <updated>2018-10-14T00:00:00+00:00</updated>
@@ -88,7 +111,7 @@
           May 2018, Amsterdam&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/thinking-art/</id>
+      <id>https://chastell.net/1/125/thinking-art/</id>
       <link href="/1/125/thinking-art/" rel="alternate" />
       <title>Thinking Art</title>
       <updated>2018-10-13T00:00:00+00:00</updated>
@@ -109,7 +132,7 @@
           May 2018, Amsterdam&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/45000-and-not-a-shredder-in-sight/</id>
+      <id>https://chastell.net/1/125/45000-and-not-a-shredder-in-sight/</id>
       <link href="/1/125/45000-and-not-a-shredder-in-sight/" rel="alternate" />
       <title>€45,000 and Not a Shredder in Sight</title>
       <updated>2018-10-12T00:00:00+00:00</updated>
@@ -130,7 +153,7 @@
           May 2018, Amsterdam&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/more-roy/</id>
+      <id>https://chastell.net/1/125/more-roy/</id>
       <link href="/1/125/more-roy/" rel="alternate" />
       <title>More Roy</title>
       <updated>2018-10-11T00:00:00+00:00</updated>
@@ -151,7 +174,7 @@
           May 2018, Amsterdam&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/more-banksy/</id>
+      <id>https://chastell.net/1/125/more-banksy/</id>
       <link href="/1/125/more-banksy/" rel="alternate" />
       <title>more Banksy ⯈</title>
       <updated>2018-10-10T00:00:00+00:00</updated>
@@ -172,7 +195,7 @@
           October 2018, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/autumn-colours/</id>
+      <id>https://chastell.net/1/125/autumn-colours/</id>
       <link href="/1/125/autumn-colours/" rel="alternate" />
       <title>Autumn Colours</title>
       <updated>2018-10-08T00:00:00+00:00</updated>
@@ -193,7 +216,7 @@
           February 2017, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/bravely-feeding-the-beast-of-noise/</id>
+      <id>https://chastell.net/1/125/bravely-feeding-the-beast-of-noise/</id>
       <link href="/1/125/bravely-feeding-the-beast-of-noise/" rel="alternate" />
       <title>Bravely Feeding the Beast of Noise</title>
       <updated>2018-10-07T00:00:00+00:00</updated>
@@ -214,7 +237,7 @@
           September 2016, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/good-night-macho-pride/</id>
+      <id>https://chastell.net/1/125/good-night-macho-pride/</id>
       <link href="/1/125/good-night-macho-pride/" rel="alternate" />
       <title>🌜 GOOD NIGHT ★ MACHO PRIDE 🌛</title>
       <updated>2018-10-06T00:00:00+00:00</updated>
@@ -235,7 +258,7 @@
           October 2016, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/i-get-the-nicest-mail/</id>
+      <id>https://chastell.net/1/125/i-get-the-nicest-mail/</id>
       <link href="/1/125/i-get-the-nicest-mail/" rel="alternate" />
       <title>I Get the Nicest Mail</title>
       <updated>2018-10-03T00:00:00+00:00</updated>
@@ -256,7 +279,7 @@
           September 2018, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/the-space-of-neighbourly-meetings/</id>
+      <id>https://chastell.net/1/125/the-space-of-neighbourly-meetings/</id>
       <link href="/1/125/the-space-of-neighbourly-meetings/" rel="alternate" />
       <title>The Space of Neighbourly Meetings</title>
       <updated>2018-09-30T00:00:00+00:00</updated>
@@ -277,7 +300,7 @@
           August 2017, Maribor&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/the-little-climber/</id>
+      <id>https://chastell.net/1/125/the-little-climber/</id>
       <link href="/1/125/the-little-climber/" rel="alternate" />
       <title>The Little Climber</title>
       <updated>2018-09-29T00:00:00+00:00</updated>
@@ -298,7 +321,7 @@
           September 2018, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/warsaw-city-reality/</id>
+      <id>https://chastell.net/1/125/warsaw-city-reality/</id>
       <link href="/1/125/warsaw-city-reality/" rel="alternate" />
       <title>Warsaw City Reality</title>
       <updated>2018-09-28T00:00:00+00:00</updated>
@@ -319,7 +342,7 @@
           September 2016, Split&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/westgate-west/</id>
+      <id>https://chastell.net/1/125/westgate-west/</id>
       <link href="/1/125/westgate-west/" rel="alternate" />
       <title>Westgate West</title>
       <updated>2018-09-27T00:00:00+00:00</updated>
@@ -340,7 +363,7 @@
           July 2018, Prague&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/its-fine/</id>
+      <id>https://chastell.net/1/125/its-fine/</id>
       <link href="/1/125/its-fine/" rel="alternate" />
       <title>It’s Fine</title>
       <updated>2018-09-25T00:00:00+00:00</updated>
@@ -361,7 +384,7 @@
           March 2018, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/lockstep-peeping/</id>
+      <id>https://chastell.net/1/125/lockstep-peeping/</id>
       <link href="/1/125/lockstep-peeping/" rel="alternate" />
       <title>Lockstep Peeping</title>
       <updated>2018-09-22T00:00:00+00:00</updated>
@@ -382,7 +405,7 @@
           July 2018, Prague&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/bezpecnost-predevsim/</id>
+      <id>https://chastell.net/1/125/bezpecnost-predevsim/</id>
       <link href="/1/125/bezpecnost-predevsim/" rel="alternate" />
       <title>Bezpečnost především!</title>
       <updated>2018-09-20T00:00:00+00:00</updated>
@@ -403,7 +426,7 @@
           September 2018, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/gentlemens-standoff/</id>
+      <id>https://chastell.net/1/125/gentlemens-standoff/</id>
       <link href="/1/125/gentlemens-standoff/" rel="alternate" />
       <title>Gentlemen’s Standoff</title>
       <updated>2018-09-17T00:00:00+00:00</updated>
@@ -424,7 +447,7 @@
           September 2018, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/vvvvv/</id>
+      <id>https://chastell.net/1/125/vvvvv/</id>
       <link href="/1/125/vvvvv/" rel="alternate" />
       <title>VVVVV</title>
       <updated>2018-09-16T00:00:00+00:00</updated>
@@ -445,7 +468,7 @@
           September 2018, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/a-self-portrait-with-the-city/</id>
+      <id>https://chastell.net/1/125/a-self-portrait-with-the-city/</id>
       <link href="/1/125/a-self-portrait-with-the-city/" rel="alternate" />
       <title>A Self-portrait with the City</title>
       <updated>2018-09-15T00:00:00+00:00</updated>
@@ -466,7 +489,7 @@
           December 2017, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/ready-or-not-here-i-count/</id>
+      <id>https://chastell.net/1/125/ready-or-not-here-i-count/</id>
       <link href="/1/125/ready-or-not-here-i-count/" rel="alternate" />
       <title>Ready or Not, Here I Count</title>
       <updated>2018-09-14T00:00:00+00:00</updated>
@@ -487,7 +510,7 @@
           September 2018, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/the-manicurist-is-in/</id>
+      <id>https://chastell.net/1/125/the-manicurist-is-in/</id>
       <link href="/1/125/the-manicurist-is-in/" rel="alternate" />
       <title>The Manicurist is In</title>
       <updated>2018-09-13T00:00:00+00:00</updated>
@@ -508,7 +531,7 @@
           May 2018, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/tags-galore/</id>
+      <id>https://chastell.net/1/125/tags-galore/</id>
       <link href="/1/125/tags-galore/" rel="alternate" />
       <title>Tags Galore</title>
       <updated>2018-09-12T00:00:00+00:00</updated>
@@ -529,7 +552,7 @@
           March 2018, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/1968/</id>
+      <id>https://chastell.net/1/125/1968/</id>
       <link href="/1/125/1968/" rel="alternate" />
       <title>1968</title>
       <updated>2018-09-11T00:00:00+00:00</updated>
@@ -552,7 +575,7 @@
           May 2018, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/the-leathersmith-is-out/</id>
+      <id>https://chastell.net/1/125/the-leathersmith-is-out/</id>
       <link href="/1/125/the-leathersmith-is-out/" rel="alternate" />
       <title>The Leathersmith is Out</title>
       <updated>2018-09-10T00:00:00+00:00</updated>
@@ -573,7 +596,7 @@
           May 2018, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/hotel-mockup/</id>
+      <id>https://chastell.net/1/125/hotel-mockup/</id>
       <link href="/1/125/hotel-mockup/" rel="alternate" />
       <title>Hotel Mockup</title>
       <updated>2018-09-09T00:00:00+00:00</updated>
@@ -594,7 +617,7 @@
           July 2018, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/watermelon-footwork/</id>
+      <id>https://chastell.net/1/125/watermelon-footwork/</id>
       <link href="/1/125/watermelon-footwork/" rel="alternate" />
       <title>Watermelon Footwork</title>
       <updated>2018-09-08T00:00:00+00:00</updated>
@@ -615,7 +638,7 @@
           July 2018, Prague&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/when-sithraks-nails-went-all-the-way-in/</id>
+      <id>https://chastell.net/1/125/when-sithraks-nails-went-all-the-way-in/</id>
       <link href="/1/125/when-sithraks-nails-went-all-the-way-in/" rel="alternate" />
       <title>When Sithrak’s Nails Went All the Way In</title>
       <updated>2018-09-06T00:00:00+00:00</updated>
@@ -636,7 +659,7 @@
           July 2018, Prague&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/serious-tourism/</id>
+      <id>https://chastell.net/1/125/serious-tourism/</id>
       <link href="/1/125/serious-tourism/" rel="alternate" />
       <title>Serious Tourism</title>
       <updated>2018-08-31T00:00:00+00:00</updated>
@@ -657,7 +680,7 @@
           July 2018, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/baby-steps/</id>
+      <id>https://chastell.net/1/125/baby-steps/</id>
       <link href="/1/125/baby-steps/" rel="alternate" />
       <title>Baby Steps</title>
       <updated>2018-08-29T00:00:00+00:00</updated>
@@ -678,7 +701,7 @@
           February 2017, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/chewie-trip/</id>
+      <id>https://chastell.net/1/125/chewie-trip/</id>
       <link href="/1/125/chewie-trip/" rel="alternate" />
       <title>Chewie Trip</title>
       <updated>2018-05-06T00:00:00+00:00</updated>
@@ -699,7 +722,7 @@
           August 2017, Paradise Beach, Rab&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/between-hell-and-hell/</id>
+      <id>https://chastell.net/1/125/between-hell-and-hell/</id>
       <link href="/1/125/between-hell-and-hell/" rel="alternate" />
       <title>Between Hell and Hell</title>
       <updated>2018-05-05T00:00:00+00:00</updated>
@@ -720,7 +743,7 @@
           March 2018, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/raised-by-two-armchairs/</id>
+      <id>https://chastell.net/1/125/raised-by-two-armchairs/</id>
       <link href="/1/125/raised-by-two-armchairs/" rel="alternate" />
       <title>Raised by Two Armchairs</title>
       <updated>2018-05-04T00:00:00+00:00</updated>
@@ -741,7 +764,7 @@
           March 2018, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/empty-spaces/</id>
+      <id>https://chastell.net/1/125/empty-spaces/</id>
       <link href="/1/125/empty-spaces/" rel="alternate" />
       <title>Empty Spaces</title>
       <updated>2018-03-24T00:00:00+00:00</updated>
@@ -762,7 +785,7 @@
           March 2018, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/blue-eyes/</id>
+      <id>https://chastell.net/1/125/blue-eyes/</id>
       <link href="/1/125/blue-eyes/" rel="alternate" />
       <title>Blue. Eyes.</title>
       <updated>2018-03-18T00:00:00+00:00</updated>
@@ -783,7 +806,7 @@
           September 2016, Vienna&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/hydeing-in-a-closet/</id>
+      <id>https://chastell.net/1/125/hydeing-in-a-closet/</id>
       <link href="/1/125/hydeing-in-a-closet/" rel="alternate" />
       <title>Hyde’ing in a Closet</title>
       <updated>2018-02-05T00:00:00+00:00</updated>
@@ -804,7 +827,7 @@
           January 2018, MUC-WAW flight&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/muc-und-freising/</id>
+      <id>https://chastell.net/1/125/muc-und-freising/</id>
       <link href="/1/125/muc-und-freising/" rel="alternate" />
       <title>MUC und Freising</title>
       <updated>2018-02-04T00:00:00+00:00</updated>
@@ -825,7 +848,7 @@
           January 2018, Munich Airport&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/they-see-me-rollin-they-wavin/</id>
+      <id>https://chastell.net/1/125/they-see-me-rollin-they-wavin/</id>
       <link href="/1/125/they-see-me-rollin-they-wavin/" rel="alternate" />
       <title>They See Me Rollin’, They Wavin’</title>
       <updated>2018-02-03T00:00:00+00:00</updated>
@@ -846,7 +869,7 @@
           January 2018, Munich Airport&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/mufthansa/</id>
+      <id>https://chastell.net/1/125/mufthansa/</id>
       <link href="/1/125/mufthansa/" rel="alternate" />
       <title>M…ufthansa</title>
       <updated>2018-01-31T00:00:00+00:00</updated>
@@ -867,7 +890,7 @@
           July 2016, Bobolin&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/lady-buckethead-at-the-seaside/</id>
+      <id>https://chastell.net/1/125/lady-buckethead-at-the-seaside/</id>
       <link href="/1/125/lady-buckethead-at-the-seaside/" rel="alternate" />
       <title>Lady Buckethead at the Seaside</title>
       <updated>2018-01-12T00:00:00+00:00</updated>
@@ -888,7 +911,7 @@
           November 2017, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/blockworld/</id>
+      <id>https://chastell.net/1/125/blockworld/</id>
       <link href="/1/125/blockworld/" rel="alternate" />
       <title>Blockworld</title>
       <updated>2018-01-07T00:00:00+00:00</updated>
@@ -911,7 +934,7 @@
           July 2017, CDG-WAW flight&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/sky-resort/</id>
+      <id>https://chastell.net/1/125/sky-resort/</id>
       <link href="/1/125/sky-resort/" rel="alternate" />
       <title>Sky Resort</title>
       <updated>2017-11-26T00:00:00+00:00</updated>
@@ -932,7 +955,7 @@
           August 2017, Wąsowo&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/the-sixth-hence/</id>
+      <id>https://chastell.net/1/125/the-sixth-hence/</id>
       <link href="/1/125/the-sixth-hence/" rel="alternate" />
       <title>The Sixth Hence</title>
       <updated>2017-11-23T00:00:00+00:00</updated>
@@ -953,7 +976,7 @@
           November 2017, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/sticker-bombing-like-its-972/</id>
+      <id>https://chastell.net/1/125/sticker-bombing-like-its-972/</id>
       <link href="/1/125/sticker-bombing-like-its-972/" rel="alternate" />
       <title>Sticker Bombing Like It’s 972</title>
       <updated>2017-11-08T00:00:00+00:00</updated>
@@ -974,7 +997,7 @@
           November 2017, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/cupids-at-work/</id>
+      <id>https://chastell.net/1/125/cupids-at-work/</id>
       <link href="/1/125/cupids-at-work/" rel="alternate" />
       <title>Cupids at Work</title>
       <updated>2017-11-07T00:00:00+00:00</updated>
@@ -995,7 +1018,7 @@
           July 2017, Paris&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/barcode-check/</id>
+      <id>https://chastell.net/1/125/barcode-check/</id>
       <link href="/1/125/barcode-check/" rel="alternate" />
       <title>Barcode Check</title>
       <updated>2017-11-06T00:00:00+00:00</updated>
@@ -1016,7 +1039,7 @@
           August 2016, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/crayons-cryoffs/</id>
+      <id>https://chastell.net/1/125/crayons-cryoffs/</id>
       <link href="/1/125/crayons-cryoffs/" rel="alternate" />
       <title>Crayons, Cry-offs</title>
       <updated>2017-11-05T00:00:00+00:00</updated>
@@ -1037,7 +1060,7 @@
           November 2016, Berlin&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/drumpf/</id>
+      <id>https://chastell.net/1/125/drumpf/</id>
       <link href="/1/125/drumpf/" rel="alternate" />
       <title>DRUMPF!</title>
       <updated>2017-11-04T00:00:00+00:00</updated>
@@ -1058,7 +1081,7 @@
           March 2017, Wrocław&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/soviet-soviet-totenwald/</id>
+      <id>https://chastell.net/1/125/soviet-soviet-totenwald/</id>
       <link href="/1/125/soviet-soviet-totenwald/" rel="alternate" />
       <title>Soviet, Soviet, Totenwald</title>
       <updated>2017-11-03T00:00:00+00:00</updated>
@@ -1079,7 +1102,7 @@
           September 2017, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/dead-end-walking/</id>
+      <id>https://chastell.net/1/125/dead-end-walking/</id>
       <link href="/1/125/dead-end-walking/" rel="alternate" />
       <title>Dead End Walking</title>
       <updated>2017-11-02T00:00:00+00:00</updated>
@@ -1100,7 +1123,7 @@
           July 2016, Bobolin&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/grownup-dreams/</id>
+      <id>https://chastell.net/1/125/grownup-dreams/</id>
       <link href="/1/125/grownup-dreams/" rel="alternate" />
       <title>Grownup Dreams</title>
       <updated>2017-11-01T00:00:00+00:00</updated>
@@ -1121,7 +1144,7 @@
           September 2017, Budapest&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/rowan-bride/</id>
+      <id>https://chastell.net/1/125/rowan-bride/</id>
       <link href="/1/125/rowan-bride/" rel="alternate" />
       <title>Rowan Bride</title>
       <updated>2017-10-16T00:00:00+00:00</updated>
@@ -1142,7 +1165,7 @@
           July 2016, Toruń&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/guardians-of-a-small-galaxy/</id>
+      <id>https://chastell.net/1/125/guardians-of-a-small-galaxy/</id>
       <link href="/1/125/guardians-of-a-small-galaxy/" rel="alternate" />
       <title>Guardians of a (Small) Galaxy</title>
       <updated>2017-09-17T00:00:00+00:00</updated>
@@ -1163,7 +1186,7 @@
           July 2017, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/you-are-being-monitored/</id>
+      <id>https://chastell.net/1/125/you-are-being-monitored/</id>
       <link href="/1/125/you-are-being-monitored/" rel="alternate" />
       <title>You Are Being Monitored</title>
       <updated>2017-09-15T00:00:00+00:00</updated>
@@ -1184,7 +1207,7 @@
           April 2017, Kuźnica&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/april-baltic/</id>
+      <id>https://chastell.net/1/125/april-baltic/</id>
       <link href="/1/125/april-baltic/" rel="alternate" />
       <title>April Baltic</title>
       <updated>2017-09-14T00:00:00+00:00</updated>
@@ -1205,7 +1228,7 @@
           September 2016, Krka National Park&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/war-of-currents-dalmatian-front/</id>
+      <id>https://chastell.net/1/125/war-of-currents-dalmatian-front/</id>
       <link href="/1/125/war-of-currents-dalmatian-front/" rel="alternate" />
       <title>War of Currents, Dalmatian Front</title>
       <updated>2017-09-13T00:00:00+00:00</updated>
@@ -1226,7 +1249,7 @@
           June 2016, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/ta-ta/</id>
+      <id>https://chastell.net/1/125/ta-ta/</id>
       <link href="/1/125/ta-ta/" rel="alternate" />
       <title>♥ TA TA ♥</title>
       <updated>2017-09-12T00:00:00+00:00</updated>
@@ -1247,7 +1270,7 @@
           July 2017, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/aurora-iudicialis/</id>
+      <id>https://chastell.net/1/125/aurora-iudicialis/</id>
       <link href="/1/125/aurora-iudicialis/" rel="alternate" />
       <title>Aurora Iudicialis</title>
       <updated>2017-09-11T00:00:00+00:00</updated>
@@ -1268,7 +1291,7 @@
           July 2016, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/who-watches-the-zapiekanki/</id>
+      <id>https://chastell.net/1/125/who-watches-the-zapiekanki/</id>
       <link href="/1/125/who-watches-the-zapiekanki/" rel="alternate" />
       <title>Who Watches the Zapiekanki?</title>
       <updated>2017-09-10T00:00:00+00:00</updated>
@@ -1289,7 +1312,7 @@
           July 2017, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/custodiens-custodes/</id>
+      <id>https://chastell.net/1/125/custodiens-custodes/</id>
       <link href="/1/125/custodiens-custodes/" rel="alternate" />
       <title>Custodiens custodes</title>
       <updated>2017-09-09T00:00:00+00:00</updated>
@@ -1310,7 +1333,7 @@
           June 2017, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/working-securely-with-legacy-code/</id>
+      <id>https://chastell.net/1/125/working-securely-with-legacy-code/</id>
       <link href="/1/125/working-securely-with-legacy-code/" rel="alternate" />
       <title>Working Securely with Legacy Code</title>
       <updated>2017-09-08T00:00:00+00:00</updated>
@@ -1331,7 +1354,7 @@
           July 2017, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/bff/</id>
+      <id>https://chastell.net/1/125/bff/</id>
       <link href="/1/125/bff/" rel="alternate" />
       <title>BFF</title>
       <updated>2017-09-07T00:00:00+00:00</updated>
@@ -1352,7 +1375,7 @@
           July 2017, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/autumn-is-coming/</id>
+      <id>https://chastell.net/1/125/autumn-is-coming/</id>
       <link href="/1/125/autumn-is-coming/" rel="alternate" />
       <title>Autumn is Coming</title>
       <updated>2017-09-06T00:00:00+00:00</updated>
@@ -1373,7 +1396,7 @@
           July 2017, Paris&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/the-adventures-of-hamstecorn-and-batcat/</id>
+      <id>https://chastell.net/1/125/the-adventures-of-hamstecorn-and-batcat/</id>
       <link href="/1/125/the-adventures-of-hamstecorn-and-batcat/" rel="alternate" />
       <title>The Adventures of Hamstecorn and Batcat</title>
       <updated>2017-09-05T00:00:00+00:00</updated>
@@ -1394,7 +1417,7 @@
           May 2017, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/hidden-treasure/</id>
+      <id>https://chastell.net/1/125/hidden-treasure/</id>
       <link href="/1/125/hidden-treasure/" rel="alternate" />
       <title>Hidden Treasure</title>
       <updated>2017-09-04T00:00:00+00:00</updated>
@@ -1415,7 +1438,7 @@
           September 2016, Okrug Gornji&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/the-last-day-of-summer/</id>
+      <id>https://chastell.net/1/125/the-last-day-of-summer/</id>
       <link href="/1/125/the-last-day-of-summer/" rel="alternate" />
       <title>The Last Day of Summer</title>
       <updated>2017-09-02T00:00:00+00:00</updated>
@@ -1436,7 +1459,7 @@
           July 2017, La Géode, Paris&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/geode-internals/</id>
+      <id>https://chastell.net/1/125/geode-internals/</id>
       <link href="/1/125/geode-internals/" rel="alternate" />
       <title>Géode Internals</title>
       <updated>2017-07-29T00:00:00+00:00</updated>
@@ -1457,7 +1480,7 @@
           July 2017, CDG-WAW flight&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/some-plock-by-night/</id>
+      <id>https://chastell.net/1/125/some-plock-by-night/</id>
       <link href="/1/125/some-plock-by-night/" rel="alternate" />
       <title>Some Płock by Night</title>
       <updated>2017-07-27T00:00:00+00:00</updated>
@@ -1478,7 +1501,7 @@
           July 2017, Paris&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/gonna-bring-the-flavour-show-you-how/</id>
+      <id>https://chastell.net/1/125/gonna-bring-the-flavour-show-you-how/</id>
       <link href="/1/125/gonna-bring-the-flavour-show-you-how/" rel="alternate" />
       <title>Gonna Bring the Flavour, Show You How</title>
       <updated>2017-07-25T00:00:00+00:00</updated>
@@ -1499,7 +1522,7 @@
           July 2017, Paris&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/23-septembre/</id>
+      <id>https://chastell.net/1/125/23-septembre/</id>
       <link href="/1/125/23-septembre/" rel="alternate" />
       <title>23 septembre</title>
       <updated>2017-07-24T00:00:00+00:00</updated>
@@ -1520,7 +1543,7 @@
           July 2017, Paris&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/hunting-grounds/</id>
+      <id>https://chastell.net/1/125/hunting-grounds/</id>
       <link href="/1/125/hunting-grounds/" rel="alternate" />
       <title>Hunting Grounds</title>
       <updated>2017-07-23T00:00:00+00:00</updated>
@@ -1541,7 +1564,7 @@
           July 2017, Paris&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/smile-and-les-spherades-smile-with-you/</id>
+      <id>https://chastell.net/1/125/smile-and-les-spherades-smile-with-you/</id>
       <link href="/1/125/smile-and-les-spherades-smile-with-you/" rel="alternate" />
       <title>Smile and Les Sphérades Smile with You</title>
       <updated>2017-07-22T00:00:00+00:00</updated>
@@ -1562,7 +1585,7 @@
           July 2017, Paris&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/live-long-prosper-feito-and-fauno/</id>
+      <id>https://chastell.net/1/125/live-long-prosper-feito-and-fauno/</id>
       <link href="/1/125/live-long-prosper-feito-and-fauno/" rel="alternate" />
       <title>Live Long, Prosper, Feito &amp; Fauno</title>
       <updated>2017-07-21T00:00:00+00:00</updated>
@@ -1583,7 +1606,7 @@
           July 2017, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/midnight-in-poland/</id>
+      <id>https://chastell.net/1/125/midnight-in-poland/</id>
       <link href="/1/125/midnight-in-poland/" rel="alternate" />
       <title>Midnight in Poland</title>
       <updated>2017-07-20T00:00:00+00:00</updated>
@@ -1604,7 +1627,7 @@
           July 2017, Paris&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/poster-girl/</id>
+      <id>https://chastell.net/1/125/poster-girl/</id>
       <link href="/1/125/poster-girl/" rel="alternate" />
       <title>Poster Girl</title>
       <updated>2017-07-19T00:00:00+00:00</updated>
@@ -1625,7 +1648,7 @@
           July 2017, Paris&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/les-deux-parapluies/</id>
+      <id>https://chastell.net/1/125/les-deux-parapluies/</id>
       <link href="/1/125/les-deux-parapluies/" rel="alternate" />
       <title>Les deux parapluies</title>
       <updated>2017-07-17T00:00:00+00:00</updated>
@@ -1646,7 +1669,7 @@
           June 2017, Kiev&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/antykafe/</id>
+      <id>https://chastell.net/1/125/antykafe/</id>
       <link href="/1/125/antykafe/" rel="alternate" />
       <title>Антикафе</title>
       <updated>2017-07-15T00:00:00+00:00</updated>
@@ -1667,7 +1690,7 @@
           June 2017, Kiev&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/quintessential-kiev/</id>
+      <id>https://chastell.net/1/125/quintessential-kiev/</id>
       <link href="/1/125/quintessential-kiev/" rel="alternate" />
       <title>Quintessential Kiev</title>
       <updated>2017-07-14T00:00:00+00:00</updated>
@@ -1688,7 +1711,7 @@
           July 2017, La Géode, Paris&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/the-very-poly-conf/</id>
+      <id>https://chastell.net/1/125/the-very-poly-conf/</id>
       <link href="/1/125/the-very-poly-conf/" rel="alternate" />
       <title>The Very Poly Conf</title>
       <updated>2017-07-13T00:00:00+00:00</updated>
@@ -1709,7 +1732,7 @@
           July 2017, Paris&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/paris-atlantis/</id>
+      <id>https://chastell.net/1/125/paris-atlantis/</id>
       <link href="/1/125/paris-atlantis/" rel="alternate" />
       <title>Paris, Atlantis</title>
       <updated>2017-07-09T00:00:00+00:00</updated>
@@ -1730,7 +1753,7 @@
           June 2017, Kiev&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/pryyizhdzhaj-i-zalyshajsya/</id>
+      <id>https://chastell.net/1/125/pryyizhdzhaj-i-zalyshajsya/</id>
       <link href="/1/125/pryyizhdzhaj-i-zalyshajsya/" rel="alternate" />
       <title>Приїжджай і залишайся</title>
       <updated>2017-06-28T00:00:00+00:00</updated>
@@ -1751,7 +1774,7 @@
           June 2017, Kiev&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/kiev-city-reality/</id>
+      <id>https://chastell.net/1/125/kiev-city-reality/</id>
       <link href="/1/125/kiev-city-reality/" rel="alternate" />
       <title>Kiev City Reality</title>
       <updated>2017-06-27T00:00:00+00:00</updated>
@@ -1772,7 +1795,7 @@
           June 2017, Kiev&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/red-bar-door/</id>
+      <id>https://chastell.net/1/125/red-bar-door/</id>
       <link href="/1/125/red-bar-door/" rel="alternate" />
       <title>𝐑𝐄𝐃 𝐁𝐀𝐑 𝐃𝐎𝐎𝐑</title>
       <updated>2017-06-26T00:00:00+00:00</updated>
@@ -1793,7 +1816,7 @@
           June 2017, Kiev&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/red-bar-mug/</id>
+      <id>https://chastell.net/1/125/red-bar-mug/</id>
       <link href="/1/125/red-bar-mug/" rel="alternate" />
       <title>𝐑𝐄𝐃 𝐁𝐀𝐑 𝐌𝐔𝐆</title>
       <updated>2017-06-25T00:00:00+00:00</updated>
@@ -1814,7 +1837,7 @@
           June 2017, Kiev&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/i-just-called-to-say-01001001-11100010-10011001-10100101-01010101/</id>
+      <id>https://chastell.net/1/125/i-just-called-to-say-01001001-11100010-10011001-10100101-01010101/</id>
       <link href="/1/125/i-just-called-to-say-01001001-11100010-10011001-10100101-01010101/" rel="alternate" />
       <title>I Just Called to Say 01001001 11100010 10011001 10100101 01010101</title>
       <updated>2017-06-19T00:00:00+00:00</updated>
@@ -1835,7 +1858,7 @@
           June 2017, Kiev&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/jobs-and-the-city/</id>
+      <id>https://chastell.net/1/125/jobs-and-the-city/</id>
       <link href="/1/125/jobs-and-the-city/" rel="alternate" />
       <title>Jobs and the City</title>
       <updated>2017-06-18T00:00:00+00:00</updated>
@@ -1856,7 +1879,7 @@
           May 2017, Błonie&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/short-horizons/</id>
+      <id>https://chastell.net/1/125/short-horizons/</id>
       <link href="/1/125/short-horizons/" rel="alternate" />
       <title>Short Horizons</title>
       <updated>2017-06-17T00:00:00+00:00</updated>
@@ -1877,7 +1900,7 @@
           June 2017, Kiev&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/wall-street-surprise/</id>
+      <id>https://chastell.net/1/125/wall-street-surprise/</id>
       <link href="/1/125/wall-street-surprise/" rel="alternate" />
       <title>Wall Street Surprise</title>
       <updated>2017-06-16T00:00:00+00:00</updated>
@@ -1898,7 +1921,7 @@
           October 2016, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/debonair-dad/</id>
+      <id>https://chastell.net/1/125/debonair-dad/</id>
       <link href="/1/125/debonair-dad/" rel="alternate" />
       <title>Debonair Dad</title>
       <updated>2017-04-19T00:00:00+00:00</updated>
@@ -1919,7 +1942,7 @@
           October 2016, Porto&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/like-father-like-son/</id>
+      <id>https://chastell.net/1/125/like-father-like-son/</id>
       <link href="/1/125/like-father-like-son/" rel="alternate" />
       <title>Like Father, Like Son</title>
       <updated>2017-04-18T00:00:00+00:00</updated>
@@ -1940,7 +1963,7 @@
           September 2016, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/the-besuited-bugler/</id>
+      <id>https://chastell.net/1/125/the-besuited-bugler/</id>
       <link href="/1/125/the-besuited-bugler/" rel="alternate" />
       <title>The Besuited Bugler</title>
       <updated>2017-04-17T00:00:00+00:00</updated>
@@ -1961,7 +1984,7 @@
           October 2016, Braga&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/tobis-ground-truth/</id>
+      <id>https://chastell.net/1/125/tobis-ground-truth/</id>
       <link href="/1/125/tobis-ground-truth/" rel="alternate" />
       <title>Tobi’s Ground Truth</title>
       <updated>2017-04-16T00:00:00+00:00</updated>
@@ -1982,7 +2005,7 @@
           September 2016, Brno&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/four-legs-good-six-legs-better/</id>
+      <id>https://chastell.net/1/125/four-legs-good-six-legs-better/</id>
       <link href="/1/125/four-legs-good-six-legs-better/" rel="alternate" />
       <title>Four Legs Good, Six Legs Better</title>
       <updated>2017-04-15T00:00:00+00:00</updated>
@@ -2003,7 +2026,7 @@
           October 2016, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/neon-lemon/</id>
+      <id>https://chastell.net/1/125/neon-lemon/</id>
       <link href="/1/125/neon-lemon/" rel="alternate" />
       <title>Neon Lemon</title>
       <updated>2017-04-14T00:00:00+00:00</updated>
@@ -2024,7 +2047,7 @@
           September 2016, Brno&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/the-friendliest-ice-cream-in-czechia/</id>
+      <id>https://chastell.net/1/125/the-friendliest-ice-cream-in-czechia/</id>
       <link href="/1/125/the-friendliest-ice-cream-in-czechia/" rel="alternate" />
       <title>The Friendliest Ice Cream in Czechia</title>
       <updated>2017-04-12T00:00:00+00:00</updated>
@@ -2045,7 +2068,7 @@
           September 2016, Zadar&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/the-original-white-stripes/</id>
+      <id>https://chastell.net/1/125/the-original-white-stripes/</id>
       <link href="/1/125/the-original-white-stripes/" rel="alternate" />
       <title>The Original White Stripes</title>
       <updated>2017-04-11T00:00:00+00:00</updated>
@@ -2066,7 +2089,7 @@
           September 2016, Zadar County&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/the-magic-of-colourful-buoys/</id>
+      <id>https://chastell.net/1/125/the-magic-of-colourful-buoys/</id>
       <link href="/1/125/the-magic-of-colourful-buoys/" rel="alternate" />
       <title>The Magic of Colourful Buoys</title>
       <updated>2017-04-10T00:00:00+00:00</updated>
@@ -2087,7 +2110,7 @@
           September 2016, Rovinj&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/sunset-seafront/</id>
+      <id>https://chastell.net/1/125/sunset-seafront/</id>
       <link href="/1/125/sunset-seafront/" rel="alternate" />
       <title>Sunset Seafront</title>
       <updated>2017-04-08T00:00:00+00:00</updated>
@@ -2108,7 +2131,7 @@
           September 2016, Ljubljana&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/barbara-roman-and-z/</id>
+      <id>https://chastell.net/1/125/barbara-roman-and-z/</id>
       <link href="/1/125/barbara-roman-and-z/" rel="alternate" />
       <title>Barbara, Roman and Z.</title>
       <updated>2017-04-07T00:00:00+00:00</updated>
@@ -2129,7 +2152,7 @@
           February 2016, Lviv&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/majsternya/</id>
+      <id>https://chastell.net/1/125/majsternya/</id>
       <link href="/1/125/majsternya/" rel="alternate" />
       <title>Майстерня</title>
       <updated>2017-04-05T00:00:00+00:00</updated>
@@ -2150,7 +2173,7 @@
           March 2016, Bath&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/a-bit-of-a-hotchpotch/</id>
+      <id>https://chastell.net/1/125/a-bit-of-a-hotchpotch/</id>
       <link href="/1/125/a-bit-of-a-hotchpotch/" rel="alternate" />
       <title>A Bit of a Hotchpotch</title>
       <updated>2017-04-04T00:00:00+00:00</updated>
@@ -2171,7 +2194,7 @@
           February 2016, Lviv&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/violet-and-the-iron-faces/</id>
+      <id>https://chastell.net/1/125/violet-and-the-iron-faces/</id>
       <link href="/1/125/violet-and-the-iron-faces/" rel="alternate" />
       <title>Violette and the Iron Faces</title>
       <updated>2017-04-03T00:00:00+00:00</updated>
@@ -2192,7 +2215,7 @@
           March 2016, Bath&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/red-black-and-blue-exit/</id>
+      <id>https://chastell.net/1/125/red-black-and-blue-exit/</id>
       <link href="/1/125/red-black-and-blue-exit/" rel="alternate" />
       <title>Red, Black and Blue Exit</title>
       <updated>2017-04-02T00:00:00+00:00</updated>
@@ -2213,7 +2236,7 @@
           February 2016, Lviv&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/humanitys-golden-age/</id>
+      <id>https://chastell.net/1/125/humanitys-golden-age/</id>
       <link href="/1/125/humanitys-golden-age/" rel="alternate" />
       <title>Humanity’s Golden Age</title>
       <updated>2017-04-01T00:00:00+00:00</updated>
@@ -2234,7 +2257,7 @@
           February 2016, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/full-stack-shot/</id>
+      <id>https://chastell.net/1/125/full-stack-shot/</id>
       <link href="/1/125/full-stack-shot/" rel="alternate" />
       <title>Full Stack Shot</title>
       <updated>2017-03-31T00:00:00+00:00</updated>
@@ -2255,7 +2278,7 @@
           January 2016, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/no-face-no-case/</id>
+      <id>https://chastell.net/1/125/no-face-no-case/</id>
       <link href="/1/125/no-face-no-case/" rel="alternate" />
       <title>No Face No Case</title>
       <updated>2017-03-30T00:00:00+00:00</updated>
@@ -2276,7 +2299,7 @@
           December 2015, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/the-multiinstrumentalist/</id>
+      <id>https://chastell.net/1/125/the-multiinstrumentalist/</id>
       <link href="/1/125/the-multiinstrumentalist/" rel="alternate" />
       <title>The Multi-instrumentalist</title>
       <updated>2017-03-29T00:00:00+00:00</updated>
@@ -2297,7 +2320,7 @@
           March 2017, Wrocław&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/categorical-subtlety/</id>
+      <id>https://chastell.net/1/125/categorical-subtlety/</id>
       <link href="/1/125/categorical-subtlety/" rel="alternate" />
       <title>Categorical Subtlety</title>
       <updated>2017-03-28T00:00:00+00:00</updated>
@@ -2318,7 +2341,7 @@
           March 2017, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/the-obligatory-skittles-experiment/</id>
+      <id>https://chastell.net/1/125/the-obligatory-skittles-experiment/</id>
       <link href="/1/125/the-obligatory-skittles-experiment/" rel="alternate" />
       <title>The Obligatory Skittles Experiment</title>
       <updated>2017-03-27T00:00:00+00:00</updated>
@@ -2339,7 +2362,7 @@
           March 2017, Wrocław&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/higher-education/</id>
+      <id>https://chastell.net/1/125/higher-education/</id>
       <link href="/1/125/higher-education/" rel="alternate" />
       <title>Higher Education</title>
       <updated>2017-03-26T00:00:00+00:00</updated>
@@ -2360,7 +2383,7 @@
           October 2016, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/the-little-spring/</id>
+      <id>https://chastell.net/1/125/the-little-spring/</id>
       <link href="/1/125/the-little-spring/" rel="alternate" />
       <title>The Little Spring</title>
       <updated>2017-03-25T00:00:00+00:00</updated>
@@ -2381,7 +2404,7 @@
           March 2017, Wrocław&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/marian-mcsquawk/</id>
+      <id>https://chastell.net/1/125/marian-mcsquawk/</id>
       <link href="/1/125/marian-mcsquawk/" rel="alternate" />
       <title>Marian McSquawk</title>
       <updated>2017-03-24T00:00:00+00:00</updated>
@@ -2402,7 +2425,7 @@
           July 2016, Bobolin&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/home-sweet-home/</id>
+      <id>https://chastell.net/1/125/home-sweet-home/</id>
       <link href="/1/125/home-sweet-home/" rel="alternate" />
       <title>Home Sweet Home</title>
       <updated>2017-03-23T00:00:00+00:00</updated>
@@ -2423,7 +2446,7 @@
           November 2016, Berlin&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/tape-art-is-the-swaip-art/</id>
+      <id>https://chastell.net/1/125/tape-art-is-the-swaip-art/</id>
       <link href="/1/125/tape-art-is-the-swaip-art/" rel="alternate" />
       <title>Tape Art Is the Swaip Art</title>
       <updated>2017-03-22T00:00:00+00:00</updated>
@@ -2444,7 +2467,7 @@
           March 2016, London&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/the-pointer-brothers/</id>
+      <id>https://chastell.net/1/125/the-pointer-brothers/</id>
       <link href="/1/125/the-pointer-brothers/" rel="alternate" />
       <title>The Pointer Brothers</title>
       <updated>2017-03-21T00:00:00+00:00</updated>
@@ -2465,7 +2488,7 @@
           October 2016, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/c-y-c-l-e-s/</id>
+      <id>https://chastell.net/1/125/c-y-c-l-e-s/</id>
       <link href="/1/125/c-y-c-l-e-s/" rel="alternate" />
       <title>C 🚲 Y 🚲 C 🚲 L 🚲 E 🚲 S</title>
       <updated>2017-03-20T00:00:00+00:00</updated>
@@ -2486,7 +2509,7 @@
           November 2016, Berlin&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/graffiti-aide-gravement-a-votre-sante/</id>
+      <id>https://chastell.net/1/125/graffiti-aide-gravement-a-votre-sante/</id>
       <link href="/1/125/graffiti-aide-gravement-a-votre-sante/" rel="alternate" />
       <title>Graffiti aide gravement à votre santé</title>
       <updated>2017-03-19T00:00:00+00:00</updated>
@@ -2507,7 +2530,7 @@
           October 2016, Braga&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/the-end-is-near/</id>
+      <id>https://chastell.net/1/125/the-end-is-near/</id>
       <link href="/1/125/the-end-is-near/" rel="alternate" />
       <title>The end Is Near</title>
       <updated>2017-03-18T00:00:00+00:00</updated>
@@ -2528,7 +2551,7 @@
           November 2016, Berlin&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/the-myriad-wonders-of-nature-its-true/</id>
+      <id>https://chastell.net/1/125/the-myriad-wonders-of-nature-its-true/</id>
       <link href="/1/125/the-myriad-wonders-of-nature-its-true/" rel="alternate" />
       <title>The Myriad Wonders of Nature, It’s True</title>
       <updated>2017-03-16T00:00:00+00:00</updated>
@@ -2549,7 +2572,7 @@
           October 2016, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/brln-wrsw/</id>
+      <id>https://chastell.net/1/125/brln-wrsw/</id>
       <link href="/1/125/brln-wrsw/" rel="alternate" />
       <title>brln w r (s:xs) = brln w (w r s) xs</title>
       <updated>2017-03-15T00:00:00+00:00</updated>
@@ -2570,7 +2593,7 @@
           June 2016, Warsaw, by &lt;a href='https://twitter.com/eucampaign'&gt;Xavier&lt;/a&gt;&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/an-original-dutoit/</id>
+      <id>https://chastell.net/1/125/an-original-dutoit/</id>
       <link href="/1/125/an-original-dutoit/" rel="alternate" />
       <title>An Original Dutoit</title>
       <updated>2017-03-14T00:00:00+00:00</updated>
@@ -2591,7 +2614,7 @@
           September 2016, Opatija&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/the-struggle-is-real/</id>
+      <id>https://chastell.net/1/125/the-struggle-is-real/</id>
       <link href="/1/125/the-struggle-is-real/" rel="alternate" />
       <title>The Struggle Is Real</title>
       <updated>2017-03-13T00:00:00+00:00</updated>
@@ -2612,7 +2635,7 @@
           November 2016, Florence&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/pasta-pronto/</id>
+      <id>https://chastell.net/1/125/pasta-pronto/</id>
       <link href="/1/125/pasta-pronto/" rel="alternate" />
       <title>Pasta pronto</title>
       <updated>2017-03-12T00:00:00+00:00</updated>
@@ -2633,7 +2656,7 @@
           February 2016, Lviv&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/a-boat-a-boy/</id>
+      <id>https://chastell.net/1/125/a-boat-a-boy/</id>
       <link href="/1/125/a-boat-a-boy/" rel="alternate" />
       <title>A Boat, a Boy</title>
       <updated>2017-03-11T00:00:00+00:00</updated>
@@ -2654,7 +2677,7 @@
           November 2016, Berlin&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/new-profile-pic/</id>
+      <id>https://chastell.net/1/125/new-profile-pic/</id>
       <link href="/1/125/new-profile-pic/" rel="alternate" />
       <title>New Profile Pic</title>
       <updated>2017-03-09T00:00:00+00:00</updated>
@@ -2675,7 +2698,7 @@
           July 2016, Toruń&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/little-miss-education/</id>
+      <id>https://chastell.net/1/125/little-miss-education/</id>
       <link href="/1/125/little-miss-education/" rel="alternate" />
       <title>Little Miss Education</title>
       <updated>2017-03-07T00:00:00+00:00</updated>
@@ -2696,7 +2719,7 @@
           November 2016, Berlin&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/magic-mirror-on-the-wall/</id>
+      <id>https://chastell.net/1/125/magic-mirror-on-the-wall/</id>
       <link href="/1/125/magic-mirror-on-the-wall/" rel="alternate" />
       <title>Magic Mirror on the Wall</title>
       <updated>2017-03-06T00:00:00+00:00</updated>
@@ -2717,7 +2740,7 @@
           November 2016, Florence&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/74-handbags-and-counting/</id>
+      <id>https://chastell.net/1/125/74-handbags-and-counting/</id>
       <link href="/1/125/74-handbags-and-counting/" rel="alternate" />
       <title>74 Handbags (and Counting)</title>
       <updated>2017-03-05T00:00:00+00:00</updated>
@@ -2738,7 +2761,7 @@
           November 2016, Florence&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/tom-waits-for-no-one/</id>
+      <id>https://chastell.net/1/125/tom-waits-for-no-one/</id>
       <link href="/1/125/tom-waits-for-no-one/" rel="alternate" />
       <title>Tom Waits for No One</title>
       <updated>2017-03-04T00:00:00+00:00</updated>
@@ -2759,7 +2782,7 @@
           November 2016, Florence&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/oh-god-watch-your-step/</id>
+      <id>https://chastell.net/1/125/oh-god-watch-your-step/</id>
       <link href="/1/125/oh-god-watch-your-step/" rel="alternate" />
       <title>Oh God, Watch Your Step</title>
       <updated>2017-03-03T00:00:00+00:00</updated>
@@ -2780,7 +2803,7 @@
           November 2016, Florence&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/this-and-that/</id>
+      <id>https://chastell.net/1/125/this-and-that/</id>
       <link href="/1/125/this-and-that/" rel="alternate" />
       <title>This &amp; That</title>
       <updated>2017-03-02T00:00:00+00:00</updated>
@@ -2801,7 +2824,7 @@
           November 2016, Florence&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/running-standing-sitting-watching/</id>
+      <id>https://chastell.net/1/125/running-standing-sitting-watching/</id>
       <link href="/1/125/running-standing-sitting-watching/" rel="alternate" />
       <title>Running / Standing / Sitting / Watching</title>
       <updated>2017-03-01T00:00:00+00:00</updated>
@@ -2822,7 +2845,7 @@
           November 2016, Florence&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/easys-26/</id>
+      <id>https://chastell.net/1/125/easys-26/</id>
       <link href="/1/125/easys-26/" rel="alternate" />
       <title>Easy’s 26</title>
       <updated>2017-02-28T00:00:00+00:00</updated>
@@ -2843,7 +2866,7 @@
           November 2016, Florence&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/gas-and-toni/</id>
+      <id>https://chastell.net/1/125/gas-and-toni/</id>
       <link href="/1/125/gas-and-toni/" rel="alternate" />
       <title>Gas &amp; Toni</title>
       <updated>2017-02-27T00:00:00+00:00</updated>
@@ -2864,7 +2887,7 @@
           November 2016, Florence&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/cmot-dibbler-now-and-then/</id>
+      <id>https://chastell.net/1/125/cmot-dibbler-now-and-then/</id>
       <link href="/1/125/cmot-dibbler-now-and-then/" rel="alternate" />
       <title>C.M.O.T. Dibbler, Now and Then</title>
       <updated>2017-02-26T00:00:00+00:00</updated>
@@ -2885,7 +2908,7 @@
           November 2016, Florence&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/about-40-devotional/</id>
+      <id>https://chastell.net/1/125/about-40-devotional/</id>
       <link href="/1/125/about-40-devotional/" rel="alternate" />
       <title>About 40% Devotional</title>
       <updated>2017-02-25T00:00:00+00:00</updated>
@@ -2906,7 +2929,7 @@
           October 2016, Porto&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/pattern-watching/</id>
+      <id>https://chastell.net/1/125/pattern-watching/</id>
       <link href="/1/125/pattern-watching/" rel="alternate" />
       <title>Pattern Watching</title>
       <updated>2016-12-15T00:00:00+00:00</updated>
@@ -2927,7 +2950,7 @@
           October 2016, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/the-neighbourhood-of-doom/</id>
+      <id>https://chastell.net/1/125/the-neighbourhood-of-doom/</id>
       <link href="/1/125/the-neighbourhood-of-doom/" rel="alternate" />
       <title>The Neighbourhood of Doom</title>
       <updated>2016-12-11T00:00:00+00:00</updated>
@@ -2948,7 +2971,7 @@
           April 2016, Minsk&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/floating-john/</id>
+      <id>https://chastell.net/1/125/floating-john/</id>
       <link href="/1/125/floating-john/" rel="alternate" />
       <title>Floating John</title>
       <updated>2016-12-09T00:00:00+00:00</updated>
@@ -2969,7 +2992,7 @@
           September 2016, Zadar&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/some-boat-by-night-some-sail-by-day/</id>
+      <id>https://chastell.net/1/125/some-boat-by-night-some-sail-by-day/</id>
       <link href="/1/125/some-boat-by-night-some-sail-by-day/" rel="alternate" />
       <title>Some Boat by Night, Some Sail by Day</title>
       <updated>2016-12-08T00:00:00+00:00</updated>
@@ -2990,7 +3013,7 @@
           October 2016, Porto&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/art-peaco/</id>
+      <id>https://chastell.net/1/125/art-peaco/</id>
       <link href="/1/125/art-peaco/" rel="alternate" />
       <title>Art Péaco</title>
       <updated>2016-12-03T00:00:00+00:00</updated>
@@ -3011,7 +3034,7 @@
           September 2016, Zadar&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/bllns/</id>
+      <id>https://chastell.net/1/125/bllns/</id>
       <link href="/1/125/bllns/" rel="alternate" />
       <title>BLLNS!</title>
       <updated>2016-11-30T00:00:00+00:00</updated>
@@ -3032,7 +3055,7 @@
           October 2016, Porto&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/queen-of-heaven-and-pirates/</id>
+      <id>https://chastell.net/1/125/queen-of-heaven-and-pirates/</id>
       <link href="/1/125/queen-of-heaven-and-pirates/" rel="alternate" />
       <title>Queen of Heaven and Pirates</title>
       <updated>2016-11-29T00:00:00+00:00</updated>
@@ -3053,7 +3076,7 @@
           September 2016, Zadar&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/drawing-a-blank/</id>
+      <id>https://chastell.net/1/125/drawing-a-blank/</id>
       <link href="/1/125/drawing-a-blank/" rel="alternate" />
       <title>Drawing a Blank</title>
       <updated>2016-11-27T00:00:00+00:00</updated>
@@ -3074,7 +3097,7 @@
           September 2016, Zadar&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/artist-in-residence/</id>
+      <id>https://chastell.net/1/125/artist-in-residence/</id>
       <link href="/1/125/artist-in-residence/" rel="alternate" />
       <title>Artist-in-Residence</title>
       <updated>2016-11-22T00:00:00+00:00</updated>
@@ -3095,7 +3118,7 @@
           October 2016, Porto&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/tenderloves-toughest-crowd/</id>
+      <id>https://chastell.net/1/125/tenderloves-toughest-crowd/</id>
       <link href="/1/125/tenderloves-toughest-crowd/" rel="alternate" />
       <title>Tenderlove’s Toughest Crowd</title>
       <updated>2016-11-21T00:00:00+00:00</updated>
@@ -3116,7 +3139,7 @@
           September 2016, Zadar&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/tartan-et-bleu/</id>
+      <id>https://chastell.net/1/125/tartan-et-bleu/</id>
       <link href="/1/125/tartan-et-bleu/" rel="alternate" />
       <title>Tartan et bleu</title>
       <updated>2016-11-20T00:00:00+00:00</updated>
@@ -3137,7 +3160,7 @@
           October 2016, Porto&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/blessed-mother-of-mind-control/</id>
+      <id>https://chastell.net/1/125/blessed-mother-of-mind-control/</id>
       <link href="/1/125/blessed-mother-of-mind-control/" rel="alternate" />
       <title>Blessed Mother of Mind Control</title>
       <updated>2016-11-19T00:00:00+00:00</updated>
@@ -3159,7 +3182,7 @@ A cozy tunnel entrance into Tito’s &lt;a href=&quot;https://en.wikipedia.org/w
           September 2016, Paklenica National Park&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/broz-titos-hideaway/</id>
+      <id>https://chastell.net/1/125/broz-titos-hideaway/</id>
       <link href="/1/125/broz-titos-hideaway/" rel="alternate" />
       <title>Broz Tito’s Hideaway</title>
       <updated>2016-11-18T00:00:00+00:00</updated>
@@ -3180,7 +3203,7 @@ A cozy tunnel entrance into Tito’s &lt;a href=&quot;https://en.wikipedia.org/w
           October 2016, Porto&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/our-lady-of-the-hattifatteners/</id>
+      <id>https://chastell.net/1/125/our-lady-of-the-hattifatteners/</id>
       <link href="/1/125/our-lady-of-the-hattifatteners/" rel="alternate" />
       <title>Our Lady of the Hattifatteners</title>
       <updated>2016-11-17T00:00:00+00:00</updated>
@@ -3201,7 +3224,7 @@ A cozy tunnel entrance into Tito’s &lt;a href=&quot;https://en.wikipedia.org/w
           October 2016, Porto&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/bounded-context/</id>
+      <id>https://chastell.net/1/125/bounded-context/</id>
       <link href="/1/125/bounded-context/" rel="alternate" />
       <title>Bounded Context</title>
       <updated>2016-11-16T00:00:00+00:00</updated>
@@ -3222,7 +3245,7 @@ A cozy tunnel entrance into Tito’s &lt;a href=&quot;https://en.wikipedia.org/w
           October 2016, Porto&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/queen-bee/</id>
+      <id>https://chastell.net/1/125/queen-bee/</id>
       <link href="/1/125/queen-bee/" rel="alternate" />
       <title>Queen Bee</title>
       <updated>2016-11-15T00:00:00+00:00</updated>
@@ -3243,7 +3266,7 @@ A cozy tunnel entrance into Tito’s &lt;a href=&quot;https://en.wikipedia.org/w
           September 2016, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/no-brothers-no-wail/</id>
+      <id>https://chastell.net/1/125/no-brothers-no-wail/</id>
       <link href="/1/125/no-brothers-no-wail/" rel="alternate" />
       <title>No, Brothers, No Wail</title>
       <updated>2016-11-13T00:00:00+00:00</updated>
@@ -3264,7 +3287,7 @@ A cozy tunnel entrance into Tito’s &lt;a href=&quot;https://en.wikipedia.org/w
           September 2016, Zadar&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/decision-time/</id>
+      <id>https://chastell.net/1/125/decision-time/</id>
       <link href="/1/125/decision-time/" rel="alternate" />
       <title>Decision Time</title>
       <updated>2016-11-09T00:00:00+00:00</updated>
@@ -3285,7 +3308,7 @@ A cozy tunnel entrance into Tito’s &lt;a href=&quot;https://en.wikipedia.org/w
           October 2016, Porto&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/the-train-of-thought/</id>
+      <id>https://chastell.net/1/125/the-train-of-thought/</id>
       <link href="/1/125/the-train-of-thought/" rel="alternate" />
       <title>The Train of Thought</title>
       <updated>2016-11-08T00:00:00+00:00</updated>
@@ -3306,7 +3329,7 @@ A cozy tunnel entrance into Tito’s &lt;a href=&quot;https://en.wikipedia.org/w
           September 2016, Zadar&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/wedges-sneakers-hats-and-sandals/</id>
+      <id>https://chastell.net/1/125/wedges-sneakers-hats-and-sandals/</id>
       <link href="/1/125/wedges-sneakers-hats-and-sandals/" rel="alternate" />
       <title>Wedges, Sneakers, Hats &amp; Sandals</title>
       <updated>2016-11-07T00:00:00+00:00</updated>
@@ -3327,7 +3350,7 @@ A cozy tunnel entrance into Tito’s &lt;a href=&quot;https://en.wikipedia.org/w
           September 2016, Brno&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/frownsters-gonna-frown/</id>
+      <id>https://chastell.net/1/125/frownsters-gonna-frown/</id>
       <link href="/1/125/frownsters-gonna-frown/" rel="alternate" />
       <title>Frownsters Gonna Frown</title>
       <updated>2016-11-06T00:00:00+00:00</updated>
@@ -3348,7 +3371,7 @@ A cozy tunnel entrance into Tito’s &lt;a href=&quot;https://en.wikipedia.org/w
           September 2016, Zadar&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/i-shot-first/</id>
+      <id>https://chastell.net/1/125/i-shot-first/</id>
       <link href="/1/125/i-shot-first/" rel="alternate" />
       <title>I Shot First</title>
       <updated>2016-11-05T00:00:00+00:00</updated>
@@ -3369,7 +3392,7 @@ A cozy tunnel entrance into Tito’s &lt;a href=&quot;https://en.wikipedia.org/w
           September 2016, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/kamien-i-co/</id>
+      <id>https://chastell.net/1/125/kamien-i-co/</id>
       <link href="/1/125/kamien-i-co/" rel="alternate" />
       <title>𝚔𝚊𝚖𝚒𝚎𝚗̾ 𝚒 𝚌𝚘</title>
       <updated>2016-11-04T00:00:00+00:00</updated>
@@ -3390,7 +3413,7 @@ A cozy tunnel entrance into Tito’s &lt;a href=&quot;https://en.wikipedia.org/w
           September 2016, Zadar&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/design-patterns/</id>
+      <id>https://chastell.net/1/125/design-patterns/</id>
       <link href="/1/125/design-patterns/" rel="alternate" />
       <title>Design Patterns</title>
       <updated>2016-11-03T00:00:00+00:00</updated>
@@ -3411,7 +3434,7 @@ A cozy tunnel entrance into Tito’s &lt;a href=&quot;https://en.wikipedia.org/w
           October 2016, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/paris-showroom/</id>
+      <id>https://chastell.net/1/125/paris-showroom/</id>
       <link href="/1/125/paris-showroom/" rel="alternate" />
       <title>Paris, Showroom</title>
       <updated>2016-11-02T00:00:00+00:00</updated>
@@ -3432,7 +3455,7 @@ A cozy tunnel entrance into Tito’s &lt;a href=&quot;https://en.wikipedia.org/w
           September 2016, Zadar&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/hallowtide/</id>
+      <id>https://chastell.net/1/125/hallowtide/</id>
       <link href="/1/125/hallowtide/" rel="alternate" />
       <title>Hallowtide</title>
       <updated>2016-11-01T00:00:00+00:00</updated>
@@ -3453,7 +3476,7 @@ A cozy tunnel entrance into Tito’s &lt;a href=&quot;https://en.wikipedia.org/w
           October 2016, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/gauds-and-gewgaws/</id>
+      <id>https://chastell.net/1/125/gauds-and-gewgaws/</id>
       <link href="/1/125/gauds-and-gewgaws/" rel="alternate" />
       <title>Gauds and Gewgaws</title>
       <updated>2016-10-29T00:00:00+00:00</updated>
@@ -3474,7 +3497,7 @@ A cozy tunnel entrance into Tito’s &lt;a href=&quot;https://en.wikipedia.org/w
           September 2016, Zadar&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/adverse-conditions/</id>
+      <id>https://chastell.net/1/125/adverse-conditions/</id>
       <link href="/1/125/adverse-conditions/" rel="alternate" />
       <title>Adverse Conditions</title>
       <updated>2016-10-28T00:00:00+00:00</updated>
@@ -3495,7 +3518,7 @@ A cozy tunnel entrance into Tito’s &lt;a href=&quot;https://en.wikipedia.org/w
           September 2016, Zadar&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/pax-van-is-the-best-van/</id>
+      <id>https://chastell.net/1/125/pax-van-is-the-best-van/</id>
       <link href="/1/125/pax-van-is-the-best-van/" rel="alternate" />
       <title>PAX VAN IS THE BEST VAN</title>
       <updated>2016-10-27T00:00:00+00:00</updated>
@@ -3516,7 +3539,7 @@ A cozy tunnel entrance into Tito’s &lt;a href=&quot;https://en.wikipedia.org/w
           September 2016, Zadar&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/the-ghosts-of-tourists-past/</id>
+      <id>https://chastell.net/1/125/the-ghosts-of-tourists-past/</id>
       <link href="/1/125/the-ghosts-of-tourists-past/" rel="alternate" />
       <title>The Ghosts of Tourists Past</title>
       <updated>2016-10-26T00:00:00+00:00</updated>
@@ -3539,7 +3562,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           September 2016, Zadar&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/lips-dont-lie/</id>
+      <id>https://chastell.net/1/125/lips-dont-lie/</id>
       <link href="/1/125/lips-dont-lie/" rel="alternate" />
       <title>Lips Don’t Lie</title>
       <updated>2016-10-25T00:00:00+00:00</updated>
@@ -3560,7 +3583,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           September 2016, Zadar&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/rrrbg/</id>
+      <id>https://chastell.net/1/125/rrrbg/</id>
       <link href="/1/125/rrrbg/" rel="alternate" />
       <title>RRRBG</title>
       <updated>2016-10-24T00:00:00+00:00</updated>
@@ -3581,7 +3604,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           October 2016, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/kvas-i-kino/</id>
+      <id>https://chastell.net/1/125/kvas-i-kino/</id>
       <link href="/1/125/kvas-i-kino/" rel="alternate" />
       <title>Квас і кіно</title>
       <updated>2016-10-23T00:00:00+00:00</updated>
@@ -3602,7 +3625,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           September 2016, Zadar&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/monument-to-the-sun-dance/</id>
+      <id>https://chastell.net/1/125/monument-to-the-sun-dance/</id>
       <link href="/1/125/monument-to-the-sun-dance/" rel="alternate" />
       <title>Monument to the Sun Dance</title>
       <updated>2016-10-22T00:00:00+00:00</updated>
@@ -3623,7 +3646,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           September 2016, Zadar&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/duck-softly-and-carry-a-big-floodlight/</id>
+      <id>https://chastell.net/1/125/duck-softly-and-carry-a-big-floodlight/</id>
       <link href="/1/125/duck-softly-and-carry-a-big-floodlight/" rel="alternate" />
       <title>Duck Softly and Carry a Big Floodlight</title>
       <updated>2016-10-21T00:00:00+00:00</updated>
@@ -3644,7 +3667,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           September 2016, Zadar&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/juggler-on-the-brink/</id>
+      <id>https://chastell.net/1/125/juggler-on-the-brink/</id>
       <link href="/1/125/juggler-on-the-brink/" rel="alternate" />
       <title>Juggler on the Brink</title>
       <updated>2016-10-20T00:00:00+00:00</updated>
@@ -3665,7 +3688,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           September 2016, Zadar&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/quis-pinget-ipsos-pictores/</id>
+      <id>https://chastell.net/1/125/quis-pinget-ipsos-pictores/</id>
       <link href="/1/125/quis-pinget-ipsos-pictores/" rel="alternate" />
       <title>Quis pinget ipsos pictores?</title>
       <updated>2016-10-19T00:00:00+00:00</updated>
@@ -3686,7 +3709,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           September 2016, Zadar&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/112-pink-fox-terriers/</id>
+      <id>https://chastell.net/1/125/112-pink-fox-terriers/</id>
       <link href="/1/125/112-pink-fox-terriers/" rel="alternate" />
       <title>112 Pink Fox Terriers</title>
       <updated>2016-10-18T00:00:00+00:00</updated>
@@ -3707,7 +3730,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           September 2016, Zadar&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/biggie-packing-piggybacking/</id>
+      <id>https://chastell.net/1/125/biggie-packing-piggybacking/</id>
       <link href="/1/125/biggie-packing-piggybacking/" rel="alternate" />
       <title>B̶i̶g̶g̶i̶e̶-̶p̶a̶c̶k̶i̶n̶g̶ Piggybacking</title>
       <updated>2016-10-17T00:00:00+00:00</updated>
@@ -3728,7 +3751,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           September 2016, Zadar&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/ultimate-ny/</id>
+      <id>https://chastell.net/1/125/ultimate-ny/</id>
       <link href="/1/125/ultimate-ny/" rel="alternate" />
       <title>Ultimate NY</title>
       <updated>2016-10-16T00:00:00+00:00</updated>
@@ -3749,7 +3772,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           September 2016, Zadar&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/strait-angler/</id>
+      <id>https://chastell.net/1/125/strait-angler/</id>
       <link href="/1/125/strait-angler/" rel="alternate" />
       <title>Strait Angler</title>
       <updated>2016-10-15T00:00:00+00:00</updated>
@@ -3770,7 +3793,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           September 2016, Zadar&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/left-down-right-up/</id>
+      <id>https://chastell.net/1/125/left-down-right-up/</id>
       <link href="/1/125/left-down-right-up/" rel="alternate" />
       <title>Left Down, Right Up</title>
       <updated>2016-10-14T00:00:00+00:00</updated>
@@ -3795,7 +3818,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           September 2016, Zadar&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/float-left/</id>
+      <id>https://chastell.net/1/125/float-left/</id>
       <link href="/1/125/float-left/" rel="alternate" />
       <title>Float: Left</title>
       <updated>2016-10-13T00:00:00+00:00</updated>
@@ -3816,7 +3839,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           September 2016, Zadar&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/sunset-people-doin-it-right/</id>
+      <id>https://chastell.net/1/125/sunset-people-doin-it-right/</id>
       <link href="/1/125/sunset-people-doin-it-right/" rel="alternate" />
       <title>Sunset People, Doin’ It Right</title>
       <updated>2016-10-12T00:00:00+00:00</updated>
@@ -3837,7 +3860,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           September 2016, Zadar&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/il-tramonto-sul-molo-alla-riva-nuova/</id>
+      <id>https://chastell.net/1/125/il-tramonto-sul-molo-alla-riva-nuova/</id>
       <link href="/1/125/il-tramonto-sul-molo-alla-riva-nuova/" rel="alternate" />
       <title>Il tramonto sul molo alla riva nuova</title>
       <updated>2016-10-11T00:00:00+00:00</updated>
@@ -3858,7 +3881,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           September 2016, Zadar&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/strait-priorities/</id>
+      <id>https://chastell.net/1/125/strait-priorities/</id>
       <link href="/1/125/strait-priorities/" rel="alternate" />
       <title>Strait Priorities</title>
       <updated>2016-10-10T00:00:00+00:00</updated>
@@ -3879,7 +3902,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           September 2016, Zadar&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/zara-queues/</id>
+      <id>https://chastell.net/1/125/zara-queues/</id>
       <link href="/1/125/zara-queues/" rel="alternate" />
       <title>Zara Queues</title>
       <updated>2016-10-09T00:00:00+00:00</updated>
@@ -3900,7 +3923,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           September 2016, Zadar&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/you-shall-pass/</id>
+      <id>https://chastell.net/1/125/you-shall-pass/</id>
       <link href="/1/125/you-shall-pass/" rel="alternate" />
       <title>You Shall Pass</title>
       <updated>2016-10-08T00:00:00+00:00</updated>
@@ -3921,7 +3944,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           September 2016, Rovinj&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/green-and-serene/</id>
+      <id>https://chastell.net/1/125/green-and-serene/</id>
       <link href="/1/125/green-and-serene/" rel="alternate" />
       <title>Green and Serene</title>
       <updated>2016-10-07T00:00:00+00:00</updated>
@@ -3942,7 +3965,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           September 2016, Zadar&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/male-gaze/</id>
+      <id>https://chastell.net/1/125/male-gaze/</id>
       <link href="/1/125/male-gaze/" rel="alternate" />
       <title>Male Gaze</title>
       <updated>2016-10-06T00:00:00+00:00</updated>
@@ -3963,7 +3986,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           September 2016, Opatija&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/full-speed-ahead-mr-boatswain/</id>
+      <id>https://chastell.net/1/125/full-speed-ahead-mr-boatswain/</id>
       <link href="/1/125/full-speed-ahead-mr-boatswain/" rel="alternate" />
       <title>Full Speed Ahead, Mr Boatswain!</title>
       <updated>2016-10-05T00:00:00+00:00</updated>
@@ -3984,7 +4007,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           September 2016, Hum&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/small-town-pulpit/</id>
+      <id>https://chastell.net/1/125/small-town-pulpit/</id>
       <link href="/1/125/small-town-pulpit/" rel="alternate" />
       <title>Small Town Pulpit</title>
       <updated>2016-10-04T00:00:00+00:00</updated>
@@ -4005,7 +4028,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           September 2016, Hum&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/language-economy/</id>
+      <id>https://chastell.net/1/125/language-economy/</id>
       <link href="/1/125/language-economy/" rel="alternate" />
       <title>Language Economy</title>
       <updated>2016-10-03T00:00:00+00:00</updated>
@@ -4026,7 +4049,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           September 2016, Rovinj&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/grad-as-in-gradient/</id>
+      <id>https://chastell.net/1/125/grad-as-in-gradient/</id>
       <link href="/1/125/grad-as-in-gradient/" rel="alternate" />
       <title>Grad as in Gradient</title>
       <updated>2016-10-02T00:00:00+00:00</updated>
@@ -4047,7 +4070,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           September 2016, Rovinj&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/she-sews-sea-shawls/</id>
+      <id>https://chastell.net/1/125/she-sews-sea-shawls/</id>
       <link href="/1/125/she-sews-sea-shawls/" rel="alternate" />
       <title>She Sews Sea Shawls</title>
       <updated>2016-10-01T00:00:00+00:00</updated>
@@ -4068,7 +4091,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           September 2016, Rovinj&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/2x3x6/</id>
+      <id>https://chastell.net/1/125/2x3x6/</id>
       <link href="/1/125/2x3x6/" rel="alternate" />
       <title>2×3×6</title>
       <updated>2016-09-30T00:00:00+00:00</updated>
@@ -4089,7 +4112,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           September 2016, Opatija&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/gull-is-the-rule/</id>
+      <id>https://chastell.net/1/125/gull-is-the-rule/</id>
       <link href="/1/125/gull-is-the-rule/" rel="alternate" />
       <title>Gull Is the Rule</title>
       <updated>2016-09-29T00:00:00+00:00</updated>
@@ -4110,7 +4133,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           September 2016, Rovinj&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/sun-francesca-bay-area/</id>
+      <id>https://chastell.net/1/125/sun-francesca-bay-area/</id>
       <link href="/1/125/sun-francesca-bay-area/" rel="alternate" />
       <title>Sun, Francesca, Bay Area</title>
       <updated>2016-09-28T00:00:00+00:00</updated>
@@ -4131,7 +4154,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           September 2016, Rovinj&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/sunny-side-south/</id>
+      <id>https://chastell.net/1/125/sunny-side-south/</id>
       <link href="/1/125/sunny-side-south/" rel="alternate" />
       <title>Sunny Side South</title>
       <updated>2016-09-27T00:00:00+00:00</updated>
@@ -4152,7 +4175,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           September 2016, Opatija&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/dread-dock-holiday/</id>
+      <id>https://chastell.net/1/125/dread-dock-holiday/</id>
       <link href="/1/125/dread-dock-holiday/" rel="alternate" />
       <title>Dread Dock Holiday</title>
       <updated>2016-09-26T00:00:00+00:00</updated>
@@ -4173,7 +4196,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           September 2016, Opatija&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/champagne-cushions/</id>
+      <id>https://chastell.net/1/125/champagne-cushions/</id>
       <link href="/1/125/champagne-cushions/" rel="alternate" />
       <title>Champagne Cushions</title>
       <updated>2016-09-25T00:00:00+00:00</updated>
@@ -4194,7 +4217,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           September 2016, Opatija&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/unsightly-luminaries/</id>
+      <id>https://chastell.net/1/125/unsightly-luminaries/</id>
       <link href="/1/125/unsightly-luminaries/" rel="alternate" />
       <title>Unsightly Luminaries</title>
       <updated>2016-09-24T00:00:00+00:00</updated>
@@ -4215,7 +4238,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           September 2016, Opatija&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/the-power-plant-of-hope/</id>
+      <id>https://chastell.net/1/125/the-power-plant-of-hope/</id>
       <link href="/1/125/the-power-plant-of-hope/" rel="alternate" />
       <title>The Power (Plant) of Hope</title>
       <updated>2016-09-23T00:00:00+00:00</updated>
@@ -4236,7 +4259,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           September 2016, Opatija&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/closed-air-theatre/</id>
+      <id>https://chastell.net/1/125/closed-air-theatre/</id>
       <link href="/1/125/closed-air-theatre/" rel="alternate" />
       <title>Closed Air Theatre</title>
       <updated>2016-09-22T00:00:00+00:00</updated>
@@ -4257,7 +4280,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           September 2016, Opatija&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/byom-holidays/</id>
+      <id>https://chastell.net/1/125/byom-holidays/</id>
       <link href="/1/125/byom-holidays/" rel="alternate" />
       <title>BYOM Holidays</title>
       <updated>2016-09-21T00:00:00+00:00</updated>
@@ -4278,7 +4301,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           September 2016, Opatija&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/yo-listen-up-heres-the-story/</id>
+      <id>https://chastell.net/1/125/yo-listen-up-heres-the-story/</id>
       <link href="/1/125/yo-listen-up-heres-the-story/" rel="alternate" />
       <title>Yo, Listen Up, Here’s the Story</title>
       <updated>2016-09-20T00:00:00+00:00</updated>
@@ -4299,7 +4322,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           September 2016, Opatija&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/sky-of-blue-and-sea-of-also-blue/</id>
+      <id>https://chastell.net/1/125/sky-of-blue-and-sea-of-also-blue/</id>
       <link href="/1/125/sky-of-blue-and-sea-of-also-blue/" rel="alternate" />
       <title>Sky of Blue and Sea of Also Blue</title>
       <updated>2016-09-19T00:00:00+00:00</updated>
@@ -4320,7 +4343,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           September 2016, Opatija&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/the-vocal-guardian/</id>
+      <id>https://chastell.net/1/125/the-vocal-guardian/</id>
       <link href="/1/125/the-vocal-guardian/" rel="alternate" />
       <title>The Vocal Guardian</title>
       <updated>2016-09-18T00:00:00+00:00</updated>
@@ -4341,7 +4364,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           September 2016, Ljubljana&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/forty-people-waiting/</id>
+      <id>https://chastell.net/1/125/forty-people-waiting/</id>
       <link href="/1/125/forty-people-waiting/" rel="alternate" />
       <title>Forty People Waiting</title>
       <updated>2016-09-17T00:00:00+00:00</updated>
@@ -4362,7 +4385,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           September 2016, Maribor&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/beton-brut/</id>
+      <id>https://chastell.net/1/125/beton-brut/</id>
       <link href="/1/125/beton-brut/" rel="alternate" />
       <title>Béton Brut</title>
       <updated>2016-09-16T00:00:00+00:00</updated>
@@ -4383,7 +4406,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           September 2016, Maribor&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/schroedingers-punk/</id>
+      <id>https://chastell.net/1/125/schroedingers-punk/</id>
       <link href="/1/125/schroedingers-punk/" rel="alternate" />
       <title>Schrödinger’s Punk</title>
       <updated>2016-09-15T00:00:00+00:00</updated>
@@ -4404,7 +4427,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           September 2016, Maribor&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/given-enough-eyeballs/</id>
+      <id>https://chastell.net/1/125/given-enough-eyeballs/</id>
       <link href="/1/125/given-enough-eyeballs/" rel="alternate" />
       <title>Given Enough Eyeballs</title>
       <updated>2016-09-14T00:00:00+00:00</updated>
@@ -4425,7 +4448,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           September 2016, Maribor&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/herkul-jabolko-radio-1/</id>
+      <id>https://chastell.net/1/125/herkul-jabolko-radio-1/</id>
       <link href="/1/125/herkul-jabolko-radio-1/" rel="alternate" />
       <title>★HERKUL★, 🍎 jabolko, RADIO ①</title>
       <updated>2016-09-13T00:00:00+00:00</updated>
@@ -4447,7 +4470,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           September 2016, Maribor&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/7-cd-kg/</id>
+      <id>https://chastell.net/1/125/7-cd-kg/</id>
       <link href="/1/125/7-cd-kg/" rel="alternate" />
       <title>7 čd/kg</title>
       <updated>2016-09-12T00:00:00+00:00</updated>
@@ -4468,7 +4491,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           September 2016, Maribor&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/kojak-forty-years-later/</id>
+      <id>https://chastell.net/1/125/kojak-forty-years-later/</id>
       <link href="/1/125/kojak-forty-years-later/" rel="alternate" />
       <title>Kojak Forty Years Later</title>
       <updated>2016-09-11T00:00:00+00:00</updated>
@@ -4489,7 +4512,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           September 2016, Vienna&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/viennas-best-kept-fashion-secret/</id>
+      <id>https://chastell.net/1/125/viennas-best-kept-fashion-secret/</id>
       <link href="/1/125/viennas-best-kept-fashion-secret/" rel="alternate" />
       <title>Vienna’s Best Kept Fashion Secret</title>
       <updated>2016-09-10T00:00:00+00:00</updated>
@@ -4510,7 +4533,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           August 2016, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/stay-rude-fight-fascism/</id>
+      <id>https://chastell.net/1/125/stay-rude-fight-fascism/</id>
       <link href="/1/125/stay-rude-fight-fascism/" rel="alternate" />
       <title>Stay Rude! Fight Fascism!</title>
       <updated>2016-09-09T00:00:00+00:00</updated>
@@ -4531,7 +4554,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           April 2016, Minsk&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/palace-of-celebrations/</id>
+      <id>https://chastell.net/1/125/palace-of-celebrations/</id>
       <link href="/1/125/palace-of-celebrations/" rel="alternate" />
       <title>Palace of Celebrations</title>
       <updated>2016-08-26T00:00:00+00:00</updated>
@@ -4552,7 +4575,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           May 2016, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/fair-warning/</id>
+      <id>https://chastell.net/1/125/fair-warning/</id>
       <link href="/1/125/fair-warning/" rel="alternate" />
       <title>Fair Warning</title>
       <updated>2016-08-25T00:00:00+00:00</updated>
@@ -4573,7 +4596,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           July 2016, Poznań&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/stop-it/</id>
+      <id>https://chastell.net/1/125/stop-it/</id>
       <link href="/1/125/stop-it/" rel="alternate" />
       <title>Stop It.</title>
       <updated>2016-08-24T00:00:00+00:00</updated>
@@ -4594,7 +4617,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           July 2016, Dąbki&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/no-cycles-except-cycles/</id>
+      <id>https://chastell.net/1/125/no-cycles-except-cycles/</id>
       <link href="/1/125/no-cycles-except-cycles/" rel="alternate" />
       <title>No 🚲 (Except 🚲)</title>
       <updated>2016-08-18T00:00:00+00:00</updated>
@@ -4615,7 +4638,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           February 2016, Lviv&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/dressing-room/</id>
+      <id>https://chastell.net/1/125/dressing-room/</id>
       <link href="/1/125/dressing-room/" rel="alternate" />
       <title>Dressing Room</title>
       <updated>2016-08-11T00:00:00+00:00</updated>
@@ -4636,7 +4659,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/fly-east-life-is-blissful-there/</id>
+      <id>https://chastell.net/1/125/fly-east-life-is-blissful-there/</id>
       <link href="/1/125/fly-east-life-is-blissful-there/" rel="alternate" />
       <title>Fly East (Life is Blissful There)</title>
       <updated>2016-08-10T00:00:00+00:00</updated>
@@ -4657,7 +4680,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           February 2016, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/over-the-seas-in-all-degrees/</id>
+      <id>https://chastell.net/1/125/over-the-seas-in-all-degrees/</id>
       <link href="/1/125/over-the-seas-in-all-degrees/" rel="alternate" />
       <title>Over the Seas in All Degrees</title>
       <updated>2016-08-09T00:00:00+00:00</updated>
@@ -4678,7 +4701,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           February 2016, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/no-exit/</id>
+      <id>https://chastell.net/1/125/no-exit/</id>
       <link href="/1/125/no-exit/" rel="alternate" />
       <title>No Exit</title>
       <updated>2016-08-07T00:00:00+00:00</updated>
@@ -4699,7 +4722,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           July 2016, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/our-lady-of-the-solvents/</id>
+      <id>https://chastell.net/1/125/our-lady-of-the-solvents/</id>
       <link href="/1/125/our-lady-of-the-solvents/" rel="alternate" />
       <title>Our Lady of the Solvents</title>
       <updated>2016-08-06T00:00:00+00:00</updated>
@@ -4720,7 +4743,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           July 2016, Bobolin&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/the-young-woman-and-the-sea/</id>
+      <id>https://chastell.net/1/125/the-young-woman-and-the-sea/</id>
       <link href="/1/125/the-young-woman-and-the-sea/" rel="alternate" />
       <title>The Young Woman and the Sea</title>
       <updated>2016-08-05T00:00:00+00:00</updated>
@@ -4741,7 +4764,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, Bath&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/visitors-will-greatly-assist-the-management/</id>
+      <id>https://chastell.net/1/125/visitors-will-greatly-assist-the-management/</id>
       <link href="/1/125/visitors-will-greatly-assist-the-management/" rel="alternate" />
       <title>Visitors Will Greatly Assist the Management</title>
       <updated>2016-08-04T00:00:00+00:00</updated>
@@ -4762,7 +4785,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, Bath&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/withered-treasure/</id>
+      <id>https://chastell.net/1/125/withered-treasure/</id>
       <link href="/1/125/withered-treasure/" rel="alternate" />
       <title>Withered Treasure</title>
       <updated>2016-08-03T00:00:00+00:00</updated>
@@ -4783,7 +4806,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, Bath&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/bhs-in-tlc/</id>
+      <id>https://chastell.net/1/125/bhs-in-tlc/</id>
       <link href="/1/125/bhs-in-tlc/" rel="alternate" />
       <title>BHS in TLC</title>
       <updated>2016-08-02T00:00:00+00:00</updated>
@@ -4804,7 +4827,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, Bath&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/i-shall-play-you-the-song-of-my-people/</id>
+      <id>https://chastell.net/1/125/i-shall-play-you-the-song-of-my-people/</id>
       <link href="/1/125/i-shall-play-you-the-song-of-my-people/" rel="alternate" />
       <title>I Shall Play You the Song of My People</title>
       <updated>2016-08-01T00:00:00+00:00</updated>
@@ -4825,7 +4848,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, Bath&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/mbs-and-crumbs-and-crumbs-and-cru/</id>
+      <id>https://chastell.net/1/125/mbs-and-crumbs-and-crumbs-and-cru/</id>
       <link href="/1/125/mbs-and-crumbs-and-crumbs-and-cru/" rel="alternate" />
       <title>MBS &amp; CRUMBS &amp; CRUMBS &amp; CRU</title>
       <updated>2016-07-31T00:00:00+00:00</updated>
@@ -4846,7 +4869,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, Bath&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/richtung-boebbelin/</id>
+      <id>https://chastell.net/1/125/richtung-boebbelin/</id>
       <link href="/1/125/richtung-boebbelin/" rel="alternate" />
       <title>Richtung Böbbelin</title>
       <updated>2016-07-23T00:00:00+00:00</updated>
@@ -4867,7 +4890,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, Bath&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/a-plan-a-man-some-butties-a-half-marathon/</id>
+      <id>https://chastell.net/1/125/a-plan-a-man-some-butties-a-half-marathon/</id>
       <link href="/1/125/a-plan-a-man-some-butties-a-half-marathon/" rel="alternate" />
       <title>A Plan, a Man, Some Butties: a Half Marathon</title>
       <updated>2016-07-22T00:00:00+00:00</updated>
@@ -4888,7 +4911,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, Bath&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/whatever-you-want-to-do/</id>
+      <id>https://chastell.net/1/125/whatever-you-want-to-do/</id>
       <link href="/1/125/whatever-you-want-to-do/" rel="alternate" />
       <title>Whatever You Want to Do…</title>
       <updated>2016-07-21T00:00:00+00:00</updated>
@@ -4909,7 +4932,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, Bath&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/ladies-left/</id>
+      <id>https://chastell.net/1/125/ladies-left/</id>
       <link href="/1/125/ladies-left/" rel="alternate" />
       <title>Ladies Left</title>
       <updated>2016-07-20T00:00:00+00:00</updated>
@@ -4930,7 +4953,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, Bath&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/his-masters-visages/</id>
+      <id>https://chastell.net/1/125/his-masters-visages/</id>
       <link href="/1/125/his-masters-visages/" rel="alternate" />
       <title>His Masters’ Visages</title>
       <updated>2016-07-19T00:00:00+00:00</updated>
@@ -4951,7 +4974,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, Bath&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/smoke-break-keep-clear/</id>
+      <id>https://chastell.net/1/125/smoke-break-keep-clear/</id>
       <link href="/1/125/smoke-break-keep-clear/" rel="alternate" />
       <title>Smoke Break | Keep Clear</title>
       <updated>2016-07-18T00:00:00+00:00</updated>
@@ -4972,7 +4995,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, Bath&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/tweed-for-tat/</id>
+      <id>https://chastell.net/1/125/tweed-for-tat/</id>
       <link href="/1/125/tweed-for-tat/" rel="alternate" />
       <title>Tweed for Tat</title>
       <updated>2016-07-17T00:00:00+00:00</updated>
@@ -4993,7 +5016,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, Bath&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/between-22-and-22a-broad-st/</id>
+      <id>https://chastell.net/1/125/between-22-and-22a-broad-st/</id>
       <link href="/1/125/between-22-and-22a-broad-st/" rel="alternate" />
       <title>Between 22 and 22a Broad St</title>
       <updated>2016-07-16T00:00:00+00:00</updated>
@@ -5014,7 +5037,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, Bath&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/only-you-can-prevent-fishy-advertisement/</id>
+      <id>https://chastell.net/1/125/only-you-can-prevent-fishy-advertisement/</id>
       <link href="/1/125/only-you-can-prevent-fishy-advertisement/" rel="alternate" />
       <title>Only You Can Prevent Fishy Advertisement</title>
       <updated>2016-07-15T00:00:00+00:00</updated>
@@ -5035,7 +5058,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, Bath&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/so-much-better-than-just-a-church/</id>
+      <id>https://chastell.net/1/125/so-much-better-than-just-a-church/</id>
       <link href="/1/125/so-much-better-than-just-a-church/" rel="alternate" />
       <title>So Much Better Than Just a Church</title>
       <updated>2016-07-14T00:00:00+00:00</updated>
@@ -5056,7 +5079,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, Bath&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/riverside-terrace/</id>
+      <id>https://chastell.net/1/125/riverside-terrace/</id>
       <link href="/1/125/riverside-terrace/" rel="alternate" />
       <title>ʀɪᴠᴇʀꜱɪᴅᴇ ᴛᴇʀʀᴀᴄᴇ</title>
       <updated>2016-07-13T00:00:00+00:00</updated>
@@ -5077,7 +5100,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, Bath&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/this-testing-life/</id>
+      <id>https://chastell.net/1/125/this-testing-life/</id>
       <link href="/1/125/this-testing-life/" rel="alternate" />
       <title>This Testing Life</title>
       <updated>2016-07-12T00:00:00+00:00</updated>
@@ -5098,7 +5121,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, Bath&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/tom-spring-born-thomas-winter/</id>
+      <id>https://chastell.net/1/125/tom-spring-born-thomas-winter/</id>
       <link href="/1/125/tom-spring-born-thomas-winter/" rel="alternate" />
       <title>Tom Spring (Born Thomas Winter)</title>
       <updated>2016-07-11T00:00:00+00:00</updated>
@@ -5119,7 +5142,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, Bath&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/putting-the-fast-in-belfast-since-1977/</id>
+      <id>https://chastell.net/1/125/putting-the-fast-in-belfast-since-1977/</id>
       <link href="/1/125/putting-the-fast-in-belfast-since-1977/" rel="alternate" />
       <title>Putting the ‘Fast’ in Belfast Since 1977</title>
       <updated>2016-07-10T00:00:00+00:00</updated>
@@ -5140,7 +5163,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, Bath&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/ferrari-330-gto/</id>
+      <id>https://chastell.net/1/125/ferrari-330-gto/</id>
       <link href="/1/125/ferrari-330-gto/" rel="alternate" />
       <title>Ferrari 330 GTO</title>
       <updated>2016-07-09T00:00:00+00:00</updated>
@@ -5161,7 +5184,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, Bath&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/british-out-signs/</id>
+      <id>https://chastell.net/1/125/british-out-signs/</id>
       <link href="/1/125/british-out-signs/" rel="alternate" />
       <title>British Out Signs</title>
       <updated>2016-07-08T00:00:00+00:00</updated>
@@ -5182,7 +5205,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, Bath&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/divided-kingdom/</id>
+      <id>https://chastell.net/1/125/divided-kingdom/</id>
       <link href="/1/125/divided-kingdom/" rel="alternate" />
       <title>Divided Kingdom</title>
       <updated>2016-07-07T00:00:00+00:00</updated>
@@ -5203,7 +5226,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, Bath&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/separation-of-concerns/</id>
+      <id>https://chastell.net/1/125/separation-of-concerns/</id>
       <link href="/1/125/separation-of-concerns/" rel="alternate" />
       <title>Separation of Concerns</title>
       <updated>2016-07-06T00:00:00+00:00</updated>
@@ -5224,7 +5247,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, Bath&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/bubble-bath-the-look-the-reach-and-the-bubbler/</id>
+      <id>https://chastell.net/1/125/bubble-bath-the-look-the-reach-and-the-bubbler/</id>
       <link href="/1/125/bubble-bath-the-look-the-reach-and-the-bubbler/" rel="alternate" />
       <title>Bubble Bath: The Look, the Reach and the Bubbler</title>
       <updated>2016-07-05T00:00:00+00:00</updated>
@@ -5245,7 +5268,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, Bath&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/finest-food-ales-and-monitoring/</id>
+      <id>https://chastell.net/1/125/finest-food-ales-and-monitoring/</id>
       <link href="/1/125/finest-food-ales-and-monitoring/" rel="alternate" />
       <title>Finest Food, Ales &amp; Monitoring</title>
       <updated>2016-06-20T00:00:00+00:00</updated>
@@ -5266,7 +5289,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, Bath&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/bubble-bath-four-bubbles-per-child/</id>
+      <id>https://chastell.net/1/125/bubble-bath-four-bubbles-per-child/</id>
       <link href="/1/125/bubble-bath-four-bubbles-per-child/" rel="alternate" />
       <title>Bubble Bath: Four Bubbles per Child</title>
       <updated>2016-06-19T00:00:00+00:00</updated>
@@ -5287,7 +5310,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, Bath&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/wont-see-what-might-have-been/</id>
+      <id>https://chastell.net/1/125/wont-see-what-might-have-been/</id>
       <link href="/1/125/wont-see-what-might-have-been/" rel="alternate" />
       <title>Won’t See What Might Have Been</title>
       <updated>2016-05-28T00:00:00+00:00</updated>
@@ -5308,7 +5331,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, Bath&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/bubble-bath-christ-the-bubbleer/</id>
+      <id>https://chastell.net/1/125/bubble-bath-christ-the-bubbleer/</id>
       <link href="/1/125/bubble-bath-christ-the-bubbleer/" rel="alternate" />
       <title>Bubble Bath: Christ the Bubbleer</title>
       <updated>2016-05-27T00:00:00+00:00</updated>
@@ -5329,7 +5352,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, Bath&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/early-bird-bargain-in-the-secret-courtyard/</id>
+      <id>https://chastell.net/1/125/early-bird-bargain-in-the-secret-courtyard/</id>
       <link href="/1/125/early-bird-bargain-in-the-secret-courtyard/" rel="alternate" />
       <title>Early Bird Bargain in the Secret Courtyard</title>
       <updated>2016-05-16T00:00:00+00:00</updated>
@@ -5350,7 +5373,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, Bath&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/bubble-bath-under-the-coat-of-arms/</id>
+      <id>https://chastell.net/1/125/bubble-bath-under-the-coat-of-arms/</id>
       <link href="/1/125/bubble-bath-under-the-coat-of-arms/" rel="alternate" />
       <title>Bubble Bath: Under the Coat of Arms</title>
       <updated>2016-05-15T00:00:00+00:00</updated>
@@ -5371,7 +5394,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, Bath&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/artisan-du-chocolat/</id>
+      <id>https://chastell.net/1/125/artisan-du-chocolat/</id>
       <link href="/1/125/artisan-du-chocolat/" rel="alternate" />
       <title>Artisan du Chocolat</title>
       <updated>2016-04-25T00:00:00+00:00</updated>
@@ -5392,7 +5415,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, Bath&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/bubble-bath-cherry-blossom/</id>
+      <id>https://chastell.net/1/125/bubble-bath-cherry-blossom/</id>
       <link href="/1/125/bubble-bath-cherry-blossom/" rel="alternate" />
       <title>Bubble Bath: Cherry Blossom</title>
       <updated>2016-04-24T00:00:00+00:00</updated>
@@ -5413,7 +5436,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, Bath&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/picnic-at-abbey-ward/</id>
+      <id>https://chastell.net/1/125/picnic-at-abbey-ward/</id>
       <link href="/1/125/picnic-at-abbey-ward/" rel="alternate" />
       <title>Picnic at Abbey Ward</title>
       <updated>2016-04-23T00:00:00+00:00</updated>
@@ -5434,7 +5457,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, Bath&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/bubble-bath-hes-worth-a-lot-to-me/</id>
+      <id>https://chastell.net/1/125/bubble-bath-hes-worth-a-lot-to-me/</id>
       <link href="/1/125/bubble-bath-hes-worth-a-lot-to-me/" rel="alternate" />
       <title>Bubble Bath: He’s Worth a Lot to Me</title>
       <updated>2016-04-22T00:00:00+00:00</updated>
@@ -5455,7 +5478,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, Bath&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/business-downstairs-party-upstairs/</id>
+      <id>https://chastell.net/1/125/business-downstairs-party-upstairs/</id>
       <link href="/1/125/business-downstairs-party-upstairs/" rel="alternate" />
       <title>Business Downstairs, Party Upstairs</title>
       <updated>2016-04-21T00:00:00+00:00</updated>
@@ -5476,7 +5499,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, Bath&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/bubble-bath-pink-poodle/</id>
+      <id>https://chastell.net/1/125/bubble-bath-pink-poodle/</id>
       <link href="/1/125/bubble-bath-pink-poodle/" rel="alternate" />
       <title>Bubble Bath: Pink Poodle</title>
       <updated>2016-04-20T00:00:00+00:00</updated>
@@ -5497,7 +5520,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, Bath&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/victoria-housed/</id>
+      <id>https://chastell.net/1/125/victoria-housed/</id>
       <link href="/1/125/victoria-housed/" rel="alternate" />
       <title>Victoria Housed</title>
       <updated>2016-04-19T00:00:00+00:00</updated>
@@ -5518,7 +5541,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, Bath&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/bubble-bath-through-the-looking-soap/</id>
+      <id>https://chastell.net/1/125/bubble-bath-through-the-looking-soap/</id>
       <link href="/1/125/bubble-bath-through-the-looking-soap/" rel="alternate" />
       <title>Bubble Bath: Through the Looking-Soap</title>
       <updated>2016-04-18T00:00:00+00:00</updated>
@@ -5539,7 +5562,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, London&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/exit-house-left/</id>
+      <id>https://chastell.net/1/125/exit-house-left/</id>
       <link href="/1/125/exit-house-left/" rel="alternate" />
       <title>Exit… House Left</title>
       <updated>2016-04-17T00:00:00+00:00</updated>
@@ -5560,7 +5583,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, Buckingham Palace, London&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/a-sad-day-for-england/</id>
+      <id>https://chastell.net/1/125/a-sad-day-for-england/</id>
       <link href="/1/125/a-sad-day-for-england/" rel="alternate" />
       <title>A Sad Day for England</title>
       <updated>2016-04-16T00:00:00+00:00</updated>
@@ -5581,7 +5604,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, London&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/there-used-to-be-a-telephone-box-here/</id>
+      <id>https://chastell.net/1/125/there-used-to-be-a-telephone-box-here/</id>
       <link href="/1/125/there-used-to-be-a-telephone-box-here/" rel="alternate" />
       <title>There Used to Be a Telephone Box Here</title>
       <updated>2016-04-15T00:00:00+00:00</updated>
@@ -5602,7 +5625,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, London&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/party-at-the-ritz-dudes-house/</id>
+      <id>https://chastell.net/1/125/party-at-the-ritz-dudes-house/</id>
       <link href="/1/125/party-at-the-ritz-dudes-house/" rel="alternate" />
       <title>Party at the Ritz Dudes’ House</title>
       <updated>2016-04-14T00:00:00+00:00</updated>
@@ -5623,7 +5646,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, London&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/cyan-magenta-yellow-backpack/</id>
+      <id>https://chastell.net/1/125/cyan-magenta-yellow-backpack/</id>
       <link href="/1/125/cyan-magenta-yellow-backpack/" rel="alternate" />
       <title>Cyan Magenta Yellow Backpack</title>
       <updated>2016-04-13T00:00:00+00:00</updated>
@@ -5644,7 +5667,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, London&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/things-not-to-do-with-the-union-jack/</id>
+      <id>https://chastell.net/1/125/things-not-to-do-with-the-union-jack/</id>
       <link href="/1/125/things-not-to-do-with-the-union-jack/" rel="alternate" />
       <title>Things Not to Do with the Union Jack</title>
       <updated>2016-04-12T00:00:00+00:00</updated>
@@ -5665,7 +5688,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, London&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/walking-in-carnby/</id>
+      <id>https://chastell.net/1/125/walking-in-carnby/</id>
       <link href="/1/125/walking-in-carnby/" rel="alternate" />
       <title>Walking in Carn’by</title>
       <updated>2016-04-11T00:00:00+00:00</updated>
@@ -5686,7 +5709,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, London&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/theres-wally/</id>
+      <id>https://chastell.net/1/125/theres-wally/</id>
       <link href="/1/125/theres-wally/" rel="alternate" />
       <title>There’s Wally!</title>
       <updated>2016-04-10T00:00:00+00:00</updated>
@@ -5707,7 +5730,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, London&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/patriarch-magnus-in-residence/</id>
+      <id>https://chastell.net/1/125/patriarch-magnus-in-residence/</id>
       <link href="/1/125/patriarch-magnus-in-residence/" rel="alternate" />
       <title>Patriarch Magnus in Residence</title>
       <updated>2016-04-09T00:00:00+00:00</updated>
@@ -5728,7 +5751,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, London&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/four-shoe-store/</id>
+      <id>https://chastell.net/1/125/four-shoe-store/</id>
       <link href="/1/125/four-shoe-store/" rel="alternate" />
       <title>Four Shoe Store</title>
       <updated>2016-04-08T00:00:00+00:00</updated>
@@ -5749,7 +5772,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, London&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/hattifatteners-in-hiding/</id>
+      <id>https://chastell.net/1/125/hattifatteners-in-hiding/</id>
       <link href="/1/125/hattifatteners-in-hiding/" rel="alternate" />
       <title>Hattifatteners in Hiding</title>
       <updated>2016-04-07T00:00:00+00:00</updated>
@@ -5770,7 +5793,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, London&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/shakespeares-headcount/</id>
+      <id>https://chastell.net/1/125/shakespeares-headcount/</id>
       <link href="/1/125/shakespeares-headcount/" rel="alternate" />
       <title>Shakespeare’s Headcount</title>
       <updated>2016-04-06T00:00:00+00:00</updated>
@@ -5791,7 +5814,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, London&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/ffd600-ff1100/</id>
+      <id>https://chastell.net/1/125/ffd600-ff1100/</id>
       <link href="/1/125/ffd600-ff1100/" rel="alternate" />
       <title>ffd600, ff1100</title>
       <updated>2016-04-05T00:00:00+00:00</updated>
@@ -5812,7 +5835,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, London&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/veranico-de-marco/</id>
+      <id>https://chastell.net/1/125/veranico-de-marco/</id>
       <link href="/1/125/veranico-de-marco/" rel="alternate" />
       <title>Veranico de março</title>
       <updated>2016-04-04T00:00:00+00:00</updated>
@@ -5833,7 +5856,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, London&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/home-is-where-the-1st-floor-is/</id>
+      <id>https://chastell.net/1/125/home-is-where-the-1st-floor-is/</id>
       <link href="/1/125/home-is-where-the-1st-floor-is/" rel="alternate" />
       <title>Home Is Where the 1st Floor Is</title>
       <updated>2016-04-03T00:00:00+00:00</updated>
@@ -5854,7 +5877,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, London&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/you-must-be-this-tall-to-kiss-the-giraffe/</id>
+      <id>https://chastell.net/1/125/you-must-be-this-tall-to-kiss-the-giraffe/</id>
       <link href="/1/125/you-must-be-this-tall-to-kiss-the-giraffe/" rel="alternate" />
       <title>You Must Be This Tall to Kiss the Giraffe</title>
       <updated>2016-04-02T00:00:00+00:00</updated>
@@ -5875,7 +5898,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, London&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/the-importance-of-being-ashamed/</id>
+      <id>https://chastell.net/1/125/the-importance-of-being-ashamed/</id>
       <link href="/1/125/the-importance-of-being-ashamed/" rel="alternate" />
       <title>The Importance of Being Ashamed</title>
       <updated>2016-04-01T00:00:00+00:00</updated>
@@ -5896,7 +5919,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, London&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/boyhood/</id>
+      <id>https://chastell.net/1/125/boyhood/</id>
       <link href="/1/125/boyhood/" rel="alternate" />
       <title>Boyhood</title>
       <updated>2016-03-31T00:00:00+00:00</updated>
@@ -5917,7 +5940,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, London&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/holding-it-right/</id>
+      <id>https://chastell.net/1/125/holding-it-right/</id>
       <link href="/1/125/holding-it-right/" rel="alternate" />
       <title>Holding It Right</title>
       <updated>2016-03-30T00:00:00+00:00</updated>
@@ -5938,7 +5961,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, Soho, London&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/the-specials-and-the-bell/</id>
+      <id>https://chastell.net/1/125/the-specials-and-the-bell/</id>
       <link href="/1/125/the-specials-and-the-bell/" rel="alternate" />
       <title>The Specials and the Bell</title>
       <updated>2016-03-29T00:00:00+00:00</updated>
@@ -5959,7 +5982,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, Soho, London&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/groucho-works-behind-the-bars/</id>
+      <id>https://chastell.net/1/125/groucho-works-behind-the-bars/</id>
       <link href="/1/125/groucho-works-behind-the-bars/" rel="alternate" />
       <title>Groucho Works Behind the Bars</title>
       <updated>2016-03-28T00:00:00+00:00</updated>
@@ -5980,7 +6003,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, London&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/the-store-the-store-the-store-the-store-the-store/</id>
+      <id>https://chastell.net/1/125/the-store-the-store-the-store-the-store-the-store/</id>
       <link href="/1/125/the-store-the-store-the-store-the-store-the-store/" rel="alternate" />
       <title>The Store. The Store. The Store. The Store. The Store.</title>
       <updated>2016-03-27T00:00:00+00:00</updated>
@@ -6001,7 +6024,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, London&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/shoryu-stay-or-shoryu-go/</id>
+      <id>https://chastell.net/1/125/shoryu-stay-or-shoryu-go/</id>
       <link href="/1/125/shoryu-stay-or-shoryu-go/" rel="alternate" />
       <title>Shoryu Stay or Shoryu Go?</title>
       <updated>2016-03-26T00:00:00+00:00</updated>
@@ -6022,7 +6045,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, London&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/the-most-patient-dog-in-soho/</id>
+      <id>https://chastell.net/1/125/the-most-patient-dog-in-soho/</id>
       <link href="/1/125/the-most-patient-dog-in-soho/" rel="alternate" />
       <title>The Most Patient Dog in Soho</title>
       <updated>2016-03-25T00:00:00+00:00</updated>
@@ -6043,7 +6066,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, Piccadilly Circus, London&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/earl-of-glasshouse/</id>
+      <id>https://chastell.net/1/125/earl-of-glasshouse/</id>
       <link href="/1/125/earl-of-glasshouse/" rel="alternate" />
       <title>Earl of Glasshouse</title>
       <updated>2016-03-24T00:00:00+00:00</updated>
@@ -6064,7 +6087,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, London&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/something-wicked-that-way-goes/</id>
+      <id>https://chastell.net/1/125/something-wicked-that-way-goes/</id>
       <link href="/1/125/something-wicked-that-way-goes/" rel="alternate" />
       <title>Something Wicked That Way Goes</title>
       <updated>2016-03-23T00:00:00+00:00</updated>
@@ -6085,7 +6108,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, Leicester Square, London&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/tough-act-to-follow/</id>
+      <id>https://chastell.net/1/125/tough-act-to-follow/</id>
       <link href="/1/125/tough-act-to-follow/" rel="alternate" />
       <title>Tough Act to Follow</title>
       <updated>2016-03-22T00:00:00+00:00</updated>
@@ -6106,7 +6129,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, London&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/improving-the-image-of-construction/</id>
+      <id>https://chastell.net/1/125/improving-the-image-of-construction/</id>
       <link href="/1/125/improving-the-image-of-construction/" rel="alternate" />
       <title>Improving the Image of Construction</title>
       <updated>2016-03-21T00:00:00+00:00</updated>
@@ -6129,7 +6152,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, Trafalgar Square, London&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/hungry-grass-on-tour/</id>
+      <id>https://chastell.net/1/125/hungry-grass-on-tour/</id>
       <link href="/1/125/hungry-grass-on-tour/" rel="alternate" />
       <title>Hungry Grass on Tour</title>
       <updated>2016-03-20T00:00:00+00:00</updated>
@@ -6150,7 +6173,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, Trafalgar Square, London&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/saint-patricia-celebrating/</id>
+      <id>https://chastell.net/1/125/saint-patricia-celebrating/</id>
       <link href="/1/125/saint-patricia-celebrating/" rel="alternate" />
       <title>Saint Patricia, Celebrating</title>
       <updated>2016-03-19T00:00:00+00:00</updated>
@@ -6171,7 +6194,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           March 2016, Okęcie Airport, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/its-a-small-planet/</id>
+      <id>https://chastell.net/1/125/its-a-small-planet/</id>
       <link href="/1/125/its-a-small-planet/" rel="alternate" />
       <title>It’s a Small Planet</title>
       <updated>2016-03-17T00:00:00+00:00</updated>
@@ -6192,7 +6215,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           February 2016, The Vernissage Flea Market, Lviv&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/the-smallest-car-park-in-lviv/</id>
+      <id>https://chastell.net/1/125/the-smallest-car-park-in-lviv/</id>
       <link href="/1/125/the-smallest-car-park-in-lviv/" rel="alternate" />
       <title>The Smallest Car Park in Lviv</title>
       <updated>2016-03-09T00:00:00+00:00</updated>
@@ -6213,7 +6236,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           February 2016, The Yard of Lost Toys, Lviv&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/wheres-uolly/</id>
+      <id>https://chastell.net/1/125/wheres-uolly/</id>
       <link href="/1/125/wheres-uolly/" rel="alternate" />
       <title>Where’s Уолли?</title>
       <updated>2016-03-07T00:00:00+00:00</updated>
@@ -6234,7 +6257,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           February 2016, The Yard of Lost Toys, Lviv&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/hangin-tight/</id>
+      <id>https://chastell.net/1/125/hangin-tight/</id>
       <link href="/1/125/hangin-tight/" rel="alternate" />
       <title>Hangin’ Tight</title>
       <updated>2016-03-05T00:00:00+00:00</updated>
@@ -6255,7 +6278,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           February 2016, The Yard of Lost Toys, Lviv&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/chuckys-holiday/</id>
+      <id>https://chastell.net/1/125/chuckys-holiday/</id>
       <link href="/1/125/chuckys-holiday/" rel="alternate" />
       <title>Chucky’s Holiday</title>
       <updated>2016-03-03T00:00:00+00:00</updated>
@@ -6276,7 +6299,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           February 2016, Lviv&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/heaven-lviv-hell/</id>
+      <id>https://chastell.net/1/125/heaven-lviv-hell/</id>
       <link href="/1/125/heaven-lviv-hell/" rel="alternate" />
       <title>← Heaven | Lviv | Hell →</title>
       <updated>2016-03-02T00:00:00+00:00</updated>
@@ -6297,7 +6320,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           February 2016, Lviv&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/the-city-of-chocolate/</id>
+      <id>https://chastell.net/1/125/the-city-of-chocolate/</id>
       <link href="/1/125/the-city-of-chocolate/" rel="alternate" />
       <title>The City of Chocolate</title>
       <updated>2016-03-01T00:00:00+00:00</updated>
@@ -6318,7 +6341,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           February 2016, Lviv&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/tut-zhyve-kit/</id>
+      <id>https://chastell.net/1/125/tut-zhyve-kit/</id>
       <link href="/1/125/tut-zhyve-kit/" rel="alternate" />
       <title>Тут живе кіт</title>
       <updated>2016-02-29T00:00:00+00:00</updated>
@@ -6339,7 +6362,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           January 2016, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/smyk-shocked/</id>
+      <id>https://chastell.net/1/125/smyk-shocked/</id>
       <link href="/1/125/smyk-shocked/" rel="alternate" />
       <title>Smyk-Shocked</title>
       <updated>2016-02-28T00:00:00+00:00</updated>
@@ -6360,7 +6383,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           November 2012, City of Arts and Sciences, Valencia&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/all-the-things-in-spain/</id>
+      <id>https://chastell.net/1/125/all-the-things-in-spain/</id>
       <link href="/1/125/all-the-things-in-spain/" rel="alternate" />
       <title>All the Things in Spain</title>
       <updated>2016-02-10T00:00:00+00:00</updated>
@@ -6381,7 +6404,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           November 2015, Mirador del Río, Lanzarote&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/the-chinijo/</id>
+      <id>https://chastell.net/1/125/the-chinijo/</id>
       <link href="/1/125/the-chinijo/" rel="alternate" />
       <title>The Chinijo</title>
       <updated>2016-01-27T00:00:00+00:00</updated>
@@ -6402,7 +6425,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           September 2010, Dârjiu&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/mennyben-hivsegekert-emlekezet-leszen/</id>
+      <id>https://chastell.net/1/125/mennyben-hivsegekert-emlekezet-leszen/</id>
       <link href="/1/125/mennyben-hivsegekert-emlekezet-leszen/" rel="alternate" />
       <title>Mennyben hívségekért emlékezet lészen</title>
       <updated>2016-01-04T00:00:00+00:00</updated>
@@ -6425,7 +6448,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           December 2015, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/tthbrsh/</id>
+      <id>https://chastell.net/1/125/tthbrsh/</id>
       <link href="/1/125/tthbrsh/" rel="alternate" />
       <title>TTHBRSH</title>
       <updated>2015-12-23T00:00:00+00:00</updated>
@@ -6446,7 +6469,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           June 2010, Łochów Palace&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/the-daughter-of-man/</id>
+      <id>https://chastell.net/1/125/the-daughter-of-man/</id>
       <link href="/1/125/the-daughter-of-man/" rel="alternate" />
       <title>The Daughter of Man</title>
       <updated>2015-12-18T00:00:00+00:00</updated>
@@ -6467,7 +6490,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           December 2015, Zachęta&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/you-dont-kill-democracy/</id>
+      <id>https://chastell.net/1/125/you-dont-kill-democracy/</id>
       <link href="/1/125/you-dont-kill-democracy/" rel="alternate" />
       <title>You Don’t Kill Democracy</title>
       <updated>2015-12-16T00:00:00+00:00</updated>
@@ -6488,7 +6511,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           September 2010, Dârjiu&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/2-2-2/</id>
+      <id>https://chastell.net/1/125/2-2-2/</id>
       <link href="/1/125/2-2-2/" rel="alternate" />
       <title>2+2+2</title>
       <updated>2015-12-15T00:00:00+00:00</updated>
@@ -6509,7 +6532,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           December 2015, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/the-worst-sort-of-poles/</id>
+      <id>https://chastell.net/1/125/the-worst-sort-of-poles/</id>
       <link href="/1/125/the-worst-sort-of-poles/" rel="alternate" />
       <title>‘The Worst Sort of Poles’</title>
       <updated>2015-12-13T00:00:00+00:00</updated>
@@ -6530,7 +6553,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           April 2009, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/k-gyr/</id>
+      <id>https://chastell.net/1/125/k-gyr/</id>
       <link href="/1/125/k-gyr/" rel="alternate" />
       <title>K GYR</title>
       <updated>2015-12-10T00:00:00+00:00</updated>
@@ -6551,7 +6574,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           June 2010, Łochów Palace&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/bubbles-iii/</id>
+      <id>https://chastell.net/1/125/bubbles-iii/</id>
       <link href="/1/125/bubbles-iii/" rel="alternate" />
       <title>Bubbles!</title>
       <updated>2015-12-09T00:00:00+00:00</updated>
@@ -6572,7 +6595,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           June 2010, Łochów Palace&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/bubbles-ii/</id>
+      <id>https://chastell.net/1/125/bubbles-ii/</id>
       <link href="/1/125/bubbles-ii/" rel="alternate" />
       <title>Bubbles.</title>
       <updated>2015-12-08T00:00:00+00:00</updated>
@@ -6593,7 +6616,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           June 2010, Łochów Palace&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/bubbles-i/</id>
+      <id>https://chastell.net/1/125/bubbles-i/</id>
       <link href="/1/125/bubbles-i/" rel="alternate" />
       <title>Bubbles?</title>
       <updated>2015-12-07T00:00:00+00:00</updated>
@@ -6614,7 +6637,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           December 2015, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/like-mother-like-son/</id>
+      <id>https://chastell.net/1/125/like-mother-like-son/</id>
       <link href="/1/125/like-mother-like-son/" rel="alternate" />
       <title>Like Mother, Like Son</title>
       <updated>2015-12-06T00:00:00+00:00</updated>
@@ -6635,7 +6658,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           April 2010, Piedras Blancas Elephant Seal Rookery&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/windy-1/</id>
+      <id>https://chastell.net/1/125/windy-1/</id>
       <link href="/1/125/windy-1/" rel="alternate" />
       <title>Windy 1</title>
       <updated>2015-12-04T00:00:00+00:00</updated>
@@ -6656,7 +6679,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           April 2010, Zabriskie Point&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/the-big-rock-candy-mountains/</id>
+      <id>https://chastell.net/1/125/the-big-rock-candy-mountains/</id>
       <link href="/1/125/the-big-rock-candy-mountains/" rel="alternate" />
       <title>The Big Rock Candy Mountains</title>
       <updated>2015-12-03T00:00:00+00:00</updated>
@@ -6677,7 +6700,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           December 2015, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/lefts/</id>
+      <id>https://chastell.net/1/125/lefts/</id>
       <link href="/1/125/lefts/" rel="alternate" />
       <title>Lefts</title>
       <updated>2015-12-02T00:00:00+00:00</updated>
@@ -6698,7 +6721,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           April 2010, Cima&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/got-sand/</id>
+      <id>https://chastell.net/1/125/got-sand/</id>
       <link href="/1/125/got-sand/" rel="alternate" />
       <title>Got Sand?</title>
       <updated>2015-12-01T00:00:00+00:00</updated>
@@ -6719,7 +6742,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           November 2015, Lanzarote&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/down-the-crater/</id>
+      <id>https://chastell.net/1/125/down-the-crater/</id>
       <link href="/1/125/down-the-crater/" rel="alternate" />
       <title>Down the Crater</title>
       <updated>2015-11-30T00:00:00+00:00</updated>
@@ -6740,7 +6763,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           July 2012, Scotland&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/lush-country-delivery/</id>
+      <id>https://chastell.net/1/125/lush-country-delivery/</id>
       <link href="/1/125/lush-country-delivery/" rel="alternate" />
       <title>Lush Country Delivery</title>
       <updated>2015-11-29T00:00:00+00:00</updated>
@@ -6763,7 +6786,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           April 2015, Warsaw, by &lt;a href='https://kofeina.wordpress.com/'&gt;Kala&lt;/a&gt;&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/the-world-will-be-better/</id>
+      <id>https://chastell.net/1/125/the-world-will-be-better/</id>
       <link href="/1/125/the-world-will-be-better/" rel="alternate" />
       <title>The World Will Be Better</title>
       <updated>2015-04-29T00:00:00+00:00</updated>
@@ -6786,7 +6809,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           April 2015, Warsaw, by M.&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/easter-doctor/</id>
+      <id>https://chastell.net/1/125/easter-doctor/</id>
       <link href="/1/125/easter-doctor/" rel="alternate" />
       <title>Easter Doctor</title>
       <updated>2015-04-06T00:00:00+00:00</updated>
@@ -6807,7 +6830,7 @@ you know you got me hypnotized ♫&lt;br /&gt;
           September 2013, Barcelona&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/hijos-de-puta/</id>
+      <id>https://chastell.net/1/125/hijos-de-puta/</id>
       <link href="/1/125/hijos-de-puta/" rel="alternate" />
       <title>HIJOS DE PUTA</title>
       <updated>2014-09-18T00:00:00+00:00</updated>
@@ -6829,7 +6852,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           July 2013, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/pure-hjkl/</id>
+      <id>https://chastell.net/1/125/pure-hjkl/</id>
       <link href="/1/125/pure-hjkl/" rel="alternate" />
       <title>Pure HJKL</title>
       <updated>2013-07-23T00:00:00+00:00</updated>
@@ -6850,7 +6873,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           July 2008, San Francisco&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/crucible-spectators/</id>
+      <id>https://chastell.net/1/125/crucible-spectators/</id>
       <link href="/1/125/crucible-spectators/" rel="alternate" />
       <title>Crucible Spectators</title>
       <updated>2009-02-05T00:00:00+00:00</updated>
@@ -6871,7 +6894,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           July 2008, San Francisco&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/hurricane-founder/</id>
+      <id>https://chastell.net/1/125/hurricane-founder/</id>
       <link href="/1/125/hurricane-founder/" rel="alternate" />
       <title>Hurricane Founder</title>
       <updated>2009-02-03T00:00:00+00:00</updated>
@@ -6892,7 +6915,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           July 2008, New York City&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/close-encounters-of-the-weird-kind/</id>
+      <id>https://chastell.net/1/125/close-encounters-of-the-weird-kind/</id>
       <link href="/1/125/close-encounters-of-the-weird-kind/" rel="alternate" />
       <title>Close Encounters of the Weird Kind</title>
       <updated>2009-02-02T00:00:00+00:00</updated>
@@ -6913,7 +6936,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           July 2008, New York City&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/a-hundred-tennis-balls-underground/</id>
+      <id>https://chastell.net/1/125/a-hundred-tennis-balls-underground/</id>
       <link href="/1/125/a-hundred-tennis-balls-underground/" rel="alternate" />
       <title>A Hundred Tennis Balls Underground</title>
       <updated>2009-02-01T00:00:00+00:00</updated>
@@ -6934,7 +6957,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           July 2008, San Francisco&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/poem-store/</id>
+      <id>https://chastell.net/1/125/poem-store/</id>
       <link href="/1/125/poem-store/" rel="alternate" />
       <title>Poem Store</title>
       <updated>2009-01-31T00:00:00+00:00</updated>
@@ -6955,7 +6978,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           July 2008, New York City&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/welcome-to-the-planet-brooklyn/</id>
+      <id>https://chastell.net/1/125/welcome-to-the-planet-brooklyn/</id>
       <link href="/1/125/welcome-to-the-planet-brooklyn/" rel="alternate" />
       <title>Welcome to the Planet Brooklyn</title>
       <updated>2009-01-30T00:00:00+00:00</updated>
@@ -6976,7 +6999,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           December 2008, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/second-hand-experience/</id>
+      <id>https://chastell.net/1/125/second-hand-experience/</id>
       <link href="/1/125/second-hand-experience/" rel="alternate" />
       <title>Second Hand Experience</title>
       <updated>2009-01-29T00:00:00+00:00</updated>
@@ -6999,7 +7022,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           July 2008, Tahoe area, by M.&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/o-o/</id>
+      <id>https://chastell.net/1/125/o-o/</id>
       <link href="/1/125/o-o/" rel="alternate" />
       <title>⚯</title>
       <updated>2009-01-28T00:00:00+00:00</updated>
@@ -7020,7 +7043,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           October 2007, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/i-thought-id-pegged-you-an-idiots-dream/</id>
+      <id>https://chastell.net/1/125/i-thought-id-pegged-you-an-idiots-dream/</id>
       <link href="/1/125/i-thought-id-pegged-you-an-idiots-dream/" rel="alternate" />
       <title>I Thought I’d Pegged You an Idiot’s Dream</title>
       <updated>2007-10-24T00:00:00+00:00</updated>
@@ -7041,7 +7064,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           March 2007, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/be-it-fahrenheit-or-centigrade/</id>
+      <id>https://chastell.net/1/125/be-it-fahrenheit-or-centigrade/</id>
       <link href="/1/125/be-it-fahrenheit-or-centigrade/" rel="alternate" />
       <title>…Be It Fahrenheit or Centigrade</title>
       <updated>2007-10-02T00:00:00+00:00</updated>
@@ -7064,7 +7087,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           September 2007, Warsaw, by &lt;a href='http://flickr.com/photos/dzejdi/'&gt;Julia&lt;/a&gt;&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/when-im-good-im-very-good/</id>
+      <id>https://chastell.net/1/125/when-im-good-im-very-good/</id>
       <link href="/1/125/when-im-good-im-very-good/" rel="alternate" />
       <title>When I’m Good, I’m Very Good…</title>
       <updated>2007-09-26T00:00:00+00:00</updated>
@@ -7085,7 +7108,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           October 2006, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/the-squirrel-story-vi/</id>
+      <id>https://chastell.net/1/125/the-squirrel-story-vi/</id>
       <link href="/1/125/the-squirrel-story-vi/" rel="alternate" />
       <title>The Squirrel Story VI</title>
       <updated>2006-10-22T00:00:00+00:00</updated>
@@ -7106,7 +7129,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           October 2006, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/the-squirrel-story-v/</id>
+      <id>https://chastell.net/1/125/the-squirrel-story-v/</id>
       <link href="/1/125/the-squirrel-story-v/" rel="alternate" />
       <title>The Squirrel Story V</title>
       <updated>2006-10-15T00:00:00+00:00</updated>
@@ -7127,7 +7150,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           October 2006, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/the-squirrel-story-iv/</id>
+      <id>https://chastell.net/1/125/the-squirrel-story-iv/</id>
       <link href="/1/125/the-squirrel-story-iv/" rel="alternate" />
       <title>The Squirrel Story IV</title>
       <updated>2006-10-14T00:00:00+00:00</updated>
@@ -7148,7 +7171,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           October 2006, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/the-squirrel-story-iii/</id>
+      <id>https://chastell.net/1/125/the-squirrel-story-iii/</id>
       <link href="/1/125/the-squirrel-story-iii/" rel="alternate" />
       <title>The Squirrel Story III</title>
       <updated>2006-10-11T00:00:00+00:00</updated>
@@ -7169,7 +7192,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           October 2006, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/the-squirrel-story-ii/</id>
+      <id>https://chastell.net/1/125/the-squirrel-story-ii/</id>
       <link href="/1/125/the-squirrel-story-ii/" rel="alternate" />
       <title>The Squirrel Story II</title>
       <updated>2006-10-10T00:00:00+00:00</updated>
@@ -7190,7 +7213,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           October 2006, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/the-squirrel-story-i/</id>
+      <id>https://chastell.net/1/125/the-squirrel-story-i/</id>
       <link href="/1/125/the-squirrel-story-i/" rel="alternate" />
       <title>The Squirrel Story I</title>
       <updated>2006-10-09T00:00:00+00:00</updated>
@@ -7211,7 +7234,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           June 2006, San Francisco&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/hula-hoop-is-strong-with-these-two/</id>
+      <id>https://chastell.net/1/125/hula-hoop-is-strong-with-these-two/</id>
       <link href="/1/125/hula-hoop-is-strong-with-these-two/" rel="alternate" />
       <title>Hula Hoop Is Strong with These Two</title>
       <updated>2006-08-08T00:00:00+00:00</updated>
@@ -7232,7 +7255,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           July 2006, Arizona, by Kurund&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/good-clean-fun/</id>
+      <id>https://chastell.net/1/125/good-clean-fun/</id>
       <link href="/1/125/good-clean-fun/" rel="alternate" />
       <title>Good Clean Fun</title>
       <updated>2006-08-07T00:00:00+00:00</updated>
@@ -7253,7 +7276,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           July 2006, San Francisco&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/seven/</id>
+      <id>https://chastell.net/1/125/seven/</id>
       <link href="/1/125/seven/" rel="alternate" />
       <title>Seven</title>
       <updated>2006-08-04T00:00:00+00:00</updated>
@@ -7274,7 +7297,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           June 2006, San Francisco&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/pizza-orgasmica/</id>
+      <id>https://chastell.net/1/125/pizza-orgasmica/</id>
       <link href="/1/125/pizza-orgasmica/" rel="alternate" />
       <title>Pizza Orgasmica</title>
       <updated>2006-08-03T00:00:00+00:00</updated>
@@ -7295,7 +7318,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           June 2006, San Francisco&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/a-pursuit-under-the-bridge/</id>
+      <id>https://chastell.net/1/125/a-pursuit-under-the-bridge/</id>
       <link href="/1/125/a-pursuit-under-the-bridge/" rel="alternate" />
       <title>A Pursuit Under the Bridge</title>
       <updated>2006-08-02T00:00:00+00:00</updated>
@@ -7316,7 +7339,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           July 2006, San Francisco&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/only-from-ritual-coffee-roasters/</id>
+      <id>https://chastell.net/1/125/only-from-ritual-coffee-roasters/</id>
       <link href="/1/125/only-from-ritual-coffee-roasters/" rel="alternate" />
       <title>…Only from Ritual Coffee Roasters</title>
       <updated>2006-08-01T00:00:00+00:00</updated>
@@ -7337,7 +7360,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           July 2006, San Francisco&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/mocha-for-peter/</id>
+      <id>https://chastell.net/1/125/mocha-for-peter/</id>
       <link href="/1/125/mocha-for-peter/" rel="alternate" />
       <title>Mocha for Peter…</title>
       <updated>2006-07-31T00:00:00+00:00</updated>
@@ -7358,7 +7381,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           June 2006, Mount Tamalpais State Park&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/wherever-he-stopped-the-grass-got-greener/</id>
+      <id>https://chastell.net/1/125/wherever-he-stopped-the-grass-got-greener/</id>
       <link href="/1/125/wherever-he-stopped-the-grass-got-greener/" rel="alternate" />
       <title>Wherever He Stopped the Grass Got Greener</title>
       <updated>2006-07-30T00:00:00+00:00</updated>
@@ -7379,7 +7402,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           June 2006, Mount Tamalpais State Park&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/bolinas-bay/</id>
+      <id>https://chastell.net/1/125/bolinas-bay/</id>
       <link href="/1/125/bolinas-bay/" rel="alternate" />
       <title>Bolinas Bay</title>
       <updated>2006-07-29T00:00:00+00:00</updated>
@@ -7400,7 +7423,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           June 2006, Mount Tamalpais State Park&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/whither-now/</id>
+      <id>https://chastell.net/1/125/whither-now/</id>
       <link href="/1/125/whither-now/" rel="alternate" />
       <title>Whither Now?</title>
       <updated>2006-07-08T00:00:00+00:00</updated>
@@ -7421,7 +7444,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           June 2006, Mount Tamalpais State Park&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/bad-boys-bad-boys/</id>
+      <id>https://chastell.net/1/125/bad-boys-bad-boys/</id>
       <link href="/1/125/bad-boys-bad-boys/" rel="alternate" />
       <title>Bad Boys, Bad Boys…</title>
       <updated>2006-07-07T00:00:00+00:00</updated>
@@ -7442,7 +7465,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           July 2006, San Francisco&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/one-piggy-way/</id>
+      <id>https://chastell.net/1/125/one-piggy-way/</id>
       <link href="/1/125/one-piggy-way/" rel="alternate" />
       <title>One Piggy Way</title>
       <updated>2006-07-06T00:00:00+00:00</updated>
@@ -7463,7 +7486,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           July 2006, San Francisco&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/the-heart-of-the-mission/</id>
+      <id>https://chastell.net/1/125/the-heart-of-the-mission/</id>
       <link href="/1/125/the-heart-of-the-mission/" rel="alternate" />
       <title>The Heart of the Mission</title>
       <updated>2006-07-05T00:00:00+00:00</updated>
@@ -7484,7 +7507,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           June 2006, Mount Tamalpais State Park&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/travelers-to-the-distant-lands/</id>
+      <id>https://chastell.net/1/125/travelers-to-the-distant-lands/</id>
       <link href="/1/125/travelers-to-the-distant-lands/" rel="alternate" />
       <title>Travelers to the Distant Lands</title>
       <updated>2006-07-03T00:00:00+00:00</updated>
@@ -7505,7 +7528,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           June 2006, San Francisco&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/little-trouble-in-big-castro/</id>
+      <id>https://chastell.net/1/125/little-trouble-in-big-castro/</id>
       <link href="/1/125/little-trouble-in-big-castro/" rel="alternate" />
       <title>Little Trouble in Big Castro</title>
       <updated>2006-07-02T00:00:00+00:00</updated>
@@ -7526,7 +7549,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           June 2006, San Francisco&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/baloo/</id>
+      <id>https://chastell.net/1/125/baloo/</id>
       <link href="/1/125/baloo/" rel="alternate" />
       <title>Baloo</title>
       <updated>2006-06-30T00:00:00+00:00</updated>
@@ -7547,7 +7570,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           June 2006, San Francisco&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/mandonna-boys/</id>
+      <id>https://chastell.net/1/125/mandonna-boys/</id>
       <link href="/1/125/mandonna-boys/" rel="alternate" />
       <title>Mandonna Boys</title>
       <updated>2006-06-28T00:00:00+00:00</updated>
@@ -7568,7 +7591,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           June 2006, San Francisco&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/sisters-are-doin-it-for-everybody/</id>
+      <id>https://chastell.net/1/125/sisters-are-doin-it-for-everybody/</id>
       <link href="/1/125/sisters-are-doin-it-for-everybody/" rel="alternate" />
       <title>Sisters Are Doin’ It for Everybody</title>
       <updated>2006-06-27T00:00:00+00:00</updated>
@@ -7589,7 +7612,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           June 2006, Mount Tamalpais State Park&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/grass-runners/</id>
+      <id>https://chastell.net/1/125/grass-runners/</id>
       <link href="/1/125/grass-runners/" rel="alternate" />
       <title>Grass Runners</title>
       <updated>2006-06-22T00:00:00+00:00</updated>
@@ -7610,7 +7633,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           May 2006, Calaveras County&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/on-evenings-the-city-is-ours/</id>
+      <id>https://chastell.net/1/125/on-evenings-the-city-is-ours/</id>
       <link href="/1/125/on-evenings-the-city-is-ours/" rel="alternate" />
       <title>On Evenings the City Is Ours</title>
       <updated>2006-06-19T00:00:00+00:00</updated>
@@ -7631,7 +7654,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           May 2006, Calaveras County&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/empty-empty-empty-elvis/</id>
+      <id>https://chastell.net/1/125/empty-empty-empty-elvis/</id>
       <link href="/1/125/empty-empty-empty-elvis/" rel="alternate" />
       <title>Empty, Empty, Empty, Elvis</title>
       <updated>2006-06-18T00:00:00+00:00</updated>
@@ -7652,7 +7675,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           May 2006, Calaveras County&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/flamboyant-geekery/</id>
+      <id>https://chastell.net/1/125/flamboyant-geekery/</id>
       <link href="/1/125/flamboyant-geekery/" rel="alternate" />
       <title>Flamboyant Geekery</title>
       <updated>2006-06-13T00:00:00+00:00</updated>
@@ -7673,7 +7696,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           May 2006, Calaveras County&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/sunset-survivors/</id>
+      <id>https://chastell.net/1/125/sunset-survivors/</id>
       <link href="/1/125/sunset-survivors/" rel="alternate" />
       <title>Sunset Survivors</title>
       <updated>2006-06-12T00:00:00+00:00</updated>
@@ -7694,7 +7717,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           May 2006, Calaveras County&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/winetramp/</id>
+      <id>https://chastell.net/1/125/winetramp/</id>
       <link href="/1/125/winetramp/" rel="alternate" />
       <title>WineTramp</title>
       <updated>2006-06-11T00:00:00+00:00</updated>
@@ -7715,7 +7738,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           May 2006, Calaveras County&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/the-whole-winecamp-truth/</id>
+      <id>https://chastell.net/1/125/the-whole-winecamp-truth/</id>
       <link href="/1/125/the-whole-winecamp-truth/" rel="alternate" />
       <title>The Whole WineCamp Truth</title>
       <updated>2006-06-10T00:00:00+00:00</updated>
@@ -7736,7 +7759,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           May 2006, Calaveras County&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/a-typical-winecamp-scene/</id>
+      <id>https://chastell.net/1/125/a-typical-winecamp-scene/</id>
       <link href="/1/125/a-typical-winecamp-scene/" rel="alternate" />
       <title>A Typical WineCamp Scene</title>
       <updated>2006-06-09T00:00:00+00:00</updated>
@@ -7757,7 +7780,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           May 2006, Calaveras County&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/renew-orleans/</id>
+      <id>https://chastell.net/1/125/renew-orleans/</id>
       <link href="/1/125/renew-orleans/" rel="alternate" />
       <title>Renew Orleans</title>
       <updated>2006-06-08T00:00:00+00:00</updated>
@@ -7778,7 +7801,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           May 2006, Calaveras County&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/the-lonely-evangelist/</id>
+      <id>https://chastell.net/1/125/the-lonely-evangelist/</id>
       <link href="/1/125/the-lonely-evangelist/" rel="alternate" />
       <title>The Lonely Evangelist</title>
       <updated>2006-06-07T00:00:00+00:00</updated>
@@ -7799,7 +7822,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           May 2006, Calaveras County&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/photographers-are-so-sexy/</id>
+      <id>https://chastell.net/1/125/photographers-are-so-sexy/</id>
       <link href="/1/125/photographers-are-so-sexy/" rel="alternate" />
       <title>Photographers Are So Sexy</title>
       <updated>2006-06-06T00:00:00+00:00</updated>
@@ -7820,7 +7843,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           May 2006, Calaveras County&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/the-most-helpful-man-on-the-planet/</id>
+      <id>https://chastell.net/1/125/the-most-helpful-man-on-the-planet/</id>
       <link href="/1/125/the-most-helpful-man-on-the-planet/" rel="alternate" />
       <title>The Most Helpful Man on the Planet</title>
       <updated>2006-06-05T00:00:00+00:00</updated>
@@ -7841,7 +7864,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           May 2006, Calaveras County&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/mr-web-monday/</id>
+      <id>https://chastell.net/1/125/mr-web-monday/</id>
       <link href="/1/125/mr-web-monday/" rel="alternate" />
       <title>Mr Web Monday</title>
       <updated>2006-06-04T00:00:00+00:00</updated>
@@ -7862,7 +7885,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           May 2006, Calaveras County&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/cowboy-greg/</id>
+      <id>https://chastell.net/1/125/cowboy-greg/</id>
       <link href="/1/125/cowboy-greg/" rel="alternate" />
       <title>Cowboy Greg</title>
       <updated>2006-06-03T00:00:00+00:00</updated>
@@ -7883,7 +7906,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           May 2006, Calaveras County&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/my-first-vineyard/</id>
+      <id>https://chastell.net/1/125/my-first-vineyard/</id>
       <link href="/1/125/my-first-vineyard/" rel="alternate" />
       <title>My First Vineyard</title>
       <updated>2006-06-02T00:00:00+00:00</updated>
@@ -7904,7 +7927,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           May 2006, Calaveras County&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/chris-in-the-morning/</id>
+      <id>https://chastell.net/1/125/chris-in-the-morning/</id>
       <link href="/1/125/chris-in-the-morning/" rel="alternate" />
       <title>Chris in the Morning</title>
       <updated>2006-06-01T00:00:00+00:00</updated>
@@ -7925,7 +7948,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           May 2006, Calaveras County&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/blue-nostalgia/</id>
+      <id>https://chastell.net/1/125/blue-nostalgia/</id>
       <link href="/1/125/blue-nostalgia/" rel="alternate" />
       <title>Blue Nostalgia</title>
       <updated>2006-05-31T00:00:00+00:00</updated>
@@ -7946,7 +7969,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           March 2006, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/feminists/</id>
+      <id>https://chastell.net/1/125/feminists/</id>
       <link href="/1/125/feminists/" rel="alternate" />
       <title>Feminists</title>
       <updated>2006-03-07T00:00:00+00:00</updated>
@@ -7967,7 +7990,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           March 2006, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/shiny-happy-people/</id>
+      <id>https://chastell.net/1/125/shiny-happy-people/</id>
       <link href="/1/125/shiny-happy-people/" rel="alternate" />
       <title>Shiny Happy People</title>
       <updated>2006-03-06T00:00:00+00:00</updated>
@@ -7988,7 +8011,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           October 2005, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/tender-four/</id>
+      <id>https://chastell.net/1/125/tender-four/</id>
       <link href="/1/125/tender-four/" rel="alternate" />
       <title>Tender Four</title>
       <updated>2006-02-14T00:00:00+00:00</updated>
@@ -8009,7 +8032,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           September 2004, Gdańsk&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/lauritzen-cool/</id>
+      <id>https://chastell.net/1/125/lauritzen-cool/</id>
       <link href="/1/125/lauritzen-cool/" rel="alternate" />
       <title>Lauritzen. Cool.</title>
       <updated>2006-02-10T00:00:00+00:00</updated>
@@ -8030,7 +8053,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           September 2005, Gliwice&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/exultet-vii/</id>
+      <id>https://chastell.net/1/125/exultet-vii/</id>
       <link href="/1/125/exultet-vii/" rel="alternate" />
       <title>Exultet VII</title>
       <updated>2005-12-02T00:00:00+00:00</updated>
@@ -8051,7 +8074,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           September 2005, Gliwice&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/exultet-vi/</id>
+      <id>https://chastell.net/1/125/exultet-vi/</id>
       <link href="/1/125/exultet-vi/" rel="alternate" />
       <title>Exultet VI</title>
       <updated>2005-11-30T00:00:00+00:00</updated>
@@ -8072,7 +8095,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           September 2005, Gliwice&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/exultet-v/</id>
+      <id>https://chastell.net/1/125/exultet-v/</id>
       <link href="/1/125/exultet-v/" rel="alternate" />
       <title>Exultet V</title>
       <updated>2005-11-28T00:00:00+00:00</updated>
@@ -8093,7 +8116,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           September 2005, Gliwice&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/exultet-iv/</id>
+      <id>https://chastell.net/1/125/exultet-iv/</id>
       <link href="/1/125/exultet-iv/" rel="alternate" />
       <title>Exultet IV</title>
       <updated>2005-11-21T00:00:00+00:00</updated>
@@ -8114,7 +8137,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           September 2005, Gliwice&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/exultet-iii/</id>
+      <id>https://chastell.net/1/125/exultet-iii/</id>
       <link href="/1/125/exultet-iii/" rel="alternate" />
       <title>Exultet III</title>
       <updated>2005-11-18T00:00:00+00:00</updated>
@@ -8135,7 +8158,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           September 2005, Gliwice&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/exultet-ii/</id>
+      <id>https://chastell.net/1/125/exultet-ii/</id>
       <link href="/1/125/exultet-ii/" rel="alternate" />
       <title>Exultet II</title>
       <updated>2005-11-15T00:00:00+00:00</updated>
@@ -8156,7 +8179,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           September 2005, Gliwice&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/exultet-i/</id>
+      <id>https://chastell.net/1/125/exultet-i/</id>
       <link href="/1/125/exultet-i/" rel="alternate" />
       <title>Exultet I</title>
       <updated>2005-11-12T00:00:00+00:00</updated>
@@ -8177,7 +8200,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           August 2005, Dueodde&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/run-or-pray/</id>
+      <id>https://chastell.net/1/125/run-or-pray/</id>
       <link href="/1/125/run-or-pray/" rel="alternate" />
       <title>Run or Pray</title>
       <updated>2005-10-21T00:00:00+00:00</updated>
@@ -8198,7 +8221,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           August 2005, Svaneke&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/approaching-svaneke/</id>
+      <id>https://chastell.net/1/125/approaching-svaneke/</id>
       <link href="/1/125/approaching-svaneke/" rel="alternate" />
       <title>Approaching Svaneke</title>
       <updated>2005-10-17T00:00:00+00:00</updated>
@@ -8219,7 +8242,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           August 2005, Dueodde&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/cycleway-to-heaven/</id>
+      <id>https://chastell.net/1/125/cycleway-to-heaven/</id>
       <link href="/1/125/cycleway-to-heaven/" rel="alternate" />
       <title>Cycleway to Heaven</title>
       <updated>2005-10-09T00:00:00+00:00</updated>
@@ -8240,7 +8263,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           August 2005, Dueodde-Nexø cycling track&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/bicycle-dancer/</id>
+      <id>https://chastell.net/1/125/bicycle-dancer/</id>
       <link href="/1/125/bicycle-dancer/" rel="alternate" />
       <title>Bicycle Dancer</title>
       <updated>2005-09-24T00:00:00+00:00</updated>
@@ -8261,7 +8284,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           August 2005, Dueodde&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/weather-god/</id>
+      <id>https://chastell.net/1/125/weather-god/</id>
       <link href="/1/125/weather-god/" rel="alternate" />
       <title>Weather God</title>
       <updated>2005-09-19T00:00:00+00:00</updated>
@@ -8284,7 +8307,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           August 2005, Baltic Sea&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/morning-kolobrzeg/</id>
+      <id>https://chastell.net/1/125/morning-kolobrzeg/</id>
       <link href="/1/125/morning-kolobrzeg/" rel="alternate" />
       <title>Morning Kołobrzeg</title>
       <updated>2005-09-10T00:00:00+00:00</updated>
@@ -8305,7 +8328,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           July 2005, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/new-adventures-in-wb-enough-already/</id>
+      <id>https://chastell.net/1/125/new-adventures-in-wb-enough-already/</id>
       <link href="/1/125/new-adventures-in-wb-enough-already/" rel="alternate" />
       <title>New Adventures in WB: Enough Already</title>
       <updated>2005-08-20T00:00:00+00:00</updated>
@@ -8326,7 +8349,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           July 2005, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/new-adventures-in-wb-incandescent/</id>
+      <id>https://chastell.net/1/125/new-adventures-in-wb-incandescent/</id>
       <link href="/1/125/new-adventures-in-wb-incandescent/" rel="alternate" />
       <title>New Adventures in WB: Incandescent</title>
       <updated>2005-08-19T00:00:00+00:00</updated>
@@ -8347,7 +8370,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           July 2005, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/new-adventures-in-wb-fluorescent/</id>
+      <id>https://chastell.net/1/125/new-adventures-in-wb-fluorescent/</id>
       <link href="/1/125/new-adventures-in-wb-fluorescent/" rel="alternate" />
       <title>New Adventures in WB: Fluorescent</title>
       <updated>2005-08-18T00:00:00+00:00</updated>
@@ -8368,7 +8391,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           July 2005, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/new-adventures-in-wb-sunlight/</id>
+      <id>https://chastell.net/1/125/new-adventures-in-wb-sunlight/</id>
       <link href="/1/125/new-adventures-in-wb-sunlight/" rel="alternate" />
       <title>New Adventures in WB: Sunlight</title>
       <updated>2005-08-17T00:00:00+00:00</updated>
@@ -8391,7 +8414,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           July 2005, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/hot-town-summer-in-the-city/</id>
+      <id>https://chastell.net/1/125/hot-town-summer-in-the-city/</id>
       <link href="/1/125/hot-town-summer-in-the-city/" rel="alternate" />
       <title>Hot Town, Summer in the City</title>
       <updated>2005-07-12T00:00:00+00:00</updated>
@@ -8412,7 +8435,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           June 2005, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/peek-a-buw/</id>
+      <id>https://chastell.net/1/125/peek-a-buw/</id>
       <link href="/1/125/peek-a-buw/" rel="alternate" />
       <title>Peek-a-BUW</title>
       <updated>2005-07-10T00:00:00+00:00</updated>
@@ -8433,7 +8456,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           June 2005, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/226/</id>
+      <id>https://chastell.net/1/125/226/</id>
       <link href="/1/125/226/" rel="alternate" />
       <title>☉226.</title>
       <updated>2005-07-05T00:00:00+00:00</updated>
@@ -8454,7 +8477,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           June 2005, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/double-tribute/</id>
+      <id>https://chastell.net/1/125/double-tribute/</id>
       <link href="/1/125/double-tribute/" rel="alternate" />
       <title>Double Tribute</title>
       <updated>2005-07-03T00:00:00+00:00</updated>
@@ -8475,7 +8498,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           June 2005, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/exit-stage-left/</id>
+      <id>https://chastell.net/1/125/exit-stage-left/</id>
       <link href="/1/125/exit-stage-left/" rel="alternate" />
       <title>Exit… Stage Left</title>
       <updated>2005-06-30T00:00:00+00:00</updated>
@@ -8496,7 +8519,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           April 2005, Cracow&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/young-fathers-versatility/</id>
+      <id>https://chastell.net/1/125/young-fathers-versatility/</id>
       <link href="/1/125/young-fathers-versatility/" rel="alternate" />
       <title>Young Father’s Versatility</title>
       <updated>2005-05-05T00:00:00+00:00</updated>
@@ -8517,7 +8540,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           April 2005, Cracow&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/uebung-macht-den-meister/</id>
+      <id>https://chastell.net/1/125/uebung-macht-den-meister/</id>
       <link href="/1/125/uebung-macht-den-meister/" rel="alternate" />
       <title>Übung macht den Meister</title>
       <updated>2005-05-04T00:00:00+00:00</updated>
@@ -8538,7 +8561,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           April 2005, Cracow&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/at-the-rust/</id>
+      <id>https://chastell.net/1/125/at-the-rust/</id>
       <link href="/1/125/at-the-rust/" rel="alternate" />
       <title>At The Rust</title>
       <updated>2005-05-03T00:00:00+00:00</updated>
@@ -8559,7 +8582,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           April 2005, Cracow&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/we-tried-not-to/</id>
+      <id>https://chastell.net/1/125/we-tried-not-to/</id>
       <link href="/1/125/we-tried-not-to/" rel="alternate" />
       <title>We Tried Not To</title>
       <updated>2005-05-02T00:00:00+00:00</updated>
@@ -8580,7 +8603,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           April 2005, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/per-felibus-ad-astra/</id>
+      <id>https://chastell.net/1/125/per-felibus-ad-astra/</id>
       <link href="/1/125/per-felibus-ad-astra/" rel="alternate" />
       <title>Per Felibus ad Astra</title>
       <updated>2005-05-01T00:00:00+00:00</updated>
@@ -8601,7 +8624,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           April 2005, Cracow&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/nikon-baby/</id>
+      <id>https://chastell.net/1/125/nikon-baby/</id>
       <link href="/1/125/nikon-baby/" rel="alternate" />
       <title>Nikon Baby</title>
       <updated>2005-04-30T00:00:00+00:00</updated>
@@ -8622,7 +8645,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           April 2005, Cracow&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/cc-duo/</id>
+      <id>https://chastell.net/1/125/cc-duo/</id>
       <link href="/1/125/cc-duo/" rel="alternate" />
       <title>CC Duo</title>
       <updated>2005-04-29T03:00:00+00:00</updated>
@@ -8643,7 +8666,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           April 2005, Cracow, by Miss Thoughtscriber&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/laptop-girl/</id>
+      <id>https://chastell.net/1/125/laptop-girl/</id>
       <link href="/1/125/laptop-girl/" rel="alternate" />
       <title>Laptop Girl</title>
       <updated>2005-04-29T02:00:00+00:00</updated>
@@ -8664,7 +8687,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           April 2005, Cracow&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/red-mike-man/</id>
+      <id>https://chastell.net/1/125/red-mike-man/</id>
       <link href="/1/125/red-mike-man/" rel="alternate" />
       <title>Red Mike Man</title>
       <updated>2005-04-29T01:00:00+00:00</updated>
@@ -8685,7 +8708,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           April 2005, Cracow&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/creativecommons-pl/</id>
+      <id>https://chastell.net/1/125/creativecommons-pl/</id>
       <link href="/1/125/creativecommons-pl/" rel="alternate" />
       <title>creativecommons.pl</title>
       <updated>2005-04-29T00:00:00+00:00</updated>
@@ -8706,7 +8729,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           July 2003, Gdańsk, by Miss Thoughtscriber&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/im-a-man-on-a-mission-rhyme-vigilante/</id>
+      <id>https://chastell.net/1/125/im-a-man-on-a-mission-rhyme-vigilante/</id>
       <link href="/1/125/im-a-man-on-a-mission-rhyme-vigilante/" rel="alternate" />
       <title>I’m a Man on a Mission – Rhyme Vigilante</title>
       <updated>2005-04-17T00:00:00+00:00</updated>
@@ -8727,7 +8750,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           December 2003, Łódź&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/biker-grrl/</id>
+      <id>https://chastell.net/1/125/biker-grrl/</id>
       <link href="/1/125/biker-grrl/" rel="alternate" />
       <title>Biker Grrl</title>
       <updated>2005-04-11T00:00:00+00:00</updated>
@@ -8750,7 +8773,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           April 2005, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/delroy-wilson-your-cool-operator/</id>
+      <id>https://chastell.net/1/125/delroy-wilson-your-cool-operator/</id>
       <link href="/1/125/delroy-wilson-your-cool-operator/" rel="alternate" />
       <title>Delroy Wilson, Your Cool Operator</title>
       <updated>2005-04-09T00:00:00+00:00</updated>
@@ -8771,7 +8794,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           April 2005, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/framed/</id>
+      <id>https://chastell.net/1/125/framed/</id>
       <link href="/1/125/framed/" rel="alternate" />
       <title>Framed</title>
       <updated>2005-04-07T00:00:00+00:00</updated>
@@ -8792,7 +8815,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           April 2005, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/othello/</id>
+      <id>https://chastell.net/1/125/othello/</id>
       <link href="/1/125/othello/" rel="alternate" />
       <title>Othello</title>
       <updated>2005-04-05T00:00:00+00:00</updated>
@@ -8829,7 +8852,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           March 2005, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/eastertime/</id>
+      <id>https://chastell.net/1/125/eastertime/</id>
       <link href="/1/125/eastertime/" rel="alternate" />
       <title>Eastertime</title>
       <updated>2005-03-25T00:00:00+00:00</updated>
@@ -8850,7 +8873,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           March 2005, Łódź&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/winters-splinter/</id>
+      <id>https://chastell.net/1/125/winters-splinter/</id>
       <link href="/1/125/winters-splinter/" rel="alternate" />
       <title>Winter’s Splinter</title>
       <updated>2005-03-15T00:00:00+00:00</updated>
@@ -8871,7 +8894,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           November 2004, Łódź&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/were-being-followed/</id>
+      <id>https://chastell.net/1/125/were-being-followed/</id>
       <link href="/1/125/were-being-followed/" rel="alternate" />
       <title>‘We’re being followed.’</title>
       <updated>2005-03-04T00:00:00+00:00</updated>
@@ -8894,7 +8917,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           February 2005, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/hold-me-thrill-me/</id>
+      <id>https://chastell.net/1/125/hold-me-thrill-me/</id>
       <link href="/1/125/hold-me-thrill-me/" rel="alternate" />
       <title>Hold Me, Thrill Me</title>
       <updated>2005-02-23T00:00:00+00:00</updated>
@@ -8915,7 +8938,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           August 2004, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/red-blue-green/</id>
+      <id>https://chastell.net/1/125/red-blue-green/</id>
       <link href="/1/125/red-blue-green/" rel="alternate" />
       <title>Red Blue Green</title>
       <updated>2005-02-19T00:00:00+00:00</updated>
@@ -8936,7 +8959,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           February 2005, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/red-green-pink/</id>
+      <id>https://chastell.net/1/125/red-green-pink/</id>
       <link href="/1/125/red-green-pink/" rel="alternate" />
       <title>Red Green Pink</title>
       <updated>2005-02-17T00:00:00+00:00</updated>
@@ -8957,7 +8980,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           May 2004, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/swingin-with-diamond/</id>
+      <id>https://chastell.net/1/125/swingin-with-diamond/</id>
       <link href="/1/125/swingin-with-diamond/" rel="alternate" />
       <title>Swingin’ with Diamond</title>
       <updated>2005-02-11T00:00:00+00:00</updated>
@@ -8978,7 +9001,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           October 2004, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/hey-baby-i-love-your-way/</id>
+      <id>https://chastell.net/1/125/hey-baby-i-love-your-way/</id>
       <link href="/1/125/hey-baby-i-love-your-way/" rel="alternate" />
       <title>Hey Baby, I Love Your Way</title>
       <updated>2005-02-09T00:00:00+00:00</updated>
@@ -8999,7 +9022,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           December 2004, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/bulls-eye/</id>
+      <id>https://chastell.net/1/125/bulls-eye/</id>
       <link href="/1/125/bulls-eye/" rel="alternate" />
       <title>Bull’s-eye</title>
       <updated>2005-02-02T00:00:00+00:00</updated>
@@ -9020,7 +9043,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           October 2004, Łódź&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/gnome-power/</id>
+      <id>https://chastell.net/1/125/gnome-power/</id>
       <link href="/1/125/gnome-power/" rel="alternate" />
       <title>GNOME Power</title>
       <updated>2005-01-29T00:00:00+00:00</updated>
@@ -9041,7 +9064,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           January 2005, Łódź-Warsaw train&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/galkowek/</id>
+      <id>https://chastell.net/1/125/galkowek/</id>
       <link href="/1/125/galkowek/" rel="alternate" />
       <title>Gałkówek</title>
       <updated>2005-01-24T00:00:00+00:00</updated>
@@ -9062,7 +9085,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           September 2004, Gdańsk&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/marta/</id>
+      <id>https://chastell.net/1/125/marta/</id>
       <link href="/1/125/marta/" rel="alternate" />
       <title>Marta</title>
       <updated>2005-01-21T00:00:00+00:00</updated>
@@ -9083,7 +9106,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           January 2005, Warsaw&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/four-of-a-kind/</id>
+      <id>https://chastell.net/1/125/four-of-a-kind/</id>
       <link href="/1/125/four-of-a-kind/" rel="alternate" />
       <title>Four of a Kind</title>
       <updated>2005-01-19T00:00:00+00:00</updated>
@@ -9104,7 +9127,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           December 2004, Warsaw, by Miss Thoughtscriber&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/this-evening-your-host/</id>
+      <id>https://chastell.net/1/125/this-evening-your-host/</id>
       <link href="/1/125/this-evening-your-host/" rel="alternate" />
       <title>This Evening – Your Host</title>
       <updated>2005-01-18T00:00:00+00:00</updated>
@@ -9125,7 +9148,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           January 2005, Łódź-Warsaw train&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/orange-is-for-go/</id>
+      <id>https://chastell.net/1/125/orange-is-for-go/</id>
       <link href="/1/125/orange-is-for-go/" rel="alternate" />
       <title>Orange Is for Go</title>
       <updated>2005-01-15T00:00:00+00:00</updated>
@@ -9146,7 +9169,7 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           January 2005, Zakopane&lt;/p&gt;
         
       </content>
-      <id>https://chastell.net//1/125/happy-new-year/</id>
+      <id>https://chastell.net/1/125/happy-new-year/</id>
       <link href="/1/125/happy-new-year/" rel="alternate" />
       <title>Happy New Year</title>
       <updated>2005-01-08T00:00:00+00:00</updated>
