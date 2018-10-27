@@ -80,7 +80,7 @@ task dimensions: :photos do
 end
 
 origs = Pathname.glob('origs/*.jpg').map(&:basename)
-multitask photos:  origs.map { |orig| "1/125/photos/#{orig}"  }
+multitask photos:  origs.map { |orig| "1/125/photos/#{orig}"                  }
 multitask samples: origs.map { |orig| "1/125/samples/#{orig.sub_ext('.png')}" }
 
 rule %r{^1/125/(photos|samples)/} => 'origs/%n.jpg' do |task|
@@ -95,8 +95,8 @@ task :tweet_newest do
   uri   = URI.parse("https://chastell.net/1/125/#{slug}/")
   puts "waiting for #{uri}…"
   sleep 1 until Net::HTTP.get_response(uri).is_a?(Net::HTTPOK)
-  photo = "1/125/photos/#{slug}.jpg"
-  sh "t update -f #{photo} '¹⁄₁₂₅: #{title} #{uri} #chastellnet'"
+  photos = ["1/125/photos/#{slug}.jpg"] + Dir["1/125/photos/#{slug}.*.jpg"].sort
+  sh "t update -f #{photos.join(' -f ')} '¹⁄₁₂₅: #{title} #{uri} #chastellnet'"
   sh 'xdg-open https://twitter.com/chastell'
 end
 
