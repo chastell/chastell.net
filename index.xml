@@ -16,9 +16,9 @@ layout:
     <entry>
       <content type="html">
         {% capture image_html %}
-          <p><img src="/1/125/photos/{{ post.slug }}.jpg" /></p>
+          <p><img src="{{ site.url }}/1/125/photos/{{ post.slug }}.jpg" /></p>
           {% for index in (1..site.data.photos[post.slug].extra) %}
-            <p><img src="/1/125/photos/{{ post.slug }}.{{ index }}.jpg" /></p>
+            <p><img src="{{ site.url }}/1/125/photos/{{ post.slug }}.{{ index }}.jpg" /></p>
           {% endfor %}
         {% endcapture %}
         {% capture meta_html %}
