@@ -23,7 +23,7 @@ task '1/125', [:source] do |_task, args|
   shot   = EXIFR::JPEG.new(source.to_s).date_time_original
   copy_assets slug: slug, source: source
   path.write frontmatter(place: place, shot: shot, title: title)
-  sh 'gvim', path.to_s
+  sh 'vim', path.to_s
   sh 'rake serve'
 end
 
