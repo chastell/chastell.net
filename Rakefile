@@ -96,10 +96,12 @@ task :tweet_newest do
   uri   = URI.parse("https://chastell.net/1/125/#{slug}/")
   puts "waiting for #{uri}…"
   sleep 1 until Net::HTTP.get_response(uri).is_a?(Net::HTTPOK)
-  config = { access_token:        ENV.fetch('ACCESS_TOKEN'),
-             access_token_secret: ENV.fetch('ACCESS_TOKEN_SECRET'),
-             consumer_key:        ENV.fetch('CONSUMER_KEY'),
-             consumer_secret:     ENV.fetch('CONSUMER_SECRET') }
+  trc    = YAML.load(Pathname('~/.trc').expand_path.read)
+  t_prof = trc.dig('profiles', *trc.dig('configuration', 'default_profile'))
+  config = { access_token:        t_prof.fetch('token'),
+             access_token_secret: t_prof.fetch('secret'),
+             consumer_key:        t_prof.fetch('consumer_key'),
+             consumer_secret:     t_prof.fetch('consumer_secret') }
   client = Twitter::REST::Client.new(config)
   photos = ["1/125/photos/#{slug}.jpg"] + Dir["1/125/photos/#{slug}.*.jpg"].sort
   text   = ["¹⁄₁₂₅: #{title}", uri, '#chastellnet'].join("\n")
