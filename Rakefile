@@ -163,7 +163,8 @@ def slugs
 end
 
 def slugify(title)
-  title.unicode_normalize(:nfkd).gsub('&', 'and').downcase.delete('^0-9a-z -')
+  map = { '&' => 'and', 'ß' => 'ss', 'ẞ' => 'ss' }
+  title.unicode_normalize(:nfkd).gsub(/[&ßẞ]/, map).downcase.delete('^0-9a-z -')
        .squeeze(' ').strip.tr(' ', '-')
 end
 
