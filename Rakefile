@@ -163,9 +163,9 @@ def slugs
 end
 
 def slugify(title)
-  map = { '&' => 'and', 'ß' => 'ss', 'ẞ' => 'ss' }
-  title.unicode_normalize(:nfkd).gsub(/[&ßẞ]/, map).downcase.delete('^0-9a-z -')
-       .squeeze(' ').strip.tr(' ', '-')
+  map = { '&' => 'and', 'ß' => 'ss', 'ø' => 'o', 'ł' => 'l' }
+  title.unicode_normalize(:nfkd).downcase.gsub(/[#{map.keys.join}]/, map)
+       .delete('^0-9a-z -').squeeze(' ').strip.tr(' ', '-')
 end
 
 def source_from_uri(uri)
