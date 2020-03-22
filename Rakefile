@@ -29,7 +29,7 @@ task '1/125', [:source] do |_task, args|
 end
 
 desc 'Add a photo to an existing ¹⁄₁₂₅ entry'
-task '1/125:add', [:source, :slug] do |_task, args|
+task '1/125:add', [:slug, :source] do |_task, args|
   source = source_from_uri(args.fetch(:source))
   slug   = args.fetch(:slug)
   abort "#{slug} does not exist" unless slugs.include?(slug)
@@ -41,7 +41,7 @@ task '1/125:add', [:source, :slug] do |_task, args|
 end
 
 desc 'Recreate a ¹⁄₁₂₅ photo'
-task '1/125:redo', [:source, :slug] do |_task, args|
+task '1/125:redo', [:slug, :source] do |_task, args|
   source = source_from_uri(args.fetch(:source))
   slug   = args.fetch(:slug)
   abort "#{slug} does not exist" unless slugs.include?(slug)
