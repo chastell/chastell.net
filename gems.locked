@@ -20,7 +20,7 @@ GEM
       ffi (>= 1.0.0)
       rake
     forwardable-extended (2.6.0)
-    http (4.3.0)
+    http (4.4.0)
       addressable (~> 2.3)
       http-cookie (~> 1.0)
       http-form_data (~> 2.2)
