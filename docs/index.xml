@@ -8,7 +8,28 @@
   <link href="/" rel="alternate" />
   <link href="/index.xml" rel="self" />
   <title>chastell.net</title>
-  <updated>2020-04-24T00:00:00+00:00</updated>
+  <updated>2020-04-25T00:00:00+00:00</updated>
+  
+    <entry>
+      <content type="html">
+        
+        
+        
+          &lt;p&gt;&lt;img src=&quot;https://chastell.net/1/125/photos/planet-expresss-early-days.jpg&quot; /&gt;&lt;/p&gt;
+          
+        
+        &lt;p&gt;Will → way.&lt;/p&gt;
+
+        
+        &lt;p&gt;
+          January 2020, Paris&lt;/p&gt;
+        
+      </content>
+      <id>https://chastell.net/1/125/planet-expresss-early-days/</id>
+      <link href="/1/125/planet-expresss-early-days/" rel="alternate" />
+      <title>Planet Express’s Early Days</title>
+      <updated>2020-04-25T00:00:00+00:00</updated>
+    </entry>
   
     <entry>
       <content type="html">
@@ -10027,20 +10048,20 @@ Let me count the ways… &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt
           &lt;p&gt;&lt;img src=&quot;https://chastell.net/1/125/photos/eastertime.jpg&quot; /&gt;&lt;/p&gt;
           
         
-        &lt;p&gt;&lt;strong&gt;Tuesday:&lt;/strong&gt; roast the meats for pâté, &lt;del&gt;gingerbread&lt;/del&gt;; &lt;strong&gt;Wednesday:&lt;/strong&gt; pâté; &lt;strong&gt;Thursday:&lt;/strong&gt; mazurkas&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;, gingerbread; &lt;strong&gt;Friday:&lt;/strong&gt; aspic, meats, gray sauce&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;; &lt;strong&gt;Saturday:&lt;/strong&gt; pascha&lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;, salad, meats.&lt;/p&gt;
+        &lt;p&gt;&lt;strong&gt;Tuesday:&lt;/strong&gt; roast the meats for pâté, &lt;del&gt;gingerbread&lt;/del&gt;; &lt;strong&gt;Wednesday:&lt;/strong&gt; pâté; &lt;strong&gt;Thursday:&lt;/strong&gt; mazurkas&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;, gingerbread; &lt;strong&gt;Friday:&lt;/strong&gt; aspic, meats, gray sauce&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;; &lt;strong&gt;Saturday:&lt;/strong&gt; pascha&lt;sup id=&quot;fnref:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;, salad, meats.&lt;/p&gt;
 
 &lt;p&gt;At 3.15 in the morning I got the first slice of pâté for relishing; ‘delicious’ doesn’t even begin to describe it.&lt;/p&gt;
 
-&lt;div class=&quot;footnotes&quot;&gt;
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
   &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;a short pastry with caramel or chocolate topping &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;a short pastry with caramel or chocolate topping &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
-    &lt;li id=&quot;fn:2&quot;&gt;
-      &lt;p&gt;a sweet sauce based on nuts, gingerbread and beer &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;a sweet sauce based on nuts, gingerbread and beer &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
-    &lt;li id=&quot;fn:3&quot;&gt;
-      &lt;p&gt;a loose cheesecake with mandarin oranges, nuts and dried fruits &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;li id=&quot;fn:3&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;a loose cheesecake with mandarin oranges, nuts and dried fruits &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
