@@ -52,6 +52,7 @@ end
 desc 'Build and publish to GitHub'
 task publish: :assets do
   sh 'jekyll build --destination docs --strict_front_matter'
+  touch 'docs/.nojekyll'
   sh 'git add -- docs'
   abort 'nothing to publish' if `git status --porcelain -- docs`.empty?
   sh 'git commit --message "rebuild"'
