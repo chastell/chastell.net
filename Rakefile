@@ -25,7 +25,7 @@ task '1/125', [:source] do |_task, args|
   place  = ask('place')
   path   = Pathname.new("_posts/#{date}-#{slug}.md")
   shot   = EXIFR::JPEG.new(source.to_s).date_time_original
-  copy_assets slug: slug, source: source
+  copy_assets slug: "#{slug}.0", source: source
   path.write frontmatter(place: place, shot: shot, title: title)
   sh 'vim', path.to_s
   sh 'rake serve'
@@ -47,7 +47,7 @@ task '1/125:redo', [:slug, :source] do |_task, args|
   source = source_from_uri(args.fetch(:source))
   slug   = args.fetch(:slug)
   abort "#{slug} does not exist" unless slugs.include?(slug)
-  copy_assets slug: slug, source: source
+  copy_assets slug: "#{slug}.0", source: source
   Rake::Task[:assets].invoke
 end
 
@@ -82,7 +82,7 @@ end
 multitask photos:  origs.map { |orig| "1/125/photos/#{orig}"     }
 multitask samples: slugs.map { |slug| "1/125/#{slug}/sample.png" }
 
-sample_orig = proc { |name| "origs/#{name.split('/').fetch(-2)}.jpg" }
+sample_orig = proc { |name| "origs/#{name.split('/').fetch(-2)}.0.jpg" }
 rule %r{^1/125/.+/sample\.png$} => [sample_orig] do |task|
   convert from: task.source, to: task.name
 end
@@ -106,7 +106,7 @@ task :tweet_newest do
              consumer_key:        t_prof.fetch('consumer_key'),
              consumer_secret:     t_prof.fetch('consumer_secret') }
   client = Twitter::REST::Client.new(config)
-  photos = ["1/125/photos/#{slug}.jpg"] + Dir["1/125/photos/#{slug}.*.jpg"].sort
+  photos = Dir["1/125/photos/#{slug}.*.jpg"].sort
   text   = ["¹⁄₁₂₅: #{title}", uri, '#chastellnet'].join("\n")
   tweet  = nil
   photos.each_slice(4) do |batch|
@@ -164,7 +164,7 @@ def frontmatter(place:, shot:, title:)
 end
 
 def slug_index(slug)
-  Dir["origs/#{slug}.*.jpg"].map { |pt| pt.split('.').fetch(-2).to_i }.max || 0
+  Dir["origs/#{slug}.*.jpg"].map { |name| name.split('.').fetch(-2).to_i }.max
 end
 
 def slugify(title)

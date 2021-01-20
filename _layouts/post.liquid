@@ -9,11 +9,7 @@ layout: main
       <span></span>
     {% endif %}
 
-    {% if index == 0 %}
-      <img src="/1/125/photos/{{ page.slug }}.jpg" />
-    {% else %}
-      <img src="/1/125/photos/{{ page.slug }}.{{ index }}.jpg" />
-    {% endif %}
+    <img src="/1/125/photos/{{ page.slug }}.{{ index }}.jpg" />
 
     {% if page.previous %}
       <a href="{{ page.previous.url }}" class="previous">▶</a>
