@@ -11,6 +11,9 @@ require 'twitter'
 require 'uri'
 require 'yaml'
 
+origs = Pathname.glob('origs/*.jpg').map(&:basename)
+slugs = Dir['_posts/????-??-??-*.md'].map { |path| path[18..-4] }.sort
+
 desc 'Create a new ¹⁄₁₂₅ post'
 task '1/125', [:source] do |_task, args|
   source = source_from_uri(args.fetch(:source))
@@ -35,8 +38,7 @@ task '1/125:add', [:slug, :source] do |_task, args|
   abort "#{slug} does not exist" unless slugs.include?(slug)
   indexed_slug = "#{slug}.#{slug_index(slug) + 1}"
   copy_assets slug: indexed_slug, source: source
-  multitask photos:  "1/125/photos/#{indexed_slug}.jpg"
-  multitask samples: "1/125/samples/#{indexed_slug}.png"
+  multitask photos: "1/125/photos/#{indexed_slug}.jpg"
   Rake::Task[:assets].invoke
 end
 
@@ -77,11 +79,15 @@ task dimensions: :photos do
   File.write('_data/photos.yml', YAML.dump(dimensions))
 end
 
-origs = Pathname.glob('origs/*.jpg').map(&:basename)
-multitask photos:  origs.map { |orig| "1/125/photos/#{orig}"                  }
-multitask samples: origs.map { |orig| "1/125/samples/#{orig.sub_ext('.png')}" }
+multitask photos:  origs.map { |orig| "1/125/photos/#{orig}"     }
+multitask samples: slugs.map { |slug| "1/125/#{slug}/sample.png" }
 
-rule %r{^1/125/(photos|samples)/} => 'origs/%n.jpg' do |task|
+sample_orig = proc { |name| "origs/#{name.split('/').fetch(-2)}.jpg" }
+rule %r{^1/125/.+/sample\.png$} => [sample_orig] do |task|
+  convert from: task.source, to: task.name
+end
+
+rule %r{^1/125/photos/} => 'origs/%n.jpg' do |task|
   convert from: task.source, to: task.name
 end
 
@@ -133,6 +139,7 @@ def convert(from:, to:)
            when /\.jpg$/ then %w[-thumbnail 2000000@]
            when /\.png$/ then %w[-thumbnail 125000@ -colors 6]
            end
+  sh 'mkdir', '-p', Pathname(to).dirname.to_s
   sh 'convert', from, *opts, *format, to
 end
 
@@ -158,10 +165,6 @@ end
 
 def slug_index(slug)
   Dir["origs/#{slug}.*.jpg"].map { |pt| pt.split('.').fetch(-2).to_i }.max || 0
-end
-
-def slugs
-  @slugs ||= Dir['_posts/????-??-??-*.md'].map { |path| path[18..-4] }.sort
 end
 
 def slugify(title)
