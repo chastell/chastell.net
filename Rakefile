@@ -11,8 +11,15 @@ require 'twitter'
 require 'uri'
 require 'yaml'
 
-origs = Pathname.glob('origs/*.jpg').map(&:basename)
 slugs = Dir['_posts/????-??-??-*.md'].map { |path| path[18..-4] }.sort
+
+def slug_index(slug)
+  Dir["origs/#{slug}.*.jpg"].map { |name| name.split('.').fetch(-2).to_i }.max
+end
+
+def slug_photos(slug)
+  (0..slug_index(slug)).map { |index| "1/125/#{slug}/photo.#{index}.jpg" }
+end
 
 desc 'Create a new ¹⁄₁₂₅ post'
 task '1/125', [:source] do |_task, args|
@@ -36,9 +43,8 @@ task '1/125:add', [:slug, :source] do |_task, args|
   source = source_from_uri(args.fetch(:source))
   slug   = args.fetch(:slug)
   abort "#{slug} does not exist" unless slugs.include?(slug)
-  indexed_slug = "#{slug}.#{slug_index(slug) + 1}"
-  copy_assets slug: indexed_slug, source: source
-  multitask photos: "1/125/photos/#{indexed_slug}.jpg"
+  copy_assets slug: "#{slug}.#{slug_index(slug) + 1}", source: source
+  multitask photos: "1/125/#{slug}/photo.#{slug_index(slug)}.jpg"
   Rake::Task[:assets].invoke
 end
 
@@ -79,7 +85,7 @@ task dimensions: :samples do
   File.write('_data/photos.yml', YAML.dump(dimensions))
 end
 
-multitask photos:  origs.map { |orig| "1/125/photos/#{orig}"     }
+multitask photos:  slugs.map { |slug| slug_photos(slug) }.flatten
 multitask samples: slugs.map { |slug| "1/125/#{slug}/sample.png" }
 
 sample_orig = proc { |name| "origs/#{name.split('/').fetch(-2)}.0.jpg" }
@@ -87,7 +93,10 @@ rule %r{^1/125/.+/sample\.png$} => [sample_orig] do |task|
   convert from: task.source, to: task.name
 end
 
-rule %r{^1/125/photos/} => 'origs/%n.jpg' do |task|
+photo_orig = proc do |name|
+  "origs/#{name.split('/').fetch(-2)}.#{name.split('.').fetch(-2)}.jpg"
+end
+rule %r{^1/125/.+/photo\.\d+\.jpg$} => [photo_orig] do |task|
   convert from: task.source, to: task.name
 end
 
@@ -106,10 +115,9 @@ task :tweet_newest do
              consumer_key:        t_prof.fetch('consumer_key'),
              consumer_secret:     t_prof.fetch('consumer_secret') }
   client = Twitter::REST::Client.new(config)
-  photos = Dir["1/125/photos/#{slug}.*.jpg"].sort
   text   = ["¹⁄₁₂₅: #{title}", uri, '#chastellnet'].join("\n")
   tweet  = nil
-  photos.each_slice(4) do |batch|
+  Dir["1/125/#{slug}/photo.*.jpg"].sort.each_slice(4) do |batch|
     media = batch.map(&File.method(:new))
     tweet = client.update_with_media(text, media, in_reply_to_status: tweet)
     sh 'xdg-open', tweet.uri
@@ -161,10 +169,6 @@ def frontmatter(place:, shot:, title:)
 
     …
   end
-end
-
-def slug_index(slug)
-  Dir["origs/#{slug}.*.jpg"].map { |name| name.split('.').fetch(-2).to_i }.max
 end
 
 def slugify(title)
