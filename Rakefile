@@ -70,10 +70,10 @@ end
 
 multitask assets: %i[dimensions photos samples]
 
-task dimensions: :photos do
+task dimensions: :samples do
   dimensions = slugs.map do |slug|
     extra = slug_index(slug)
-    width, height = FastImage.size("1/125/photos/#{slug}.jpg")
+    width, height = FastImage.size("1/125/#{slug}/sample.png")
     { slug => { 'extra' => extra, 'height' => height, 'width' => width } }
   end.reduce({}, :merge)
   File.write('_data/photos.yml', YAML.dump(dimensions))
