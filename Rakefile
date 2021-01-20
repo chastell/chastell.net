@@ -93,7 +93,6 @@ task :tweet_newest do
   uri   = URI.parse("https://chastell.net/1/125/#{slug}/")
   puts "waiting for #{uri}"
   sleep 1 until Net::HTTP.get_response(uri).is_a?(Net::HTTPOK)
-  puts
   trc    = YAML.load(Pathname('~/.trc').expand_path.read)
   t_prof = trc.dig('profiles', *trc.dig('configuration', 'default_profile'))
   config = { access_token:        t_prof.fetch('token'),
@@ -106,8 +105,8 @@ task :tweet_newest do
   tweet  = nil
   photos.each_slice(4) do |batch|
     media = batch.map(&File.method(:new))
-    tweet = client.update_with_media text, media, in_reply_to_status: tweet
-    puts tweet.uri
+    tweet = client.update_with_media(text, media, in_reply_to_status: tweet)
+    sh 'xdg-open', tweet.uri
   end
   puts
   puts text
