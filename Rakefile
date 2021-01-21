@@ -65,6 +65,8 @@ task publish: :assets do
   abort 'nothing to publish' if `git status --porcelain -- docs`.empty?
   sh 'git commit --message "rebuild"'
   sh 'git push'
+  sh 'git commit --allow-empty --message "refresh"'
+  sh 'git push'
   Rake::Task[:tweet_newest].invoke unless ENV['DONT_TWEET']
 end
 
@@ -107,7 +109,11 @@ task :tweet_newest do
   slug  = path.to_s[18..-4]
   uri   = URI.parse("https://chastell.net/1/125/#{slug}/")
   puts "waiting for #{uri}"
-  sleep 1 until Net::HTTP.get_response(uri).is_a?(Net::HTTPOK)
+  streak = 0
+  while streak < 3
+    Net::HTTP.get_response(uri).is_a?(Net::HTTPOK) ? streak += 1 : streak = 0
+    puts "\tstreak: #{streak}"
+  end
   trc    = YAML.load(Pathname('~/.trc').expand_path.read)
   t_prof = trc.dig('profiles', *trc.dig('configuration', 'default_profile'))
   config = { access_token:        t_prof.fetch('token'),
