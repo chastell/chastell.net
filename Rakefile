@@ -65,8 +65,6 @@ task publish: :assets do
   abort 'nothing to publish' if `git status --porcelain -- docs`.empty?
   sh 'git commit --message "rebuild"'
   sh 'git push'
-  sh 'git commit --allow-empty --message "refresh"'
-  sh 'git push'
   Rake::Task[:tweet_newest].invoke unless ENV['DONT_TWEET']
 end
 
