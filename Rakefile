@@ -49,11 +49,12 @@ task '1/125:add', [:slug, :source] do |_task, args|
 end
 
 desc 'Recreate a ¹⁄₁₂₅ photo'
-task '1/125:redo', [:slug, :source] do |_task, args|
-  source = source_from_uri(args.fetch(:source))
+task '1/125:redo', [:slug, :index, :source] do |_task, args|
   slug   = args.fetch(:slug)
+  index  = args.fetch(:index).to_i
+  source = source_from_uri(args.fetch(:source))
   abort "#{slug} does not exist" unless slugs.include?(slug)
-  copy_assets slug: "#{slug}.0", source: source
+  copy_assets slug: "#{slug}.#{index}", source: source
   Rake::Task[:assets].invoke
 end
 
