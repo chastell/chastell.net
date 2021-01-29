@@ -102,7 +102,9 @@ rule %r{^1/125/.+/photo\.\d+\.jpg$} => [photo_orig] do |task|
 end
 
 task :tweet_newest do
-  path  = Pathname.glob('_posts/*.md').max
+  path = Pathname.glob('_posts/*.md').reject do |path|
+    path.to_s > "_posts/#{Date.today + 1}"
+  end.max
   front = path.read.split("---\n").reject(&:empty?).first
   title = YAML.load(front).fetch('title').gsub(%r{</?[a-z]+>}i, '')
   slug  = path.to_s[18..-4]
