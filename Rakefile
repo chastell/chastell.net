@@ -7,7 +7,6 @@ require 'exifr/jpeg'
 require 'fastimage'
 require 'net/http'
 require 'pathname'
-require 'twitter'
 require 'uri'
 require 'yaml'
 
@@ -66,7 +65,6 @@ task publish: :assets do
   abort 'nothing to publish' if `git status --porcelain -- docs`.empty?
   sh 'git commit --message "rebuild"'
   sh 'git push'
-  Rake::Task[:tweet_newest].invoke unless ENV['DONT_TWEET']
 end
 
 desc 'Serve the site, rebuilding if necessary'
@@ -99,38 +97,6 @@ photo_orig = proc do |name|
 end
 rule %r{^1/125/.+/photo\.\d+\.jpg$} => [photo_orig] do |task|
   convert from: task.source, to: task.name
-end
-
-task :tweet_newest do
-  path = Pathname.glob('_posts/*.md').reject do |path|
-    path.to_s > "_posts/#{Date.today + 1}"
-  end.max
-  front = path.read.split("---\n").reject(&:empty?).first
-  title = YAML.load(front).fetch('title').gsub(%r{</?[a-z]+>}i, '')
-  slug  = path.to_s[18..-4]
-  uri   = URI.parse("https://chastell.net/1/125/#{slug}/")
-  puts "waiting for #{uri}"
-  streak = 0
-  while streak < 3
-    Net::HTTP.get_response(uri).is_a?(Net::HTTPOK) ? streak += 1 : streak = 0
-    puts "\tstreak: #{streak}"
-  end
-  trc    = YAML.load(Pathname('~/.trc').expand_path.read)
-  t_prof = trc.dig('profiles', *trc.dig('configuration', 'default_profile'))
-  config = { access_token:        t_prof.fetch('token'),
-             access_token_secret: t_prof.fetch('secret'),
-             consumer_key:        t_prof.fetch('consumer_key'),
-             consumer_secret:     t_prof.fetch('consumer_secret') }
-  client = Twitter::REST::Client.new(config)
-  text   = ["¹⁄₁₂₅: #{title}", uri, '#chastellnet'].join("\n")
-  tweet  = nil
-  Dir["1/125/#{slug}/photo.*.jpg"].sort.each_slice(4) do |batch|
-    media = batch.map(&File.method(:new))
-    tweet = client.update_with_media(text, media, in_reply_to_status: tweet)
-    sh 'xdg-open', tweet.uri
-  end
-  puts
-  puts text
 end
 
 private
