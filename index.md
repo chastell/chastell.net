@@ -10,7 +10,7 @@ the web home of one Piotr Szotkowski.
 There are [some pics](/1/125), and then there
 are [the talks](https://talks.chastell.net).
 And [github](https://github.com/chastell).
-And [twitter](http://twitter.com/chastell).
+And [bluesky](https://bsky.app/profile/chastell.net).
 
 Feel free to [drop me a line](mailto:chastell@chastell.net)
 if you fancy.
