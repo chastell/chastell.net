@@ -20,7 +20,7 @@ a {
   font-weight: bold;
   outline: none;
   text-decoration: inherit;
-  text-shadow: gray 1px 1px 3px;
+  text-shadow: grey 1px 1px 3px;
 }
 
 a:hover {
@@ -50,7 +50,7 @@ a.next, a.previous {
 
 article {
   background: white;
-  box-shadow: black 0 0 5vh;
+  box-shadow: grey 0 0 1rem;
   color: black;
   margin: 2vh auto;
   max-width: 40rem;
@@ -82,8 +82,8 @@ article .meta .coords {
 }
 
 body {
-  background: #333;
-  color: white;
+  background: lightgrey;
+  color: black;
   font-family: Ubuntu, sans-serif;
 }
 
@@ -114,7 +114,7 @@ ol {
 }
 
 .footnotes {
-  border-top: 1px dashed gray;
+  border-top: 1px dashed grey;
   margin-top: 1rem;
 }
 
@@ -135,7 +135,7 @@ ol {
 }
 
 .photo img {
-  box-shadow: black 0 0 5vmin;
+  box-shadow: grey 0 0 5vmin;
   max-height: 100%;
   max-width: 100%;
   object-fit: contain;
@@ -156,7 +156,8 @@ ol {
 }
 
 .photos img {
-  box-shadow: black 0 0 1vmin;
+  background: white;
+  box-shadow: grey 0 0 1rem;
   max-height: 80%;
   max-width: 80%;
   object-fit: contain;
