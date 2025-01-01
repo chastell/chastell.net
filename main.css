@@ -87,21 +87,14 @@ body {
   font-family: Ubuntu, sans-serif;
 }
 
-footer {
-  padding-bottom: 1.5vh;
-}
-
 footer, header {
   font-family: 'IM FELL English SC', serif;
+  margin: 1rem auto;
   text-align: center;
 }
 
 footer a, header a {
   font-weight: inherit;
-}
-
-header {
-  padding-top: 1.5vh;
 }
 
 ol {
