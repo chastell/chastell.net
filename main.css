@@ -136,16 +136,19 @@ ol {
 
 .photos {
   display: grid;
-  grid-auto-flow: dense;
-  grid-auto-rows: 7vmax;
-  grid-gap: 2rem;
-  grid-template-columns: repeat(auto-fit, 7vmax);
-  padding: 3vh;
+  grid-template-columns: repeat(7, 14vw);
+  margin: 0 auto;
   text-align: center;
+  width: 98vw;
 }
 
 .photos a {
+  display: block;
   font-weight: inherit;
+}
+
+.photos div {
+  margin-bottom: 2em;
 }
 
 .photos img {
@@ -154,4 +157,5 @@ ol {
   max-height: 80%;
   max-width: 80%;
   object-fit: contain;
+  padding: 1vmin;
 }
