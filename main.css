@@ -27,22 +27,6 @@ a:hover {
   text-decoration: underline;
 }
 
-a.left, a.right {
-  bottom: 0;
-  position: absolute;
-  top: 0;
-}
-
-a.left {
-  left: 0;
-  right: 50%;
-}
-
-a.right {
-  left: 50%;
-  right: 0;
-}
-
 a.next, a.previous {
   font-weight: inherit;
   text-decoration: inherit;
@@ -124,7 +108,6 @@ ol {
   justify-items: center;
   padding-bottom: 1vh;
   padding-top: 2vh;
-  position: relative;
 }
 
 .photo img {

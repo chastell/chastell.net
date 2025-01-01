@@ -4,7 +4,7 @@ layout: main
 {% for index in (0..site.data.photos[page.slug].extra) %}
   <div class="photo" id="{{ index }}">
     {% if page.next %}
-      <a href="{{ page.next.url }}" class="next">◀</a>
+      <a href="{{ page.next.url }}" class="next">↢</a>
     {% else %}
       <span></span>
     {% endif %}
@@ -12,20 +12,10 @@ layout: main
     <img src="/1/125/{{ page.slug }}/photo.{{ index }}.jpg" />
 
     {% if page.previous %}
-      <a href="{{ page.previous.url }}" class="previous">▶</a>
+      <a href="{{ page.previous.url }}" class="previous">↣</a>
     {% else %}
       <span></span>
     {% endif %}
-
-    {% comment %}
-      {% if page.next %}
-        <a href="{{ page.next.url }}" class="left"></a>
-      {% endif %}
-
-      {% if page.previous %}
-        <a href="{{ page.previous.url }}" class="right"></a>
-      {% endif %}
-    {% endcomment %}
   </div>
 {% endfor %}
 <article id="{{ site.data.photos[page.slug].extra | plus: 1 }}">
