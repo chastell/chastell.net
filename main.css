@@ -102,19 +102,19 @@ ol {
 .photo {
   align-items: center;
   display: grid;
-  font-size: 5vw;
-  grid-template-columns: 10vw auto 10vw;
-  height: 85vh;
+  font-size: 3rem;
+  grid-template-columns: 5vw auto 5vw;
   justify-items: center;
-  padding-bottom: 1vh;
-  padding-top: 2vh;
+  padding: 1vh;
 }
 
 .photo img {
-  box-shadow: grey 0 0 5vmin;
-  max-height: 100%;
-  max-width: 100%;
+  background: white;
+  box-shadow: grey 0 0 1rem;
+  max-height: 80vh;
+  max-width: 80vw;
   object-fit: contain;
+  padding: 2vmin;
 }
 
 .photos {
