@@ -31,10 +31,6 @@ document.addEventListener('keydown', function(event) {
   const element = document.getElementById(target);
   if (!element) return;
   event.preventDefault();
-  if (!target) {
-    window.scrollTo({ behavior: 'smooth', top: 0 });
-  } else {
-    element.scrollIntoView({ behavior: 'smooth' });
-  }
+  element.scrollIntoView({ behavior: 'smooth' });
   history.replaceState(null, null, '#' + target);
 });
