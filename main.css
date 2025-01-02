@@ -144,5 +144,15 @@ ol {
   max-height: 80%;
   max-width: 80%;
   object-fit: contain;
-  padding: 1vmin;
+  padding: 0.5rem;
+}
+
+.photos .multi a.title {
+  margin-top: 1rem;
+}
+
+.photos .multi img {
+  box-shadow: grey 0 0 1rem,
+    white 0.5rem 0.5rem, grey 0.5rem 0.5rem 1rem,
+    white 1rem 1rem, grey 1rem 1rem 1rem;
 }
