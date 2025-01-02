@@ -36,7 +36,7 @@ article {
   background: white;
   box-shadow: grey 0 0 1rem;
   color: black;
-  margin: 1rem auto;
+  margin: 2rem auto;
   max-width: 40rem;
   padding: 1rem;
 }
@@ -73,7 +73,7 @@ body {
 
 footer, header {
   font-family: 'IM FELL English SC', serif;
-  margin: 1rem auto;
+  margin: 2rem auto;
   text-align: center;
 }
 
@@ -105,12 +105,11 @@ ol {
   font-size: 3rem;
   grid-template-columns: 5vw auto 5vw;
   justify-items: center;
-  padding-top: 1rem;
-  margin-bottom: 1rem;
+  padding: 1rem 0;
 }
 
 .photo:first-of-type {
-  padding-top: 0;
+  margin-top: -1rem;
 }
 
 .photo img {
@@ -125,7 +124,7 @@ ol {
 .photos {
   display: grid;
   grid-template-columns: repeat(9, 10vw);
-  margin: 1rem auto;
+  margin: 2rem auto;
   text-align: center;
   width: 90vw;
 }
