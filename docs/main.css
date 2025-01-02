@@ -20,27 +20,11 @@ a {
   font-weight: bold;
   outline: none;
   text-decoration: inherit;
-  text-shadow: gray 1px 1px 3px;
+  text-shadow: grey 1px 1px 3px;
 }
 
 a:hover {
   text-decoration: underline;
-}
-
-a.left, a.right {
-  bottom: 0;
-  position: absolute;
-  top: 0;
-}
-
-a.left {
-  left: 0;
-  right: 50%;
-}
-
-a.right {
-  left: 50%;
-  right: 0;
 }
 
 a.next, a.previous {
@@ -50,9 +34,9 @@ a.next, a.previous {
 
 article {
   background: white;
-  box-shadow: black 0 0 5vh;
+  box-shadow: grey 0 0 1rem;
   color: black;
-  margin: 2vh auto;
+  margin: 1rem auto;
   max-width: 40rem;
   padding: 1rem;
 }
@@ -82,26 +66,19 @@ article .meta .coords {
 }
 
 body {
-  background: #333;
-  color: white;
+  background: lightgrey;
+  color: black;
   font-family: Ubuntu, sans-serif;
-}
-
-footer {
-  padding-bottom: 1.5vh;
 }
 
 footer, header {
   font-family: 'IM FELL English SC', serif;
+  margin: 1rem auto;
   text-align: center;
 }
 
 footer a, header a {
   font-weight: inherit;
-}
-
-header {
-  padding-top: 1.5vh;
 }
 
 ol {
@@ -114,7 +91,7 @@ ol {
 }
 
 .footnotes {
-  border-top: 1px dashed gray;
+  border-top: 1px dashed grey;
   margin-top: 1rem;
 }
 
@@ -125,39 +102,48 @@ ol {
 .photo {
   align-items: center;
   display: grid;
-  font-size: 5vw;
-  grid-template-columns: 10vw auto 10vw;
-  height: 85vh;
+  font-size: 3rem;
+  grid-template-columns: 5vw auto 5vw;
   justify-items: center;
-  padding-bottom: 1vh;
-  padding-top: 2vh;
-  position: relative;
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.photo:first-of-type {
+  padding-top: 0;
 }
 
 .photo img {
-  box-shadow: black 0 0 5vmin;
-  max-height: 100%;
-  max-width: 100%;
+  background: white;
+  box-shadow: grey 0 0 1rem;
+  max-height: 80vh;
+  max-width: 80vw;
   object-fit: contain;
+  padding: 2vmin;
 }
 
 .photos {
   display: grid;
-  grid-auto-flow: dense;
-  grid-auto-rows: 7vmax;
-  grid-gap: 2rem;
-  grid-template-columns: repeat(auto-fit, 7vmax);
-  padding: 3vh;
+  grid-template-columns: repeat(9, 10vw);
+  margin: 1rem auto;
   text-align: center;
+  width: 90vw;
 }
 
 .photos a {
+  display: block;
   font-weight: inherit;
 }
 
+.photos div {
+  margin-bottom: 1rem;
+}
+
 .photos img {
-  box-shadow: black 0 0 1vmin;
+  background: white;
+  box-shadow: grey 0 0 1rem;
   max-height: 80%;
   max-width: 80%;
   object-fit: contain;
+  padding: 1vmin;
 }
