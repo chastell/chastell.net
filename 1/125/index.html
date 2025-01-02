@@ -4,20 +4,12 @@ title: ¹⁄₁₂₅
 ---
 <div class="photos">
   {% for post in site.posts %}
-    {% assign height = site.data.photos[post.slug].height %}
-    {% assign width  = site.data.photos[post.slug].width  %}
-    {% if width > height %}
-      {% assign colspan = 3 %}
+    {% if site.data.photos[post.slug].width >= site.data.photos[post.slug].height %}
       {% assign rowspan = 2 %}
-    {% elsif height > width %}
-      {% assign colspan = 2 %}
-      {% assign rowspan = 3 %}
     {% else %}
-      {% assign colspan = 2 %}
-      {% assign rowspan = 2 %}
+      {% assign rowspan = 3 %}
     {% endif %}
-    <div style="grid-column-start: span {{ colspan }};
-                grid-row-start:    span {{ rowspan }};">
+    <div style="grid-column-start: span 3; grid-row-start: span {{ rowspan }};">
       <a href="{{ post.url }}">
         <img src="/1/125/{{ post.slug }}/sample.png" />
       </a>

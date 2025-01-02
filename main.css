@@ -119,10 +119,10 @@ ol {
 
 .photos {
   display: grid;
-  grid-template-columns: repeat(7, 14vw);
+  grid-template-columns: repeat(9, 10vw);
   margin: 0 auto;
   text-align: center;
-  width: 98vw;
+  width: 90vw;
 }
 
 .photos a {
