@@ -23,7 +23,7 @@ document.addEventListener('keydown', function(event) {
       break;
     case 'End':
     case 'Home':
-      history.replaceState(null, null, '#');
+      history.replaceState(null, null, ' ');
       return;
     default:
       return;
@@ -31,6 +31,10 @@ document.addEventListener('keydown', function(event) {
   const element = document.getElementById(target);
   if (!element) return;
   event.preventDefault();
-  element.scrollIntoView({ behavior: 'smooth' });
+  if (!target) {
+    window.scrollTo({ behavior: 'smooth', top: 0 });
+  } else {
+    element.scrollIntoView({ behavior: 'smooth' });
+  }
   history.replaceState(null, null, '#' + target);
 });
