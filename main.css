@@ -102,8 +102,8 @@ ol {
 .photo {
   align-items: center;
   display: grid;
-  font-size: 3rem;
-  grid-template-columns: 5vw auto 5vw;
+  font-size: 4rem;
+  grid-template-columns: 1vw 5vw auto 5vw 1vw;
   justify-items: center;
   padding: 1rem 0;
 }

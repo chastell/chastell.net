@@ -3,6 +3,8 @@ layout: main
 ---
 {% for index in (0..site.data.photos[page.slug].extra) %}
   <div class="photo" id="{{ index }}">
+    <span></span>
+
     {% if page.next %}
       <a href="{{ page.next.url }}" class="next">↢</a>
     {% else %}
@@ -16,6 +18,8 @@ layout: main
     {% else %}
       <span></span>
     {% endif %}
+
+    <span></span>
   </div>
 {% endfor %}
 <article id="{{ site.data.photos[page.slug].extra | plus: 1 }}">
