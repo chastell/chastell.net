@@ -135,6 +135,7 @@ ol {
 }
 
 .photos div {
+  align-self: center;
   padding-bottom: 2rem;
 }
 
