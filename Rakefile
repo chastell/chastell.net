@@ -7,6 +7,7 @@ require 'exifr/jpeg'
 require 'fastimage'
 require 'net/http'
 require 'pathname'
+require 'tempfile'
 require 'uri'
 require 'yaml'
 
@@ -110,18 +111,24 @@ def ask(variable, default: '')
 end
 
 def convert(from:, to:)
-  opts = %w[-colorspace sRGB -define filter:support=2
-            -define jpeg:fancy-upsampling=off -define png:compression-filter=5
-            -define png:compression-level=9 -define png:compression-strategy=1
-            -define png:exclude-chunk=all -dither none -filter triangle
-            -interlace plane -posterize 136 -quality 82 -strip
-            -unsharp 0.25x0.25+8+0.065]
-  format = case to
-           when /\.jpg$/ then %w[-thumbnail 2000000@]
-           when /\.png$/ then %w[-thumbnail 125000@ -colors 6]
-           end
   sh 'mkdir', '-p', Pathname(to).dirname.to_s
-  sh 'convert', from, *opts, *format, to
+  case
+  when to.end_with?('.jpg') then convert_jpg(from:, to:)
+  when to.end_with?('.png') then convert_png(from:, to:)
+  end
+end
+
+def convert_jpg(from:, to:)
+  Tempfile.create(%w[to .jpg]) do |temp|
+    opts = %w[-thumbnail 2000000@ -quality 100]
+    sh 'magick', from, *opts, temp.path
+    sh 'cjpegli', temp.path, to, '--chroma_subsampling=420'
+  end
+end
+
+def convert_png(from:, to:)
+  opts = %w[-thumbnail 125000@ -dither none -colors 6 -strip]
+  sh 'magick', from, *opts, to
 end
 
 def copy_assets(source:, slug:)
