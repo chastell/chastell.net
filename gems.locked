@@ -13,7 +13,7 @@ GEM
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
     exifr (1.4.0)
-    fastimage (2.3.1)
+    fastimage (2.4.0)
     ffi (1.17.1)
     forwardable-extended (2.6.0)
     google-protobuf (4.29.2)
