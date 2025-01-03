@@ -30,7 +30,18 @@ a:hover {
 .next, .previous {
   font-size: 4rem;
   font-weight: inherit;
-  text-decoration: inherit;
+}
+
+.next:hover, .previous:hover {
+  text-decoration: none;
+}
+
+.next {
+  justify-self: right;
+}
+
+.previous {
+  justify-self: left;
 }
 
 article {
@@ -79,6 +90,10 @@ footer, header {
 
 footer a, header a {
   font-weight: inherit;
+}
+
+footer a:hover, header a:hover {
+  text-decoration: none;
 }
 
 nav {

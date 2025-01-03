@@ -11,11 +11,19 @@
   <body>
     <header>
       <p>
+        {% if page.next %}
+          <a href="{{ page.next.url }}">↢</a>
+          &nbsp; • &nbsp;
+        {% endif %}
         <a href="/">chastell.net</a>
         &nbsp; • &nbsp;
         <a href="/1/125">¹/ 125</a>
         &nbsp; • &nbsp;
         <a href="//talks.chastell.net">talks</a>
+        {% if page.previous %}
+          &nbsp; • &nbsp;
+          <a href="{{ page.previous.url }}">↣</a>
+        {% endif %}
       </p>
     </header>
     {{ content }}
