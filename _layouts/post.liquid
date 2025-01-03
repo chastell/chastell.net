@@ -3,37 +3,35 @@ layout: main
 ---
 {% for index in (0..site.data.photos[page.slug].extra) %}
   <div class="photo" id="{{ index }}">
-    <span></span>
-
-    {% if page.next %}
-      <a href="{{ page.next.url }}" class="next">↢</a>
-    {% else %}
-      <span></span>
-    {% endif %}
-
     <img src="/1/125/{{ page.slug }}/photo.{{ index }}.jpg" />
-
-    {% if page.previous %}
-      <a href="{{ page.previous.url }}" class="previous">↣</a>
-    {% else %}
-      <span></span>
-    {% endif %}
-
-    <span></span>
   </div>
 {% endfor %}
-<article id="{{ site.data.photos[page.slug].extra | plus: 1 }}">
-  <div class="meta">
-    <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
-    <p class="coords">
-      {%- if page.taken -%}
-        {{ page.taken }}
-      {%- else -%}
-        {{ page.shot | date: '%B %Y' }}
-      {%- endif -%}
-      , {{ page.place }}
-      {%- if page.photographer -%}, by {{ page.photographer }}{%- endif -%}
-    </p>
-  </div>
-  {{ content }}
-</article>
+<nav>
+  {% if page.next %}
+    <a href="{{ page.next.url }}" class="next">↢</a>
+  {% else %}
+    <span class="next">↢</span>
+  {% endif %}
+
+  <article id="{{ site.data.photos[page.slug].extra | plus: 1 }}">
+    <div class="meta">
+      <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+      <p class="coords">
+        {%- if page.taken -%}
+          {{ page.taken }}
+        {%- else -%}
+          {{ page.shot | date: '%B %Y' }}
+        {%- endif -%}
+        , {{ page.place }}
+        {%- if page.photographer -%}, by {{ page.photographer }}{%- endif -%}
+      </p>
+    </div>
+    {{ content }}
+  </article>
+
+  {% if page.previous %}
+    <a href="{{ page.previous.url }}" class="previous">↣</a>
+  {% else %}
+    <span class="previous">↣</span>
+  {% endif %}
+</nav>

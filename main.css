@@ -27,7 +27,8 @@ a:hover {
   text-decoration: underline;
 }
 
-a.next, a.previous {
+.next, .previous {
+  font-size: 4rem;
   font-weight: inherit;
   text-decoration: inherit;
 }
@@ -36,9 +37,8 @@ article {
   background: white;
   box-shadow: grey 0 0 1rem;
   color: black;
-  margin: 2rem auto;
-  max-width: 40rem;
   padding: 1rem;
+  width: 40rem;
 }
 
 article h1 {
@@ -81,8 +81,20 @@ footer a, header a {
   font-weight: inherit;
 }
 
+nav {
+  align-items: center;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-items: center;
+  margin: 1rem auto;
+}
+
 ol {
   padding: 1rem 1rem 0;
+}
+
+span.next, span.previous {
+  color: transparent;
 }
 
 .chastell-net {
@@ -100,10 +112,7 @@ ol {
 }
 
 .photo {
-  align-items: center;
   display: grid;
-  font-size: 4rem;
-  grid-template-columns: 1vw 5vw auto 5vw 1vw;
   justify-items: center;
   padding: 1rem 0;
 }
