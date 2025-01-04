@@ -23,7 +23,7 @@ end
 
 desc 'Create a new ¹⁄₁₂₅ post'
 task '1/125', [:source] do |_task, args|
-  source = source_from_uri(args.fetch(:source))
+  source = Pathname.new(args.fetch(:source))
   newest = Date.parse(Dir['_posts/*.md'].max[/\d{4}-\d{2}-\d{2}/])
   date   = ask('date', default: [Date.today, newest + 1].max.to_s)
   title  = ask('title')
@@ -40,7 +40,7 @@ end
 
 desc 'Add a photo to an existing ¹⁄₁₂₅ entry'
 task '1/125:add', [:slug, :source] do |_task, args|
-  source = source_from_uri(args.fetch(:source))
+  source = Pathname.new(args.fetch(:source))
   slug   = args.fetch(:slug)
   abort "#{slug} does not exist" unless slugs.include?(slug)
   copy_assets slug: "#{slug}.#{slug_index(slug) + 1}", source: source
@@ -52,7 +52,7 @@ desc 'Recreate a ¹⁄₁₂₅ photo'
 task '1/125:redo', [:slug, :index, :source] do |_task, args|
   slug   = args.fetch(:slug)
   index  = args.fetch(:index).to_i
-  source = source_from_uri(args.fetch(:source))
+  source = Pathname.new(args.fetch(:source))
   abort "#{slug} does not exist" unless slugs.include?(slug)
   copy_assets slug: "#{slug}.#{index}", source: source
   Rake::Task[:assets].invoke
@@ -154,8 +154,4 @@ def slugify(title)
   map = { '&' => 'and', 'ß' => 'ss', 'ø' => 'o', 'ł' => 'l' }
   title.unicode_normalize(:nfkd).downcase.gsub(/[#{map.keys.join}]/, map)
        .delete('^0-9a-z -').squeeze(' ').strip.tr(' ', '-')
-end
-
-def source_from_uri(uri)
-  Pathname.new(CGI.unescape(URI.parse(uri).path))
 end
