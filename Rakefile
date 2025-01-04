@@ -70,8 +70,7 @@ end
 
 desc 'Serve the site, rebuilding if necessary'
 task serve: :assets do
-  sh 'jekyll serve --future --host 0.0.0.0 ' \
-     '--livereload --open-url --strict_front_matter'
+  sh 'jekyll serve --future --host 0.0.0.0 --open-url --strict_front_matter'
 end
 
 multitask assets: %i[dimensions photos samples]
