@@ -35,7 +35,7 @@ task '1/125', [:source] do |_task, args|
   copy_assets slug: "#{slug}.0", source: source
   path.write frontmatter(place: place, shot: shot, title: title)
   sh 'nvim', path.to_s
-  sh 'rake serve'
+  sh 'rake assets'
 end
 
 desc 'Add a photo to an existing ¹⁄₁₂₅ entry'
