@@ -126,7 +126,7 @@ def convert_jpg(from:, to:)
 end
 
 def convert_png(from:, to:)
-  opts = %w[-thumbnail 125000@ -dither none -colors 6 -strip]
+  opts = %w[-thumbnail 125000@ -dither none -colors 4 -strip]
   sh 'magick', from, *opts, to
 end
 
