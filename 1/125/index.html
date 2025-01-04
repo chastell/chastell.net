@@ -9,8 +9,16 @@ title: ¹⁄₁₂₅
     {% else %}
       {% assign rowspan = 3 %}
     {% endif %}
+    {% case site.data.photos[post.slug].extra %}
+      {% when 0 %}
+        {% assign count = "one" %}
+      {% when 1 %}
+        {% assign count = "two" %}
+      {% else %}
+        {% assign count = "many" %}
+    {% endcase %}
     <div
-      {% if site.data.photos[post.slug].extra > 0 %}class="multi"{% endif %}
+      class="{{ count }}"
       style="grid-column-start: span 3; grid-row-start: span {{ rowspan }};"
     >
       <a href="{{ post.url }}"><img src="/1/125/{{ post.slug }}/sample.png" /></a>
