@@ -172,12 +172,21 @@ span.next, span.previous {
   padding: 0.5rem;
 }
 
-.photos .multi a.title {
+.photos .many a.title {
   margin-top: 1rem;
 }
 
-.photos .multi img {
+.photos .many img {
   box-shadow: grey 0 0 1rem,
     white 0.5rem 0.5rem, grey 0.5rem 0.5rem 1rem,
     white 1rem 1rem, grey 1rem 1rem 1rem;
+}
+
+.photos .two a.title {
+  margin-top: 0.5rem;
+}
+
+.photos .two img {
+  box-shadow: grey 0 0 1rem,
+    white 0.5rem 0.5rem, grey 0.5rem 0.5rem 1rem;
 }
