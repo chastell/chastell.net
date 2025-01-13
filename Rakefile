@@ -66,6 +66,7 @@ task publish: :assets do
   abort 'nothing to publish' if `git status --porcelain -- docs`.empty?
   sh 'git commit --message "rebuild"'
   sh 'git push'
+  sh 'xdg-open https://github.com/chastell/chastell.net/actions'
 end
 
 desc 'Serve the site, rebuilding if necessary'
