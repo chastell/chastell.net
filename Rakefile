@@ -132,7 +132,7 @@ def convert_png(from:, to:)
 end
 
 def copy_assets(source:, slug:)
-  %w[.NEF .RAF .jpeg .jpg].product(['', '.xmp']).map(&:join).each do |ext|
+  %w[.NEF .RAF .dng .jpeg .jpg].product(['', '.xmp']).map(&:join).each do |ext|
     asset = source.sub_ext(ext)
     next unless asset.exist?
     cp asset, "origs/#{slug}#{ext.downcase}"
