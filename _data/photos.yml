@@ -1119,6 +1119,10 @@ my-first-vineyard:
   extra: 0
   height: 250
   width: 500
+neighbourhood:
+  extra: 0
+  height: 433
+  width: 289
 neon-lemon:
   extra: 0
   height: 306
