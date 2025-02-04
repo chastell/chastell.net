@@ -1863,6 +1863,10 @@ toronto-off:
   extra: 2
   height: 354
   width: 354
+toronto-reflections:
+  extra: 0
+  height: 433
+  width: 289
 tough-act-to-follow:
   extra: 0
   height: 354
