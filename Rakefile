@@ -31,7 +31,7 @@ task '1/125', [:source] do |_task, args|
   abort "#{slug} already exists" if slugs.include?(slug)
   place  = ask('place')
   path   = Pathname.new("_posts/#{date}-#{slug}.md")
-  shot   = EXIFR::JPEG.new(source.to_s).date_time_original
+  shot   = EXIFR::JPEG.new(source.to_s).date_time_original.to_date
   copy_assets slug: "#{slug}.0", source: source
   path.write frontmatter(place: place, shot: shot, title: title)
   sh 'nvim', path.to_s
