@@ -1,6 +1,6 @@
 ---
 place: San Francisco
-shot: 2006-06-25 05:26:55+02
+shot: 2006-06-25
 taken: Pink Saturday 2006
 title: Little Trouble in Big Castro
 ---

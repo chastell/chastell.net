@@ -1,6 +1,6 @@
 ---
 place: Warsaw
-shot: 2007-10-21 19:00:39+02
+shot: 2007-10-21
 title: I Thought I’d Pegged You an Idiot’s Dream
 ---
 

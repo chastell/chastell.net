@@ -1,6 +1,6 @@
 ---
 place: Calaveras County
-shot: 2006-05-28 05:10:24+02
+shot: 2006-05-28
 taken: WineCamp 2006
 title: Photographers Are So Sexy
 ---

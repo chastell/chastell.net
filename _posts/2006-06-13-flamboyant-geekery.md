@@ -1,6 +1,6 @@
 ---
 place: Calaveras County
-shot: 2006-05-28 04:48:07+02
+shot: 2006-05-28
 taken: WineCamp 2006
 title: Flamboyant Geekery
 ---

@@ -1,6 +1,6 @@
 ---
 place: Warsaw
-shot: 2006-03-05 14:26:36+01
+shot: 2006-03-05
 taken: Manifa 2006
 title: Shiny Happy People
 ---

@@ -1,6 +1,6 @@
 ---
 place: Warsaw
-shot: 2006-03-05 12:33:24+01
+shot: 2006-03-05
 taken: Manifa 2006
 title: Feminists
 ---

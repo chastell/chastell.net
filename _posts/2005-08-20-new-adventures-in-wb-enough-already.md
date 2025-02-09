@@ -1,6 +1,6 @@
 ---
 place: Warsaw
-shot: 2005-07-05 19:31:48+02
+shot: 2005-07-05
 title: 'New Adventures in WB: Enough Already'
 ---
 

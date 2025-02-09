@@ -1,6 +1,6 @@
 ---
 place: Warsaw
-shot: 2005-06-24 19:47:14+02
+shot: 2005-06-24
 title: Double Tribute
 ---
 

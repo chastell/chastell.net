@@ -1,6 +1,6 @@
 ---
 place: Warsaw
-shot: 2006-10-08 13:37:29+02
+shot: 2006-10-08
 title: The Squirrel Story V
 ---
 

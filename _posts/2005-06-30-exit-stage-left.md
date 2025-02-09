@@ -1,6 +1,6 @@
 ---
 place: Warsaw
-shot: 2005-06-26 15:27:39+02
+shot: 2005-06-26
 title: Exit… Stage Left
 ---
 

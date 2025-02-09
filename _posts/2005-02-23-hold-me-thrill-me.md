@@ -1,6 +1,6 @@
 ---
 place: Warsaw
-shot: 2005-02-19 23:01:00+01
+shot: 2005-02-19
 title: Hold Me, Thrill Me
 ---
 

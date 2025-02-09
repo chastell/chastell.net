@@ -1,6 +1,6 @@
 ---
 place: Warsaw
-shot: 2006-10-06 13:32:09+02
+shot: 2006-10-06
 title: The Squirrel Story IV
 ---
 

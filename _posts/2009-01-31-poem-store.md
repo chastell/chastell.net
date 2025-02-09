@@ -1,6 +1,6 @@
 ---
 place: San Francisco
-shot: 2008-07-05 22:34:58+02
+shot: 2008-07-05
 title: Poem Store
 ---
 

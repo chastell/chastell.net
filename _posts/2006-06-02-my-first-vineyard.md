@@ -1,6 +1,6 @@
 ---
 place: Calaveras County
-shot: 2006-05-27 04:49:54+02
+shot: 2006-05-27
 taken: WineCamp 2006
 title: My First Vineyard
 ---

@@ -1,6 +1,6 @@
 ---
 place: New York City
-shot: 2008-07-25 23:13:24+02
+shot: 2008-07-25
 title: Close Encounters of the Weird Kind
 ---
 

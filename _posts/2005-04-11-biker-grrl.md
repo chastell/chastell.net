@@ -1,6 +1,6 @@
 ---
 place: Łódź
-shot: 2003-12-25 16:00:00+01
+shot: 2003-12-25
 title: Biker Grrl
 ---
 

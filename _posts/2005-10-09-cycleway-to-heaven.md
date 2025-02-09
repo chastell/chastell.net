@@ -1,6 +1,6 @@
 ---
 place: Dueodde
-shot: 2005-08-09 19:03:52+02
+shot: 2005-08-09
 title: Cycleway to Heaven
 ---
 

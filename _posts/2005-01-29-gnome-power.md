@@ -1,6 +1,6 @@
 ---
 place: Łódź
-shot: 2004-10-02 12:17:00+02
+shot: 2004-10-02
 title: GNOME Power
 ---
 

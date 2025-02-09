@@ -1,6 +1,6 @@
 ---
 place: San Francisco
-shot: 2006-06-25 05:22:08+02
+shot: 2006-06-25
 taken: Pink Saturday 2006
 title: Sisters Are Doin’ It for Everybody
 ---

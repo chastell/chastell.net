@@ -1,6 +1,6 @@
 ---
 place: New York City
-shot: 2008-07-31 05:06:59+02
+shot: 2008-07-31
 title: Welcome to the Planet Brooklyn
 ---
 

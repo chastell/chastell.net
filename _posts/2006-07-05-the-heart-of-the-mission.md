@@ -1,6 +1,6 @@
 ---
 place: San Francisco
-shot: 2006-07-04 21:16:13+02
+shot: 2006-07-04
 title: The Heart of the Mission
 ---
 

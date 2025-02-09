@@ -1,6 +1,6 @@
 ---
 place: Warsaw
-shot: 2004-08-25 12:37:00+02
+shot: 2004-08-25
 title: Red Blue Green
 ---
 

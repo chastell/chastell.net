@@ -1,7 +1,7 @@
 ---
 photographer: Kurund
 place: Arizona
-shot: 2006-07-18 09:17:04+02
+shot: 2006-07-18
 title: Good Clean Fun
 ---
 

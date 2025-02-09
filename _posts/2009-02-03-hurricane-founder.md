@@ -1,6 +1,6 @@
 ---
 place: San Francisco
-shot: 2008-07-12 07:43:48+02
+shot: 2008-07-12
 taken: 2008 Fire Arts Festival
 title: Hurricane Founder
 ---

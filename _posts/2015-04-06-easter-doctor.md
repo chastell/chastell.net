@@ -1,7 +1,7 @@
 ---
 photographer: M.
 place: Warsaw
-shot: 2015-04-05 10:28:23+02
+shot: 2015-04-05
 taken: Easter 2015
 title: Easter Doctor
 ---

@@ -1,6 +1,6 @@
 ---
 place: Mount Tamalpais State Park
-shot: 2006-06-04 21:05:48+02
+shot: 2006-06-04
 title: Whither Now?
 ---
 

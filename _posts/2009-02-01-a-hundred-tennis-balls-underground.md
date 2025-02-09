@@ -1,6 +1,6 @@
 ---
 place: New York City
-shot: 2008-07-30 18:35:48+02
+shot: 2008-07-30
 title: A Hundred Tennis Balls Underground
 ---
 

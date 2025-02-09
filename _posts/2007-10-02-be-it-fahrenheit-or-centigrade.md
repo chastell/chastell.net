@@ -1,6 +1,6 @@
 ---
 place: Warsaw
-shot: 2007-03-15 19:11:43+01
+shot: 2007-03-15
 title: …Be It Fahrenheit or Centigrade
 ---
 

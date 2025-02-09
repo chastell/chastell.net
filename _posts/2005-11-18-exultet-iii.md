@@ -1,6 +1,6 @@
 ---
 place: Gliwice
-shot: 2005-09-24 20:49:51+02
+shot: 2005-09-24
 title: Exultet III
 ---
 

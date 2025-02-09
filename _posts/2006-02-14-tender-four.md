@@ -1,6 +1,6 @@
 ---
 place: Warsaw
-shot: 2005-10-26 20:47:50+02
+shot: 2005-10-26
 title: Tender Four
 ---
 

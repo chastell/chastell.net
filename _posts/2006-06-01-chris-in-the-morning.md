@@ -1,6 +1,6 @@
 ---
 place: Calaveras County
-shot: 2006-05-27 19:44:51+02
+shot: 2006-05-27
 taken: WineCamp 2006
 title: Chris in the Morning
 ---

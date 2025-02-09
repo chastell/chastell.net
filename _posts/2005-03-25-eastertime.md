@@ -1,6 +1,6 @@
 ---
 place: Warsaw
-shot: 2005-03-24 16:13:08+01
+shot: 2005-03-24
 taken: Holy Week 2005
 title: Eastertime
 ---

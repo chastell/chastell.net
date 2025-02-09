@@ -1,6 +1,6 @@
 ---
 place: Łódź-Warsaw train
-shot: 2005-01-05 12:47:41+01
+shot: 2005-01-05
 title: Orange Is for Go
 ---
 

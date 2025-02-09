@@ -1,6 +1,6 @@
 ---
 place: Warsaw
-shot: 2006-10-08 12:54:37+02
+shot: 2006-10-08
 title: The Squirrel Story II
 ---
 

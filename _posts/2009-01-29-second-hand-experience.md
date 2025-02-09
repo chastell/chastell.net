@@ -1,6 +1,6 @@
 ---
 place: Warsaw
-shot: 2008-12-05 21:35:30+01
+shot: 2008-12-05
 title: Second Hand Experience
 ---
 

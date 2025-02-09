@@ -1,6 +1,6 @@
 ---
 place: San Francisco
-shot: 2006-06-25 19:49:13+02
+shot: 2006-06-25
 taken: San Francisco Pride 2006
 title: Mandonna Boys
 ---

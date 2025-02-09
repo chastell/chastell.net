@@ -1,6 +1,6 @@
 ---
 place: Svaneke
-shot: 2005-08-12 18:41:00+02
+shot: 2005-08-12
 title: Approaching Svaneke
 ---
 

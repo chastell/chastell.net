@@ -1,6 +1,6 @@
 ---
 place: San Francisco
-shot: 2006-07-04 21:20:53+02
+shot: 2006-07-04
 title: …Only from Ritual Coffee Roasters
 ---
 

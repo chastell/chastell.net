@@ -1,6 +1,6 @@
 ---
 place: Łódź
-shot: 2005-03-09 12:21:51+01
+shot: 2005-03-09
 title: Winter’s Splinter
 ---
 

@@ -1,6 +1,6 @@
 ---
 place: Mount Tamalpais State Park
-shot: 2006-06-04 20:27:25+02
+shot: 2006-06-04
 title: Bad Boys, Bad Boys…
 ---
 

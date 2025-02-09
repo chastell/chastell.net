@@ -1,6 +1,6 @@
 ---
 place: Cracow
-shot: 2005-04-23 21:20:34+02
+shot: 2005-04-23
 taken: CC Poland opening
 title: At The Rust
 ---

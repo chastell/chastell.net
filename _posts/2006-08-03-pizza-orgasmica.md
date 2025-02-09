@@ -1,6 +1,6 @@
 ---
 place: San Francisco
-shot: 2006-06-05 00:03:12+02
+shot: 2006-06-05
 title: Pizza Orgasmica
 ---
 

@@ -1,6 +1,6 @@
 ---
 place: Calaveras County
-shot: 2006-05-28 00:54:53+02
+shot: 2006-05-28
 taken: WineCamp 2006
 title: The Whole WineCamp Truth
 ---

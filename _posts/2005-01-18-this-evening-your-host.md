@@ -1,7 +1,7 @@
 ---
 photographer: Miss Thoughtscriber
 place: Warsaw
-shot: 2004-12-14 20:06:16+01
+shot: 2004-12-14
 title: This Evening – Your Host
 ---
 

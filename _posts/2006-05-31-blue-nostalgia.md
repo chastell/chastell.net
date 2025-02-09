@@ -1,6 +1,6 @@
 ---
 place: Calaveras County
-shot: 2006-05-27 21:40:04+02
+shot: 2006-05-27
 taken: WineCamp 2006
 title: Blue Nostalgia
 ---

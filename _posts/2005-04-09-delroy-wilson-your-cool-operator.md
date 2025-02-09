@@ -1,6 +1,6 @@
 ---
 place: Warsaw
-shot: 2005-04-02 16:14:01+02
+shot: 2005-04-02
 title: Delroy Wilson, Your Cool Operator
 ---
 

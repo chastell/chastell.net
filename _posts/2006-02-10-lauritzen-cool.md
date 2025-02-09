@@ -1,6 +1,6 @@
 ---
 place: Gdańsk
-shot: 2004-09-01 12:36:00+02
+shot: 2004-09-01
 title: Lauritzen. Cool.
 ---
 

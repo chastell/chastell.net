@@ -1,6 +1,6 @@
 ---
 place: Dueodde
-shot: 2005-08-07 17:43:56+02
+shot: 2005-08-07
 title: Weather God
 ---
 

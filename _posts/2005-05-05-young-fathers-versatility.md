@@ -1,6 +1,6 @@
 ---
 place: Cracow
-shot: 2005-04-23 18:10:35+02
+shot: 2005-04-23
 taken: CC Poland opening
 title: Young Father’s Versatility
 ---

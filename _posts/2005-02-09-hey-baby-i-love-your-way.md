@@ -1,6 +1,6 @@
 ---
 place: Warsaw
-shot: 2004-10-14 13:25:00+02
+shot: 2004-10-14
 title: Hey Baby, I Love Your Way
 ---
 

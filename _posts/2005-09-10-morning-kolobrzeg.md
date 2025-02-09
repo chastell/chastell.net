@@ -1,6 +1,6 @@
 ---
 place: Baltic Sea
-shot: 2005-08-07 07:12:48+02
+shot: 2005-08-07
 title: Morning Kołobrzeg
 ---
 
