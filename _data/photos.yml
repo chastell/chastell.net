@@ -1879,6 +1879,10 @@ toronto-reflections:
   extra: 0
   height: 433
   width: 289
+toronto-waterfront:
+  extra: 2
+  height: 289
+  width: 433
 tough-act-to-follow:
   extra: 0
   height: 354
