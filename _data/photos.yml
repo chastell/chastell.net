@@ -1967,6 +1967,10 @@ warsaw-city-reality:
   extra: 0
   height: 289
   width: 433
+warsaw-horizon:
+  extra: 6
+  height: 289
+  width: 433
 watermelon-footwork:
   extra: 0
   height: 265
