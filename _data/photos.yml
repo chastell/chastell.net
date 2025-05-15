@@ -1203,6 +1203,10 @@ old-town-in-acros:
   extra: 3
   height: 433
   width: 289
+old-town-in-chrome:
+  extra: 3
+  height: 289
+  width: 433
 on-evenings-the-city-is-ours:
   extra: 0
   height: 267
