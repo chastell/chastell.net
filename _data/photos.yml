@@ -1439,6 +1439,10 @@ second-hand-experience:
   extra: 0
   height: 289
   width: 433
+security-and-immaturity:
+  extra: 1
+  height: 433
+  width: 289
 separation-of-concerns:
   extra: 0
   height: 289
