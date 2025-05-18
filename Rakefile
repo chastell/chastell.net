@@ -24,6 +24,7 @@ end
 desc 'Create a new ¹⁄₁₂₅ post'
 task '1/125', [:source] do |_task, args|
   source = Pathname.new(args.fetch(:source))
+  abort "#{source} doesn’t exist" unless source.exist?
   newest = Date.parse(Dir['_posts/*.md'].max[/\d{4}-\d{2}-\d{2}/])
   date   = ask('date', default: [Date.today, newest + 1].max.to_s)
   title  = ask('title')
