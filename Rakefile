@@ -42,6 +42,7 @@ end
 desc 'Add a photo to an existing ¹⁄₁₂₅ entry'
 task '1/125:add', [:slug, :source] do |_task, args|
   source = Pathname.new(args.fetch(:source))
+  abort "#{source} doesn’t exist" unless source.exist?
   slug   = args.fetch(:slug)
   abort "#{slug} does not exist" unless slugs.include?(slug)
   copy_assets slug: "#{slug}.#{slug_index(slug) + 1}", source: source
