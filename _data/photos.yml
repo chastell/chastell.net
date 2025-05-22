@@ -1099,6 +1099,10 @@ mirow-in-acros:
   extra: 3
   height: 289
   width: 433
+mirow-in-build:
+  extra: 2
+  height: 433
+  width: 289
 mirow-in-chrome:
   extra: 3
   height: 354
